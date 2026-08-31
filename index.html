@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DPA Automotores | Vehículos</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    background: #0b0b0d;
+    color: #ffffff;
+}
+
+/* =========================
+   ENCABEZADO
+========================= */
+
+.hero {
+    min-height: 38vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+    background:
+        radial-gradient(circle at center, #25252a 0%, #0b0b0d 65%);
+}
+
+.hero-content {
+    max-width: 850px;
+    animation: aparecer 1s ease forwards;
+}
+
+.logo-text {
+    font-size: clamp(42px, 8vw, 90px);
+    font-weight: 800;
+    letter-spacing: -5px;
+}
+
+.logo-text span {
+    color: #f15a24;
+}
+
+.hero h1 {
+    margin-top: 15px;
+    font-size: clamp(28px, 5vw, 52px);
+    font-weight: 700;
+}
+
+.hero p {
+    margin-top: 14px;
+    color: #cccccc;
+    font-size: 15px;
+}
+
+/* =========================
+   SECCIÓN RECIÉN LLEGADOS
+========================= */
+
+.nuevos {
+    padding: 70px 20px 85px;
+    background: #0b0b0d;
+    overflow: hidden;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.titulo h2 {
+    font-size: clamp(30px, 5vw, 48px);
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.titulo h2::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: #f15a24;
+    margin: 16px auto 0;
+    border-radius: 5px;
+}
+
+.titulo p {
+    color: #bdbdbd;
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+/* =========================
+   CARRUSEL
+========================= */
+
+.carousel {
+    position: relative;
+    max-width: 1250px;
+    margin: auto;
+}
+
+.track {
+    display: flex;
+    gap: 24px;
+    transition: transform 0.6s ease;
+}
+
+.card {
+    flex: 0 0 calc(25% - 18px);
+    min-width: 0;
+    background: #17171a;
+    border: 1px solid #29292d;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 45px rgba(0,0,0,0.45);
+}
+
+.card-image {
+    position: relative;
+    height: 270px;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.6s ease;
+}
+
+.card:hover .card-image img {
+    transform: scale(1.05);
+}
+
+.badge {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    background: #f15a24;
+    color: white;
+    font-size: 11px;
+    font-weight: 800;
+    padding: 7px 11px;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+}
+
+.card-info {
+    padding: 22px;
+}
+
+.marca {
+    color: #f15a24;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.modelo {
+    font-size: 20px;
+    line-height: 1.25;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.datos {
+    color: #c7c7c7;
+    font-size: 13px;
+    line-height: 1.6;
+    min-height: 42px;
+}
+
+.ficha {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 11px 17px;
+    border: 1px solid #f15a24;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    transition: all 0.25s ease;
+}
+
+.ficha:hover {
+    background: #f15a24;
+    transform: translateY(-2px);
+}
+
+/* =========================
+   FLECHAS
+========================= */
+
+.arrow {
+    position: absolute;
+    top: 43%;
+    transform: translateY(-50%);
+    width: 46px;
+    height: 46px;
+    border: none;
+    border-radius: 50%;
+    background: #f15a24;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 5;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.arrow:hover {
+    transform: translateY(-50%) scale(1.08);
+    background: #ff6a30;
+}
+
+.prev {
+    left: -23px;
+}
+
+.next {
+    right: -23px;
+}
+
+/* =========================
+   PUNTOS
+========================= */
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 32px;
+}
+
+.dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #555;
+    border: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.dot.active {
+    width: 25px;
+    border-radius: 10px;
+    background: #f15a24;
+}
+
+/* =========================
+   PIE
+========================= */
+
+.footer {
+    text-align: center;
+    padding: 45px 20px;
+    border-top: 1px solid #252529;
+    color: #888;
+    font-size: 12px;
+}
+
+/* =========================
+   ANIMACIÓN
+========================= */
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1000px) {
+
+    .card {
+        flex: 0 0 calc(50% - 12px);
+    }
+
+    .card-image {
+        height: 300px;
+    }
+
+}
+
+/* =========================
+   CELULAR
+========================= */
+
+@media (max-width: 650px) {
+
+    .hero {
+        min-height: 32vh;
+        padding: 45px 18px;
+    }
+
+    .logo-text {
+        letter-spacing: -3px;
+    }
+
+    .nuevos {
+        padding: 55px 16px 65px;
+    }
+
+    .titulo {
+        margin-bottom: 30px;
+    }
+
+    .track {
+        gap: 15px;
+    }
+
+    .card {
+        flex: 0 0 100%;
+    }
+
+    .card-image {
+        height: 290px;
+    }
+
+    .prev {
+        left: 8px;
+    }
+
+    .next {
+        right: 8px;
+    }
+
+    .arrow {
+        width: 42px;
+        height: 42px;
+    }
+
+}
+</style>
+</head>
+
+<body>
+
+<!-- =========================
+     PORTADA
+========================= -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="logo-text">
+            d<span>p</span>a
+        </div>
+
+        <h1>Automotores</h1>
+
+        <p>
+            Vehículos seleccionados · Confianza · Experiencia
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     RECIÉN LLEGADOS
+========================= -->
+
+<section class="nuevos">
+
+    <div class="titulo">
+
+        <h2>RECIÉN LLEGADOS</h2>
+
+        <p>
+            Conocé los últimos vehículos incorporados a DPA Automotores
+        </p>
+
+    </div>
+
+
+    <div class="carousel">
+
+        <button class="arrow prev" onclick="mover(-1)">
+            ‹
+        </button>
+
+
+        <div class="track" id="track">
+
+
+            <!-- MINI -->
+
+            <article class="card">
+
+                <div class="card-image">
+
+                    <span class="badge">
+                        RECIÉN INGRESADO
+                    </span>
+
+                    <img
+                    src="https://drive.google.com/uc?export=view&id=1ntCUJ7Z12UoU9gD4gHZcKvAXoNxDxIBd"
+                    alt="Mini Cooper S"
+                    >
+
+                </div>
+
+                <div class="card-info">
+
+                    <div class="marca">
+                        MINI
+                    </div>
+
+                    <div class="modelo">
+                        Cooper S 1.6 Turbo
+                    </div>
+
+                    <div class="datos">
+                        175 CV · Año 2008
+                    </div>
+
+                    <a href="#" class="ficha">
+                        VER FICHA →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- VOLKSWAGEN -->
+
+            <article class="card">
+
+                <div class="card-image">
+
+                    <span class="badge">
+                        RECIÉN INGRESADO
+                    </span>
+
+                    <img
+                    src="https://drive.google.com/uc?export=view&id=1IDJ3iEGwxI-qBgEAtnNfUbuHnEzOTUEi"
+                    alt="Volkswagen Amarok"
+                    >
+
+                </div>
+
+                <div class="card-info">
+
+                    <div class="marca">
+                        VOLKSWAGEN
+                    </div>
+
+                    <div class="modelo">
+                        Amarok 2.0 TDI Highline
+                    </div>
+
+                    <div class="datos">
+                        4x4 · 180 CV · Año 2013
+                    </div>
+
+                    <a href="#" class="ficha">
+                        VER FICHA →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- TOYOTA -->
+
+            <article class="card">
+
+                <div class="card-image">
+
+                    <span class="badge">
+                        RECIÉN INGRESADO
+                    </span>
+
+                    <img
+                    src="https://drive.google.com/uc?export=view&id=1Jq-AjKtSrgPES5jeVp4dBS3v-KntWRWB"
+                    alt="Toyota Hilux"
+                    >
+
+                </div>
+
+                <div class="card-info">
+
+                    <div class="marca">
+                        TOYOTA
+                    </div>
+
+                    <div class="modelo">
+                        Hilux 2.4 TDi 4x2 DX
+                    </div>
+
+                    <div class="datos">
+                        Diésel · Año 2018
+                    </div>
+
+                    <a href="#" class="ficha">
+                        VER FICHA →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- FORD -->
+
+            <article class="card">
+
+                <div class="card-image">
+
+                    <span class="badge">
+                        RECIÉN INGRESADO
+                    </span>
+
+                    <img
+                    src="https://drive.google.com/uc?export=view&id=113nWpEUeYPbZ6V2LlkcOznTWOjxVzcbe"
+                    alt="Ford Ranger"
+                    >
+
+                </div>
+
+                <div class="card-info">
+
+                    <div class="marca">
+                        FORD
+                    </div>
+
+                    <div class="modelo">
+                        Ranger 2.0 XLT Bi-Turbo
+                    </div>
+
+                    <div class="datos">
+                        4x2 AT10 · Línea 2023 · Año 2024
+                    </div>
+
+                    <a href="#" class="ficha">
+                        VER FICHA →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+        <button class="arrow next" onclick="mover(1)">
+            ›
+        </button>
+
+
+        <div class="dots">
+
+            <button class="dot active" onclick="irA(0)"></button>
+            <button class="dot" onclick="irA(1)"></button>
+            <button class="dot" onclick="irA(2)"></button>
+            <button class="dot" onclick="irA(3)"></button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer class="footer">
+
+    DPA Automotores · 16 años de trayectoria
+
+</footer>
+
+
+<script>
+
+let posicion = 0;
+
+const track = document.getElementById("track");
+const cards = document.querySelectorAll(".card");
+const dots = document.querySelectorAll(".dot");
+
+
+function cantidadVisible() {
+
+    if (window.innerWidth <= 650) {
+        return 1;
+    }
+
+    if (window.innerWidth <= 1000) {
+        return 2;
+    }
+
+    return 4;
+}
+
+
+function actualizar() {
+
+    const visibles = cantidadVisible();
+
+    const ancho = cards[0].getBoundingClientRect().width;
+
+    const espacio = window.innerWidth <= 650 ? 15 : 24;
+
+    track.style.transform =
+        `translateX(-${posicion * (ancho + espacio)}px)`;
+
+    dots.forEach((dot, i) => {
+
+        dot.classList.toggle(
+            "active",
+            i === posicion
+        );
+
+    });
+
+}
+
+
+function mover(direccion) {
+
+    const visibles = cantidadVisible();
+
+    const maximo =
+        Math.max(0, cards.length - visibles);
+
+    posicion += direccion;
+
+    if (posicion > maximo) {
+        posicion = 0;
+    }
+
+    if (posicion < 0) {
+        posicion = maximo;
+    }
+
+    actualizar();
+
+}
+
+
+function irA(numero) {
+
+    posicion = numero;
+
+    const visibles = cantidadVisible();
+
+    const maximo =
+        Math.max(0, cards.length - visibles);
+
+    if (posicion > maximo) {
+        posicion = maximo;
+    }
+
+    actualizar();
+
+}
+
+
+window.addEventListener(
+    "resize",
+    actualizar
+);
+
+
+/* Movimiento automático */
+
+setInterval(() => {
+
+    mover(1);
+
+}, 6000);
+
+
+actualizar();
+
+</script>
+
+</body>
+</html>
