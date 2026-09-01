@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>DPA Automotores | Catálogo</title>
+<title>DPA Automotores | Catálogo Digital</title>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
@@ -25,28 +25,8 @@ body{
     color:#fff;
 }
 
-button,
-input,
-select{
-    font-family:inherit;
-}
-
 /* =========================
-   VARIABLES
-========================= */
-
-:root{
-    --orange:#f15a24;
-    --orange-light:#ff6a30;
-    --dark:#0b0b0d;
-    --card:#17171a;
-    --border:#29292d;
-    --text-soft:#c7c7c7;
-    --muted:#888;
-}
-
-/* =========================
-   PORTADA
+   HEADER
 ========================= */
 
 .hero{
@@ -55,51 +35,87 @@ select{
     align-items:center;
     justify-content:center;
     text-align:center;
-    padding:70px 20px;
+    padding:60px 20px;
     background:
-        radial-gradient(circle at center,#29292e 0%,#0b0b0d 68%);
+        radial-gradient(circle at center,#29292f 0%,#151518 35%,#0b0b0d 72%);
 }
 
 .hero-content{
     max-width:900px;
-    animation:aparecer 1s ease forwards;
 }
 
 .logo-text{
-    font-size:clamp(55px,9vw,100px);
+    font-size:clamp(55px,10vw,105px);
     font-weight:800;
     letter-spacing:-7px;
+    line-height:.9;
 }
 
 .logo-text span{
-    color:var(--orange);
+    color:#f15a24;
 }
 
 .hero h1{
-    margin-top:8px;
-    font-size:clamp(30px,5vw,54px);
+    margin-top:18px;
+    font-size:clamp(30px,5vw,55px);
     font-weight:700;
 }
 
 .hero p{
-    margin-top:15px;
-    color:#ccc;
+    margin-top:16px;
+    color:#cfcfcf;
     font-size:15px;
+}
+
+/* =========================
+   FILTROS
+========================= */
+
+.filtros{
+    padding:35px 20px;
+    background:#111114;
+    border-top:1px solid #252529;
+    border-bottom:1px solid #252529;
+}
+
+.filtros-contenedor{
+    max-width:1250px;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    justify-content:center;
+}
+
+.filtro{
+    background:#1b1b1f;
+    color:#fff;
+    border:1px solid #34343a;
+    border-radius:8px;
+    padding:13px 16px;
+    font-family:inherit;
+    font-size:13px;
+    outline:none;
+    cursor:pointer;
+}
+
+.filtro:focus{
+    border-color:#f15a24;
+}
+
+.filtro option{
+    background:#1b1b1f;
 }
 
 /* =========================
    SECCIONES
 ========================= */
 
-section{
-    width:100%;
+.seccion{
+    padding:70px 20px 85px;
 }
 
-.section{
-    padding:75px 20px;
-}
-
-.section-inner{
+.contenedor{
     max-width:1250px;
     margin:auto;
 }
@@ -120,49 +136,73 @@ section{
     display:block;
     width:70px;
     height:4px;
-    background:var(--orange);
+    background:#f15a24;
     margin:16px auto 0;
     border-radius:5px;
 }
 
 .titulo p{
-    color:#bdbdbd;
+    color:#aaa;
     margin-top:16px;
     font-size:14px;
 }
 
 /* =========================
-   RECIÉN LLEGADOS
+   MARCAS
 ========================= */
 
-.nuevos{
-    background:#0b0b0d;
-}
-
-.carousel{
-    position:relative;
-    max-width:1250px;
-    margin:auto;
-    overflow:hidden;
-}
-
-.track{
+.marcas{
     display:flex;
-    gap:24px;
-    transition:transform .6s ease;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+    margin-bottom:55px;
 }
+
+.marca-btn{
+    padding:11px 18px;
+    background:#17171a;
+    border:1px solid #2c2c31;
+    color:#ddd;
+    border-radius:30px;
+    cursor:pointer;
+    font-family:inherit;
+    font-size:12px;
+    font-weight:700;
+    transition:.25s;
+}
+
+.marca-btn:hover,
+.marca-btn.activa{
+    background:#f15a24;
+    border-color:#f15a24;
+    color:#fff;
+}
+
+/* =========================
+   GRID
+========================= */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:24px;
+}
+
+/* =========================
+   TARJETA
+========================= */
 
 .card{
-    flex:0 0 calc(25% - 18px);
-    background:var(--card);
-    border:1px solid var(--border);
+    background:#17171a;
+    border:1px solid #29292d;
     border-radius:18px;
     overflow:hidden;
-    transition:transform .35s ease,box-shadow .35s ease;
+    transition:.35s ease;
 }
 
 .card:hover{
-    transform:translateY(-8px);
+    transform:translateY(-7px);
     box-shadow:0 18px 45px rgba(0,0,0,.45);
 }
 
@@ -170,6 +210,7 @@ section{
     position:relative;
     height:270px;
     overflow:hidden;
+    background:#09090b;
 }
 
 .card-image img{
@@ -177,18 +218,18 @@ section{
     height:100%;
     object-fit:cover;
     display:block;
-    transition:transform .6s ease;
+    transition:.5s ease;
 }
 
 .card:hover .card-image img{
-    transform:scale(1.05);
+    transform:scale(1.04);
 }
 
 .badge{
     position:absolute;
     top:14px;
     left:14px;
-    background:var(--orange);
+    background:#f15a24;
     color:#fff;
     font-size:10px;
     font-weight:800;
@@ -199,12 +240,12 @@ section{
 }
 
 .card-info{
-    padding:22px;
+    padding:21px;
 }
 
 .marca{
-    color:var(--orange);
-    font-size:12px;
+    color:#f15a24;
+    font-size:11px;
     font-weight:800;
     letter-spacing:1.5px;
     text-transform:uppercase;
@@ -219,247 +260,45 @@ section{
 }
 
 .datos{
-    color:var(--text-soft);
-    font-size:13px;
-    line-height:1.6;
-}
-
-.btn{
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    gap:8px;
-    margin-top:18px;
-    padding:11px 17px;
-    border-radius:8px;
+    color:#bdbdbd;
     font-size:12px;
-    font-weight:700;
-    cursor:pointer;
-    transition:.25s ease;
+    line-height:1.6;
+    min-height:40px;
 }
 
-.btn-outline{
-    border:1px solid var(--orange);
-    color:#fff;
+.precio{
+    margin-top:14px;
+    font-size:19px;
+    font-weight:800;
+}
+
+.boton-ficha{
+    width:100%;
+    margin-top:18px;
+    padding:12px;
     background:transparent;
-}
-
-.btn-outline:hover{
-    background:var(--orange);
-    transform:translateY(-2px);
-}
-
-.arrow{
-    position:absolute;
-    top:43%;
-    transform:translateY(-50%);
-    width:46px;
-    height:46px;
-    border:0;
-    border-radius:50%;
-    background:var(--orange);
+    border:1px solid #f15a24;
     color:#fff;
-    font-size:25px;
-    font-weight:bold;
+    border-radius:8px;
+    font-family:inherit;
+    font-size:11px;
+    font-weight:800;
     cursor:pointer;
-    z-index:5;
-    box-shadow:0 8px 25px rgba(0,0,0,.4);
+    transition:.25s;
 }
 
-.arrow:hover{
-    background:var(--orange-light);
-    transform:translateY(-50%) scale(1.08);
-}
-
-.prev{
-    left:8px;
-}
-
-.next{
-    right:8px;
-}
-
-.dots{
-    display:flex;
-    justify-content:center;
-    gap:8px;
-    margin-top:30px;
-}
-
-.dot{
-    width:9px;
-    height:9px;
-    border:0;
-    border-radius:50%;
-    background:#555;
-    cursor:pointer;
-}
-
-.dot.active{
-    width:25px;
-    border-radius:10px;
-    background:var(--orange);
+.boton-ficha:hover{
+    background:#f15a24;
 }
 
 /* =========================
-   STOCK
+   SIN RESULTADOS
 ========================= */
 
-.stock{
-    background:#111114;
-}
-
-.filters{
-    background:#17171a;
-    border:1px solid var(--border);
-    border-radius:20px;
-    padding:25px;
-    margin-bottom:45px;
-}
-
-.search{
-    width:100%;
-    padding:15px 18px;
-    background:#0d0d0f;
-    border:1px solid #333;
-    border-radius:10px;
-    color:#fff;
-    font-size:14px;
-    outline:none;
-}
-
-.search:focus{
-    border-color:var(--orange);
-}
-
-.filter-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:15px;
-    margin-top:16px;
-}
-
-.filter-grid select{
-    width:100%;
-    padding:13px 15px;
-    background:#0d0d0f;
-    border:1px solid #333;
-    border-radius:9px;
-    color:#fff;
-    font-size:13px;
-    outline:none;
-}
-
-.filter-grid select:focus{
-    border-color:var(--orange);
-}
-
-.result-count{
-    color:#999;
-    font-size:12px;
-    margin-top:16px;
-}
-
-.brand-section{
-    margin-bottom:65px;
-}
-
-.brand-header{
-    display:flex;
-    align-items:center;
-    gap:18px;
-    margin-bottom:25px;
-}
-
-.brand-logo{
-    width:58px;
-    height:58px;
-    border:1px solid #3a3a3f;
-    border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background:#18181b;
-    color:#fff;
-    font-weight:800;
-    font-size:12px;
-}
-
-.brand-name{
-    font-size:27px;
-    font-weight:800;
-}
-
-.brand-name span{
-    display:block;
-    color:#777;
-    font-size:11px;
-    font-weight:500;
-    margin-top:4px;
-    letter-spacing:1px;
-    text-transform:uppercase;
-}
-
-.vehicle-grid{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:22px;
-}
-
-.vehicle-card{
-    background:var(--card);
-    border:1px solid var(--border);
-    border-radius:16px;
-    overflow:hidden;
-    transition:.3s ease;
-}
-
-.vehicle-card:hover{
-    transform:translateY(-6px);
-    box-shadow:0 15px 35px rgba(0,0,0,.4);
-}
-
-.vehicle-photo{
-    height:220px;
-    position:relative;
-    overflow:hidden;
-}
-
-.vehicle-photo img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    transition:.5s ease;
-}
-
-.vehicle-card:hover img{
-    transform:scale(1.05);
-}
-
-.vehicle-content{
-    padding:19px;
-}
-
-.vehicle-content h3{
-    font-size:17px;
-    line-height:1.3;
-    margin-bottom:9px;
-}
-
-.vehicle-meta{
-    color:#aaa;
-    font-size:12px;
-    line-height:1.7;
-}
-
-.vehicle-content .btn{
-    width:100%;
-}
-
-.empty{
+.sin-resultados{
     text-align:center;
     padding:60px 20px;
-    color:#777;
+    color:#888;
     display:none;
 }
 
@@ -470,224 +309,195 @@ section{
 .modal{
     position:fixed;
     inset:0;
-    background:rgba(0,0,0,.86);
-    backdrop-filter:blur(8px);
-    z-index:100;
+    background:rgba(0,0,0,.94);
+    z-index:1000;
     display:none;
     overflow-y:auto;
     padding:30px 15px;
 }
 
-.modal.open{
+.modal.activo{
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+}
+
+.modal-contenido{
+    width:100%;
+    max-width:1100px;
+    background:#151518;
+    border:1px solid #303035;
+    border-radius:18px;
+    overflow:hidden;
+    position:relative;
+    margin:auto;
+}
+
+.cerrar{
+    position:absolute;
+    top:15px;
+    right:15px;
+    width:42px;
+    height:42px;
+    border:none;
+    border-radius:50%;
+    background:rgba(0,0,0,.75);
+    color:#fff;
+    font-size:24px;
+    cursor:pointer;
+    z-index:20;
+}
+
+.cerrar:hover{
+    background:#f15a24;
+}
+
+/* =========================
+   GALERIA
+========================= */
+
+.galeria-principal{
+    width:100%;
+    height:min(70vh,650px);
+    background:#050506;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+}
+
+/*
+   IMPORTANTE:
+   contain evita que las fotos del vehículo
+   sean recortadas.
+*/
+
+.galeria-principal img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    background:#050506;
     display:block;
 }
 
-.modal-box{
-    max-width:1100px;
-    margin:auto;
-    background:#151518;
-    border:1px solid #303035;
-    border-radius:22px;
-    overflow:hidden;
-    animation:subir .35s ease;
-}
-
-.modal-close{
+.galeria-flecha{
     position:absolute;
-    top:20px;
-    right:25px;
-    width:42px;
-    height:42px;
+    top:50%;
+    transform:translateY(-50%);
+    width:48px;
+    height:48px;
+    border:none;
     border-radius:50%;
-    border:1px solid #444;
-    background:#151518;
+    background:rgba(241,90,36,.9);
     color:#fff;
-    font-size:22px;
+    font-size:28px;
     cursor:pointer;
     z-index:10;
 }
 
-.gallery{
-    background:#09090b;
-    padding:20px;
+.galeria-flecha:hover{
+    background:#ff6a30;
 }
 
-.gallery-main{
-    position:relative;
-    height:500px;
-    border-radius:15px;
-    overflow:hidden;
+.galeria-anterior{
+    left:18px;
 }
 
-.gallery-main img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
+.galeria-siguiente{
+    right:18px;
 }
 
-.gallery-arrow{
-    position:absolute;
-    top:50%;
-    transform:translateY(-50%);
-    width:45px;
-    height:45px;
-    border:0;
-    border-radius:50%;
-    background:rgba(0,0,0,.7);
-    color:#fff;
-    font-size:25px;
-    cursor:pointer;
-    z-index:2;
-}
-
-.gallery-prev{
-    left:15px;
-}
-
-.gallery-next{
-    right:15px;
-}
-
-.gallery-counter{
-    position:absolute;
-    bottom:15px;
-    right:15px;
-    background:rgba(0,0,0,.7);
-    padding:7px 11px;
-    border-radius:20px;
-    font-size:11px;
-}
-
-.thumbnails{
+.miniaturas{
     display:flex;
     gap:8px;
     overflow-x:auto;
-    padding-top:12px;
+    padding:12px;
+    background:#0d0d0f;
 }
 
-.thumbnail{
-    flex:0 0 75px;
-    height:55px;
-    border:2px solid transparent;
-    border-radius:7px;
-    overflow:hidden;
-    cursor:pointer;
-    opacity:.65;
-}
-
-.thumbnail.active{
-    border-color:var(--orange);
-    opacity:1;
-}
-
-.thumbnail img{
-    width:100%;
-    height:100%;
+.miniaturas img{
+    width:80px;
+    height:58px;
     object-fit:cover;
+    border-radius:6px;
+    cursor:pointer;
+    opacity:.6;
+    border:2px solid transparent;
 }
 
-.modal-info{
-    padding:35px;
+.miniaturas img.activa{
+    opacity:1;
+    border-color:#f15a24;
 }
 
-.modal-brand{
-    color:var(--orange);
+/* =========================
+   INFORMACION FICHA
+========================= */
+
+.detalle{
+    padding:30px;
+}
+
+.detalle-marca{
+    color:#f15a24;
     font-size:12px;
     font-weight:800;
     letter-spacing:2px;
+    margin-bottom:8px;
 }
 
-.modal-info h2{
-    font-size:clamp(30px,5vw,48px);
-    line-height:1.1;
-    margin:8px 0 10px;
+.detalle-titulo{
+    font-size:clamp(25px,4vw,40px);
+    font-weight:800;
+    margin-bottom:20px;
 }
 
-.modal-subtitle{
-    color:#aaa;
-    font-size:14px;
-    margin-bottom:30px;
-}
-
-.specs{
+.detalle-datos{
     display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:1px;
-    background:#303035;
-    border:1px solid #303035;
-    border-radius:12px;
-    overflow:hidden;
-    margin-bottom:30px;
+    grid-template-columns:repeat(3,1fr);
+    gap:12px;
+    margin-bottom:25px;
 }
 
-.spec{
-    background:#1a1a1d;
+.dato{
+    background:#1d1d21;
+    border:1px solid #2b2b30;
+    border-radius:10px;
     padding:15px;
 }
 
-.spec strong{
+.dato small{
     display:block;
-    color:#777;
+    color:#888;
     font-size:10px;
     text-transform:uppercase;
-    letter-spacing:1px;
     margin-bottom:5px;
 }
 
-.spec span{
+.dato strong{
     font-size:13px;
-    font-weight:600;
 }
 
-.info-block{
-    margin-top:28px;
-}
-
-.info-block h3{
-    color:var(--orange);
-    font-size:15px;
-    text-transform:uppercase;
-    letter-spacing:1px;
-    margin-bottom:12px;
-}
-
-.info-block p,
-.info-block li{
-    color:#c4c4c4;
+.detalle-descripcion{
+    color:#bbb;
+    line-height:1.7;
     font-size:13px;
-    line-height:1.75;
+    margin-bottom:25px;
 }
 
-.info-block ul{
-    padding-left:20px;
-}
-
-.modal-actions{
-    display:flex;
-    gap:12px;
-    flex-wrap:wrap;
-    margin-top:35px;
-}
-
-.btn-primary{
-    background:var(--orange);
-    border:1px solid var(--orange);
+.contacto{
+    display:inline-block;
+    padding:14px 22px;
+    background:#f15a24;
     color:#fff;
     text-decoration:none;
+    border-radius:8px;
+    font-size:12px;
+    font-weight:800;
 }
 
-.btn-primary:hover{
-    background:var(--orange-light);
-}
-
-.btn-secondary{
-    border:1px solid #444;
-    background:transparent;
-    color:#fff;
-}
-
-.btn-secondary:hover{
-    border-color:var(--orange);
+.contacto:hover{
+    background:#ff6a30;
 }
 
 /* =========================
@@ -703,125 +513,65 @@ section{
 }
 
 /* =========================
-   ANIMACIONES
+   RESPONSIVE
 ========================= */
 
-@keyframes aparecer{
-    from{
-        opacity:0;
-        transform:translateY(25px);
+@media(max-width:1050px){
+
+    .grid{
+        grid-template-columns:repeat(3,1fr);
     }
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
+
 }
 
-@keyframes subir{
-    from{
-        opacity:0;
-        transform:translateY(30px);
-    }
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
-}
+@media(max-width:800px){
 
-/* =========================
-   TABLET
-========================= */
-
-@media(max-width:1000px){
-
-    .card{
-        flex:0 0 calc(50% - 12px);
-    }
-
-    .vehicle-grid{
+    .grid{
         grid-template-columns:repeat(2,1fr);
     }
 
-    .filter-grid{
-        grid-template-columns:1fr 1fr;
-    }
-
-    .specs{
+    .detalle-datos{
         grid-template-columns:repeat(2,1fr);
     }
+
 }
 
-/* =========================
-   CELULAR
-========================= */
-
-@media(max-width:650px){
+@media(max-width:550px){
 
     .hero{
-        min-height:34vh;
-        padding:50px 18px;
+        min-height:35vh;
+        padding:45px 18px;
     }
 
     .logo-text{
         letter-spacing:-4px;
     }
 
-    .section{
-        padding:55px 15px;
+    .seccion{
+        padding:55px 15px 65px;
     }
 
-    .track{
-        gap:15px;
-    }
-
-    .card{
-        flex:0 0 100%;
+    .grid{
+        grid-template-columns:1fr;
+        gap:18px;
     }
 
     .card-image{
         height:290px;
     }
 
-    .arrow{
-        width:42px;
-        height:42px;
+    .detalle{
+        padding:22px;
     }
 
-    .filter-grid{
-        grid-template-columns:1fr;
-    }
-
-    .vehicle-grid{
-        grid-template-columns:1fr;
-    }
-
-    .brand-header{
-        margin-bottom:18px;
-    }
-
-    .brand-name{
-        font-size:23px;
-    }
-
-    .gallery-main{
-        height:330px;
-    }
-
-    .modal-info{
-        padding:25px 20px;
-    }
-
-    .specs{
+    .detalle-datos{
         grid-template-columns:1fr 1fr;
     }
 
-    .modal-actions{
-        flex-direction:column;
+    .galeria-principal{
+        height:55vh;
     }
 
-    .modal-actions .btn{
-        width:100%;
-    }
 }
 </style>
 </head>
@@ -829,10 +579,10 @@ section{
 <body>
 
 <!-- =========================
-     PORTADA
+     HERO
 ========================= -->
 
-<section class="hero">
+<header class="hero">
 
     <div class="hero-content">
 
@@ -848,51 +598,57 @@ section{
 
     </div>
 
+</header>
+
+
+<!-- =========================
+     FILTROS
+========================= -->
+
+<section class="filtros">
+
+    <div class="filtros-contenedor">
+
+        <select id="filtroMarca" class="filtro">
+            <option value="">Todas las marcas</option>
+        </select>
+
+        <select id="filtroTipo" class="filtro">
+            <option value="">Todos los tipos</option>
+        </select>
+
+        <select id="filtroAnio" class="filtro">
+            <option value="">Todos los años</option>
+        </select>
+
+        <select id="filtroCondicion" class="filtro">
+            <option value="">Todos los vehículos</option>
+            <option value="usado">Usados</option>
+            <option value="0km">0 KM</option>
+        </select>
+
+        <button
+            class="filtro"
+            onclick="limpiarFiltros()">
+            LIMPIAR FILTROS
+        </button>
+
+    </div>
+
 </section>
 
 
 <!-- =========================
-     RECIÉN LLEGADOS
+     CATALOGO
 ========================= -->
 
-<section class="section nuevos">
+<main class="seccion">
 
-    <div class="titulo">
-
-        <h2>RECIÉN LLEGADOS</h2>
-
-        <p>
-            Conocé los últimos vehículos incorporados a DPA Automotores
-        </p>
-
-    </div>
-
-    <div class="carousel">
-
-        <button class="arrow prev" onclick="mover(-1)">‹</button>
-
-        <div class="track" id="track"></div>
-
-        <button class="arrow next" onclick="mover(1)">›</button>
-
-        <div class="dots" id="dots"></div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     STOCK
-========================= -->
-
-<section class="section stock" id="stock">
-
-    <div class="section-inner">
+    <div class="contenedor">
 
         <div class="titulo">
 
-            <h2>EXPLORÁ NUESTRO STOCK</h2>
+            <h2>CATÁLOGO</h2>
 
             <p>
                 Encontrá el vehículo que estás buscando
@@ -901,45 +657,120 @@ section{
         </div>
 
 
-        <div class="filters">
+        <!-- MARCAS -->
 
-            <input
-                type="text"
-                id="search"
-                class="search"
-                placeholder="🔎 Buscar por marca o modelo..."
-            >
-
-            <div class="filter-grid">
-
-                <select id="marcaFilter">
-                    <option value="">Todas las marcas</option>
-                </select>
-
-                <select id="tipoFilter">
-                    <option value="">Todos los tipos</option>
-                </select>
-
-                <select id="condicionFilter">
-                    <option value="">Todas las condiciones</option>
-                </select>
-
-            </div>
-
-            <div class="result-count" id="resultCount"></div>
-
+        <div
+            id="marcas"
+            class="marcas">
         </div>
 
 
-        <div id="brandsContainer"></div>
+        <!-- VEHICULOS -->
 
-        <div class="empty" id="empty">
+        <div
+            id="gridVehiculos"
+            class="grid">
+        </div>
+
+
+        <div
+            id="sinResultados"
+            class="sin-resultados">
+
             No encontramos vehículos con esos filtros.
+
         </div>
 
     </div>
 
-</section>
+</main>
+
+
+<!-- =========================
+     MODAL
+========================= -->
+
+<div
+    id="modal"
+    class="modal">
+
+    <div class="modal-contenido">
+
+        <button
+            class="cerrar"
+            onclick="cerrarFicha()">
+            ×
+        </button>
+
+
+        <div class="galeria-principal">
+
+            <button
+                class="galeria-flecha galeria-anterior"
+                onclick="fotoAnterior()">
+                ‹
+            </button>
+
+            <img
+                id="fotoPrincipal"
+                src=""
+                alt="Vehículo">
+
+            <button
+                class="galeria-flecha galeria-siguiente"
+                onclick="fotoSiguiente()">
+                ›
+            </button>
+
+        </div>
+
+
+        <div
+            id="miniaturas"
+            class="miniaturas">
+        </div>
+
+
+        <div class="detalle">
+
+            <div
+                id="detalleMarca"
+                class="detalle-marca">
+            </div>
+
+            <div
+                id="detalleTitulo"
+                class="detalle-titulo">
+            </div>
+
+
+            <div
+                id="detalleDatos"
+                class="detalle-datos">
+            </div>
+
+
+            <div
+                id="detalleDescripcion"
+                class="detalle-descripcion">
+            </div>
+
+
+            <a
+                id="botonContacto"
+                class="contacto"
+                href="https://sites.google.com/view/catalogo-digital-dpa/inicio?authuser=4"
+                target="_blank">
+
+                CONSULTAR POR ESTE VEHÍCULO →
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
 
 
 <!-- =========================
@@ -953,400 +784,480 @@ section{
 </footer>
 
 
-<!-- =========================
-     FICHA
-========================= -->
-
-<div class="modal" id="vehicleModal">
-
-    <div class="modal-box">
-
-        <button class="modal-close" onclick="cerrarFicha()">
-            ×
-        </button>
-
-        <div class="gallery">
-
-            <div class="gallery-main">
-
-                <button
-                    class="gallery-arrow gallery-prev"
-                    onclick="cambiarFoto(-1)"
-                >
-                    ‹
-                </button>
-
-                <img id="galleryMain" src="" alt="">
-
-                <button
-                    class="gallery-arrow gallery-next"
-                    onclick="cambiarFoto(1)"
-                >
-                    ›
-                </button>
-
-                <div class="gallery-counter" id="galleryCounter">
-                    1 / 1
-                </div>
-
-            </div>
-
-            <div class="thumbnails" id="thumbnails"></div>
-
-        </div>
-
-
-        <div class="modal-info">
-
-            <div class="modal-brand" id="modalBrand"></div>
-
-            <h2 id="modalTitle"></h2>
-
-            <div class="modal-subtitle" id="modalSubtitle"></div>
-
-
-            <div class="specs">
-
-                <div class="spec">
-                    <strong>Año</strong>
-                    <span id="specYear"></span>
-                </div>
-
-                <div class="spec">
-                    <strong>Tipo</strong>
-                    <span id="specType"></span>
-                </div>
-
-                <div class="spec">
-                    <strong>Combustible</strong>
-                    <span id="specFuel"></span>
-                </div>
-
-                <div class="spec">
-                    <strong>Transmisión</strong>
-                    <span id="specTransmission"></span>
-                </div>
-
-            </div>
-
-
-            <div class="info-block">
-
-                <h3>Motor y prestaciones</h3>
-
-                <p id="modalPerformance"></p>
-
-            </div>
-
-
-            <div class="info-block">
-
-                <h3>Equipamiento destacado</h3>
-
-                <ul id="modalEquipment"></ul>
-
-            </div>
-
-
-            <div class="info-block">
-
-                <h3>Seguridad</h3>
-
-                <ul id="modalSafety"></ul>
-
-            </div>
-
-
-            <div class="info-block">
-
-                <h3>Tecnología y confort</h3>
-
-                <ul id="modalTechnology"></ul>
-
-            </div>
-
-
-            <div class="modal-actions">
-
-                <a
-                    id="contactButton"
-                    class="btn btn-primary"
-                    href="#"
-                >
-                    📲 CONSULTAR / CONTACTO
-                </a>
-
-                <button
-                    class="btn btn-secondary"
-                    onclick="cerrarFicha()"
-                >
-                    ← VOLVER AL CATÁLOGO
-                </button>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-
 <script>
 
-/* =====================================================
-   INVENTARIO
-   =====================================================
+/*
+====================================================
+BASE DE VEHICULOS
+====================================================
 
-   ESTA ES LA PARTE QUE EN EL FUTURO VAMOS A USAR
-   PARA AGREGAR VEHÍCULOS SIN TOCAR EL DISEÑO.
+Esta es la parte que posteriormente vamos a convertir
+en cars.json.
+
+Para agregar un vehículo se agrega otro objeto dentro
+de la lista "vehiculos".
+====================================================
 */
 
 const vehiculos = [
 
     {
-        id:"mini-cooper-s-2008",
+        id:1,
 
         marca:"MINI",
 
         modelo:"Cooper S 1.6 Turbo",
 
-        version:"R56 · 175 CV",
-
-        año:"2008",
-
         tipo:"Hatch",
 
-        condicion:"Usado",
+        anio:"2008",
 
-        combustible:"Nafta",
+        condicion:"usado",
 
-        transmision:"Manual 6 velocidades",
+        datos:"175 CV · Nafta · Manual",
 
-        reciente:true,
+        precio:"Consultar",
 
-        imagen:"mini.jpeg",
-
-        fotos:[
+        imagenes:[
             "mini.jpeg"
         ],
 
-        performance:
-            "Motor Prince N14B16 Twin-Scroll Turbo · 175 CV a 5.500 rpm · 240 Nm · hasta 260 Nm con overboost · 0 a 100 km/h en 7,1 segundos · velocidad máxima 225 km/h · tracción delantera.",
-
-        equipamiento:[
-            "Techo corredizo panorámico eléctrico de vidrio",
-            "Tapizado mixto cuero y tela deportivo John Cooper Works",
-            "Asientos delanteros deportivos calefaccionados",
-            "Volante multifunción deportivo en cuero",
-            "Control de velocidad crucero",
-            "Espejos eléctricos calefaccionados",
-            "Sensor de lluvia y luces",
-            "Cubiertas nuevas"
-        ],
-
-        seguridad:[
-            "6 airbags",
-            "ABS + EBD + CBC",
-            "Control de estabilidad DSC",
-            "Control de tracción DTC",
-            "Control de frenado en curva",
-            "Anclajes ISOFIX",
-            "Frenos a disco ventilados delanteros",
-            "Neumáticos Runflat 195/55 R16"
-        ],
-
-        tecnologia:[
-            "Aire acondicionado manual original",
-            "Computadora de a bordo",
-            "Levantavidrios eléctricos",
-            "Cierre centralizado con comando",
-            "Equipo original con radio CD / MP3 / RDS",
-            "Entrada Aux",
-            "Mandos al volante",
-            "Llave inteligente"
-        ]
+        descripcion:
+        "Mini Cooper S 1.6 Turbo de 175 CV. Vehículo compacto, deportivo y con excelente equipamiento."
     },
 
 
     {
-        id:"amarok-2013",
+        id:2,
 
         marca:"VOLKSWAGEN",
 
         modelo:"Amarok 2.0 TDI Highline",
 
-        version:"4x4 · 180 CV",
-
-        año:"2013",
-
         tipo:"Pick-Up",
 
-        condicion:"Usado",
+        anio:"2013",
 
-        combustible:"Diésel",
+        condicion:"usado",
 
-        transmision:"Automática",
+        datos:"4x4 · 180 CV · Diésel",
 
-        reciente:true,
+        precio:"Consultar",
 
-        imagen:"amarok.jpeg",
-
-        fotos:[
+        imagenes:[
             "amarok.jpeg"
         ],
 
-        performance:
-            "2.0 TDI · 180 CV · configuración 4x4.",
-
-        equipamiento:[
-            "Versión Highline"
-        ],
-
-        seguridad:[
-            "Equipamiento de seguridad de fábrica"
-        ],
-
-        tecnologia:[
-            "Equipamiento tecnológico original"
-        ]
+        descripcion:
+        "Volkswagen Amarok 2.0 TDI Highline 4x4. Pick-up de gran capacidad, confort y prestaciones."
     },
 
 
     {
-        id:"hilux-2018",
+        id:3,
 
         marca:"TOYOTA",
 
         modelo:"Hilux 2.4 TDi 4x2 DX",
 
-        version:"4x2",
-
-        año:"2018",
-
         tipo:"Pick-Up",
 
-        condicion:"Usado",
+        anio:"2018",
 
-        combustible:"Diésel",
+        condicion:"usado",
 
-        transmision:"Manual",
+        datos:"4x2 · Diésel · Caja manual",
 
-        reciente:true,
+        precio:"Consultar",
 
-        imagen:"hilux.jpeg",
-
-        fotos:[
+        imagenes:[
             "hilux.jpeg"
         ],
 
-        performance:
-            "Motor 2.4 TDi · configuración 4x2.",
-
-        equipamiento:[
-            "Versión DX"
-        ],
-
-        seguridad:[
-            "Equipamiento de seguridad de fábrica"
-        ],
-
-        tecnologia:[
-            "Equipamiento original"
-        ]
+        descripcion:
+        "Toyota Hilux 2.4 TDi 4x2 DX. Una pick-up reconocida por su confiabilidad y robustez."
     },
 
 
     {
-        id:"ranger-2024",
+        id:4,
 
         marca:"FORD",
 
         modelo:"Ranger 2.0 XLT Bi-Turbo",
 
-        version:"4x2 AT10 · Línea 2023",
-
-        año:"2024",
-
         tipo:"Pick-Up",
 
-        condicion:"Usado",
+        anio:"2024",
 
-        combustible:"Diésel",
+        condicion:"usado",
 
-        transmision:"Automática",
+        datos:"4x2 AT10 · Bi-Turbo · Automática",
 
-        reciente:true,
+        precio:"Consultar",
 
-        imagen:"ranger.jpeg",
-
-        fotos:[
+        imagenes:[
             "ranger.jpeg"
         ],
 
-        performance:
-            "Motor 2.0 Bi-Turbo · caja automática de 10 velocidades · configuración 4x2.",
-
-        equipamiento:[
-            "Versión XLT",
-            "Caja automática de 10 velocidades"
-        ],
-
-        seguridad:[
-            "Equipamiento de seguridad de fábrica"
-        ],
-
-        tecnologia:[
-            "Equipamiento original"
-        ]
+        descripcion:
+        "Ford Ranger 2.0 XLT Bi-Turbo. Línea 2023, año 2024. Excelente combinación de tecnología, potencia y confort."
     }
 
 ];
 
 
-/* =====================================================
-   CONFIGURACIÓN
-===================================================== */
+/*
+====================================================
+VARIABLES
+====================================================
+*/
 
-const CONTACTO_URL =
-    "https://sites.google.com/view/catalogo-digital-dpa/inicio?authuser=4";
+let vehiculoActual = null;
 
-
-/* =====================================================
-   RECIÉN LLEGADOS
-===================================================== */
-
-let posicion = 0;
-
-const track = document.getElementById("track");
-const dotsContainer = document.getElementById("dots");
-
-const recientes = vehiculos.filter(v => v.reciente);
+let fotoActual = 0;
 
 
-function crearRecientes(){
+/*
+====================================================
+INICIAR
+====================================================
+*/
 
-    track.innerHTML = "";
-    dotsContainer.innerHTML = "";
+document.addEventListener(
+    "DOMContentLoaded",
+    function(){
 
-    recientes.forEach((vehiculo,index)=>{
+        cargarFiltros();
 
-        track.innerHTML += `
+        mostrarVehiculos();
 
-            <article class="card">
+    }
+);
+
+
+/*
+====================================================
+CARGAR FILTROS
+====================================================
+*/
+
+function cargarFiltros(){
+
+    const marcas =
+        [...new Set(
+            vehiculos.map(v => v.marca)
+        )].sort();
+
+
+    const tipos =
+        [...new Set(
+            vehiculos.map(v => v.tipo)
+        )].sort();
+
+
+    const anios =
+        [...new Set(
+            vehiculos.map(v => v.anio)
+        )].sort(
+            (a,b) => b-a
+        );
+
+
+    const filtroMarca =
+        document.getElementById("filtroMarca");
+
+
+    const filtroTipo =
+        document.getElementById("filtroTipo");
+
+
+    const filtroAnio =
+        document.getElementById("filtroAnio");
+
+
+    marcas.forEach(
+        marca => {
+
+            const option =
+                document.createElement("option");
+
+            option.value = marca;
+
+            option.textContent = marca;
+
+            filtroMarca.appendChild(option);
+
+        }
+    );
+
+
+    tipos.forEach(
+        tipo => {
+
+            const option =
+                document.createElement("option");
+
+            option.value = tipo;
+
+            option.textContent = tipo;
+
+            filtroTipo.appendChild(option);
+
+        }
+    );
+
+
+    anios.forEach(
+        anio => {
+
+            const option =
+                document.createElement("option");
+
+            option.value = anio;
+
+            option.textContent = anio;
+
+            filtroAnio.appendChild(option);
+
+        }
+    );
+
+
+    document
+        .querySelectorAll(".filtro")
+        .forEach(
+            elemento => {
+
+                elemento.addEventListener(
+                    "change",
+                    mostrarVehiculos
+                );
+
+            }
+        );
+
+
+    crearBotonesMarca();
+
+}
+
+
+/*
+====================================================
+BOTONES DE MARCA
+====================================================
+*/
+
+function crearBotonesMarca(){
+
+    const contenedor =
+        document.getElementById("marcas");
+
+
+    contenedor.innerHTML = "";
+
+
+    const botonTodos =
+        document.createElement("button");
+
+
+    botonTodos.className =
+        "marca-btn activa";
+
+
+    botonTodos.textContent =
+        "TODAS";
+
+
+    botonTodos.onclick =
+        function(){
+
+            document.getElementById(
+                "filtroMarca"
+            ).value = "";
+
+            document
+                .querySelectorAll(".marca-btn")
+                .forEach(
+                    b => b.classList.remove("activa")
+                );
+
+            botonTodos.classList.add("activa");
+
+            mostrarVehiculos();
+
+        };
+
+
+    contenedor.appendChild(botonTodos);
+
+
+    const marcas =
+        [...new Set(
+            vehiculos.map(v => v.marca)
+        )].sort();
+
+
+    marcas.forEach(
+        marca => {
+
+            const boton =
+                document.createElement("button");
+
+
+            boton.className =
+                "marca-btn";
+
+
+            boton.textContent =
+                marca;
+
+
+            boton.onclick =
+                function(){
+
+                    document.getElementById(
+                        "filtroMarca"
+                    ).value = marca;
+
+
+                    document
+                        .querySelectorAll(".marca-btn")
+                        .forEach(
+                            b => b.classList.remove("activa")
+                        );
+
+
+                    boton.classList.add("activa");
+
+
+                    mostrarVehiculos();
+
+                };
+
+
+            contenedor.appendChild(boton);
+
+        }
+    );
+
+}
+
+
+/*
+====================================================
+MOSTRAR VEHICULOS
+====================================================
+*/
+
+function mostrarVehiculos(){
+
+    const marca =
+        document.getElementById(
+            "filtroMarca"
+        ).value;
+
+
+    const tipo =
+        document.getElementById(
+            "filtroTipo"
+        ).value;
+
+
+    const anio =
+        document.getElementById(
+            "filtroAnio"
+        ).value;
+
+
+    const condicion =
+        document.getElementById(
+            "filtroCondicion"
+        ).value;
+
+
+    const filtrados =
+        vehiculos.filter(
+            vehiculo => {
+
+                return (
+
+                    (!marca ||
+                        vehiculo.marca === marca)
+
+                    &&
+
+                    (!tipo ||
+                        vehiculo.tipo === tipo)
+
+                    &&
+
+                    (!anio ||
+                        vehiculo.anio === anio)
+
+                    &&
+
+                    (!condicion ||
+                        vehiculo.condicion === condicion)
+
+                );
+
+            }
+        );
+
+
+    const grid =
+        document.getElementById(
+            "gridVehiculos"
+        );
+
+
+    grid.innerHTML = "";
+
+
+    document.getElementById(
+        "sinResultados"
+    ).style.display =
+        filtrados.length
+        ? "none"
+        : "block";
+
+
+    filtrados.forEach(
+        vehiculo => {
+
+            const card =
+                document.createElement("article");
+
+
+            card.className = "card";
+
+
+            card.innerHTML = `
 
                 <div class="card-image">
 
-                    <span class="badge">
-                        RECIÉN INGRESADO
-                    </span>
+                    ${
+                        vehiculo.condicion === "0km"
+
+                        ?
+
+                        '<span class="badge">0 KM</span>'
+
+                        :
+
+                        '<span class="badge">DISPONIBLE</span>'
+                    }
 
                     <img
-                        src="${vehiculo.imagen}"
+                        src="${vehiculo.imagenes[0]}"
                         alt="${vehiculo.marca} ${vehiculo.modelo}"
+                        loading="lazy"
                     >
 
                 </div>
+
 
                 <div class="card-info">
 
@@ -1354,615 +1265,447 @@ function crearRecientes(){
                         ${vehiculo.marca}
                     </div>
 
+
                     <div class="modelo">
                         ${vehiculo.modelo}
                     </div>
 
+
                     <div class="datos">
-                        ${vehiculo.version} · Año ${vehiculo.año}
+                        ${vehiculo.datos}
+                        · Año ${vehiculo.anio}
                     </div>
 
+
+                    <div class="precio">
+                        ${vehiculo.precio}
+                    </div>
+
+
                     <button
-                        class="btn btn-outline"
-                        onclick="abrirFicha('${vehiculo.id}')"
-                    >
+                        class="boton-ficha"
+                        onclick="abrirFicha(${vehiculo.id})">
+
                         VER FICHA →
+
                     </button>
 
                 </div>
 
-            </article>
-        `;
-
-
-        dotsContainer.innerHTML += `
-            <button
-                class="dot ${index===0 ? "active":""}"
-                onclick="irA(${index})"
-            ></button>
-        `;
-
-    });
-
-}
-
-
-function cantidadVisible(){
-
-    if(window.innerWidth <= 650) return 1;
-
-    if(window.innerWidth <= 1000) return 2;
-
-    return 4;
-}
-
-
-function actualizar(){
-
-    if(!recientes.length) return;
-
-    const visibles = cantidadVisible();
-
-    const card = track.querySelector(".card");
-
-    if(!card) return;
-
-    const ancho = card.getBoundingClientRect().width;
-
-    const espacio =
-        window.innerWidth <= 650 ? 15 : 24;
-
-    const maximo =
-        Math.max(0,recientes.length-visibles);
-
-    if(posicion > maximo){
-        posicion = maximo;
-    }
-
-    track.style.transform =
-        `translateX(-${posicion*(ancho+espacio)}px)`;
-
-
-    document.querySelectorAll(".dot")
-        .forEach((dot,i)=>{
-
-            dot.classList.toggle(
-                "active",
-                i===posicion
-            );
-
-        });
-
-}
-
-
-function mover(direccion){
-
-    const visibles = cantidadVisible();
-
-    const maximo =
-        Math.max(0,recientes.length-visibles);
-
-    posicion += direccion;
-
-    if(posicion > maximo){
-        posicion = 0;
-    }
-
-    if(posicion < 0){
-        posicion = maximo;
-    }
-
-    actualizar();
-
-}
-
-
-function irA(numero){
-
-    posicion = numero;
-
-    actualizar();
-
-}
-
-
-/* =====================================================
-   FILTROS
-===================================================== */
-
-const search =
-    document.getElementById("search");
-
-const marcaFilter =
-    document.getElementById("marcaFilter");
-
-const tipoFilter =
-    document.getElementById("tipoFilter");
-
-const condicionFilter =
-    document.getElementById("condicionFilter");
-
-const brandsContainer =
-    document.getElementById("brandsContainer");
-
-const resultCount =
-    document.getElementById("resultCount");
-
-const empty =
-    document.getElementById("empty");
-
-
-function cargarFiltros(){
-
-    const marcas =
-        [...new Set(vehiculos.map(v=>v.marca))].sort();
-
-    const tipos =
-        [...new Set(vehiculos.map(v=>v.tipo))].sort();
-
-    const condiciones =
-        [...new Set(vehiculos.map(v=>v.condicion))].sort();
-
-
-    marcas.forEach(marca=>{
-
-        marcaFilter.innerHTML +=
-            `<option value="${marca}">
-                ${marca}
-            </option>`;
-
-    });
-
-
-    tipos.forEach(tipo=>{
-
-        tipoFilter.innerHTML +=
-            `<option value="${tipo}">
-                ${tipo}
-            </option>`;
-
-    });
-
-
-    condiciones.forEach(condicion=>{
-
-        condicionFilter.innerHTML +=
-            `<option value="${condicion}">
-                ${condicion}
-            </option>`;
-
-    });
-
-}
-
-
-function obtenerFiltrados(){
-
-    const texto =
-        search.value.toLowerCase().trim();
-
-    return vehiculos.filter(v=>{
-
-        const coincideTexto =
-            !texto ||
-            `${v.marca} ${v.modelo} ${v.version}`
-                .toLowerCase()
-                .includes(texto);
-
-        const coincideMarca =
-            !marcaFilter.value ||
-            v.marca === marcaFilter.value;
-
-        const coincideTipo =
-            !tipoFilter.value ||
-            v.tipo === tipoFilter.value;
-
-        const coincideCondicion =
-            !condicionFilter.value ||
-            v.condicion === condicionFilter.value;
-
-
-        return (
-            coincideTexto &&
-            coincideMarca &&
-            coincideTipo &&
-            coincideCondicion
-        );
-
-    });
-
-}
-
-
-function renderStock(){
-
-    const filtrados =
-        obtenerFiltrados();
-
-    brandsContainer.innerHTML = "";
-
-    resultCount.textContent =
-        `${filtrados.length} vehículo${filtrados.length===1?"":"s"} encontrado${filtrados.length===1?"":"s"}`;
-
-    empty.style.display =
-        filtrados.length ? "none" : "block";
-
-
-    const marcas =
-        [...new Set(filtrados.map(v=>v.marca))].sort();
-
-
-    marcas.forEach(marca=>{
-
-        const autosMarca =
-            filtrados.filter(v=>v.marca===marca);
-
-
-        const brandSection =
-            document.createElement("div");
-
-        brandSection.className =
-            "brand-section";
-
-
-        const iniciales =
-            marca.substring(0,3);
-
-
-        brandSection.innerHTML = `
-
-            <div class="brand-header">
-
-                <div class="brand-logo">
-                    ${iniciales}
-                </div>
-
-                <div class="brand-name">
-                    ${marca}
-
-                    <span>
-                        ${autosMarca.length}
-                        vehículo${autosMarca.length===1?"":"s"}
-                    </span>
-                </div>
-
-            </div>
-
-            <div class="vehicle-grid"></div>
-        `;
-
-
-        const grid =
-            brandSection.querySelector(".vehicle-grid");
-
-
-        autosMarca.forEach(vehiculo=>{
-
-            grid.innerHTML += `
-
-                <article class="vehicle-card">
-
-                    <div class="vehicle-photo">
-
-                        <img
-                            src="${vehiculo.imagen}"
-                            alt="${vehiculo.marca} ${vehiculo.modelo}"
-                        >
-
-                        ${
-                            vehiculo.reciente
-                            ?
-                            `<span class="badge">
-                                RECIÉN INGRESADO
-                            </span>`
-                            :
-                            ""
-                        }
-
-                    </div>
-
-                    <div class="vehicle-content">
-
-                        <div class="marca">
-                            ${vehiculo.marca}
-                        </div>
-
-                        <h3>
-                            ${vehiculo.modelo}
-                        </h3>
-
-                        <div class="vehicle-meta">
-
-                            ${vehiculo.version}<br>
-
-                            ${vehiculo.combustible} ·
-                            ${vehiculo.año}<br>
-
-                            ${vehiculo.tipo}
-
-                        </div>
-
-                        <button
-                            class="btn btn-outline"
-                            onclick="abrirFicha('${vehiculo.id}')"
-                        >
-                            VER VEHÍCULO →
-                        </button>
-
-                    </div>
-
-                </article>
             `;
 
-        });
 
+            grid.appendChild(card);
 
-        brandsContainer.appendChild(brandSection);
-
-    });
+        }
+    );
 
 }
 
 
-search.addEventListener("input",renderStock);
-
-marcaFilter.addEventListener("change",renderStock);
-
-tipoFilter.addEventListener("change",renderStock);
-
-condicionFilter.addEventListener("change",renderStock);
-
-
-/* =====================================================
-   FICHA DEL VEHÍCULO
-===================================================== */
-
-let vehiculoActual = null;
-
-let fotoActual = 0;
-
+/*
+====================================================
+ABRIR FICHA
+====================================================
+*/
 
 function abrirFicha(id){
 
     vehiculoActual =
-        vehiculos.find(v=>v.id===id);
+        vehiculos.find(
+            v => v.id === id
+        );
 
-    if(!vehiculoActual) return;
+
+    if(!vehiculoActual){
+        return;
+    }
+
 
     fotoActual = 0;
 
-    document.getElementById("modalBrand")
-        .textContent =
+
+    document.getElementById(
+        "detalleMarca"
+    ).textContent =
         vehiculoActual.marca;
 
-    document.getElementById("modalTitle")
-        .textContent =
+
+    document.getElementById(
+        "detalleTitulo"
+    ).textContent =
         vehiculoActual.modelo;
 
-    document.getElementById("modalSubtitle")
-        .textContent =
-        `${vehiculoActual.version} · ${vehiculoActual.año}`;
+
+    document.getElementById(
+        "detalleDescripcion"
+    ).textContent =
+        vehiculoActual.descripcion;
 
 
-    document.getElementById("specYear")
-        .textContent =
-        vehiculoActual.año;
-
-    document.getElementById("specType")
-        .textContent =
-        vehiculoActual.tipo;
-
-    document.getElementById("specFuel")
-        .textContent =
-        vehiculoActual.combustible;
-
-    document.getElementById("specTransmission")
-        .textContent =
-        vehiculoActual.transmision;
+    const datos =
+        document.getElementById(
+            "detalleDatos"
+        );
 
 
-    document.getElementById("modalPerformance")
-        .textContent =
-        vehiculoActual.performance;
+    datos.innerHTML = `
+
+        <div class="dato">
+
+            <small>Año</small>
+
+            <strong>
+                ${vehiculoActual.anio}
+            </strong>
+
+        </div>
 
 
-    cargarLista(
-        "modalEquipment",
-        vehiculoActual.equipamiento
-    );
+        <div class="dato">
 
-    cargarLista(
-        "modalSafety",
-        vehiculoActual.seguridad
-    );
+            <small>Tipo</small>
 
-    cargarLista(
-        "modalTechnology",
-        vehiculoActual.tecnologia
-    );
+            <strong>
+                ${vehiculoActual.tipo}
+            </strong>
+
+        </div>
 
 
-    document.getElementById("contactButton")
-        .href =
-        CONTACTO_URL;
+        <div class="dato">
+
+            <small>Condición</small>
+
+            <strong>
+                ${
+                    vehiculoActual.condicion === "0km"
+                    ? "0 KM"
+                    : "Usado"
+                }
+            </strong>
+
+        </div>
+
+
+        <div class="dato">
+
+            <small>Datos</small>
+
+            <strong>
+                ${vehiculoActual.datos}
+            </strong>
+
+        </div>
+
+
+        <div class="dato">
+
+            <small>Precio</small>
+
+            <strong>
+                ${vehiculoActual.precio}
+            </strong>
+
+        </div>
+
+    `;
 
 
     cargarGaleria();
 
 
-    document.getElementById("vehicleModal")
-        .classList.add("open");
-
-    document.body.style.overflow="hidden";
-
-}
+    document
+        .getElementById("modal")
+        .classList.add("activo");
 
 
-function cargarLista(id,items){
-
-    const element =
-        document.getElementById(id);
-
-    element.innerHTML = "";
-
-    items.forEach(item=>{
-
-        element.innerHTML +=
-            `<li>${item}</li>`;
-
-    });
+    document.body.style.overflow =
+        "hidden";
 
 }
 
+
+/*
+====================================================
+GALERIA
+====================================================
+*/
 
 function cargarGaleria(){
 
-    const fotos =
-        vehiculoActual.fotos;
-
-    const main =
-        document.getElementById("galleryMain");
-
-    const thumbnails =
-        document.getElementById("thumbnails");
+    const foto =
+        document.getElementById(
+            "fotoPrincipal"
+        );
 
 
-    main.src =
-        fotos[fotoActual];
-
-    main.alt =
-        `${vehiculoActual.marca} ${vehiculoActual.modelo}`;
+    foto.src =
+        vehiculoActual.imagenes[fotoActual];
 
 
-    document.getElementById("galleryCounter")
-        .textContent =
-        `${fotoActual+1} / ${fotos.length}`;
+    foto.alt =
+        vehiculoActual.marca +
+        " " +
+        vehiculoActual.modelo;
 
 
-    thumbnails.innerHTML = "";
+    const miniaturas =
+        document.getElementById(
+            "miniaturas"
+        );
 
 
-    fotos.forEach((foto,index)=>{
+    miniaturas.innerHTML = "";
 
-        thumbnails.innerHTML += `
 
-            <div
-                class="thumbnail ${index===fotoActual?"active":""}"
-                onclick="irAFoto(${index})"
-            >
+    vehiculoActual.imagenes.forEach(
+        (imagen,index) => {
 
-                <img
-                    src="${foto}"
-                    alt=""
-                >
+            const mini =
+                document.createElement("img");
 
-            </div>
-        `;
 
-    });
+            mini.src = imagen;
+
+
+            mini.className =
+                index === fotoActual
+                ? "activa"
+                : "";
+
+
+            mini.onclick =
+                function(){
+
+                    fotoActual = index;
+
+                    cargarGaleria();
+
+                };
+
+
+            miniaturas.appendChild(mini);
+
+        }
+    );
 
 }
 
 
-function cambiarFoto(direccion){
+/*
+====================================================
+ FOTO SIGUIENTE
+====================================================
+*/
 
-    if(!vehiculoActual) return;
+function fotoSiguiente(){
 
-    const fotos =
-        vehiculoActual.fotos;
+    if(!vehiculoActual){
+        return;
+    }
 
-    fotoActual += direccion;
+
+    if(
+        vehiculoActual.imagenes.length <= 1
+    ){
+        return;
+    }
+
+
+    fotoActual++;
+
+
+    if(
+        fotoActual >=
+        vehiculoActual.imagenes.length
+    ){
+
+        fotoActual = 0;
+
+    }
+
+
+    cargarGaleria();
+
+}
+
+
+/*
+====================================================
+ FOTO ANTERIOR
+====================================================
+*/
+
+function fotoAnterior(){
+
+    if(!vehiculoActual){
+        return;
+    }
+
+
+    if(
+        vehiculoActual.imagenes.length <= 1
+    ){
+        return;
+    }
+
+
+    fotoActual--;
+
 
     if(fotoActual < 0){
-        fotoActual = fotos.length-1;
+
+        fotoActual =
+            vehiculoActual.imagenes.length - 1;
+
     }
 
-    if(fotoActual >= fotos.length){
-        fotoActual = 0;
-    }
 
     cargarGaleria();
 
 }
 
 
-function irAFoto(numero){
-
-    fotoActual = numero;
-
-    cargarGaleria();
-
-}
-
+/*
+====================================================
+ CERRAR FICHA
+====================================================
+*/
 
 function cerrarFicha(){
 
-    document.getElementById("vehicleModal")
-        .classList.remove("open");
+    document
+        .getElementById("modal")
+        .classList.remove("activo");
 
-    document.body.style.overflow="";
+
+    document.body.style.overflow =
+        "";
 
 }
 
 
-document.getElementById("vehicleModal")
-    .addEventListener("click",function(e){
+/*
+====================================================
+ LIMPIAR FILTROS
+====================================================
+*/
 
-        if(e.target === this){
+function limpiarFiltros(){
+
+    document.getElementById(
+        "filtroMarca"
+    ).value = "";
+
+
+    document.getElementById(
+        "filtroTipo"
+    ).value = "";
+
+
+    document.getElementById(
+        "filtroAnio"
+    ).value = "";
+
+
+    document.getElementById(
+        "filtroCondicion"
+    ).value = "";
+
+
+    document
+        .querySelectorAll(".marca-btn")
+        .forEach(
+            b => b.classList.remove("activa")
+        );
+
+
+    const primero =
+        document.querySelector(
+            ".marca-btn"
+        );
+
+
+    if(primero){
+        primero.classList.add("activa");
+    }
+
+
+    mostrarVehiculos();
+
+}
+
+
+/*
+====================================================
+ CERRAR HACIENDO CLICK AFUERA
+====================================================
+*/
+
+document
+    .getElementById("modal")
+    .addEventListener(
+        "click",
+        function(e){
+
+            if(
+                e.target === this
+            ){
+
+                cerrarFicha();
+
+            }
+
+        }
+    );
+
+
+/*
+====================================================
+ TECLADO
+====================================================
+*/
+
+document.addEventListener(
+    "keydown",
+    function(e){
+
+        const modal =
+            document.getElementById(
+                "modal"
+            );
+
+
+        if(
+            !modal.classList.contains("activo")
+        ){
+            return;
+        }
+
+
+        if(e.key === "Escape"){
+
             cerrarFicha();
+
         }
 
-    });
 
+        if(e.key === "ArrowRight"){
 
-document.addEventListener("keydown",function(e){
+            fotoSiguiente();
 
-    if(e.key==="Escape"){
-        cerrarFicha();
-    }
-
-    if(
-        document
-            .getElementById("vehicleModal")
-            .classList.contains("open")
-    ){
-
-        if(e.key==="ArrowRight"){
-            cambiarFoto(1);
         }
 
-        if(e.key==="ArrowLeft"){
-            cambiarFoto(-1);
+
+        if(e.key === "ArrowLeft"){
+
+            fotoAnterior();
+
         }
 
     }
-
-});
-
-
-/* =====================================================
-   INICIO
-===================================================== */
-
-crearRecientes();
-
-cargarFiltros();
-
-renderStock();
-
-window.addEventListener("resize",actualizar);
-
-actualizar();
-
-
-/* Movimiento automático de RECIÉN LLEGADOS */
-
-setInterval(()=>{
-
-    mover(1);
-
-},6000);
+);
 
 </script>
 
