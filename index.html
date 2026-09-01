@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>DPA Automotores | Vehículos</title>
 
 <style>
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+
+/* =====================================================
+   CONFIGURACIÓN GENERAL
+===================================================== */
 
 * {
     box-sizing: border-box;
@@ -22,580 +31,1068 @@ html {
 body {
     font-family: 'Montserrat', Arial, sans-serif;
     background: #0b0b0d;
-    color: #fff;
+    color: #ffffff;
 }
 
-/* =========================
+
+/* =====================================================
    HERO
-========================= */
+===================================================== */
 
 .hero {
+
     min-height: 38vh;
+
     display: flex;
+
     align-items: center;
+
     justify-content: center;
+
     text-align: center;
+
     padding: 60px 20px;
+
     background:
         radial-gradient(
             circle at center,
             #25252a 0%,
             #0b0b0d 65%
         );
+
 }
 
 .hero-content {
+
     width: 100%;
+
     max-width: 850px;
+
     animation: aparecer 1s ease forwards;
+
 }
 
-/* LOGO REAL DPA */
+
+/* =====================================================
+   LOGO DPA
+===================================================== */
 
 .logo-imagen {
+
     width: min(520px, 85vw);
+
     max-height: 220px;
+
     object-fit: contain;
+
     display: block;
+
     margin: 0 auto;
+
 }
 
 .hero h1 {
+
     margin-top: 15px;
-    font-size: clamp(28px, 5vw, 52px);
+
+    font-size: clamp(
+        28px,
+        5vw,
+        52px
+    );
+
     font-weight: 700;
+
 }
 
 .hero p {
+
     margin-top: 14px;
-    color: #ccc;
+
+    color: #cccccc;
+
     font-size: 15px;
+
 }
 
-/* =========================
-   SECCIÓN RECIÉN LLEGADOS
-========================= */
+
+/* =====================================================
+   RECIÉN LLEGADOS
+===================================================== */
 
 .nuevos {
-    padding: 70px 20px 85px;
+
+    padding:
+        70px
+        20px
+        85px;
+
     background: #0b0b0d;
+
     overflow: hidden;
+
 }
 
 .titulo {
+
     text-align: center;
+
     margin-bottom: 42px;
+
 }
 
 .titulo h2 {
-    font-size: clamp(30px, 5vw, 48px);
+
+    font-size: clamp(
+        30px,
+        5vw,
+        48px
+    );
+
     font-weight: 800;
+
     letter-spacing: 1px;
+
 }
 
 .titulo h2::after {
+
     content: "";
+
     display: block;
+
     width: 70px;
+
     height: 4px;
+
     background: #f15a24;
-    margin: 16px auto 0;
+
+    margin:
+        16px
+        auto
+        0;
+
     border-radius: 5px;
+
 }
 
 .titulo p {
+
     color: #bdbdbd;
+
     margin-top: 16px;
+
     font-size: 14px;
+
 }
 
-/* =========================
+
+/* =====================================================
    CARRUSEL
-========================= */
+===================================================== */
 
 .carousel {
+
     position: relative;
+
     max-width: 1250px;
+
     margin: auto;
+
 }
 
 .track {
+
     display: flex;
+
     gap: 24px;
-    transition: transform .6s ease;
+
+    transition:
+        transform .6s ease;
+
 }
 
 .card {
-    flex: 0 0 calc(25% - 18px);
+
+    flex:
+        0 0
+        calc(25% - 18px);
+
     min-width: 0;
+
     background: #17171a;
-    border: 1px solid #29292d;
+
+    border:
+        1px solid
+        #29292d;
+
     border-radius: 18px;
+
     overflow: hidden;
+
     transition:
         transform .35s ease,
         box-shadow .35s ease;
+
 }
 
 .card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 18px 45px rgba(0,0,0,.45);
+
+    transform:
+        translateY(-8px);
+
+    box-shadow:
+        0 18px 45px
+        rgba(0,0,0,.45);
+
 }
 
+
+/* =====================================================
+   IMAGEN TARJETA
+===================================================== */
+
 .card-image {
+
     position: relative;
+
     height: 270px;
+
     overflow: hidden;
+
+    background: #101012;
+
 }
 
 .card-image img {
+
     width: 100%;
+
     height: 100%;
+
     object-fit: cover;
+
     display: block;
-    transition: transform .6s ease;
+
+    transition:
+        transform .6s ease;
+
 }
 
-.card:hover .card-image img {
-    transform: scale(1.05);
+.card:hover
+.card-image img {
+
+    transform:
+        scale(1.05);
+
 }
+
+
+/* =====================================================
+   ETIQUETA
+===================================================== */
 
 .badge {
+
     position: absolute;
+
     top: 14px;
+
     left: 14px;
+
     background: #f15a24;
+
     color: white;
+
     font-size: 11px;
+
     font-weight: 800;
-    padding: 7px 11px;
+
+    padding:
+        7px
+        11px;
+
     border-radius: 20px;
+
     letter-spacing: .5px;
+
     z-index: 2;
+
 }
 
+
+/* =====================================================
+   INFORMACIÓN TARJETA
+===================================================== */
+
 .card-info {
+
     padding: 22px;
+
 }
 
 .marca {
+
     color: #f15a24;
+
     font-size: 12px;
+
     font-weight: 800;
+
     letter-spacing: 1.5px;
+
     text-transform: uppercase;
+
     margin-bottom: 8px;
+
 }
 
 .modelo {
+
     font-size: 20px;
+
     line-height: 1.25;
+
     font-weight: 700;
+
     margin-bottom: 14px;
+
 }
 
 .datos {
+
     color: #c7c7c7;
+
     font-size: 13px;
+
     line-height: 1.6;
+
     min-height: 42px;
+
 }
 
 .ficha {
+
     display: inline-block;
+
     margin-top: 18px;
-    padding: 11px 17px;
-    border: 1px solid #f15a24;
-    color: #fff;
+
+    padding:
+        11px
+        17px;
+
+    border:
+        1px solid
+        #f15a24;
+
+    color: #ffffff;
+
     text-decoration: none;
+
     border-radius: 8px;
+
     font-size: 12px;
+
     font-weight: 700;
+
     cursor: pointer;
-    transition: all .25s ease;
+
+    transition:
+        all .25s ease;
+
 }
 
 .ficha:hover {
+
     background: #f15a24;
-    transform: translateY(-2px);
+
+    transform:
+        translateY(-2px);
+
 }
 
-/* =========================
+
+/* =====================================================
    FLECHAS
-========================= */
+===================================================== */
 
 .arrow {
+
     position: absolute;
+
     top: 43%;
-    transform: translateY(-50%);
+
+    transform:
+        translateY(-50%);
+
     width: 46px;
+
     height: 46px;
+
     border: none;
+
     border-radius: 50%;
+
     background: #f15a24;
+
     color: white;
+
     font-size: 25px;
+
     font-weight: bold;
+
     cursor: pointer;
+
     z-index: 5;
-    box-shadow: 0 8px 25px rgba(0,0,0,.4);
+
+    box-shadow:
+        0 8px 25px
+        rgba(0,0,0,.4);
+
     transition:
         transform .2s ease,
         background .2s ease;
+
 }
 
 .arrow:hover {
-    transform: translateY(-50%) scale(1.08);
+
+    transform:
+        translateY(-50%)
+        scale(1.08);
+
     background: #ff6a30;
+
 }
 
 .prev {
+
     left: -23px;
+
 }
 
 .next {
+
     right: -23px;
+
 }
 
-/* =========================
+
+/* =====================================================
    PUNTOS
-========================= */
+===================================================== */
 
 .dots {
+
     display: flex;
+
     justify-content: center;
+
     gap: 8px;
+
     margin-top: 32px;
+
 }
 
 .dot {
+
     width: 9px;
+
     height: 9px;
+
     border-radius: 50%;
-    background: #555;
+
+    background: #555555;
+
     border: none;
+
     cursor: pointer;
-    transition: all .25s ease;
+
+    transition:
+        all .25s ease;
+
 }
 
 .dot.active {
+
     width: 25px;
+
     border-radius: 10px;
+
     background: #f15a24;
+
 }
 
-/* =========================
-   MODAL / FICHA
-========================= */
+
+/* =====================================================
+   MODAL
+===================================================== */
 
 .modal {
+
     display: none;
+
     position: fixed;
+
     inset: 0;
-    background: rgba(0,0,0,.88);
+
+    background:
+        rgba(0,0,0,.88);
+
     z-index: 9999;
+
     overflow-y: auto;
+
     padding: 30px 15px;
+
 }
 
 .modal.activo {
+
     display: flex;
+
     align-items: center;
+
     justify-content: center;
+
 }
 
 .modal-contenido {
+
     position: relative;
+
     width: 100%;
+
     max-width: 1050px;
+
     background: #151518;
-    border: 1px solid #29292d;
+
+    border:
+        1px solid
+        #29292d;
+
     border-radius: 20px;
+
     overflow: hidden;
-    box-shadow: 0 30px 80px rgba(0,0,0,.6);
+
+    box-shadow:
+        0 30px 80px
+        rgba(0,0,0,.6);
+
 }
 
+
+/* =====================================================
+   BOTÓN CERRAR
+===================================================== */
+
 .cerrar {
+
     position: absolute;
+
     top: 15px;
+
     right: 18px;
+
     width: 42px;
+
     height: 42px;
+
     border: none;
+
     border-radius: 50%;
-    background: rgba(0,0,0,.75);
+
+    background:
+        rgba(0,0,0,.75);
+
     color: white;
+
     font-size: 27px;
+
     line-height: 42px;
+
     cursor: pointer;
+
     z-index: 20;
+
 }
 
 .cerrar:hover {
+
     background: #f15a24;
+
 }
 
-/* =========================
-   GALERÍA
-========================= */
+
+/* =====================================================
+   IMAGEN PRINCIPAL DE LA FICHA
+===================================================== */
 
 .galeria-principal {
+
     width: 100%;
+
     height: 600px;
+
     background: #080809;
+
     display: flex;
+
     align-items: center;
+
     justify-content: center;
+
 }
 
 .galeria-principal img {
+
     width: 100%;
+
     height: 100%;
+
     object-fit: contain;
+
     display: block;
+
 }
 
+
+/* =====================================================
+   MINIATURAS
+===================================================== */
+
 .galeria-miniaturas {
+
     display: flex;
+
     gap: 10px;
+
     padding: 14px;
+
     background: #101012;
+
     overflow-x: auto;
+
 }
 
 .galeria-miniaturas img {
+
     width: 90px;
+
     height: 65px;
+
     object-fit: cover;
+
     border-radius: 7px;
+
     cursor: pointer;
+
     opacity: .6;
-    border: 2px solid transparent;
+
+    border:
+        2px solid
+        transparent;
+
     transition: .2s ease;
+
 }
 
 .galeria-miniaturas img:hover,
 .galeria-miniaturas img.activa {
+
     opacity: 1;
-    border-color: #f15a24;
+
+    border-color:
+        #f15a24;
+
 }
 
-/* =========================
-   INFORMACIÓN FICHA
-========================= */
+
+/* =====================================================
+   INFORMACIÓN DE LA FICHA
+===================================================== */
 
 .ficha-contenido {
+
     padding: 30px;
+
 }
 
 .ficha-marca {
+
     color: #f15a24;
+
     font-size: 13px;
+
     font-weight: 800;
+
     letter-spacing: 2px;
+
     text-transform: uppercase;
+
 }
 
 .ficha-modelo {
+
     margin-top: 8px;
-    font-size: clamp(28px, 5vw, 45px);
+
+    font-size:
+        clamp(
+            28px,
+            5vw,
+            45px
+        );
+
     font-weight: 800;
+
 }
 
 .ficha-datos {
+
     margin-top: 18px;
+
     color: #cfcfcf;
+
     line-height: 1.8;
+
     font-size: 14px;
+
 }
 
 .ficha-descripcion {
+
     margin-top: 25px;
+
     color: #bdbdbd;
+
     font-size: 14px;
+
     line-height: 1.8;
+
 }
 
 .ficha-precio {
+
     margin-top: 25px;
+
     font-size: 27px;
+
     font-weight: 800;
-    color: #fff;
+
+    color: #ffffff;
+
 }
 
+
+/* =====================================================
+   CONTACTO
+===================================================== */
+
 .contacto {
+
     display: inline-block;
+
     margin-top: 25px;
-    padding: 15px 25px;
+
+    padding:
+        15px
+        25px;
+
     background: #f15a24;
+
     color: white;
+
     text-decoration: none;
+
     border-radius: 9px;
+
     font-size: 13px;
+
     font-weight: 800;
-    transition: all .25s ease;
+
+    transition:
+        all .25s ease;
+
 }
 
 .contacto:hover {
+
     background: #ff6a30;
-    transform: translateY(-2px);
+
+    transform:
+        translateY(-2px);
+
 }
 
-/* =========================
+
+/* =====================================================
    FOOTER
-========================= */
+===================================================== */
 
 .footer {
+
     text-align: center;
+
     padding: 45px 20px;
-    border-top: 1px solid #252529;
-    color: #888;
+
+    border-top:
+        1px solid
+        #252529;
+
+    color: #888888;
+
     font-size: 12px;
+
 }
 
-/* =========================
+
+/* =====================================================
    ANIMACIÓN
-========================= */
+===================================================== */
 
 @keyframes aparecer {
+
     from {
+
         opacity: 0;
-        transform: translateY(25px);
+
+        transform:
+            translateY(25px);
+
     }
 
     to {
+
         opacity: 1;
-        transform: translateY(0);
+
+        transform:
+            translateY(0);
+
     }
+
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
+
+/* =====================================================
+   TABLET
+===================================================== */
 
 @media(max-width:1000px) {
 
     .card {
-        flex: 0 0 calc(50% - 12px);
+
+        flex:
+            0 0
+            calc(50% - 12px);
+
     }
 
     .card-image {
+
         height: 300px;
+
     }
 
     .galeria-principal {
+
         height: 500px;
+
     }
+
 }
+
+
+/* =====================================================
+   CELULAR
+===================================================== */
 
 @media(max-width:650px) {
 
     .hero {
+
         min-height: 32vh;
-        padding: 45px 18px;
+
+        padding:
+            45px
+            18px;
+
     }
 
     .logo-imagen {
-        width: min(430px, 90vw);
+
+        width:
+            min(
+                430px,
+                90vw
+            );
+
         max-height: 160px;
+
     }
 
     .nuevos {
-        padding: 55px 16px 65px;
+
+        padding:
+            55px
+            16px
+            65px;
+
     }
 
     .titulo {
+
         margin-bottom: 30px;
+
     }
 
     .track {
+
         gap: 15px;
+
     }
 
     .card {
-        flex: 0 0 100%;
+
+        flex:
+            0 0 100%;
+
     }
 
     .card-image {
+
         height: 290px;
+
     }
 
     .prev {
+
         left: 8px;
+
     }
 
     .next {
+
         right: 8px;
+
     }
 
     .arrow {
+
         width: 42px;
+
         height: 42px;
+
     }
 
     .galeria-principal {
+
         height: 350px;
+
     }
 
     .ficha-contenido {
+
         padding: 22px;
+
     }
+
 }
+
+
+/* =====================================================
+   ERROR / CARGANDO
+===================================================== */
+
+.mensaje-catalogo {
+
+    width: 100%;
+
+    text-align: center;
+
+    padding: 50px 20px;
+
+    color: #999999;
+
+}
+
 </style>
+
 </head>
+
 
 <body>
 
-<!-- =========================
-     HERO
-========================= -->
 
-<section class="hero" id="inicio">
+<!-- =====================================================
+     ENCABEZADO
+===================================================== -->
+
+<section
+    class="hero"
+    id="inicio"
+>
 
     <div class="hero-content">
 
+
         <!--
+        LOGO REAL DE DPA
+
         IMPORTANTE:
-        El archivo debe llamarse exactamente:
+        Este archivo debe estar en el mismo lugar
+        que index.html:
+
         logo-dpa.png
-        y estar en la raíz del repositorio.
         -->
 
         <img
-            src="logo-dpa.png"
+            src="./logo-dpa.png"
             alt="da Ponte Automotores"
             class="logo-imagen"
         >
 
-        <h1>Automotores</h1>
+
+        <h1>
+            Automotores
+        </h1>
+
 
         <p>
             Vehículos seleccionados · Confianza · Experiencia
         </p>
+
 
     </div>
 
 </section>
 
 
-<!-- =========================
+
+<!-- =====================================================
      RECIÉN LLEGADOS
-========================= -->
+===================================================== -->
 
 <section class="nuevos">
 
+
     <div class="titulo">
 
-        <h2>RECIÉN LLEGADOS</h2>
+        <h2>
+            RECIÉN LLEGADOS
+        </h2>
+
 
         <p>
-            Conocé los últimos vehículos incorporados a DPA Automotores
+            Conocé los últimos vehículos incorporados
+            a DPA Automotores
         </p>
 
     </div>
 
 
+
     <div class="carousel">
+
 
         <button
             class="arrow prev"
@@ -611,10 +1108,9 @@ body {
             id="track"
         >
 
-            <!--
-            Las tarjetas se generan automáticamente
-            desde cars.json
-            -->
+            <div class="mensaje-catalogo">
+                Cargando vehículos...
+            </div>
 
         </div>
 
@@ -634,21 +1130,27 @@ body {
         >
         </div>
 
+
     </div>
 
 </section>
 
 
-<!-- =========================
-     MODAL FICHA
-========================= -->
+
+<!-- =====================================================
+     FICHA DEL VEHÍCULO
+===================================================== -->
 
 <div
     class="modal"
     id="modal"
 >
 
-    <div class="modal-contenido">
+
+    <div
+        class="modal-contenido"
+    >
+
 
         <button
             class="cerrar"
@@ -659,12 +1161,18 @@ body {
         </button>
 
 
+
+        <!-- IMAGEN PRINCIPAL -->
+
         <div
             class="galeria-principal"
             id="galeriaPrincipal"
         >
         </div>
 
+
+
+        <!-- MINIATURAS -->
 
         <div
             class="galeria-miniaturas"
@@ -673,7 +1181,13 @@ body {
         </div>
 
 
-        <div class="ficha-contenido">
+
+        <!-- INFORMACIÓN -->
+
+        <div
+            class="ficha-contenido"
+        >
+
 
             <div
                 class="ficha-marca"
@@ -710,9 +1224,10 @@ body {
             </div>
 
 
-            <!--
-            REDIRECCIÓN DE CONTACTO
-            -->
+
+            <!-- =================================================
+                 CONTACTO DPA
+            ================================================== -->
 
             <a
                 id="contacto"
@@ -724,16 +1239,19 @@ body {
                 CONTACTAR CON DPA →
             </a>
 
+
         </div>
+
 
     </div>
 
 </div>
 
 
-<!-- =========================
-     FOOTER
-========================= -->
+
+<!-- =====================================================
+     PIE
+===================================================== -->
 
 <footer class="footer">
 
@@ -742,14 +1260,17 @@ body {
 </footer>
 
 
+
 <script>
 
+
 /* =====================================================
-   CONFIGURACIÓN
+   CONFIGURACIÓN DE CONTACTO
 ===================================================== */
 
 const CONTACTO_DPA =
     "https://sites.google.com/view/catalogo-digital-dpa/inicio/cont%C3%A1ctanos?authuser=4";
+
 
 
 /* =====================================================
@@ -760,158 +1281,279 @@ let autos = [];
 
 let posicion = 0;
 
-let autoSeleccionado = null;
+
 
 const track =
-    document.getElementById("track");
+    document.getElementById(
+        "track"
+    );
+
 
 const dotsContainer =
-    document.getElementById("dots");
+    document.getElementById(
+        "dots"
+    );
+
 
 const modal =
-    document.getElementById("modal");
+    document.getElementById(
+        "modal"
+    );
+
 
 
 /* =====================================================
-   CARGAR INVENTARIO
+   CARGAR CARS.JSON
 ===================================================== */
 
-fetch("cars.json")
-    .then(respuesta => {
+fetch("./cars.json")
 
-        if (!respuesta.ok) {
-            throw new Error(
-                "No se pudo cargar cars.json"
-            );
+    .then(
+        respuesta => {
+
+            if (!respuesta.ok) {
+
+                throw new Error(
+                    "No se pudo cargar cars.json"
+                );
+
+            }
+
+            return respuesta.json();
+
         }
+    )
 
-        return respuesta.json();
 
-    })
+    .then(
+        datos => {
 
-    .then(datos => {
+            autos = Array.isArray(datos)
+                ? datos
+                : [];
 
-        autos = datos;
+            mostrarRecienLlegados();
 
-        mostrarRecienLlegados();
+        }
+    )
 
-    })
 
-    .catch(error => {
+    .catch(
+        error => {
 
-        console.error(error);
+            console.error(error);
 
-        track.innerHTML = `
-            <p style="
-                color:#aaa;
-                padding:30px;
-                text-align:center;
-                width:100%;
-            ">
-                No se pudo cargar el inventario.
-            </p>
-        `;
+            track.innerHTML = `
 
-    });
+                <div class="mensaje-catalogo">
+
+                    No se pudo cargar
+                    el inventario.
+
+                </div>
+
+            `;
+
+        }
+    );
+
 
 
 /* =====================================================
-   MOSTRAR RECIÉN LLEGADOS
+   RECIÉN LLEGADOS
 ===================================================== */
 
 function mostrarRecienLlegados() {
 
+
     const recientes =
-        autos.filter(auto => auto.recienLlegado === true);
+        autos.filter(
+            auto =>
+                auto.recienLlegado === true
+        );
+
 
     track.innerHTML = "";
 
-    recientes.forEach(auto => {
 
-        const card =
-            document.createElement("article");
 
-        card.className = "card";
+    if (!recientes.length) {
 
-        const imagen =
-            auto.imagenes &&
-            auto.imagenes.length
-                ? auto.imagenes[0]
-                : "";
+        track.innerHTML = `
 
-        const datos =
-            auto.datos || "";
+            <div class="mensaje-catalogo">
 
-        card.innerHTML = `
-
-            <div class="card-image">
-
-                <span class="badge">
-                    RECIÉN INGRESADO
-                </span>
-
-                <img
-                    src="${imagen}"
-                    alt="${auto.marca || ""} ${auto.modelo || ""}"
-                    loading="lazy"
-                >
+                No hay vehículos
+                recién llegados.
 
             </div>
 
-
-            <div class="card-info">
-
-                <div class="marca">
-                    ${auto.marca || ""}
-                </div>
-
-                <div class="modelo">
-                    ${auto.modelo || ""}
-                </div>
-
-                <div class="datos">
-                    ${datos}
-                </div>
-
-                <a
-                    href="#"
-                    class="ficha"
-                    onclick="abrirFicha('${auto.id}'); return false;"
-                >
-                    VER FICHA →
-                </a>
-
-            </div>
         `;
 
-        track.appendChild(card);
+        dotsContainer.innerHTML = "";
 
-    });
+        return;
+
+    }
+
+
+
+    recientes.forEach(
+        auto => {
+
+
+            const card =
+                document.createElement(
+                    "article"
+                );
+
+
+            card.className =
+                "card";
+
+
+
+            const imagen =
+                auto.imagenes &&
+                auto.imagenes.length
+                    ? auto.imagenes[0]
+                    : "";
+
+
+
+            const datos =
+                auto.datos || "";
+
+
+
+            card.innerHTML = `
+
+                <div class="card-image">
+
+                    <span class="badge">
+                        RECIÉN INGRESADO
+                    </span>
+
+
+                    ${
+                        imagen
+                        ? `
+                            <img
+                                src="${imagen}"
+                                alt="${auto.marca || ""} ${auto.modelo || ""}"
+                                loading="lazy"
+                            >
+                          `
+                        : `
+                            <div
+                                class="mensaje-catalogo"
+                            >
+                                Sin imagen
+                            </div>
+                          `
+                    }
+
+                </div>
+
+
+
+                <div class="card-info">
+
+                    <div class="marca">
+                        ${auto.marca || ""}
+                    </div>
+
+
+                    <div class="modelo">
+                        ${auto.modelo || ""}
+                    </div>
+
+
+                    <div class="datos">
+                        ${datos}
+                    </div>
+
+
+                    <a
+                        href="#"
+                        class="ficha"
+                    >
+                        VER FICHA →
+                    </a>
+
+                </div>
+
+            `;
+
+
+
+            const boton =
+                card.querySelector(
+                    ".ficha"
+                );
+
+
+
+            boton.addEventListener(
+                "click",
+                function(event) {
+
+                    event.preventDefault();
+
+                    abrirFicha(
+                        auto.id
+                    );
+
+                }
+            );
+
+
+
+            track.appendChild(
+                card
+            );
+
+        }
+    );
+
+
 
     crearDots();
 
     posicion = 0;
 
-    actualizar();
+    actualizarCarrusel();
 
 }
 
 
+
 /* =====================================================
-   DOTS
+   CREAR PUNTOS
 ===================================================== */
 
 function crearDots() {
 
+
     dotsContainer.innerHTML = "";
+
+
+
+    const recientes =
+        autos.filter(
+            auto =>
+                auto.recienLlegado === true
+        );
+
+
 
     const cantidad =
         Math.max(
             1,
-            autos.filter(
-                auto => auto.recienLlegado === true
-            ).length
+            recientes.length
         );
+
+
 
     for (
         let i = 0;
@@ -919,19 +1561,46 @@ function crearDots() {
         i++
     ) {
 
+
         const dot =
-            document.createElement("button");
+            document.createElement(
+                "button"
+            );
+
 
         dot.className =
-            "dot" + (i === 0 ? " active" : "");
+            "dot" +
+            (
+                i === 0
+                    ? " active"
+                    : ""
+            );
 
-        dot.onclick = () => irA(i);
 
-        dotsContainer.appendChild(dot);
+        dot.setAttribute(
+            "aria-label",
+            `Vehículo ${i + 1}`
+        );
+
+
+        dot.addEventListener(
+            "click",
+            function() {
+
+                irA(i);
+
+            }
+        );
+
+
+        dotsContainer.appendChild(
+            dot
+        );
 
     }
 
 }
+
 
 
 /* =====================================================
@@ -940,48 +1609,101 @@ function crearDots() {
 
 function cantidadVisible() {
 
-    if (window.innerWidth <= 650) {
+
+    if (
+        window.innerWidth <= 650
+    ) {
+
         return 1;
+
     }
 
-    if (window.innerWidth <= 1000) {
+
+    if (
+        window.innerWidth <= 1000
+    ) {
+
         return 2;
+
     }
+
 
     return 4;
 
 }
 
 
+
 /* =====================================================
    ACTUALIZAR CARRUSEL
 ===================================================== */
 
-function actualizar() {
+function actualizarCarrusel() {
+
 
     const cards =
-        document.querySelectorAll(".card");
+        document.querySelectorAll(
+            ".card"
+        );
+
 
     const dots =
-        document.querySelectorAll(".dot");
+        document.querySelectorAll(
+            ".dot"
+        );
+
 
     if (!cards.length) {
+
         return;
+
     }
+
+
 
     const visibles =
         cantidadVisible();
 
+
+
     const ancho =
-        cards[0].getBoundingClientRect().width;
+        cards[0]
+            .getBoundingClientRect()
+            .width;
+
+
 
     const espacio =
         window.innerWidth <= 650
             ? 15
             : 24;
 
+
+
+    const maximo =
+        Math.max(
+            0,
+            cards.length - visibles
+        );
+
+
+
+    if (
+        posicion > maximo
+    ) {
+
+        posicion = maximo;
+
+    }
+
+
+
     track.style.transform =
-        `translateX(-${posicion * (ancho + espacio)}px)`;
+        `translateX(-${
+            posicion *
+            (ancho + espacio)
+        }px)`;
+
 
 
     dots.forEach(
@@ -998,50 +1720,92 @@ function actualizar() {
 }
 
 
+
 /* =====================================================
-   MOVER CARRUSEL
+   MOVER
 ===================================================== */
 
-function mover(direccion) {
+function mover(
+    direccion
+) {
+
 
     const cards =
-        document.querySelectorAll(".card");
+        document.querySelectorAll(
+            ".card"
+        );
+
+
+    if (!cards.length) {
+
+        return;
+
+    }
+
+
 
     const visibles =
         cantidadVisible();
+
+
 
     const maximo =
         Math.max(
             0,
             cards.length - visibles
         );
+
+
 
     posicion += direccion;
 
-    if (posicion > maximo) {
+
+
+    if (
+        posicion > maximo
+    ) {
+
         posicion = 0;
+
     }
 
-    if (posicion < 0) {
+
+
+    if (
+        posicion < 0
+    ) {
+
         posicion = maximo;
+
     }
 
-    actualizar();
+
+
+    actualizarCarrusel();
 
 }
 
 
+
 /* =====================================================
-   IR A POSICIÓN
+   IR A
 ===================================================== */
 
-function irA(numero) {
+function irA(
+    numero
+) {
+
 
     const cards =
-        document.querySelectorAll(".card");
+        document.querySelectorAll(
+            ".card"
+        );
+
 
     const visibles =
         cantidadVisible();
+
+
 
     const maximo =
         Math.max(
@@ -1049,73 +1813,117 @@ function irA(numero) {
             cards.length - visibles
         );
 
+
+
     posicion = numero;
 
-    if (posicion > maximo) {
+
+
+    if (
+        posicion > maximo
+    ) {
+
         posicion = maximo;
+
     }
 
-    actualizar();
+
+
+    actualizarCarrusel();
 
 }
+
 
 
 /* =====================================================
    ABRIR FICHA
 ===================================================== */
 
-function abrirFicha(id) {
+function abrirFicha(
+    id
+) {
 
-    autoSeleccionado =
+
+    const auto =
         autos.find(
-            auto => String(auto.id) === String(id)
+            vehiculo =>
+                String(
+                    vehiculo.id
+                ) === String(id)
         );
 
-    if (!autoSeleccionado) {
+
+
+    if (!auto) {
+
         return;
+
     }
 
 
-    document.getElementById("fichaMarca")
-        .textContent =
-        autoSeleccionado.marca || "";
+
+    /* INFORMACIÓN */
+
+    document.getElementById(
+        "fichaMarca"
+    ).textContent =
+        auto.marca || "";
 
 
-    document.getElementById("fichaModelo")
-        .textContent =
-        autoSeleccionado.modelo || "";
+
+    document.getElementById(
+        "fichaModelo"
+    ).textContent =
+        auto.modelo || "";
 
 
-    document.getElementById("fichaDatos")
-        .innerHTML =
-        autoSeleccionado.datos || "";
+
+    document.getElementById(
+        "fichaDatos"
+    ).innerHTML =
+        auto.datos || "";
 
 
-    document.getElementById("fichaDescripcion")
-        .textContent =
-        autoSeleccionado.descripcion || "";
+
+    document.getElementById(
+        "fichaDescripcion"
+    ).textContent =
+        auto.descripcion || "";
 
 
-    document.getElementById("fichaPrecio")
-        .textContent =
-        autoSeleccionado.precio || "";
+
+    document.getElementById(
+        "fichaPrecio"
+    ).textContent =
+        auto.precio || "";
+
 
 
     /* CONTACTO */
 
-    document.getElementById("contacto").href =
+    document.getElementById(
+        "contacto"
+    ).href =
         CONTACTO_DPA;
+
 
 
     /* GALERÍA */
 
     const imagenes =
-        autoSeleccionado.imagenes || [];
+        Array.isArray(
+            auto.imagenes
+        )
+            ? auto.imagenes
+            : [];
+
+
 
     const principal =
         document.getElementById(
             "galeriaPrincipal"
         );
+
 
     const miniaturas =
         document.getElementById(
@@ -1123,53 +1931,88 @@ function abrirFicha(id) {
         );
 
 
+
     principal.innerHTML = "";
 
     miniaturas.innerHTML = "";
 
 
-    if (imagenes.length) {
+
+    if (
+        imagenes.length
+    ) {
+
 
         const imagenPrincipal =
-            document.createElement("img");
+            document.createElement(
+                "img"
+            );
+
 
         imagenPrincipal.src =
             imagenes[0];
 
+
         imagenPrincipal.alt =
-            `${autoSeleccionado.marca || ""} ${autoSeleccionado.modelo || ""}`;
+            `${auto.marca || ""} ${auto.modelo || ""}`;
+
 
         principal.appendChild(
             imagenPrincipal
         );
 
 
+
         imagenes.forEach(
-            (src, index) => {
+            (
+                src,
+                index
+            ) => {
+
 
                 const miniatura =
-                    document.createElement("img");
+                    document.createElement(
+                        "img"
+                    );
 
-                miniatura.src = src;
+
+                miniatura.src =
+                    src;
+
 
                 miniatura.alt =
-                    `Imagen ${index + 1}`;
+                    `Imagen ${
+                        index + 1
+                    }`;
 
-                if (index === 0) {
+
+
+                if (
+                    index === 0
+                ) {
+
                     miniatura.classList.add(
                         "activa"
                     );
+
                 }
 
 
-                miniatura.onclick =
-                    () => {
+
+                miniatura.addEventListener(
+                    "click",
+                    function() {
+
 
                         imagenPrincipal.src =
                             src;
 
+
+
                         miniaturas
-                            .querySelectorAll("img")
+                            .querySelectorAll(
+                                "img"
+                            )
                             .forEach(
                                 img =>
                                     img.classList.remove(
@@ -1177,11 +2020,15 @@ function abrirFicha(id) {
                                     )
                             );
 
+
+
                         miniatura.classList.add(
                             "activa"
                         );
 
-                    };
+                    }
+                );
+
 
 
                 miniaturas.appendChild(
@@ -1191,15 +2038,37 @@ function abrirFicha(id) {
             }
         );
 
+
+    } else {
+
+
+        principal.innerHTML = `
+
+            <div
+                class="mensaje-catalogo"
+            >
+                Este vehículo
+                no tiene fotografías.
+            </div>
+
+        `;
+
     }
 
 
-    modal.classList.add("activo");
+
+    /* ABRIR */
+
+    modal.classList.add(
+        "activo"
+    );
+
 
     document.body.style.overflow =
         "hidden";
 
 }
+
 
 
 /* =====================================================
@@ -1208,9 +2077,11 @@ function abrirFicha(id) {
 
 function cerrarFicha() {
 
+
     modal.classList.remove(
         "activo"
     );
+
 
     document.body.style.overflow =
         "";
@@ -1218,61 +2089,75 @@ function cerrarFicha() {
 }
 
 
+
 /* =====================================================
-   CERRAR AL HACER CLICK FUERA
+   CERRAR HACIENDO CLICK FUERA
 ===================================================== */
 
 modal.addEventListener(
     "click",
     function(event) {
 
+
         if (
             event.target === modal
         ) {
+
             cerrarFicha();
+
         }
 
     }
 );
 
 
+
 /* =====================================================
-   CERRAR CON ESC
+   ESC PARA CERRAR
 ===================================================== */
 
 document.addEventListener(
     "keydown",
     function(event) {
 
+
         if (
             event.key === "Escape"
         ) {
+
             cerrarFicha();
+
         }
 
     }
 );
 
 
+
 /* =====================================================
-   RESPONSIVE
+   CAMBIO DE TAMAÑO
 ===================================================== */
 
 window.addEventListener(
     "resize",
-    actualizar
+    actualizarCarrusel
 );
 
 
+
 /* =====================================================
-   AUTO CARRUSEL
+   CARRUSEL AUTOMÁTICO
 ===================================================== */
 
 setInterval(
-    () => {
+    function() {
 
-        if (autos.length) {
+        if (
+            autos.length > 0
+        ) {
+
             mover(1);
+
         }
 
     },
@@ -1282,4 +2167,5 @@ setInterval(
 </script>
 
 </body>
+
 </html>
