@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
 
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>DPA Automotores | Vehículos</title>
@@ -12,11 +10,6 @@
 <style>
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
-
-
-/* =====================================================
-   CONFIGURACIÓN GENERAL
-===================================================== */
 
 * {
     box-sizing: border-box;
@@ -40,79 +33,55 @@ body {
 ===================================================== */
 
 .hero {
-
     min-height: 38vh;
-
     display: flex;
-
     align-items: center;
-
     justify-content: center;
-
     text-align: center;
-
     padding: 60px 20px;
-
     background:
         radial-gradient(
             circle at center,
             #25252a 0%,
             #0b0b0d 65%
         );
-
 }
 
 .hero-content {
-
     width: 100%;
-
     max-width: 850px;
-
     animation: aparecer 1s ease forwards;
-
 }
 
 
 /* =====================================================
-   LOGO DPA
+   LOGO REAL DPA
 ===================================================== */
 
 .logo-imagen {
-
     width: min(520px, 85vw);
-
+    height: auto;
     max-height: 220px;
-
     object-fit: contain;
-
     display: block;
-
     margin: 0 auto;
-
 }
 
+
+/* =====================================================
+   TEXTO HERO
+===================================================== */
+
 .hero h1 {
-
     margin-top: 15px;
-
-    font-size: clamp(
-        28px,
-        5vw,
-        52px
-    );
-
+    font-size: clamp(28px, 5vw, 52px);
     font-weight: 700;
-
 }
 
 .hero p {
-
     margin-top: 14px;
-
     color: #cccccc;
-
     font-size: 15px;
-
 }
 
 
@@ -121,69 +90,36 @@ body {
 ===================================================== */
 
 .nuevos {
-
-    padding:
-        70px
-        20px
-        85px;
-
+    padding: 70px 20px 85px;
     background: #0b0b0d;
-
     overflow: hidden;
-
 }
 
 .titulo {
-
     text-align: center;
-
     margin-bottom: 42px;
-
 }
 
 .titulo h2 {
-
-    font-size: clamp(
-        30px,
-        5vw,
-        48px
-    );
-
+    font-size: clamp(30px, 5vw, 48px);
     font-weight: 800;
-
     letter-spacing: 1px;
-
 }
 
 .titulo h2::after {
-
     content: "";
-
     display: block;
-
     width: 70px;
-
     height: 4px;
-
     background: #f15a24;
-
-    margin:
-        16px
-        auto
-        0;
-
+    margin: 16px auto 0;
     border-radius: 5px;
-
 }
 
 .titulo p {
-
     color: #bdbdbd;
-
     margin-top: 16px;
-
     font-size: 14px;
-
 }
 
 
@@ -192,132 +128,75 @@ body {
 ===================================================== */
 
 .carousel {
-
     position: relative;
-
     max-width: 1250px;
-
     margin: auto;
-
 }
 
 .track {
-
     display: flex;
-
     gap: 24px;
-
-    transition:
-        transform .6s ease;
-
+    transition: transform .6s ease;
 }
 
 .card {
-
-    flex:
-        0 0
-        calc(25% - 18px);
-
+    flex: 0 0 calc(25% - 18px);
     min-width: 0;
-
     background: #17171a;
-
-    border:
-        1px solid
-        #29292d;
-
+    border: 1px solid #29292d;
     border-radius: 18px;
-
     overflow: hidden;
-
     transition:
         transform .35s ease,
         box-shadow .35s ease;
-
 }
 
 .card:hover {
-
-    transform:
-        translateY(-8px);
-
-    box-shadow:
-        0 18px 45px
-        rgba(0,0,0,.45);
-
+    transform: translateY(-8px);
+    box-shadow: 0 18px 45px rgba(0,0,0,.45);
 }
 
 
 /* =====================================================
-   IMAGEN TARJETA
+   IMAGEN DE TARJETA
 ===================================================== */
 
 .card-image {
-
     position: relative;
-
     height: 270px;
-
     overflow: hidden;
-
     background: #101012;
-
 }
 
 .card-image img {
-
     width: 100%;
-
     height: 100%;
-
     object-fit: cover;
-
     display: block;
-
-    transition:
-        transform .6s ease;
-
+    transition: transform .6s ease;
 }
 
-.card:hover
-.card-image img {
-
-    transform:
-        scale(1.05);
-
+.card:hover .card-image img {
+    transform: scale(1.05);
 }
 
 
 /* =====================================================
-   ETIQUETA
+   BADGE
 ===================================================== */
 
 .badge {
-
     position: absolute;
-
     top: 14px;
-
     left: 14px;
-
     background: #f15a24;
-
     color: white;
-
     font-size: 11px;
-
     font-weight: 800;
-
-    padding:
-        7px
-        11px;
-
+    padding: 7px 11px;
     border-radius: 20px;
-
     letter-spacing: .5px;
-
     z-index: 2;
-
 }
 
 
@@ -326,89 +205,49 @@ body {
 ===================================================== */
 
 .card-info {
-
     padding: 22px;
-
 }
 
 .marca {
-
     color: #f15a24;
-
     font-size: 12px;
-
     font-weight: 800;
-
     letter-spacing: 1.5px;
-
     text-transform: uppercase;
-
     margin-bottom: 8px;
-
 }
 
 .modelo {
-
     font-size: 20px;
-
     line-height: 1.25;
-
     font-weight: 700;
-
     margin-bottom: 14px;
-
 }
 
 .datos {
-
     color: #c7c7c7;
-
     font-size: 13px;
-
     line-height: 1.6;
-
     min-height: 42px;
-
 }
 
 .ficha {
-
     display: inline-block;
-
     margin-top: 18px;
-
-    padding:
-        11px
-        17px;
-
-    border:
-        1px solid
-        #f15a24;
-
+    padding: 11px 17px;
+    border: 1px solid #f15a24;
     color: #ffffff;
-
     text-decoration: none;
-
     border-radius: 8px;
-
     font-size: 12px;
-
     font-weight: 700;
-
     cursor: pointer;
-
-    transition:
-        all .25s ease;
-
+    transition: all .25s ease;
 }
 
 .ficha:hover {
-
     background: #f15a24;
-
-    transform:
-        translateY(-2px);
-
+    transform: translateY(-2px);
 }
 
 
@@ -417,64 +256,36 @@ body {
 ===================================================== */
 
 .arrow {
-
     position: absolute;
-
     top: 43%;
-
-    transform:
-        translateY(-50%);
-
+    transform: translateY(-50%);
     width: 46px;
-
     height: 46px;
-
     border: none;
-
     border-radius: 50%;
-
     background: #f15a24;
-
     color: white;
-
     font-size: 25px;
-
     font-weight: bold;
-
     cursor: pointer;
-
     z-index: 5;
-
-    box-shadow:
-        0 8px 25px
-        rgba(0,0,0,.4);
-
+    box-shadow: 0 8px 25px rgba(0,0,0,.4);
     transition:
         transform .2s ease,
         background .2s ease;
-
 }
 
 .arrow:hover {
-
-    transform:
-        translateY(-50%)
-        scale(1.08);
-
+    transform: translateY(-50%) scale(1.08);
     background: #ff6a30;
-
 }
 
 .prev {
-
     left: -23px;
-
 }
 
 .next {
-
     right: -23px;
-
 }
 
 
@@ -483,44 +294,26 @@ body {
 ===================================================== */
 
 .dots {
-
     display: flex;
-
     justify-content: center;
-
     gap: 8px;
-
     margin-top: 32px;
-
 }
 
 .dot {
-
     width: 9px;
-
     height: 9px;
-
     border-radius: 50%;
-
     background: #555555;
-
     border: none;
-
     cursor: pointer;
-
-    transition:
-        all .25s ease;
-
+    transition: all .25s ease;
 }
 
 .dot.active {
-
     width: 25px;
-
     border-radius: 10px;
-
     background: #f15a24;
-
 }
 
 
@@ -529,131 +322,76 @@ body {
 ===================================================== */
 
 .modal {
-
     display: none;
-
     position: fixed;
-
     inset: 0;
-
-    background:
-        rgba(0,0,0,.88);
-
+    background: rgba(0,0,0,.88);
     z-index: 9999;
-
     overflow-y: auto;
-
     padding: 30px 15px;
-
 }
 
 .modal.activo {
-
     display: flex;
-
     align-items: center;
-
     justify-content: center;
-
 }
 
 .modal-contenido {
-
     position: relative;
-
     width: 100%;
-
     max-width: 1050px;
-
     background: #151518;
-
-    border:
-        1px solid
-        #29292d;
-
+    border: 1px solid #29292d;
     border-radius: 20px;
-
     overflow: hidden;
-
-    box-shadow:
-        0 30px 80px
-        rgba(0,0,0,.6);
-
+    box-shadow: 0 30px 80px rgba(0,0,0,.6);
 }
 
 
 /* =====================================================
-   BOTÓN CERRAR
+   CERRAR
 ===================================================== */
 
 .cerrar {
-
     position: absolute;
-
     top: 15px;
-
     right: 18px;
-
     width: 42px;
-
     height: 42px;
-
     border: none;
-
     border-radius: 50%;
-
-    background:
-        rgba(0,0,0,.75);
-
+    background: rgba(0,0,0,.75);
     color: white;
-
     font-size: 27px;
-
     line-height: 42px;
-
     cursor: pointer;
-
     z-index: 20;
-
 }
 
 .cerrar:hover {
-
     background: #f15a24;
-
 }
 
 
 /* =====================================================
-   IMAGEN PRINCIPAL DE LA FICHA
+   GALERÍA PRINCIPAL
 ===================================================== */
 
 .galeria-principal {
-
     width: 100%;
-
     height: 600px;
-
     background: #080809;
-
     display: flex;
-
     align-items: center;
-
     justify-content: center;
-
 }
 
 .galeria-principal img {
-
     width: 100%;
-
     height: 100%;
-
     object-fit: contain;
-
     display: block;
-
 }
 
 
@@ -662,125 +400,72 @@ body {
 ===================================================== */
 
 .galeria-miniaturas {
-
     display: flex;
-
     gap: 10px;
-
     padding: 14px;
-
     background: #101012;
-
     overflow-x: auto;
-
 }
 
 .galeria-miniaturas img {
-
     width: 90px;
-
     height: 65px;
-
     object-fit: cover;
-
     border-radius: 7px;
-
     cursor: pointer;
-
     opacity: .6;
-
-    border:
-        2px solid
-        transparent;
-
+    border: 2px solid transparent;
     transition: .2s ease;
-
 }
 
 .galeria-miniaturas img:hover,
 .galeria-miniaturas img.activa {
-
     opacity: 1;
-
-    border-color:
-        #f15a24;
-
+    border-color: #f15a24;
 }
 
 
 /* =====================================================
-   INFORMACIÓN DE LA FICHA
+   INFORMACIÓN FICHA
 ===================================================== */
 
 .ficha-contenido {
-
     padding: 30px;
-
 }
 
 .ficha-marca {
-
     color: #f15a24;
-
     font-size: 13px;
-
     font-weight: 800;
-
     letter-spacing: 2px;
-
     text-transform: uppercase;
-
 }
 
 .ficha-modelo {
-
     margin-top: 8px;
-
-    font-size:
-        clamp(
-            28px,
-            5vw,
-            45px
-        );
-
+    font-size: clamp(28px, 5vw, 45px);
     font-weight: 800;
-
 }
 
 .ficha-datos {
-
     margin-top: 18px;
-
     color: #cfcfcf;
-
     line-height: 1.8;
-
     font-size: 14px;
-
 }
 
 .ficha-descripcion {
-
     margin-top: 25px;
-
     color: #bdbdbd;
-
     font-size: 14px;
-
     line-height: 1.8;
-
 }
 
 .ficha-precio {
-
     margin-top: 25px;
-
     font-size: 27px;
-
     font-weight: 800;
-
     color: #ffffff;
-
 }
 
 
@@ -789,39 +474,21 @@ body {
 ===================================================== */
 
 .contacto {
-
     display: inline-block;
-
     margin-top: 25px;
-
-    padding:
-        15px
-        25px;
-
+    padding: 15px 25px;
     background: #f15a24;
-
     color: white;
-
     text-decoration: none;
-
     border-radius: 9px;
-
     font-size: 13px;
-
     font-weight: 800;
-
-    transition:
-        all .25s ease;
-
+    transition: all .25s ease;
 }
 
 .contacto:hover {
-
     background: #ff6a30;
-
-    transform:
-        translateY(-2px);
-
+    transform: translateY(-2px);
 }
 
 
@@ -830,19 +497,23 @@ body {
 ===================================================== */
 
 .footer {
-
     text-align: center;
-
     padding: 45px 20px;
-
-    border-top:
-        1px solid
-        #252529;
-
+    border-top: 1px solid #252529;
     color: #888888;
-
     font-size: 12px;
+}
 
+
+/* =====================================================
+   MENSAJES
+===================================================== */
+
+.mensaje-catalogo {
+    width: 100%;
+    text-align: center;
+    padding: 50px 20px;
+    color: #999999;
 }
 
 
@@ -853,21 +524,13 @@ body {
 @keyframes aparecer {
 
     from {
-
         opacity: 0;
-
-        transform:
-            translateY(25px);
-
+        transform: translateY(25px);
     }
 
     to {
-
         opacity: 1;
-
-        transform:
-            translateY(0);
-
+        transform: translateY(0);
     }
 
 }
@@ -880,23 +543,15 @@ body {
 @media(max-width:1000px) {
 
     .card {
-
-        flex:
-            0 0
-            calc(50% - 12px);
-
+        flex: 0 0 calc(50% - 12px);
     }
 
     .card-image {
-
         height: 300px;
-
     }
 
     .galeria-principal {
-
         height: 500px;
-
     }
 
 }
@@ -909,109 +564,55 @@ body {
 @media(max-width:650px) {
 
     .hero {
-
         min-height: 32vh;
-
-        padding:
-            45px
-            18px;
-
+        padding: 45px 18px;
     }
 
     .logo-imagen {
-
-        width:
-            min(
-                430px,
-                90vw
-            );
-
+        width: min(430px, 90vw);
         max-height: 160px;
-
     }
 
     .nuevos {
-
-        padding:
-            55px
-            16px
-            65px;
-
+        padding: 55px 16px 65px;
     }
 
     .titulo {
-
         margin-bottom: 30px;
-
     }
 
     .track {
-
         gap: 15px;
-
     }
 
     .card {
-
-        flex:
-            0 0 100%;
-
+        flex: 0 0 100%;
     }
 
     .card-image {
-
         height: 290px;
-
     }
 
     .prev {
-
         left: 8px;
-
     }
 
     .next {
-
         right: 8px;
-
     }
 
     .arrow {
-
         width: 42px;
-
         height: 42px;
-
     }
 
     .galeria-principal {
-
         height: 350px;
-
     }
 
     .ficha-contenido {
-
         padding: 22px;
-
     }
-
-}
-
-
-/* =====================================================
-   ERROR / CARGANDO
-===================================================== */
-
-.mensaje-catalogo {
-
-    width: 100%;
-
-    text-align: center;
-
-    padding: 50px 20px;
-
-    color: #999999;
 
 }
 
@@ -1027,40 +628,24 @@ body {
      ENCABEZADO
 ===================================================== -->
 
-<section
-    class="hero"
-    id="inicio"
->
+<section class="hero" id="inicio">
 
     <div class="hero-content">
 
-
-        <!--
-        LOGO REAL DE DPA
-
-        IMPORTANTE:
-        Este archivo debe estar en el mismo lugar
-        que index.html:
-
-        logo-dpa.png
-        -->
-
+        <!-- LOGO DPA -->
         <img
-            src="./logo-dpa.png"
+            src="logo-dpa.png?v=2"
             alt="da Ponte Automotores"
             class="logo-imagen"
         >
-
 
         <h1>
             Automotores
         </h1>
 
-
         <p>
             Vehículos seleccionados · Confianza · Experiencia
         </p>
-
 
     </div>
 
@@ -1074,13 +659,11 @@ body {
 
 <section class="nuevos">
 
-
     <div class="titulo">
 
         <h2>
             RECIÉN LLEGADOS
         </h2>
-
 
         <p>
             Conocé los últimos vehículos incorporados
@@ -1090,9 +673,7 @@ body {
     </div>
 
 
-
     <div class="carousel">
-
 
         <button
             class="arrow prev"
@@ -1130,7 +711,6 @@ body {
         >
         </div>
 
-
     </div>
 
 </section>
@@ -1146,11 +726,7 @@ body {
     id="modal"
 >
 
-
-    <div
-        class="modal-contenido"
-    >
-
+    <div class="modal-contenido">
 
         <button
             class="cerrar"
@@ -1161,18 +737,12 @@ body {
         </button>
 
 
-
-        <!-- IMAGEN PRINCIPAL -->
-
         <div
             class="galeria-principal"
             id="galeriaPrincipal"
         >
         </div>
 
-
-
-        <!-- MINIATURAS -->
 
         <div
             class="galeria-miniaturas"
@@ -1181,53 +751,39 @@ body {
         </div>
 
 
-
-        <!-- INFORMACIÓN -->
-
-        <div
-            class="ficha-contenido"
-        >
-
+        <div class="ficha-contenido">
 
             <div
                 class="ficha-marca"
                 id="fichaMarca"
-            >
-            </div>
+            ></div>
 
 
             <div
                 class="ficha-modelo"
                 id="fichaModelo"
-            >
-            </div>
+            ></div>
 
 
             <div
                 class="ficha-datos"
                 id="fichaDatos"
-            >
-            </div>
+            ></div>
 
 
             <div
                 class="ficha-descripcion"
                 id="fichaDescripcion"
-            >
-            </div>
+            ></div>
 
 
             <div
                 class="ficha-precio"
                 id="fichaPrecio"
-            >
-            </div>
+            ></div>
 
 
-
-            <!-- =================================================
-                 CONTACTO DPA
-            ================================================== -->
+            <!-- CONTACTO DPA -->
 
             <a
                 id="contacto"
@@ -1239,9 +795,7 @@ body {
                 CONTACTAR CON DPA →
             </a>
 
-
         </div>
-
 
     </div>
 
@@ -1250,7 +804,7 @@ body {
 
 
 <!-- =====================================================
-     PIE
+     FOOTER
 ===================================================== -->
 
 <footer class="footer">
@@ -1265,12 +819,11 @@ body {
 
 
 /* =====================================================
-   CONFIGURACIÓN DE CONTACTO
+   CONTACTO
 ===================================================== */
 
 const CONTACTO_DPA =
     "https://sites.google.com/view/catalogo-digital-dpa/inicio/cont%C3%A1ctanos?authuser=4";
-
 
 
 /* =====================================================
@@ -1282,89 +835,64 @@ let autos = [];
 let posicion = 0;
 
 
-
 const track =
-    document.getElementById(
-        "track"
-    );
+    document.getElementById("track");
 
 
 const dotsContainer =
-    document.getElementById(
-        "dots"
-    );
+    document.getElementById("dots");
 
 
 const modal =
-    document.getElementById(
-        "modal"
-    );
-
+    document.getElementById("modal");
 
 
 /* =====================================================
-   CARGAR CARS.JSON
+   CARGAR INVENTARIO
 ===================================================== */
 
-fetch("./cars.json")
+fetch("cars.json?v=2")
 
-    .then(
-        respuesta => {
+    .then(respuesta => {
 
-            if (!respuesta.ok) {
-
-                throw new Error(
-                    "No se pudo cargar cars.json"
-                );
-
-            }
-
-            return respuesta.json();
-
+        if (!respuesta.ok) {
+            throw new Error(
+                "No se pudo cargar cars.json"
+            );
         }
-    )
 
+        return respuesta.json();
 
-    .then(
-        datos => {
+    })
 
-            autos = Array.isArray(datos)
-                ? datos
-                : [];
+    .then(datos => {
 
-            mostrarRecienLlegados();
+        autos = Array.isArray(datos)
+            ? datos
+            : [];
 
-        }
-    )
+        mostrarRecienLlegados();
 
+    })
 
-    .catch(
-        error => {
+    .catch(error => {
 
-            console.error(error);
+        console.error(error);
 
-            track.innerHTML = `
+        track.innerHTML = `
+            <div class="mensaje-catalogo">
+                No se pudo cargar el inventario.
+            </div>
+        `;
 
-                <div class="mensaje-catalogo">
-
-                    No se pudo cargar
-                    el inventario.
-
-                </div>
-
-            `;
-
-        }
-    );
-
+    });
 
 
 /* =====================================================
-   RECIÉN LLEGADOS
+   MOSTRAR RECIÉN LLEGADOS
 ===================================================== */
 
 function mostrarRecienLlegados() {
-
 
     const recientes =
         autos.filter(
@@ -1376,18 +904,12 @@ function mostrarRecienLlegados() {
     track.innerHTML = "";
 
 
-
     if (!recientes.length) {
 
         track.innerHTML = `
-
             <div class="mensaje-catalogo">
-
-                No hay vehículos
-                recién llegados.
-
+                No hay vehículos recién llegados.
             </div>
-
         `;
 
         dotsContainer.innerHTML = "";
@@ -1397,125 +919,98 @@ function mostrarRecienLlegados() {
     }
 
 
+    recientes.forEach(auto => {
 
-    recientes.forEach(
-        auto => {
+        const card =
+            document.createElement("article");
 
-
-            const card =
-                document.createElement(
-                    "article"
-                );
+        card.className = "card";
 
 
-            card.className =
-                "card";
+        const imagen =
+            auto.imagenes &&
+            auto.imagenes.length
+                ? auto.imagenes[0]
+                : "";
 
 
-
-            const imagen =
-                auto.imagenes &&
-                auto.imagenes.length
-                    ? auto.imagenes[0]
-                    : "";
+        const datos =
+            auto.datos || "";
 
 
+        card.innerHTML = `
 
-            const datos =
-                auto.datos || "";
+            <div class="card-image">
 
+                <span class="badge">
+                    RECIÉN INGRESADO
+                </span>
 
-
-            card.innerHTML = `
-
-                <div class="card-image">
-
-                    <span class="badge">
-                        RECIÉN INGRESADO
-                    </span>
-
-
-                    ${
-                        imagen
-                        ? `
-                            <img
-                                src="${imagen}"
-                                alt="${auto.marca || ""} ${auto.modelo || ""}"
-                                loading="lazy"
-                            >
-                          `
-                        : `
-                            <div
-                                class="mensaje-catalogo"
-                            >
-                                Sin imagen
-                            </div>
-                          `
-                    }
-
-                </div>
-
-
-
-                <div class="card-info">
-
-                    <div class="marca">
-                        ${auto.marca || ""}
-                    </div>
-
-
-                    <div class="modelo">
-                        ${auto.modelo || ""}
-                    </div>
-
-
-                    <div class="datos">
-                        ${datos}
-                    </div>
-
-
-                    <a
-                        href="#"
-                        class="ficha"
+                ${
+                    imagen
+                    ?
+                    `
+                    <img
+                        src="${imagen}"
+                        alt="${auto.marca || ""} ${auto.modelo || ""}"
+                        loading="lazy"
                     >
-                        VER FICHA →
-                    </a>
+                    `
+                    :
+                    `
+                    <div class="mensaje-catalogo">
+                        Sin imagen
+                    </div>
+                    `
+                }
 
+            </div>
+
+
+            <div class="card-info">
+
+                <div class="marca">
+                    ${auto.marca || ""}
                 </div>
 
-            `;
+                <div class="modelo">
+                    ${auto.modelo || ""}
+                </div>
+
+                <div class="datos">
+                    ${datos}
+                </div>
+
+                <a
+                    href="#"
+                    class="ficha"
+                >
+                    VER FICHA →
+                </a>
+
+            </div>
+        `;
 
 
-
-            const boton =
-                card.querySelector(
-                    ".ficha"
-                );
+        const boton =
+            card.querySelector(".ficha");
 
 
+        boton.addEventListener(
+            "click",
+            function(event) {
 
-            boton.addEventListener(
-                "click",
-                function(event) {
+                event.preventDefault();
 
-                    event.preventDefault();
+                abrirFicha(auto.id);
 
-                    abrirFicha(
-                        auto.id
-                    );
-
-                }
-            );
+            }
+        );
 
 
+        track.appendChild(card);
 
-            track.appendChild(
-                card
-            );
-
-        }
-    );
-
+    });
 
 
     crearDots();
@@ -1527,16 +1022,13 @@ function mostrarRecienLlegados() {
 }
 
 
-
 /* =====================================================
    CREAR PUNTOS
 ===================================================== */
 
 function crearDots() {
 
-
     dotsContainer.innerHTML = "";
-
 
 
     const recientes =
@@ -1546,13 +1038,11 @@ function crearDots() {
         );
 
 
-
     const cantidad =
         Math.max(
             1,
             recientes.length
         );
-
 
 
     for (
@@ -1561,11 +1051,8 @@ function crearDots() {
         i++
     ) {
 
-
         const dot =
-            document.createElement(
-                "button"
-            );
+            document.createElement("button");
 
 
         dot.className =
@@ -1593,14 +1080,11 @@ function crearDots() {
         );
 
 
-        dotsContainer.appendChild(
-            dot
-        );
+        dotsContainer.appendChild(dot);
 
     }
 
 }
-
 
 
 /* =====================================================
@@ -1609,29 +1093,17 @@ function crearDots() {
 
 function cantidadVisible() {
 
-
-    if (
-        window.innerWidth <= 650
-    ) {
-
+    if (window.innerWidth <= 650) {
         return 1;
-
     }
 
-
-    if (
-        window.innerWidth <= 1000
-    ) {
-
+    if (window.innerWidth <= 1000) {
         return 2;
-
     }
-
 
     return 4;
 
 }
-
 
 
 /* =====================================================
@@ -1640,30 +1112,21 @@ function cantidadVisible() {
 
 function actualizarCarrusel() {
 
-
     const cards =
-        document.querySelectorAll(
-            ".card"
-        );
+        document.querySelectorAll(".card");
 
 
     const dots =
-        document.querySelectorAll(
-            ".dot"
-        );
+        document.querySelectorAll(".dot");
 
 
     if (!cards.length) {
-
         return;
-
     }
-
 
 
     const visibles =
         cantidadVisible();
-
 
 
     const ancho =
@@ -1672,12 +1135,10 @@ function actualizarCarrusel() {
             .width;
 
 
-
     const espacio =
         window.innerWidth <= 650
             ? 15
             : 24;
-
 
 
     const maximo =
@@ -1687,15 +1148,9 @@ function actualizarCarrusel() {
         );
 
 
-
-    if (
-        posicion > maximo
-    ) {
-
+    if (posicion > maximo) {
         posicion = maximo;
-
     }
-
 
 
     track.style.transform =
@@ -1703,7 +1158,6 @@ function actualizarCarrusel() {
             posicion *
             (ancho + espacio)
         }px)`;
-
 
 
     dots.forEach(
@@ -1720,33 +1174,23 @@ function actualizarCarrusel() {
 }
 
 
-
 /* =====================================================
-   MOVER
+   MOVER CARRUSEL
 ===================================================== */
 
-function mover(
-    direccion
-) {
-
+function mover(direccion) {
 
     const cards =
-        document.querySelectorAll(
-            ".card"
-        );
+        document.querySelectorAll(".card");
 
 
     if (!cards.length) {
-
         return;
-
     }
-
 
 
     const visibles =
         cantidadVisible();
-
 
 
     const maximo =
@@ -1754,31 +1198,19 @@ function mover(
             0,
             cards.length - visibles
         );
-
 
 
     posicion += direccion;
 
 
-
-    if (
-        posicion > maximo
-    ) {
-
+    if (posicion > maximo) {
         posicion = 0;
-
     }
 
 
-
-    if (
-        posicion < 0
-    ) {
-
+    if (posicion < 0) {
         posicion = maximo;
-
     }
-
 
 
     actualizarCarrusel();
@@ -1786,25 +1218,18 @@ function mover(
 }
 
 
-
 /* =====================================================
-   IR A
+   IR A POSICIÓN
 ===================================================== */
 
-function irA(
-    numero
-) {
-
+function irA(numero) {
 
     const cards =
-        document.querySelectorAll(
-            ".card"
-        );
+        document.querySelectorAll(".card");
 
 
     const visibles =
         cantidadVisible();
-
 
 
     const maximo =
@@ -1814,52 +1239,35 @@ function irA(
         );
 
 
-
     posicion = numero;
 
 
-
-    if (
-        posicion > maximo
-    ) {
-
+    if (posicion > maximo) {
         posicion = maximo;
-
     }
-
 
 
     actualizarCarrusel();
 
 }
-
 
 
 /* =====================================================
    ABRIR FICHA
 ===================================================== */
 
-function abrirFicha(
-    id
-) {
-
+function abrirFicha(id) {
 
     const auto =
         autos.find(
             vehiculo =>
-                String(
-                    vehiculo.id
-                ) === String(id)
+                String(vehiculo.id) === String(id)
         );
 
 
-
     if (!auto) {
-
         return;
-
     }
-
 
 
     /* INFORMACIÓN */
@@ -1870,12 +1278,10 @@ function abrirFicha(
         auto.marca || "";
 
 
-
     document.getElementById(
         "fichaModelo"
     ).textContent =
         auto.modelo || "";
-
 
 
     document.getElementById(
@@ -1884,19 +1290,16 @@ function abrirFicha(
         auto.datos || "";
 
 
-
     document.getElementById(
         "fichaDescripcion"
     ).textContent =
         auto.descripcion || "";
 
 
-
     document.getElementById(
         "fichaPrecio"
     ).textContent =
         auto.precio || "";
-
 
 
     /* CONTACTO */
@@ -1907,16 +1310,12 @@ function abrirFicha(
         CONTACTO_DPA;
 
 
-
     /* GALERÍA */
 
     const imagenes =
-        Array.isArray(
-            auto.imagenes
-        )
+        Array.isArray(auto.imagenes)
             ? auto.imagenes
             : [];
-
 
 
     const principal =
@@ -1931,22 +1330,15 @@ function abrirFicha(
         );
 
 
-
     principal.innerHTML = "";
 
     miniaturas.innerHTML = "";
 
 
-
-    if (
-        imagenes.length
-    ) {
-
+    if (imagenes.length) {
 
         const imagenPrincipal =
-            document.createElement(
-                "img"
-            );
+            document.createElement("img");
 
 
         imagenPrincipal.src =
@@ -1962,34 +1354,21 @@ function abrirFicha(
         );
 
 
-
         imagenes.forEach(
-            (
-                src,
-                index
-            ) => {
-
+            (src, index) => {
 
                 const miniatura =
-                    document.createElement(
-                        "img"
-                    );
+                    document.createElement("img");
 
 
-                miniatura.src =
-                    src;
+                miniatura.src = src;
 
 
                 miniatura.alt =
-                    `Imagen ${
-                        index + 1
-                    }`;
+                    `Imagen ${index + 1}`;
 
 
-
-                if (
-                    index === 0
-                ) {
+                if (index === 0) {
 
                     miniatura.classList.add(
                         "activa"
@@ -1998,28 +1377,22 @@ function abrirFicha(
                 }
 
 
-
                 miniatura.addEventListener(
                     "click",
                     function() {
-
 
                         imagenPrincipal.src =
                             src;
 
 
-
                         miniaturas
-                            .querySelectorAll(
-                                "img"
-                            )
+                            .querySelectorAll("img")
                             .forEach(
                                 img =>
                                     img.classList.remove(
                                         "activa"
                                     )
                             );
-
 
 
                         miniatura.classList.add(
@@ -2030,7 +1403,6 @@ function abrirFicha(
                 );
 
 
-
                 miniaturas.appendChild(
                     miniatura
                 );
@@ -2038,37 +1410,24 @@ function abrirFicha(
             }
         );
 
-
     } else {
 
-
         principal.innerHTML = `
-
-            <div
-                class="mensaje-catalogo"
-            >
-                Este vehículo
-                no tiene fotografías.
+            <div class="mensaje-catalogo">
+                Este vehículo no tiene fotografías.
             </div>
-
         `;
 
     }
 
 
+    /* ABRIR MODAL */
 
-    /* ABRIR */
+    modal.classList.add("activo");
 
-    modal.classList.add(
-        "activo"
-    );
-
-
-    document.body.style.overflow =
-        "hidden";
+    document.body.style.overflow = "hidden";
 
 }
-
 
 
 /* =====================================================
@@ -2077,72 +1436,53 @@ function abrirFicha(
 
 function cerrarFicha() {
 
+    modal.classList.remove("activo");
 
-    modal.classList.remove(
-        "activo"
-    );
-
-
-    document.body.style.overflow =
-        "";
+    document.body.style.overflow = "";
 
 }
 
 
-
 /* =====================================================
-   CERRAR HACIENDO CLICK FUERA
+   CERRAR AL HACER CLICK FUERA
 ===================================================== */
 
 modal.addEventListener(
     "click",
     function(event) {
 
-
-        if (
-            event.target === modal
-        ) {
-
+        if (event.target === modal) {
             cerrarFicha();
-
         }
 
     }
 );
 
 
-
 /* =====================================================
-   ESC PARA CERRAR
+   ESC
 ===================================================== */
 
 document.addEventListener(
     "keydown",
     function(event) {
 
-
-        if (
-            event.key === "Escape"
-        ) {
-
+        if (event.key === "Escape") {
             cerrarFicha();
-
         }
 
     }
 );
 
 
-
 /* =====================================================
-   CAMBIO DE TAMAÑO
+   REDIMENSIONAR
 ===================================================== */
 
 window.addEventListener(
     "resize",
     actualizarCarrusel
 );
-
 
 
 /* =====================================================
@@ -2152,12 +1492,8 @@ window.addEventListener(
 setInterval(
     function() {
 
-        if (
-            autos.length > 0
-        ) {
-
+        if (autos.length > 0) {
             mover(1);
-
         }
 
     },
@@ -2167,5 +1503,4 @@ setInterval(
 </script>
 
 </body>
-
 </html>
