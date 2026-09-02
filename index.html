@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>DPA | Vehículos</title>
 
 <style>
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
 * {
@@ -24,13 +21,12 @@ html {
 body {
     font-family: 'Montserrat', Arial, sans-serif;
     background: #0b0b0d;
-    color: #ffffff;
+    color: #fff;
 }
 
-
-/* =====================================================
+/* =========================
    HERO
-===================================================== */
+========================= */
 
 .hero {
     min-height: 38vh;
@@ -40,11 +36,7 @@ body {
     text-align: center;
     padding: 60px 20px;
     background:
-        radial-gradient(
-            circle at center,
-            #25252a 0%,
-            #0b0b0d 65%
-        );
+        radial-gradient(circle at center, #25252a 0%, #0b0b0d 65%);
 }
 
 .hero-content {
@@ -52,11 +44,6 @@ body {
     max-width: 850px;
     animation: aparecer 1s ease forwards;
 }
-
-
-/* =====================================================
-   LOGO REAL DPA
-===================================================== */
 
 .logo-imagen {
     width: min(520px, 85vw);
@@ -67,32 +54,25 @@ body {
     margin: 0 auto;
 }
 
-
-/* =====================================================
-   TEXTO HERO
-===================================================== */
-
-.hero h1 {
-    margin-top: 15px;
-    font-size: clamp(28px, 5vw, 52px);
-    font-weight: 700;
-}
-
 .hero p {
     margin-top: 14px;
-    color: #cccccc;
+    color: #ccc;
     font-size: 15px;
 }
 
+/* =========================
+   SECCIONES
+========================= */
 
-/* =====================================================
-   RECIÉN LLEGADOS
-===================================================== */
-
-.nuevos {
+.nuevos,
+.catalogo {
     padding: 70px 20px 85px;
     background: #0b0b0d;
     overflow: hidden;
+}
+
+.catalogo {
+    background: #101012;
 }
 
 .titulo {
@@ -122,10 +102,9 @@ body {
     font-size: 14px;
 }
 
-
-/* =====================================================
-   CARRUSEL
-===================================================== */
+/* =========================
+   CARRUSEL RECIÉN LLEGADOS
+========================= */
 
 .carousel {
     position: relative;
@@ -156,11 +135,6 @@ body {
     box-shadow: 0 18px 45px rgba(0,0,0,.45);
 }
 
-
-/* =====================================================
-   IMAGEN DE TARJETA
-===================================================== */
-
 .card-image {
     position: relative;
     height: 270px;
@@ -180,11 +154,6 @@ body {
     transform: scale(1.05);
 }
 
-
-/* =====================================================
-   BADGE
-===================================================== */
-
 .badge {
     position: absolute;
     top: 14px;
@@ -198,11 +167,6 @@ body {
     letter-spacing: .5px;
     z-index: 2;
 }
-
-
-/* =====================================================
-   INFORMACIÓN TARJETA
-===================================================== */
 
 .card-info {
     padding: 22px;
@@ -236,7 +200,7 @@ body {
     margin-top: 18px;
     padding: 11px 17px;
     border: 1px solid #f15a24;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     border-radius: 8px;
     font-size: 12px;
@@ -250,10 +214,9 @@ body {
     transform: translateY(-2px);
 }
 
-
-/* =====================================================
+/* =========================
    FLECHAS
-===================================================== */
+========================= */
 
 .arrow {
     position: absolute;
@@ -288,10 +251,9 @@ body {
     right: -23px;
 }
 
-
-/* =====================================================
+/* =========================
    PUNTOS
-===================================================== */
+========================= */
 
 .dots {
     display: flex;
@@ -304,7 +266,7 @@ body {
     width: 9px;
     height: 9px;
     border-radius: 50%;
-    background: #555555;
+    background: #555;
     border: none;
     cursor: pointer;
     transition: all .25s ease;
@@ -316,10 +278,26 @@ body {
     background: #f15a24;
 }
 
+/* =========================
+   CATÁLOGO COMPLETO
+========================= */
 
-/* =====================================================
-   MODAL
-===================================================== */
+.catalogo-grid {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.catalogo-grid .card {
+    width: 100%;
+}
+
+/* =========================
+   MODAL / FICHA
+========================= */
 
 .modal {
     display: none;
@@ -348,11 +326,6 @@ body {
     box-shadow: 0 30px 80px rgba(0,0,0,.6);
 }
 
-
-/* =====================================================
-   CERRAR
-===================================================== */
-
 .cerrar {
     position: absolute;
     top: 15px;
@@ -373,11 +346,6 @@ body {
     background: #f15a24;
 }
 
-
-/* =====================================================
-   GALERÍA PRINCIPAL
-===================================================== */
-
 .galeria-principal {
     width: 100%;
     height: 600px;
@@ -393,11 +361,6 @@ body {
     object-fit: contain;
     display: block;
 }
-
-
-/* =====================================================
-   MINIATURAS
-===================================================== */
 
 .galeria-miniaturas {
     display: flex;
@@ -423,11 +386,6 @@ body {
     opacity: 1;
     border-color: #f15a24;
 }
-
-
-/* =====================================================
-   INFORMACIÓN FICHA
-===================================================== */
 
 .ficha-contenido {
     padding: 30px;
@@ -465,13 +423,8 @@ body {
     margin-top: 25px;
     font-size: 27px;
     font-weight: 800;
-    color: #ffffff;
+    color: #fff;
 }
-
-
-/* =====================================================
-   CONTACTO
-===================================================== */
 
 .contacto {
     display: inline-block;
@@ -491,38 +444,34 @@ body {
     transform: translateY(-2px);
 }
 
-
-/* =====================================================
-   FOOTER
-===================================================== */
-
-.footer {
-    text-align: center;
-    padding: 45px 20px;
-    border-top: 1px solid #252529;
-    color: #888888;
-    font-size: 12px;
-}
-
-
-/* =====================================================
+/* =========================
    MENSAJES
-===================================================== */
+========================= */
 
 .mensaje-catalogo {
     width: 100%;
     text-align: center;
     padding: 50px 20px;
-    color: #999999;
+    color: #999;
 }
 
+/* =========================
+   FOOTER
+========================= */
 
-/* =====================================================
+.footer {
+    text-align: center;
+    padding: 45px 20px;
+    border-top: 1px solid #252529;
+    color: #888;
+    font-size: 12px;
+}
+
+/* =========================
    ANIMACIÓN
-===================================================== */
+========================= */
 
 @keyframes aparecer {
-
     from {
         opacity: 0;
         transform: translateY(25px);
@@ -532,13 +481,11 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
-
 }
 
-
-/* =====================================================
+/* =========================
    TABLET
-===================================================== */
+========================= */
 
 @media(max-width:1000px) {
 
@@ -554,12 +501,14 @@ body {
         height: 500px;
     }
 
+    .catalogo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-
-/* =====================================================
-   CELULAR
-===================================================== */
+/* =========================
+   MÓVIL
+========================= */
 
 @media(max-width:650px) {
 
@@ -573,7 +522,8 @@ body {
         max-height: 160px;
     }
 
-    .nuevos {
+    .nuevos,
+    .catalogo {
         padding: 55px 16px 65px;
     }
 
@@ -614,25 +564,23 @@ body {
         padding: 22px;
     }
 
+    .catalogo-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }
-
 </style>
-
 </head>
-
 
 <body>
 
-
-<!-- =====================================================
-     ENCABEZADO
-===================================================== -->
+<!-- =========================
+     HERO
+========================= -->
 
 <section class="hero" id="inicio">
 
     <div class="hero-content">
-
-        <!-- LOGO DPA -->
 
         <img
             src="logo-dpa.png?v=2"
@@ -649,26 +597,21 @@ body {
 </section>
 
 
-
-<!-- =====================================================
+<!-- =========================
      RECIÉN LLEGADOS
-===================================================== -->
+========================= -->
 
 <section class="nuevos">
 
     <div class="titulo">
 
-        <h2>
-            RECIÉN LLEGADOS
-        </h2>
+        <h2>RECIÉN LLEGADOS</h2>
 
         <p>
-            Conocé los últimos vehículos incorporados
-            a DPA
+            Conocé los últimos vehículos incorporados a DPA
         </p>
 
     </div>
-
 
     <div class="carousel">
 
@@ -680,18 +623,14 @@ body {
             ‹
         </button>
 
-
         <div
             class="track"
             id="track"
         >
-
             <div class="mensaje-catalogo">
                 Cargando vehículos...
             </div>
-
         </div>
-
 
         <button
             class="arrow next"
@@ -701,11 +640,39 @@ body {
             ›
         </button>
 
-
         <div
             class="dots"
             id="dots"
-        >
+        ></div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CATÁLOGO COMPLETO
+========================= -->
+
+<section class="catalogo" id="catalogo">
+
+    <div class="titulo">
+
+        <h2>CATÁLOGO COMPLETO</h2>
+
+        <p>
+            Conocé todos los vehículos disponibles en DPA
+        </p>
+
+    </div>
+
+    <div
+        class="catalogo-grid"
+        id="catalogoGrid"
+    >
+
+        <div class="mensaje-catalogo">
+            Cargando catálogo...
         </div>
 
     </div>
@@ -713,10 +680,9 @@ body {
 </section>
 
 
-
-<!-- =====================================================
-     FICHA DEL VEHÍCULO
-===================================================== -->
+<!-- =========================
+     MODAL / FICHA DEL VEHÍCULO
+========================= -->
 
 <div
     class="modal"
@@ -737,15 +703,13 @@ body {
         <div
             class="galeria-principal"
             id="galeriaPrincipal"
-        >
-        </div>
+        ></div>
 
 
         <div
             class="galeria-miniaturas"
             id="galeriaMiniaturas"
-        >
-        </div>
+        ></div>
 
 
         <div class="ficha-contenido">
@@ -755,32 +719,25 @@ body {
                 id="fichaMarca"
             ></div>
 
-
             <div
                 class="ficha-modelo"
                 id="fichaModelo"
             ></div>
-
 
             <div
                 class="ficha-datos"
                 id="fichaDatos"
             ></div>
 
-
             <div
                 class="ficha-descripcion"
                 id="fichaDescripcion"
             ></div>
 
-
             <div
                 class="ficha-precio"
                 id="fichaPrecio"
             ></div>
-
-
-            <!-- CONTACTO DPA -->
 
             <a
                 id="contacto"
@@ -799,54 +756,43 @@ body {
 </div>
 
 
-
-<!-- =====================================================
+<!-- =========================
      FOOTER
-===================================================== -->
+========================= -->
 
 <footer class="footer">
-
     DPA · 16 años de trayectoria
-
 </footer>
-
 
 
 <script>
 
-
-/* =====================================================
-   CONTACTO
-===================================================== */
+/* =========================
+   CONFIGURACIÓN
+========================= */
 
 const CONTACTO_DPA =
     "https://sites.google.com/view/catalogo-digital-dpa/inicio/cont%C3%A1ctanos?authuser=4";
 
-
-/* =====================================================
-   VARIABLES
-===================================================== */
-
 let autos = [];
-
 let posicion = 0;
-
 
 const track =
     document.getElementById("track");
 
-
 const dotsContainer =
     document.getElementById("dots");
 
+const catalogoGrid =
+    document.getElementById("catalogoGrid");
 
 const modal =
     document.getElementById("modal");
 
 
-/* =====================================================
+/* =========================
    CARGAR INVENTARIO
-===================================================== */
+========================= */
 
 fetch("cars.json?v=2")
 
@@ -864,11 +810,14 @@ fetch("cars.json?v=2")
 
     .then(datos => {
 
-        autos = Array.isArray(datos)
-            ? datos
-            : [];
+        autos =
+            Array.isArray(datos)
+                ? datos
+                : [];
 
         mostrarRecienLlegados();
+
+        mostrarCatalogoCompleto();
 
     })
 
@@ -882,24 +831,27 @@ fetch("cars.json?v=2")
             </div>
         `;
 
+        catalogoGrid.innerHTML = `
+            <div class="mensaje-catalogo">
+                No se pudo cargar el catálogo.
+            </div>
+        `;
+
     });
 
 
-/* =====================================================
-   MOSTRAR RECIÉN LLEGADOS
-===================================================== */
+/* =========================
+   RECIÉN LLEGADOS
+========================= */
 
 function mostrarRecienLlegados() {
 
     const recientes =
         autos.filter(
-            auto =>
-                auto.recienLlegado === true
+            auto => auto.recienLlegado === true
         );
 
-
     track.innerHTML = "";
-
 
     if (!recientes.length) {
 
@@ -912,98 +864,13 @@ function mostrarRecienLlegados() {
         dotsContainer.innerHTML = "";
 
         return;
-
     }
 
 
     recientes.forEach(auto => {
 
         const card =
-            document.createElement("article");
-
-        card.className = "card";
-
-
-        const imagen =
-            auto.imagenes &&
-            auto.imagenes.length
-                ? auto.imagenes[0]
-                : "";
-
-
-        const datos =
-            auto.datos || "";
-
-
-        card.innerHTML = `
-
-            <div class="card-image">
-
-                <span class="badge">
-                    RECIÉN INGRESADO
-                </span>
-
-                ${
-                    imagen
-                    ?
-                    `
-                    <img
-                        src="${imagen}"
-                        alt="${auto.marca || ""} ${auto.modelo || ""}"
-                        loading="lazy"
-                    >
-                    `
-                    :
-                    `
-                    <div class="mensaje-catalogo">
-                        Sin imagen
-                    </div>
-                    `
-                }
-
-            </div>
-
-
-            <div class="card-info">
-
-                <div class="marca">
-                    ${auto.marca || ""}
-                </div>
-
-                <div class="modelo">
-                    ${auto.modelo || ""}
-                </div>
-
-                <div class="datos">
-                    ${datos}
-                </div>
-
-                <a
-                    href="#"
-                    class="ficha"
-                >
-                    VER FICHA →
-                </a>
-
-            </div>
-        `;
-
-
-        const boton =
-            card.querySelector(".ficha");
-
-
-        boton.addEventListener(
-            "click",
-            function(event) {
-
-                event.preventDefault();
-
-                abrirFicha(auto.id);
-
-            }
-        );
-
+            crearTarjeta(auto, true);
 
         track.appendChild(card);
 
@@ -1019,51 +886,188 @@ function mostrarRecienLlegados() {
 }
 
 
-/* =====================================================
-   CREAR PUNTOS
-===================================================== */
+/* =========================
+   CATÁLOGO COMPLETO
+========================= */
+
+function mostrarCatalogoCompleto() {
+
+    catalogoGrid.innerHTML = "";
+
+    if (!autos.length) {
+
+        catalogoGrid.innerHTML = `
+            <div class="mensaje-catalogo">
+                No hay vehículos disponibles.
+            </div>
+        `;
+
+        return;
+    }
+
+
+    autos.forEach(auto => {
+
+        const card =
+            crearTarjeta(auto, false);
+
+        catalogoGrid.appendChild(card);
+
+    });
+
+}
+
+
+/* =========================
+   CREAR TARJETA
+========================= */
+
+function crearTarjeta(auto, mostrarBadge) {
+
+    const card =
+        document.createElement("article");
+
+    card.className = "card";
+
+
+    const imagen =
+        auto.imagenes &&
+        auto.imagenes.length
+            ? auto.imagenes[0]
+            : "";
+
+
+    const datos =
+        auto.datos || "";
+
+
+    const badge =
+        mostrarBadge &&
+        auto.recienLlegado === true
+            ? `
+                <span class="badge">
+                    RECIÉN INGRESADO
+                </span>
+              `
+            : "";
+
+
+    card.innerHTML = `
+
+        <div class="card-image">
+
+            ${badge}
+
+            ${
+                imagen
+                    ? `
+                        <img
+                            src="${imagen}"
+                            alt="${auto.marca || ""} ${auto.modelo || ""}"
+                            loading="lazy"
+                        >
+                      `
+                    : `
+                        <div class="mensaje-catalogo">
+                            Sin imagen
+                        </div>
+                      `
+            }
+
+        </div>
+
+
+        <div class="card-info">
+
+            <div class="marca">
+                ${auto.marca || ""}
+            </div>
+
+            <div class="modelo">
+                ${auto.modelo || ""}
+            </div>
+
+            <div class="datos">
+                ${datos}
+            </div>
+
+            <a
+                href="#"
+                class="ficha"
+            >
+                VER FICHA →
+            </a>
+
+        </div>
+
+    `;
+
+
+    const boton =
+        card.querySelector(".ficha");
+
+
+    boton.addEventListener(
+        "click",
+        function(event) {
+
+            event.preventDefault();
+
+            abrirFicha(auto.id);
+
+        }
+    );
+
+
+    return card;
+
+}
+
+
+/* =========================
+   DOTS
+========================= */
 
 function crearDots() {
 
     dotsContainer.innerHTML = "";
 
-
     const recientes =
         autos.filter(
-            auto =>
-                auto.recienLlegado === true
+            auto => auto.recienLlegado === true
         );
 
 
-    const cantidad =
+    const visibles =
+        cantidadVisible();
+
+
+    const posiciones =
         Math.max(
             1,
-            recientes.length
+            recientes.length - visibles + 1
         );
 
 
     for (
         let i = 0;
-        i < cantidad;
+        i < posiciones;
         i++
     ) {
 
         const dot =
             document.createElement("button");
 
-
         dot.className =
             "dot" +
-            (
-                i === 0
-                    ? " active"
-                    : ""
-            );
+            (i === 0
+                ? " active"
+                : "");
 
 
         dot.setAttribute(
             "aria-label",
-            `Vehículo ${i + 1}`
+            `Posición ${i + 1}`
         );
 
 
@@ -1084,9 +1088,9 @@ function crearDots() {
 }
 
 
-/* =====================================================
+/* =========================
    CANTIDAD VISIBLE
-===================================================== */
+========================= */
 
 function cantidadVisible() {
 
@@ -1103,18 +1107,21 @@ function cantidadVisible() {
 }
 
 
-/* =====================================================
+/* =========================
    ACTUALIZAR CARRUSEL
-===================================================== */
+========================= */
 
 function actualizarCarrusel() {
 
     const cards =
-        document.querySelectorAll(".card");
-
+        document.querySelectorAll(
+            "#track .card"
+        );
 
     const dots =
-        document.querySelectorAll(".dot");
+        document.querySelectorAll(
+            "#dots .dot"
+        );
 
 
     if (!cards.length) {
@@ -1127,9 +1134,7 @@ function actualizarCarrusel() {
 
 
     const ancho =
-        cards[0]
-            .getBoundingClientRect()
-            .width;
+        cards[0].getBoundingClientRect().width;
 
 
     const espacio =
@@ -1151,10 +1156,7 @@ function actualizarCarrusel() {
 
 
     track.style.transform =
-        `translateX(-${
-            posicion *
-            (ancho + espacio)
-        }px)`;
+        `translateX(-${posicion * (ancho + espacio)}px)`;
 
 
     dots.forEach(
@@ -1171,14 +1173,16 @@ function actualizarCarrusel() {
 }
 
 
-/* =====================================================
+/* =========================
    MOVER CARRUSEL
-===================================================== */
+========================= */
 
 function mover(direccion) {
 
     const cards =
-        document.querySelectorAll(".card");
+        document.querySelectorAll(
+            "#track .card"
+        );
 
 
     if (!cards.length) {
@@ -1215,14 +1219,21 @@ function mover(direccion) {
 }
 
 
-/* =====================================================
+/* =========================
    IR A POSICIÓN
-===================================================== */
+========================= */
 
 function irA(numero) {
 
     const cards =
-        document.querySelectorAll(".card");
+        document.querySelectorAll(
+            "#track .card"
+        );
+
+
+    if (!cards.length) {
+        return;
+    }
 
 
     const visibles =
@@ -1249,9 +1260,9 @@ function irA(numero) {
 }
 
 
-/* =====================================================
+/* =========================
    ABRIR FICHA
-===================================================== */
+========================= */
 
 function abrirFicha(id) {
 
@@ -1266,8 +1277,6 @@ function abrirFicha(id) {
         return;
     }
 
-
-    /* INFORMACIÓN */
 
     document.getElementById(
         "fichaMarca"
@@ -1299,15 +1308,11 @@ function abrirFicha(id) {
         auto.precio || "";
 
 
-    /* CONTACTO */
-
     document.getElementById(
         "contacto"
     ).href =
         CONTACTO_DPA;
 
-
-    /* GALERÍA */
 
     const imagenes =
         Array.isArray(auto.imagenes)
@@ -1418,79 +1423,97 @@ function abrirFicha(id) {
     }
 
 
-    /* ABRIR MODAL */
+    modal.classList.add(
+        "activo"
+    );
 
-    modal.classList.add("activo");
 
-    document.body.style.overflow = "hidden";
+    document.body.style.overflow =
+        "hidden";
 
 }
 
 
-/* =====================================================
+/* =========================
    CERRAR FICHA
-===================================================== */
+========================= */
 
 function cerrarFicha() {
 
-    modal.classList.remove("activo");
+    modal.classList.remove(
+        "activo"
+    );
 
-    document.body.style.overflow = "";
+
+    document.body.style.overflow =
+        "";
 
 }
 
 
-/* =====================================================
+/* =========================
    CERRAR AL HACER CLICK FUERA
-===================================================== */
+========================= */
 
 modal.addEventListener(
     "click",
     function(event) {
 
         if (event.target === modal) {
+
             cerrarFicha();
+
         }
 
     }
 );
 
 
-/* =====================================================
-   ESC
-===================================================== */
+/* =========================
+   ESCAPE
+========================= */
 
 document.addEventListener(
     "keydown",
     function(event) {
 
         if (event.key === "Escape") {
+
             cerrarFicha();
+
         }
 
     }
 );
 
 
-/* =====================================================
+/* =========================
    REDIMENSIONAR
-===================================================== */
+========================= */
 
 window.addEventListener(
     "resize",
-    actualizarCarrusel
+    function() {
+
+        crearDots();
+
+        actualizarCarrusel();
+
+    }
 );
 
 
-/* =====================================================
-   CARRUSEL AUTOMÁTICO
-===================================================== */
+/* =========================
+   AUTOPLAY
+========================= */
 
 setInterval(
     function() {
 
         if (autos.length > 0) {
+
             mover(1);
+
         }
 
     },
