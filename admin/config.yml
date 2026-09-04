@@ -1,0 +1,38 @@
+backend:
+  name: github
+  repo: dpacatalogodigital/catalogo-dpa
+  branch: main
+
+media_folder: "imagenes/vehiculos"
+public_folder: "/imagenes/vehiculos"
+
+collections:
+  - name: "vehiculos"
+    label: "Vehículos"
+    files:
+      - name: "stock"
+        label: "Stock del catálogo"
+        file: "cars.json"
+        format: "json"
+        fields:
+          - label: "Vehículos"
+            name: "vehiculos"
+            widget: "list"
+            summary: "{{fields.marca}} {{fields.modelo}} {{fields.anio}}"
+            fields:
+              - {label: "ID", name: "id", widget: "number", value_type: "int"}
+              - {label: "Marca", name: "marca", widget: "select", options: [AUDI, BMW, CHEVROLET, CITROËN, FIAT, FORD, JEEP, MERCEDES, MINI, NISSAN, PEUGEOT, DODGE-RAM, RENAULT, TOYOTA, VOLKSWAGEN]}
+              - {label: "Modelo", name: "modelo", widget: "string"}
+              - {label: "Tipo", name: "tipo", widget: "select", options: [Hatch, Sedán, Rural, SUV, Pick-Up, Furgón-Utilitario, Coupé, Cabriolet]}
+              - {label: "Año", name: "anio", widget: "number", value_type: "int"}
+              - {label: "Condición", name: "condicion", widget: "select", options: [usado, 0km]}
+              - {label: "Datos destacados", name: "datos", widget: "string", required: false}
+              - {label: "Precio", name: "precio", widget: "string", required: false}
+              - {label: "Recién llegado", name: "recienLlegado", widget: "boolean", default: false}
+              - {label: "Oferta / SALE", name: "sale", widget: "boolean", default: false}
+              - {label: "Descripción", name: "descripcion", widget: "text", required: false}
+              - label: "Fotos"
+                name: "imagenes"
+                widget: "list"
+                required: false
+                field: {label: "Foto", name: "foto", widget: "image"}
