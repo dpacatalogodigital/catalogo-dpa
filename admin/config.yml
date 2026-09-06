@@ -2,6 +2,8 @@ backend:
   name: github
   repo: dpacatalogodigital/catalogo-dpa
   branch: main
+  base_url: https://dpa-decap-auth.redesdpa2023.workers.dev
+  auth_endpoint: auth
 
 media_folder: "imagenes/vehiculos"
 public_folder: "/imagenes/vehiculos"
