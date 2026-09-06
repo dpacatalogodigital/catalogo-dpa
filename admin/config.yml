@@ -38,12 +38,4 @@ collections:
                 name: "imagenes"
                 widget: "list"
                 required: false
-                hint: "Elegí varias fotos de una vez desde tu computadora. No hace falta usar enlaces."
-                field:
-                  label: "Foto"
-                  name: "foto"
-                  widget: "image"
-                  choose_url: false
-                  media_library:
-                    config:
-                      multiple: true
+                field: {label: "Foto", name: "foto", widget: "image"}
