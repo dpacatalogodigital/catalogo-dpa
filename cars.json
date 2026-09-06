@@ -3,9 +3,7 @@
     {
       "imagenes": [
         "mini.jpeg",
-        "/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.17-am.jpeg",
-        "/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.42-am.jpeg",
-        "/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.42-am.jpeg"
+        "/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.17-am.jpeg"
       ],
       "modelo": "Cooper S 1.6 Turbo 175 CV",
       "precio": "Consultar",
@@ -15,7 +13,7 @@
       "descripcion": "Mini Cooper S 1.6 Turbo de 175 CV. Vehículo compacto, deportivo y con excelente equipamiento.",
       "anio": 2008,
       "tipo": "Hatch",
-      "id": "",
+      "id": 1,
       "datos": "175 CV · Nafta · Turbo",
       "marca": "MINI"
     },
@@ -66,11 +64,6 @@
       "id": 4,
       "datos": "Bi-Turbo · 4x2 · AT10",
       "marca": "FORD"
-    },
-    {
-      "recienLlegado": false,
-      "sale": false,
-      "id": 24
     }
   ]
 }
