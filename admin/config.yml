@@ -39,6 +39,7 @@ collections:
                 widget: "image"
                 required: false
                 choose_url: false
+                allow_multiple: true
                 media_library:
                   config:
                     multiple: true
