@@ -8,6 +8,14 @@ backend:
 media_folder: "imagenes/vehiculos"
 public_folder: "/imagenes/vehiculos"
 
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: z0umwhoj
+    api_key: "886592243292916"
+    multiple: true
+    max_files: 50
+
 collections:
   - name: "vehiculos"
     label: "Vehículos"
@@ -36,6 +44,10 @@ collections:
               - {label: "Descripción", name: "descripcion", widget: "text", required: false}
               - label: "Fotos"
                 name: "imagenes"
-                widget: "list"
+                widget: "image"
                 required: false
-                field: {label: "Foto", name: "foto", widget: "image"}
+                choose_url: false
+                media_library:
+                  config:
+                    multiple: true
+                    max_files: 50
