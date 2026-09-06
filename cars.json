@@ -1,60 +1,74 @@
 {
   "vehiculos": [
     {
-      "id": 1,
-      "marca": "MINI",
+      "imagenes": [
+        "mini.jpeg",
+        "https://drive.google.com/file/d/1VhdFhljsBPqSSrXu3vLRYKccV99siyAs/view?usp=drive_link"
+      ],
       "modelo": "Cooper S 1.6 Turbo 175 CV",
-      "tipo": "Hatch",
+      "precio": "Consultar",
+      "sale": false,
+      "recienLlegado": true,
+      "condicion": "usado",
+      "descripcion": "Mini Cooper S 1.6 Turbo de 175 CV. Vehículo compacto, deportivo y con excelente equipamiento.",
       "anio": 2008,
-      "condicion": "usado",
+      "tipo": "Hatch",
+      "id": "",
       "datos": "175 CV · Nafta · Turbo",
-      "precio": "Consultar",
-      "recienLlegado": true,
-      "sale": false,
-      "imagenes": ["mini.jpeg"],
-      "descripcion": "Mini Cooper S 1.6 Turbo de 175 CV. Vehículo compacto, deportivo y con excelente equipamiento."
+      "marca": "MINI"
     },
     {
-      "id": 2,
-      "marca": "VOLKSWAGEN",
+      "imagenes": [
+        "amarok.jpeg"
+      ],
       "modelo": "Amarok 2.0 TDI Highline 4x4",
-      "tipo": "Pick-Up",
+      "precio": "Consultar",
+      "sale": false,
+      "recienLlegado": true,
+      "condicion": "usado",
+      "descripcion": "Volkswagen Amarok 2.0 TDI Highline 4x4 de 180 CV. Una pick-up de gran capacidad, confort y prestaciones.",
       "anio": 2013,
-      "condicion": "usado",
+      "tipo": "Pick-Up",
+      "id": 2,
       "datos": "180 CV · Diésel · 4x4",
-      "precio": "Consultar",
-      "recienLlegado": true,
-      "sale": false,
-      "imagenes": ["amarok.jpeg"],
-      "descripcion": "Volkswagen Amarok 2.0 TDI Highline 4x4 de 180 CV. Una pick-up de gran capacidad, confort y prestaciones."
+      "marca": "VOLKSWAGEN"
     },
     {
-      "id": 3,
-      "marca": "TOYOTA",
+      "imagenes": [
+        "hilux.jpeg"
+      ],
       "modelo": "Hilux 2.4 TDi 4x2 DX",
-      "tipo": "Pick-Up",
-      "anio": 2018,
-      "condicion": "usado",
-      "datos": "Diésel · 4x2 · Caja manual",
       "precio": "Consultar",
-      "recienLlegado": true,
       "sale": false,
-      "imagenes": ["hilux.jpeg"],
-      "descripcion": "Toyota Hilux 2.4 TDi 4x2 DX. Pick-up reconocida por su confiabilidad, robustez y capacidad de trabajo."
+      "recienLlegado": true,
+      "condicion": "usado",
+      "descripcion": "Toyota Hilux 2.4 TDi 4x2 DX. Pick-up reconocida por su confiabilidad, robustez y capacidad de trabajo.",
+      "anio": 2018,
+      "tipo": "Pick-Up",
+      "id": 3,
+      "datos": "Diésel · 4x2 · Caja manual",
+      "marca": "TOYOTA"
     },
     {
-      "id": 4,
-      "marca": "FORD",
+      "imagenes": [
+        "ranger.jpeg"
+      ],
       "modelo": "Ranger 2.0 XLT Bi-Turbo",
-      "tipo": "Pick-Up",
-      "anio": 2024,
-      "condicion": "usado",
-      "datos": "Bi-Turbo · 4x2 · AT10",
       "precio": "Consultar",
-      "recienLlegado": true,
       "sale": false,
-      "imagenes": ["ranger.jpeg"],
-      "descripcion": "Ford Ranger 2.0 XLT Bi-Turbo. Línea 2023, año 2024. Excelente combinación de tecnología, potencia y confort."
+      "recienLlegado": true,
+      "condicion": "usado",
+      "descripcion": "Ford Ranger 2.0 XLT Bi-Turbo. Línea 2023, año 2024. Excelente combinación de tecnología, potencia y confort.",
+      "anio": 2024,
+      "tipo": "Pick-Up",
+      "id": 4,
+      "datos": "Bi-Turbo · 4x2 · AT10",
+      "marca": "FORD"
+    },
+    {
+      "recienLlegado": false,
+      "sale": false,
+      "id": 24
     }
   ]
 }
