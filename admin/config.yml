@@ -27,6 +27,7 @@ collections:
               - {label: "Modelo", name: "modelo", widget: "string"}
               - {label: "Tipo", name: "tipo", widget: "select", options: [Hatch, Sedán, Rural, SUV, Pick-Up, Furgón-Utilitario, Coupé, Cabriolet]}
               - {label: "Año", name: "anio", widget: "number", value_type: "int"}
+              - {label: "Kilómetros", name: "kilometros", widget: "number", value_type: "int", required: false}
               - {label: "Condición", name: "condicion", widget: "select", options: [usado, 0km]}
               - {label: "Datos destacados", name: "datos", widget: "string", required: false}
               - {label: "Precio", name: "precio", widget: "string", required: false}
