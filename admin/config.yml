@@ -34,13 +34,15 @@ collections:
               - {label: "Recién llegado", name: "recienLlegado", widget: "boolean", default: false}
               - {label: "Oferta / SALE", name: "sale", widget: "boolean", default: false}
               - {label: "Descripción", name: "descripcion", widget: "text", required: false}
-              - label: "Fotos"
-                name: "imagenes"
+              - label: "Foto de portada (opcional)"
+                name: "portada"
                 widget: "image"
                 required: false
                 choose_url: false
-                allow_multiple: true
-                media_library:
-                  config:
-                    multiple: true
-                    max_files: 50
+                hint: "Elegí una foto para mostrar primero. Si queda vacío, se usa la primera foto."
+              - label: "Fotos"
+                name: "imagenes"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: "Foto", name: "foto", widget: "image", choose_url: false}
