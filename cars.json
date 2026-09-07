@@ -2,8 +2,8 @@
   "vehiculos": [
     {
       "imagenes": [
-        "mini.jpeg",
-        "/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.17-am.jpeg"
+        "/catalogo-dpa/mini.jpeg",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.17-am.jpeg"
       ],
       "modelo": "Cooper S 1.6 Turbo 175 CV",
       "precio": "Consultar",
@@ -19,7 +19,7 @@
     },
     {
       "imagenes": [
-        "amarok.jpeg"
+        "/catalogo-dpa/amarok.jpeg"
       ],
       "modelo": "Amarok 2.0 TDI Highline 4x4",
       "precio": "Consultar",
@@ -35,7 +35,7 @@
     },
     {
       "imagenes": [
-        "hilux.jpeg"
+        "/catalogo-dpa/hilux.jpeg"
       ],
       "modelo": "Hilux 2.4 TDi 4x2 DX",
       "precio": "Consultar",
@@ -51,7 +51,7 @@
     },
     {
       "imagenes": [
-        "ranger.jpeg"
+        "/catalogo-dpa/ranger.jpeg"
       ],
       "modelo": "Ranger 2.0 XLT Bi-Turbo",
       "precio": "Consultar",
