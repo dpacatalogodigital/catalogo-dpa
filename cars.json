@@ -4,7 +4,19 @@
       "imagenes": [
         "/catalogo-dpa/mini.jpeg",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.17-am.jpeg",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.26-am.jpeg"
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.26-am.jpeg",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.17-am-1-.jpeg-1788801257453-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.17-am.jpeg-1788801259328-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.19-am.jpeg-1788801260874-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.22-am.jpeg-1788801262253-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.24-am.jpeg-1788801263997-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.26-am.jpeg-1788801265484-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.29-am.jpeg-1788801266963-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.32-am.jpeg-1788801268957-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.35-am.jpeg-1788801270336-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.38-am.jpeg-1788801272802-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.42-am.jpeg-1788801274338-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.44-am.jpeg-1788801276072-11"
       ],
       "modelo": "Cooper S 1.6 Turbo 175 CV",
       "precio": "Consultar",
@@ -16,7 +28,8 @@
       "tipo": "Hatch",
       "id": 1,
       "datos": "175 CV · Nafta · Turbo",
-      "marca": "MINI"
+      "marca": "MINI",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.17-am-1-.jpeg-1788801257453-0"
     },
     {
       "imagenes": [
