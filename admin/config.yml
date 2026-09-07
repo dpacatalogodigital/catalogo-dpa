@@ -4,8 +4,10 @@ backend:
   branch: main
   base_url: https://dpa-decap-auth.redesdpa2023.workers.dev
   auth_endpoint: auth
+
 media_folder: "imagenes/vehiculos"
 public_folder: "/catalogo-dpa/imagenes/vehiculos"
+
 collections:
   - name: "vehiculos"
     label: "Vehículos"
@@ -32,11 +34,13 @@ collections:
               - {label: "Recién llegado", name: "recienLlegado", widget: "boolean", default: false}
               - {label: "Oferta / SALE", name: "sale", widget: "boolean", default: false}
               - {label: "Descripción", name: "descripcion", widget: "text", required: false}
-              - label: "Fotos — elegí varias juntas"
+              - label: "Fotos — seleccioná varias de una vez"
                 name: "imagenes"
                 widget: "image"
                 choose_url: false
+                required: false
                 media_library:
+                  allow_multiple: true
                   config:
                     multiple: true
                     max_files: 30
