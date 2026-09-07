@@ -8,8 +8,10 @@
 @media(max-width:1000px){.track .card{flex-basis:calc(50% - 12px)}.catalogo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.hero{min-height:42vh}.hero-content{padding:45px 15px}.seccion{padding:55px 15px 65px}.track .card{flex-basis:100%}.catalogo-grid{grid-template-columns:1fr}.card-image{height:250px}.galeria-principal{height:58vh;max-height:520px}}
 
 
+
+
 .galeria-principal{height:min(68vh,720px);background:#080809;display:flex;align-items:center;justify-content:center;overflow:hidden}.galeria-principal img{display:block;width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;transition:transform .25s;cursor:zoom-in}.galeria-principal img.zoom{transform:scale(1.8);cursor:zoom-out}@media(max-width:600px){.galeria-principal{height:58vh;max-height:520px}}
-</style></head><body>
+</style><style id="dpa-encuadre-galeria">.galeria-principal{height:min(68vh,720px)!important;background:#080809!important;display:flex!important;align-items:center!important;justify-content:center!important;overflow:hidden!important}.galeria-principal img{display:block!important;width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;transition:transform .25s;cursor:zoom-in}.galeria-principal img.zoom{transform:scale(1.8)!important;cursor:zoom-out}@media(max-width:600px){.galeria-principal{height:58vh!important;max-height:520px!important}}</style></head><body>
 <header class="hero"><div class="hero-content"><img src="logo-dpa.png?v=5" alt="da Ponte Automotores" class="logo-imagen"><p>Vehículos seleccionados · Calidad y trayectoria</p></div></header>
 <section class="seccion seccion-alterna"><div class="contenedor"><div class="titulo"><h2>RECIÉN LLEGADOS</h2><p>Conocé los vehículos incorporados recientemente al catálogo.</p></div><div class="carousel"><button class="arrow prev" id="prevBtn">‹</button><div class="track" id="recentTrack"></div><button class="arrow next" id="nextBtn">›</button></div><div class="dots" id="dots"></div></div></section>
 <section class="seccion" id="catalogo"><div class="contenedor"><div class="titulo"><h2>CATÁLOGO</h2><p>Encontrá tu próximo vehículo por marca o tipo.</p></div><div class="busqueda"><input id="buscador" type="search" placeholder="Buscar marca, modelo o palabra clave..."></div><div class="filtros"><div class="filtro-titulo">MARCA</div><div class="filtros-lista" id="filtrosMarca"></div><div class="filtro-titulo">TIPO</div><div class="filtros-lista" id="filtrosTipo"></div></div><div class="resultados-info" id="resultadosInfo"></div><div id="catalogoContenido"></div></div></section>
@@ -18,6 +20,14 @@
 <script>
 const MARCAS=['AUDI','BMW','CHEVROLET','CITROËN','FIAT','FORD','JEEP','MERCEDES','MINI','NISSAN','PEUGEOT','DODGE-RAM','RENAULT','TOYOTA','VOLKSWAGEN'],TIPOS=['HATCHBACK','SEDÁN','PICK-UP','FURGÓN-UTILITARIO','SUV','RURAL','COUPÉ','CABRIOLET','0KM'];let autos=[],marcaActiva='TODAS',tipoActivo='TODOS',busqueda='',slide=0;const norm=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toUpperCase().trim();function marcaNorm(s){let n=norm(s);return n==='CITROEN'?'CITROËN':n==='DODGE RAM'||n==='DODGE/RAM'?'DODGE-RAM':n}function tipoNorm(a){let n=norm(a.tipo);return n==='HATCH'||n==='HATCHBACK'?'HATCHBACK':n==='PICKUP'||n==='PICK-UP'?'PICK-UP':n==='FURGON'||n==='FURGON-UTILITARIO'||n==='FURGON UTILITARIO'?'FURGÓN-UTILITARIO':n}function es0km(a){return /0KM|CERO\s*KILOMETR|NUEVO/.test(norm([a.tipo,a.condicion,a.estado,a.km,a.kilometros,a['0km'],a.ceroKm,a.ceroKM].join(' ')))}function tarjeta(a){return `<article class="card"><div class="card-image"><img src="${a.imagenes?.[0]||'logo-dpa.png'}" alt="${a.marca} ${a.modelo}" loading="lazy">${a.sale?'<span class="badge">OFERTA</span>':''}</div><div class="card-info"><div class="marca">${a.marca}</div><div class="modelo">${a.modelo}</div><div class="datos">${a.anio?`Año ${a.anio} · `:''}${a.datos||''}</div><button class="ficha" onclick="abrirFicha(${a.id})">VER FICHA →</button></div></article>`}function filtros(){document.getElementById('filtrosMarca').innerHTML=['TODAS',...MARCAS].map(x=>`<button class="filtro ${marcaActiva===x?'activo':''}" onclick="setMarca('${x}')">${x}</button>`).join('');document.getElementById('filtrosTipo').innerHTML=['TODOS',...TIPOS].map(x=>`<button class="filtro ${tipoActivo===x?'activo':''}" onclick="setTipo('${x}')">${x}</button>`).join('')}function setMarca(x){marcaActiva=x;render()}function setTipo(x){tipoActivo=x;render()}function filtrados(){return autos.filter(a=>{let m=marcaActiva==='TODAS'||marcaNorm(a.marca)===marcaActiva,t=tipoActivo==='TODOS'||(tipoActivo==='0KM'?es0km(a):tipoNorm(a)===tipoActivo),q=norm(busqueda),t
 </script></body></html>
+
+
+
+
+
+
+
+
 
 
 
