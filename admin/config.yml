@@ -32,8 +32,11 @@ collections:
               - {label: "Recién llegado", name: "recienLlegado", widget: "boolean", default: false}
               - {label: "Oferta / SALE", name: "sale", widget: "boolean", default: false}
               - {label: "Descripción", name: "descripcion", widget: "text", required: false}
-              - label: "Fotos"
+              - label: "Fotos — elegí varias juntas"
                 name: "imagenes"
-                widget: "list"
-                required: false
-                field: {label: "Foto", name: "foto", widget: "image", choose_url: false}
+                widget: "image"
+                choose_url: false
+                media_library:
+                  config:
+                    multiple: true
+                    max_files: 30
