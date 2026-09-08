@@ -42,7 +42,7 @@
       "descripcion": "Mini Cooper S 1.6 Turbo de 175 CV. Vehículo compacto, deportivo y con excelente equipamiento.",
       "anio": 2008,
       "tipo": "Hatch",
-      "id": 1,
+      "id": 2,
       "datos": "175 CV · Nafta · Turbo",
       "marca": "MINI",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.43-am-1-.jpeg-1788871452478-0"
@@ -59,7 +59,7 @@
       "descripcion": "Volkswagen Amarok 2.0 TDI Highline 4x4 de 180 CV. Una pick-up de gran capacidad, confort y prestaciones.",
       "anio": 2013,
       "tipo": "Pick-Up",
-      "id": 2,
+      "id": 3,
       "datos": "180 CV · Diésel · 4x4",
       "marca": "VOLKSWAGEN"
     },
@@ -75,7 +75,7 @@
       "descripcion": "Toyota Hilux 2.4 TDi 4x2 DX. Pick-up reconocida por su confiabilidad, robustez y capacidad de trabajo.",
       "anio": 2018,
       "tipo": "Pick-Up",
-      "id": 3,
+      "id": 4,
       "datos": "Diésel · 4x2 · Caja manual",
       "marca": "TOYOTA"
     },
@@ -91,7 +91,7 @@
       "descripcion": "Ford Ranger 2.0 XLT Bi-Turbo. Línea 2023, año 2024. Excelente combinación de tecnología, potencia y confort.",
       "anio": 2024,
       "tipo": "Pick-Up",
-      "id": 4,
+      "id": 5,
       "datos": "Bi-Turbo · 4x2 · AT10",
       "marca": "FORD"
     },
