@@ -78,6 +78,22 @@
       "id": 4,
       "datos": "Bi-Turbo · 4x2 · AT10",
       "marca": "FORD"
+    },
+    {
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.43-am.jpeg"
+      ],
+      "modelo": "A1 Sportback 1.4 TFSI S-Tronic",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Audi A1 Sportback 2018, hatchback premium de 5 puertas con motor 1.4 TFSI turbo de 125 CV y caja automática S-Tronic de 7 velocidades con levas. Ofrece excelente equipamiento: climatizador bi-zona, pantalla MMI de 6,5”, Bluetooth, USB, sensores de lluvia y luces, llantas de 17” y ópticas LED. Muy seguro, con 8 airbags, ABS, ESP, control de tracción, asistente en pendiente e ISOFIX.",
+      "anio": 2018,
+      "tipo": "Hatch",
+      "id": 1,
+      "kilometros": 116000,
+      "datos": "Transmision Manual - Nafta",
+      "marca": "AUDI"
     }
   ]
 }
