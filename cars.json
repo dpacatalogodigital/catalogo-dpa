@@ -129,6 +129,19 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-1-.jpeg-1788975355906-0"
     },
     {
+      "modelo": "Tracker 1.8 LTZ",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, volante multifunción y control crucero. Incluye airbags frontales, estéreo con USB/Aux y faros auxiliares.Aire acondicionado, alzacristales y espejos eléctricos, volante multifunción y control crucero. Incluye airbags frontales, estéreo con USB/Aux y faros auxiliares.",
+      "anio": 2013,
+      "tipo": "SUV",
+      "id": 9,
+      "kilometros": 140000,
+      "datos": "Nafta - MT",
+      "marca": "CHEVROLET"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/mini.jpeg",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.17-am.jpeg",
@@ -222,16 +235,15 @@
       "marca": "FORD"
     },
     {
-      "modelo": "Tracker 1.8 LTZ",
+      "modelo": "Tracker 1.8 LTZ ",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, volante multifunción y control crucero. Incluye airbags frontales, estéreo con USB/Aux y faros auxiliares.Aire acondicionado, alzacristales y espejos eléctricos, volante multifunción y control crucero. Incluye airbags frontales, estéreo con USB/Aux y faros auxiliares.",
-      "anio": 2013,
+      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, volante multifunción y control crucero. Incluye airbags frontales, estéreo con USB/Aux, faros auxiliares y distribución completa realizada recientemente.",
+      "anio": 2014,
       "tipo": "SUV",
-      "id": 9,
-      "kilometros": 140000,
-      "datos": "Nafta - MT",
+      "id": 10,
+      "datos": "Nafta - MT - Unica mano",
       "marca": "CHEVROLET"
     }
   ]
