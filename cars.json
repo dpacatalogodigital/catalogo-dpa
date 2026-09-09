@@ -171,6 +171,21 @@
       "kilometros": 125000,
       "datos": "Nafta - MT6",
       "marca": "CHEVROLET"
+    },
+    {
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm.jpeg"
+      ],
+      "modelo": "Onix 1.4 LTZ",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Equipado con aire acondicionado, pantalla multimedia con USB/Aux, alzacristales y espejos eléctricos, volante multifunción y control crucero. Incluye llantas de aleación, faros auxiliares y cubiertas nuevas.",
+      "anio": 2016,
+      "tipo": "Hatch",
+      "id": 8,
+      "datos": "Nafta/GNC - AT",
+      "marca": "CHEVROLET"
     }
   ]
 }
