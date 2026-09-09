@@ -360,7 +360,27 @@
       "id": 13,
       "kilometros": 105000,
       "datos": "Nafta - MT",
-      "marca": "FIAT"
+      "marca": "FIAT",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-1-.jpeg-1788978375977-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-2-.jpeg-1788978377618-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-3-.jpeg-1788978379438-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-4-.jpeg-1788978381349-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-5-.jpeg-1788978383173-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-6-.jpeg-1788978385050-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-7-.jpeg-1788978386821-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-8-.jpeg-1788978388602-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-9-.jpeg-1788978390603-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-10-.jpeg-1788978392453-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-11-.jpeg-1788978394192-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm.jpeg-1788978396054-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.29-pm-1-.jpeg-1788978397791-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.29-pm-2-.jpeg-1788978399631-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.29-pm-3-.jpeg-1788978401472-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.29-pm-4-.jpeg-1788978403832-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.29-pm.jpeg-1788978406009-16"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-1-.jpeg-1788978375977-0"
     }
   ]
 }
