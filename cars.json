@@ -129,17 +129,6 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-1-.jpeg-1788975355906-0"
     },
     {
-      "modelo": "Tracker 1.8 LTZ",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, volante multifunción y control crucero. Incluye airbags frontales, estéreo con USB/Aux y faros auxiliares.Aire acondicionado, alzacristales y espejos eléctricos, volante multifunción y control crucero. Incluye airbags frontales, estéreo con USB/Aux y faros auxiliares.",
-      "anio": 2013,
-      "tipo": "SUV",
-      "id": 9,
-      "kilometros": 140000,
-      "datos": "Nafta - MT",
-      "marca": "CHEVROLET",
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.29.23-am.jpeg-1788976002951-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.29.24-am.jpeg-1788976004382-1",
@@ -158,19 +147,20 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.30.19-am.jpeg-1788976025683-14",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.30.20-am.jpeg-1788976027324-15"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.29.23-am.jpeg-1788976002951-0"
-    },
-    {
-      "modelo": "Tracker 1.8 LTZ ",
+      "modelo": "Tracker 1.8 LTZ",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, volante multifunción y control crucero. Incluye airbags frontales, estéreo con USB/Aux, faros auxiliares y distribución completa realizada recientemente.",
-      "anio": 2014,
+      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, volante multifunción y control crucero. Incluye airbags frontales, estéreo con USB/Aux y faros auxiliares.Aire acondicionado, alzacristales y espejos eléctricos, volante multifunción y control crucero. Incluye airbags frontales, estéreo con USB/Aux y faros auxiliares.",
+      "anio": 2013,
       "tipo": "SUV",
-      "id": 10,
-      "datos": "Nafta - MT - Unica mano",
+      "id": 9,
+      "kilometros": 140000,
+      "datos": "Nafta - MT",
       "marca": "CHEVROLET",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.29.23-am.jpeg-1788976002951-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.13-pm.jpeg-1788976082299-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.14-pm.jpeg-1788976083854-1",
@@ -190,18 +180,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.53-pm.jpeg-1788976106862-15",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.39.07-pm.jpeg-1788976108638-16"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.13-pm.jpeg-1788976082299-0"
-    },
-    {
-      "modelo": "Trailblazer 4x4",
+      "modelo": "Tracker 1.8 LTZ ",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "anio": 2017,
+      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, volante multifunción y control crucero. Incluye airbags frontales, estéreo con USB/Aux, faros auxiliares y distribución completa realizada recientemente.",
+      "anio": 2014,
       "tipo": "SUV",
-      "id": 11,
-      "datos": "7AS - Nafta - AT",
+      "id": 10,
+      "datos": "Nafta - MT - Unica mano",
       "marca": "CHEVROLET",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.13-pm.jpeg-1788976082299-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.17-pm.jpeg-1788976153421-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.19-pm.jpeg-1788976154928-1",
@@ -222,6 +213,15 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.49-pm.jpeg-1788976178551-16",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.50-pm.jpeg-1788976180294-17"
       ],
+      "modelo": "Trailblazer 4x4",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "anio": 2017,
+      "tipo": "SUV",
+      "id": 11,
+      "datos": "7AS - Nafta - AT",
+      "marca": "CHEVROLET",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.17-pm.jpeg-1788976153421-0"
     },
     {
@@ -316,6 +316,19 @@
       "id": 5,
       "datos": "Bi-Turbo · 4x2 · AT10",
       "marca": "FORD"
+    },
+    {
+      "modelo": "DS 3 1.2 PureTech So Chic",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Hatchback premium de 3 puertas con motor 1.2 Turbo PureTech de 110 CV y caja automática EAT6 de 6 velocidades. Cuenta con tapizado tela y Alcántara, climatizador, pantalla táctil de 7” con Android Auto y Apple CarPlay, GPS, control crucero y sensores traseros. Excelente seguridad con 6 airbags, ABS, control de estabilidad y tracción, ópticas LED/Xenón, llantas de 16” y cubiertas Michelin nuevas.",
+      "anio": 2018,
+      "tipo": "Hatch",
+      "id": 12,
+      "kilometros": 51000,
+      "datos": "Nafta - AT",
+      "marca": "CITROËN"
     }
   ]
 }
