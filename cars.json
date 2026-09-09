@@ -220,6 +220,19 @@
       "id": 5,
       "datos": "Bi-Turbo · 4x2 · AT10",
       "marca": "FORD"
+    },
+    {
+      "modelo": "Tracker 1.8 LTZ",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, volante multifunción y control crucero. Incluye airbags frontales, estéreo con USB/Aux y faros auxiliares.Aire acondicionado, alzacristales y espejos eléctricos, volante multifunción y control crucero. Incluye airbags frontales, estéreo con USB/Aux y faros auxiliares.",
+      "anio": 2013,
+      "tipo": "SUV",
+      "id": 9,
+      "kilometros": 140000,
+      "datos": "Nafta - MT",
+      "marca": "CHEVROLET"
     }
   ]
 }
