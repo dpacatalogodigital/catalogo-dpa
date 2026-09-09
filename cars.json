@@ -170,7 +170,27 @@
       "tipo": "SUV",
       "id": 10,
       "datos": "Nafta - MT - Unica mano",
-      "marca": "CHEVROLET"
+      "marca": "CHEVROLET",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.13-pm.jpeg-1788976082299-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.14-pm.jpeg-1788976083854-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.15-pm.jpeg-1788976085798-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.16-pm.jpeg-1788976087339-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.19-pm.jpeg-1788976089481-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.22-pm.jpeg-1788976091120-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.25-pm.jpeg-1788976092541-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.29-pm.jpeg-1788976094293-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.32-pm.jpeg-1788976095808-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.35-pm.jpeg-1788976097673-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.38-pm.jpeg-1788976099308-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.41-pm.jpeg-1788976100858-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.44-pm.jpeg-1788976102459-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.47-pm.jpeg-1788976103507-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.49-pm.jpeg-1788976104973-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.53-pm.jpeg-1788976106862-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.39.07-pm.jpeg-1788976108638-16"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.13-pm.jpeg-1788976082299-0"
     },
     {
       "modelo": "Trailblazer 4x4",
