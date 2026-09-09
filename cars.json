@@ -245,6 +245,17 @@
       "id": 10,
       "datos": "Nafta - MT - Unica mano",
       "marca": "CHEVROLET"
+    },
+    {
+      "modelo": "Trailblazer 4x4",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "anio": 2017,
+      "tipo": "SUV",
+      "id": 11,
+      "datos": "7AS - Nafta - AT",
+      "marca": "CHEVROLET"
     }
   ]
 }
