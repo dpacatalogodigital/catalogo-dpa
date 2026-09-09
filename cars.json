@@ -257,18 +257,6 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.01-pm.jpeg-1788977464432-0"
     },
     {
-      "modelo": "RAM 1500 Laramie 5.7 V8 4x4",
-      "precio": "",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Pick-up equipada con máximo confort y tecnología: tapizados de cuero calefaccionados y ventilados, butaca eléctrica, climatizador bi-zona, control crucero adaptativo y pantalla Uconnect de 12” con GPS, Apple CarPlay, Android Auto, Bluetooth y Wi‑Fi. Incluye sonido premium de 19 parlantes, cámara y asistente de estacionamiento. Seguridad completa con 7 airbags, ABS, controles de estabilidad y tracción, además de llantas de 20” todo terreno, ópticas LED y gran capacidad de carga y arrastre.",
-      "anio": 2019,
-      "tipo": "Pick-Up",
-      "id": 14,
-      "kilometros": 135000,
-      "datos": "Nafta - AT",
-      "marca": "DODGE-RAM",
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-1.26.17-pm.jpeg-1788978819896-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-1.26.18-pm.jpeg-1788978821459-1",
@@ -293,10 +281,23 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-1.27.06-pm.jpeg-1788978855204-20",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-1.27.10-pm.jpeg-1788978856646-21"
       ],
+      "modelo": "RAM 1500 Laramie 5.7 V8 4x4",
+      "precio": "",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Pick-up equipada con máximo confort y tecnología: tapizados de cuero calefaccionados y ventilados, butaca eléctrica, climatizador bi-zona, control crucero adaptativo y pantalla Uconnect de 12” con GPS, Apple CarPlay, Android Auto, Bluetooth y Wi‑Fi. Incluye sonido premium de 19 parlantes, cámara y asistente de estacionamiento. Seguridad completa con 7 airbags, ABS, controles de estabilidad y tracción, además de llantas de 20” todo terreno, ópticas LED y gran capacidad de carga y arrastre.",
+      "anio": 2019,
+      "tipo": "Pick-Up",
+      "id": 14,
+      "kilometros": 135000,
+      "datos": "Nafta - AT",
+      "marca": "DODGE-RAM",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-1.26.17-pm.jpeg-1788978819896-0"
     },
     {
       "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm.jpeg-1788978396054-11",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-1-.jpeg-1788978375977-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-2-.jpeg-1788978377618-1",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-3-.jpeg-1788978379438-2",
@@ -308,7 +309,6 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-9-.jpeg-1788978390603-8",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-10-.jpeg-1788978392453-9",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-11-.jpeg-1788978394192-10",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm.jpeg-1788978396054-11",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.29-pm-1-.jpeg-1788978397791-12",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.29-pm-2-.jpeg-1788978399631-13",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.29-pm-3-.jpeg-1788978401472-14",
