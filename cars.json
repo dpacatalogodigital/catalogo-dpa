@@ -258,6 +258,39 @@
     },
     {
       "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-1-.jpeg-1788978375977-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-2-.jpeg-1788978377618-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-3-.jpeg-1788978379438-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-4-.jpeg-1788978381349-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-5-.jpeg-1788978383173-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-6-.jpeg-1788978385050-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-7-.jpeg-1788978386821-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-8-.jpeg-1788978388602-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-9-.jpeg-1788978390603-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-10-.jpeg-1788978392453-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-11-.jpeg-1788978394192-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm.jpeg-1788978396054-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.29-pm-1-.jpeg-1788978397791-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.29-pm-2-.jpeg-1788978399631-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.29-pm-3-.jpeg-1788978401472-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.29-pm-4-.jpeg-1788978403832-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.29-pm.jpeg-1788978406009-16"
+      ],
+      "modelo": "500 1.4 Cult",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 1.4 nafta con dirección asistida, aire acondicionado, alzacristales eléctricos y cierre centralizado. Incluye doble airbag, ABS, equipo de audio original con comandos, techo solar eléctrico, llantas de aleación e interior blanco en excelente estado.",
+      "anio": 2012,
+      "tipo": "Hatch",
+      "id": 13,
+      "kilometros": 105000,
+      "datos": "Nafta - MT",
+      "marca": "FIAT",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-1-.jpeg-1788978375977-0"
+    },
+    {
+      "imagenes": [
         "/catalogo-dpa/mini.jpeg",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.17-am.jpeg",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.19-am.jpeg-1788801260874-2",
@@ -350,37 +383,18 @@
       "marca": "FORD"
     },
     {
-      "modelo": "500 1.4 Cult",
+      "modelo": "RAM 1500 Laramie 5.7 V8 4x4",
+      "precio": "",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 1.4 nafta con dirección asistida, aire acondicionado, alzacristales eléctricos y cierre centralizado. Incluye doble airbag, ABS, equipo de audio original con comandos, techo solar eléctrico, llantas de aleación e interior blanco en excelente estado.",
-      "anio": 2012,
-      "tipo": "Hatch",
-      "id": 13,
-      "kilometros": 105000,
-      "datos": "Nafta - MT",
-      "marca": "FIAT",
-      "imagenes": [
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-1-.jpeg-1788978375977-0",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-2-.jpeg-1788978377618-1",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-3-.jpeg-1788978379438-2",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-4-.jpeg-1788978381349-3",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-5-.jpeg-1788978383173-4",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-6-.jpeg-1788978385050-5",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-7-.jpeg-1788978386821-6",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-8-.jpeg-1788978388602-7",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-9-.jpeg-1788978390603-8",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-10-.jpeg-1788978392453-9",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-11-.jpeg-1788978394192-10",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm.jpeg-1788978396054-11",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.29-pm-1-.jpeg-1788978397791-12",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.29-pm-2-.jpeg-1788978399631-13",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.29-pm-3-.jpeg-1788978401472-14",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.29-pm-4-.jpeg-1788978403832-15",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.29-pm.jpeg-1788978406009-16"
-      ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-1-.jpeg-1788978375977-0"
+      "descripcion": "Pick-up equipada con máximo confort y tecnología: tapizados de cuero calefaccionados y ventilados, butaca eléctrica, climatizador bi-zona, control crucero adaptativo y pantalla Uconnect de 12” con GPS, Apple CarPlay, Android Auto, Bluetooth y Wi‑Fi. Incluye sonido premium de 19 parlantes, cámara y asistente de estacionamiento. Seguridad completa con 7 airbags, ABS, controles de estabilidad y tracción, además de llantas de 20” todo terreno, ópticas LED y gran capacidad de carga y arrastre.",
+      "anio": 2019,
+      "tipo": "Pick-Up",
+      "id": 14,
+      "kilometros": 135000,
+      "datos": "Nafta - AT",
+      "marca": "DODGE-RAM"
     }
   ]
 }
