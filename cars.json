@@ -348,6 +348,19 @@
       "id": 5,
       "datos": "Bi-Turbo · 4x2 · AT10",
       "marca": "FORD"
+    },
+    {
+      "modelo": "500 1.4 Cult",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 1.4 nafta con dirección asistida, aire acondicionado, alzacristales eléctricos y cierre centralizado. Incluye doble airbag, ABS, equipo de audio original con comandos, techo solar eléctrico, llantas de aleación e interior blanco en excelente estado.",
+      "anio": 2012,
+      "tipo": "Hatch",
+      "id": 13,
+      "kilometros": 105000,
+      "datos": "Nafta - MT",
+      "marca": "FIAT"
     }
   ]
 }
