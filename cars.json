@@ -2,99 +2,6 @@
   "vehiculos": [
     {
       "imagenes": [
-        "/catalogo-dpa/mini.jpeg",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.17-am.jpeg",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.19-am.jpeg-1788801260874-2",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.26-am.jpeg",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.22-am.jpeg-1788801262253-3",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.24-am.jpeg-1788801263997-4",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.26-am.jpeg-1788801265484-5",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.29-am.jpeg-1788801266963-6",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.32-am.jpeg-1788801268957-7",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.35-am.jpeg-1788801270336-8",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.38-am.jpeg-1788801272802-9",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.42-am.jpeg-1788801274338-10",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.44-am.jpeg-1788801276072-11",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.43-am-1-.jpeg-1788871452478-0",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.43-am-2-.jpeg-1788871454012-1",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.44-am-1-.jpeg-1788871455470-2",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.44-am-2-.jpeg-1788871456933-3",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.44-am-3-.jpeg-1788871458611-4",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.44-am.jpeg-1788871460123-5",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.53-am.jpeg-1788871461881-6",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.57.08-am.jpeg-1788871464277-7",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.57.54-am.jpeg-1788871466287-8",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.57.55-am-1-.jpeg-1788871468037-9",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.57.55-am-2-.jpeg-1788871469574-10",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.57.55-am.jpeg-1788871471023-11",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.57.56-am.jpeg-1788871472643-12",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.57.57-am-1-.jpeg-1788871474278-13",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.57.57-am.jpeg-1788871475720-14",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.57.58-am.jpeg-1788871477160-15"
-      ],
-      "modelo": "Cooper S 1.6 Turbo 175 CV",
-      "precio": "Consultar",
-      "sale": false,
-      "recienLlegado": true,
-      "condicion": "usado",
-      "descripcion": "Mini Cooper S 1.6 Turbo de 175 CV. Vehículo compacto, deportivo y con excelente equipamiento.",
-      "anio": 2008,
-      "tipo": "Hatch",
-      "id": 2,
-      "datos": "175 CV · Nafta · Turbo",
-      "marca": "MINI",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.43-am-1-.jpeg-1788871452478-0"
-    },
-    {
-      "imagenes": [
-        "/catalogo-dpa/amarok.jpeg"
-      ],
-      "modelo": "Amarok 2.0 TDI Highline 4x4",
-      "precio": "Consultar",
-      "sale": false,
-      "recienLlegado": true,
-      "condicion": "usado",
-      "descripcion": "Volkswagen Amarok 2.0 TDI Highline 4x4 de 180 CV. Una pick-up de gran capacidad, confort y prestaciones.",
-      "anio": 2013,
-      "tipo": "Pick-Up",
-      "id": 3,
-      "datos": "180 CV · Diésel · 4x4",
-      "marca": "VOLKSWAGEN"
-    },
-    {
-      "imagenes": [
-        "/catalogo-dpa/hilux.jpeg"
-      ],
-      "modelo": "Hilux 2.4 TDi 4x2 DX",
-      "precio": "Consultar",
-      "sale": false,
-      "recienLlegado": true,
-      "condicion": "usado",
-      "descripcion": "Toyota Hilux 2.4 TDi 4x2 DX. Pick-up reconocida por su confiabilidad, robustez y capacidad de trabajo.",
-      "anio": 2018,
-      "tipo": "Pick-Up",
-      "id": 4,
-      "datos": "Diésel · 4x2 · Caja manual",
-      "marca": "TOYOTA"
-    },
-    {
-      "imagenes": [
-        "/catalogo-dpa/ranger.jpeg"
-      ],
-      "modelo": "Ranger 2.0 XLT Bi-Turbo",
-      "precio": "Consultar",
-      "sale": false,
-      "recienLlegado": true,
-      "condicion": "usado",
-      "descripcion": "Ford Ranger 2.0 XLT Bi-Turbo. Línea 2023, año 2024. Excelente combinación de tecnología, potencia y confort.",
-      "anio": 2024,
-      "tipo": "Pick-Up",
-      "id": 5,
-      "datos": "Bi-Turbo · 4x2 · AT10",
-      "marca": "FORD"
-    },
-    {
-      "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.43-am.jpeg",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.43-am-1-.jpeg-1788872194058-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.43-am-2-.jpeg-1788872196231-1",
@@ -203,6 +110,99 @@
       "id": 8,
       "datos": "Nafta/GNC - AT",
       "marca": "CHEVROLET"
+    },
+    {
+      "imagenes": [
+        "/catalogo-dpa/mini.jpeg",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.17-am.jpeg",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.19-am.jpeg-1788801260874-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.26-am.jpeg",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.22-am.jpeg-1788801262253-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.24-am.jpeg-1788801263997-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.26-am.jpeg-1788801265484-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.29-am.jpeg-1788801266963-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.32-am.jpeg-1788801268957-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.35-am.jpeg-1788801270336-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.38-am.jpeg-1788801272802-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.42-am.jpeg-1788801274338-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.44-am.jpeg-1788801276072-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.43-am-1-.jpeg-1788871452478-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.43-am-2-.jpeg-1788871454012-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.44-am-1-.jpeg-1788871455470-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.44-am-2-.jpeg-1788871456933-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.44-am-3-.jpeg-1788871458611-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.44-am.jpeg-1788871460123-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.53-am.jpeg-1788871461881-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.57.08-am.jpeg-1788871464277-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.57.54-am.jpeg-1788871466287-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.57.55-am-1-.jpeg-1788871468037-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.57.55-am-2-.jpeg-1788871469574-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.57.55-am.jpeg-1788871471023-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.57.56-am.jpeg-1788871472643-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.57.57-am-1-.jpeg-1788871474278-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.57.57-am.jpeg-1788871475720-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.57.58-am.jpeg-1788871477160-15"
+      ],
+      "modelo": "Cooper S 1.6 Turbo 175 CV",
+      "precio": "Consultar",
+      "sale": false,
+      "recienLlegado": true,
+      "condicion": "usado",
+      "descripcion": "Mini Cooper S 1.6 Turbo de 175 CV. Vehículo compacto, deportivo y con excelente equipamiento.",
+      "anio": 2008,
+      "tipo": "Hatch",
+      "id": 2,
+      "datos": "175 CV · Nafta · Turbo",
+      "marca": "MINI",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.43-am-1-.jpeg-1788871452478-0"
+    },
+    {
+      "imagenes": [
+        "/catalogo-dpa/amarok.jpeg"
+      ],
+      "modelo": "Amarok 2.0 TDI Highline 4x4",
+      "precio": "Consultar",
+      "sale": false,
+      "recienLlegado": true,
+      "condicion": "usado",
+      "descripcion": "Volkswagen Amarok 2.0 TDI Highline 4x4 de 180 CV. Una pick-up de gran capacidad, confort y prestaciones.",
+      "anio": 2013,
+      "tipo": "Pick-Up",
+      "id": 3,
+      "datos": "180 CV · Diésel · 4x4",
+      "marca": "VOLKSWAGEN"
+    },
+    {
+      "imagenes": [
+        "/catalogo-dpa/hilux.jpeg"
+      ],
+      "modelo": "Hilux 2.4 TDi 4x2 DX",
+      "precio": "Consultar",
+      "sale": false,
+      "recienLlegado": true,
+      "condicion": "usado",
+      "descripcion": "Toyota Hilux 2.4 TDi 4x2 DX. Pick-up reconocida por su confiabilidad, robustez y capacidad de trabajo.",
+      "anio": 2018,
+      "tipo": "Pick-Up",
+      "id": 4,
+      "datos": "Diésel · 4x2 · Caja manual",
+      "marca": "TOYOTA"
+    },
+    {
+      "imagenes": [
+        "/catalogo-dpa/ranger.jpeg"
+      ],
+      "modelo": "Ranger 2.0 XLT Bi-Turbo",
+      "precio": "Consultar",
+      "sale": false,
+      "recienLlegado": true,
+      "condicion": "usado",
+      "descripcion": "Ford Ranger 2.0 XLT Bi-Turbo. Línea 2023, año 2024. Excelente combinación de tecnología, potencia y confort.",
+      "anio": 2024,
+      "tipo": "Pick-Up",
+      "id": 5,
+      "datos": "Bi-Turbo · 4x2 · AT10",
+      "marca": "FORD"
     }
   ]
 }
