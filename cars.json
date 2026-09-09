@@ -98,7 +98,23 @@
     },
     {
       "imagenes": [
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm.jpeg"
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm.jpeg",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-1-.jpeg-1788975355906-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-2-.jpeg-1788975357578-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-3-.jpeg-1788975359348-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-4-.jpeg-1788975361166-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-5-.jpeg-1788975362632-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-6-.jpeg-1788975364957-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-7-.jpeg-1788975366746-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-8-.jpeg-1788975368225-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-9-.jpeg-1788975370229-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-10-.jpeg-1788975372275-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-11-.jpeg-1788975374221-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-12-.jpeg-1788975375915-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-13-.jpeg-1788975377713-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-14-.jpeg-1788975379609-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-15-.jpeg-1788975381161-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-16-.jpeg-1788975383769-15"
       ],
       "modelo": "Onix 1.4 LTZ",
       "sale": false,
@@ -109,7 +125,8 @@
       "tipo": "Hatch",
       "id": 8,
       "datos": "Nafta/GNC - AT",
-      "marca": "CHEVROLET"
+      "marca": "CHEVROLET",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-1-.jpeg-1788975355906-0"
     },
     {
       "imagenes": [
