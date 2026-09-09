@@ -201,7 +201,28 @@
       "tipo": "SUV",
       "id": 11,
       "datos": "7AS - Nafta - AT",
-      "marca": "CHEVROLET"
+      "marca": "CHEVROLET",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.17-pm.jpeg-1788976153421-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.19-pm.jpeg-1788976154928-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.20-pm.jpeg-1788976156363-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.22-pm-1-.jpeg-1788976157770-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.22-pm.jpeg-1788976159272-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.28-pm-1-.jpeg-1788976160862-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.28-pm.jpeg-1788976162509-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.44-pm.jpeg-1788976163944-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.45-pm-1-.jpeg-1788976165428-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.45-pm.jpeg-1788976166798-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.46-pm-1-.jpeg-1788976168482-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.46-pm.jpeg-1788976170187-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.47-pm-1-.jpeg-1788976171826-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.47-pm.jpeg-1788976173661-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.48-pm.jpeg-1788976175410-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.49-pm-1-.jpeg-1788976177141-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.49-pm.jpeg-1788976178551-16",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.50-pm.jpeg-1788976180294-17"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.17-pm.jpeg-1788976153421-0"
     },
     {
       "imagenes": [
