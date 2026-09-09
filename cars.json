@@ -128,7 +128,22 @@
     },
     {
       "imagenes": [
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.10-am.jpeg"
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.10-am.jpeg",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.11-am.jpeg-1788974314371-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.12-am.jpeg-1788974316211-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.14-am.jpeg-1788974318111-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.16-am.jpeg-1788974319864-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.18-am.jpeg-1788974321477-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.22-am.jpeg-1788974323005-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.25-am.jpeg-1788974325072-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.28-am.jpeg-1788974326924-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.31-am.jpeg-1788974328510-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.35-am.jpeg-1788974329964-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.38-am.jpeg-1788974331576-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.41-am.jpeg-1788974333116-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.46-am.jpeg-1788974334727-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.48-am.jpeg-1788974336388-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.52-am.jpeg-1788974337927-14"
       ],
       "modelo": "Classic 1.4 LT Spirit ",
       "sale": false,
@@ -138,7 +153,8 @@
       "tipo": "Sedán",
       "id": 6,
       "datos": "MT - Nafta",
-      "marca": "CHEVROLET"
+      "marca": "CHEVROLET",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.11-am.jpeg-1788974314371-0"
     }
   ]
 }
