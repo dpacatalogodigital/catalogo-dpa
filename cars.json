@@ -158,7 +158,23 @@
     },
     {
       "imagenes": [
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.16-pm.jpeg"
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.16-pm.jpeg",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.16-pm-1-.jpeg-1788975134622-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.16-pm-2-.jpeg-1788975136223-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.16-pm-3-.jpeg-1788975137764-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.17-pm-1-.jpeg-1788975139493-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.17-pm-2-.jpeg-1788975141226-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.17-pm-3-.jpeg-1788975142478-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.17-pm-4-.jpeg-1788975143998-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.17-pm.jpeg-1788975145355-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.18-pm-1-.jpeg-1788975147201-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.18-pm.jpeg-1788975148752-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.19-pm-1-.jpeg-1788975150161-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.19-pm.jpeg-1788975151268-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.20-pm-1-.jpeg-1788975152924-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.20-pm-2-.jpeg-1788975154547-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.20-pm.jpeg-1788975156182-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.21-pm.jpeg-1788975158337-15"
       ],
       "modelo": "Cruze 1.4T LTZ",
       "sale": false,
@@ -170,7 +186,8 @@
       "id": 7,
       "kilometros": 125000,
       "datos": "Nafta - MT6",
-      "marca": "CHEVROLET"
+      "marca": "CHEVROLET",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.16-pm-1-.jpeg-1788975134622-0"
     },
     {
       "imagenes": [
