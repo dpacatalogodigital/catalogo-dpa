@@ -139,7 +139,26 @@
       "id": 9,
       "kilometros": 140000,
       "datos": "Nafta - MT",
-      "marca": "CHEVROLET"
+      "marca": "CHEVROLET",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.29.23-am.jpeg-1788976002951-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.29.24-am.jpeg-1788976004382-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.29.26-am.jpeg-1788976006027-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.29.27-am.jpeg-1788976007639-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.29.34-am.jpeg-1788976009149-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.29.36-am.jpeg-1788976010961-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.29.46-am.jpeg-1788976012371-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.29.47-am-1-.jpeg-1788976014926-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.29.47-am.jpeg-1788976016461-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.29.48-am.jpeg-1788976018306-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.30.09-am.jpeg-1788976019916-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.30.10-am.jpeg-1788976021508-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.30.18-am.jpeg-1788976023019-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.30.19-am-1-.jpeg-1788976024447-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.30.19-am.jpeg-1788976025683-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.30.20-am.jpeg-1788976027324-15"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.29.23-am.jpeg-1788976002951-0"
     },
     {
       "modelo": "Tracker 1.8 LTZ ",
