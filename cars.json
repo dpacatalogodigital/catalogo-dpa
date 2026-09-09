@@ -155,6 +155,22 @@
       "datos": "MT - Nafta",
       "marca": "CHEVROLET",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.11-am.jpeg-1788974314371-0"
+    },
+    {
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.16-pm.jpeg"
+      ],
+      "modelo": "Cruze 1.4T LTZ",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 1.4 turbo, tapizados en cuero, climatizador bi-zona y sistema MyLink con pantalla táctil. Cuenta con cámara y sensores de retroceso, control crucero, encendido por botón, acceso sin llave, llantas de aleación, faros auxiliares y cubiertas nuevas.",
+      "anio": 2017,
+      "tipo": "Sedán",
+      "id": 7,
+      "kilometros": 125000,
+      "datos": "Nafta - MT6",
+      "marca": "CHEVROLET"
     }
   ]
 }
