@@ -142,6 +142,29 @@
       "marca": "CHEVROLET"
     },
     {
+      "modelo": "Tracker 1.8 LTZ ",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, volante multifunción y control crucero. Incluye airbags frontales, estéreo con USB/Aux, faros auxiliares y distribución completa realizada recientemente.",
+      "anio": 2014,
+      "tipo": "SUV",
+      "id": 10,
+      "datos": "Nafta - MT - Unica mano",
+      "marca": "CHEVROLET"
+    },
+    {
+      "modelo": "Trailblazer 4x4",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "anio": 2017,
+      "tipo": "SUV",
+      "id": 11,
+      "datos": "7AS - Nafta - AT",
+      "marca": "CHEVROLET"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/mini.jpeg",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.17-am.jpeg",
@@ -233,29 +256,6 @@
       "id": 5,
       "datos": "Bi-Turbo · 4x2 · AT10",
       "marca": "FORD"
-    },
-    {
-      "modelo": "Tracker 1.8 LTZ ",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, volante multifunción y control crucero. Incluye airbags frontales, estéreo con USB/Aux, faros auxiliares y distribución completa realizada recientemente.",
-      "anio": 2014,
-      "tipo": "SUV",
-      "id": 10,
-      "datos": "Nafta - MT - Unica mano",
-      "marca": "CHEVROLET"
-    },
-    {
-      "modelo": "Trailblazer 4x4",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "anio": 2017,
-      "tipo": "SUV",
-      "id": 11,
-      "datos": "7AS - Nafta - AT",
-      "marca": "CHEVROLET"
     }
   ]
 }
