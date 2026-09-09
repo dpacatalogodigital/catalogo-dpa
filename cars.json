@@ -328,7 +328,26 @@
       "id": 12,
       "kilometros": 51000,
       "datos": "Nafta - AT",
-      "marca": "CITROËN"
+      "marca": "CITROËN",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.01-pm.jpeg-1788977464432-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.02-pm.jpeg-1788977466012-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.04-pm.jpeg-1788977468626-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.05-pm.jpeg-1788977470030-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.07-pm.jpeg-1788977471918-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.09-pm.jpeg-1788977473398-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.12-pm.jpeg-1788977475176-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.15-pm.jpeg-1788977476629-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.18-pm.jpeg-1788977478462-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.22-pm.jpeg-1788977480031-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.27-pm.jpeg-1788977481644-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.31-pm.jpeg-1788977483252-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.34-pm.jpeg-1788977484914-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.37-pm.jpeg-1788977486418-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.41-pm.jpeg-1788977487905-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.43-pm.jpeg-1788977489434-15"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.01-pm.jpeg-1788977464432-0"
     }
   ]
 }
