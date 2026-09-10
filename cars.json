@@ -712,7 +712,22 @@
     },
     {
       "imagenes": [
-        "/catalogo-dpa/ranger.jpeg"
+        "/catalogo-dpa/ranger.jpeg",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.11-pm.jpeg-1789063187393-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.12-pm.jpeg-1789063188960-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.14-pm.jpeg-1789063190350-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.17-pm.jpeg-1789063192043-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.20-pm.jpeg-1789063193566-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.23-pm.jpeg-1789063195051-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.26-pm.jpeg-1789063196709-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.29-pm.jpeg-1789063198081-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.32-pm.jpeg-1789063199296-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.37-pm.jpeg-1789063200779-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.41-pm.jpeg-1789063202420-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.45-pm.jpeg-1789063204107-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.48-pm.jpeg-1789063206140-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.54-pm.jpeg-1789063208465-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.56-pm.jpeg-1789063209860-14"
       ],
       "modelo": "Ranger 2.0 Bi-Turbo 4x2  XLT ",
       "precio": "",
@@ -724,7 +739,8 @@
       "tipo": "Pick-Up",
       "id": 5,
       "datos": "L/23 - Nafta - AT10",
-      "marca": "FORD"
+      "marca": "FORD",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.11-pm.jpeg-1789063187393-0"
     },
     {
       "modelo": "Ranger 3.2 TDI DC XLS 4x2",
