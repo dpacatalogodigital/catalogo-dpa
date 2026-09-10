@@ -1178,6 +1178,30 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.23-am.jpeg-1789066990013-0"
     },
     {
+      "modelo": "Duster 2.0 Luxe Nav",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, multimedia con navegador, cierre remoto, faros auxiliares, sensores de estacionamiento, cubiertas nuevas y GNC de 5.ª generación con 2 tubos.",
+      "anio": 2013,
+      "tipo": "SUV",
+      "id": 39,
+      "datos": "Nafta/GNC - Manual",
+      "marca": "RENAULT"
+    },
+    {
+      "modelo": "Duster 2.0 Privilege",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, cierre remoto, multimedia con navegador y cámara, limitador y control crucero. Cubiertas nuevas.",
+      "anio": 2017,
+      "tipo": "SUV",
+      "id": 40,
+      "datos": "Nafta - Manual",
+      "marca": "RENAULT"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/amarok.jpeg"
       ],
@@ -1208,30 +1232,6 @@
       "id": 4,
       "datos": "Diésel · 4x2 · Caja manual",
       "marca": "TOYOTA"
-    },
-    {
-      "modelo": "Duster 2.0 Luxe Nav",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, multimedia con navegador, cierre remoto, faros auxiliares, sensores de estacionamiento, cubiertas nuevas y GNC de 5.ª generación con 2 tubos.",
-      "anio": 2013,
-      "tipo": "SUV",
-      "id": 39,
-      "datos": "Nafta/GNC - Manual",
-      "marca": "RENAULT"
-    },
-    {
-      "modelo": "Duster 2.0 Privilege",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, cierre remoto, multimedia con navegador y cámara, limitador y control crucero. Cubiertas nuevas.",
-      "anio": 2017,
-      "tipo": "SUV",
-      "id": 40,
-      "datos": "Nafta - Manual",
-      "marca": "RENAULT"
     }
   ]
 }
