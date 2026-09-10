@@ -459,6 +459,36 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/pulse-1-1-.jpeg-1789059890841-0"
     },
     {
+      "modelo": "Ecosport 1.5 SE 4x2",
+      "precio": "",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Alzacristales y espejos eléctricos, climatizador automático y pantalla multimedia. Faros auxiliares, llantas de aleación y auxilio sin uso.",
+      "anio": 2019,
+      "tipo": "SUV",
+      "id": 19,
+      "kilometros": 61000,
+      "datos": "Nafta - MT- Unica Mano",
+      "marca": "FORD"
+    },
+    {
+      "imagenes": [
+        "/catalogo-dpa/ranger.jpeg"
+      ],
+      "modelo": "Ranger 2.0 XLT Bi-Turbo",
+      "precio": "Consultar",
+      "sale": false,
+      "recienLlegado": true,
+      "condicion": "usado",
+      "descripcion": "Ford Ranger 2.0 XLT Bi-Turbo. Línea 2023, año 2024. Excelente combinación de tecnología, potencia y confort.",
+      "anio": 2024,
+      "tipo": "Pick-Up",
+      "id": 5,
+      "datos": "Bi-Turbo · 4x2 · AT10",
+      "marca": "FORD"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/mini.jpeg",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.17-am.jpeg",
@@ -536,33 +566,15 @@
       "marca": "TOYOTA"
     },
     {
-      "imagenes": [
-        "/catalogo-dpa/ranger.jpeg"
-      ],
-      "modelo": "Ranger 2.0 XLT Bi-Turbo",
-      "precio": "Consultar",
-      "sale": false,
-      "recienLlegado": true,
-      "condicion": "usado",
-      "descripcion": "Ford Ranger 2.0 XLT Bi-Turbo. Línea 2023, año 2024. Excelente combinación de tecnología, potencia y confort.",
-      "anio": 2024,
-      "tipo": "Pick-Up",
-      "id": 5,
-      "datos": "Bi-Turbo · 4x2 · AT10",
-      "marca": "FORD"
-    },
-    {
-      "modelo": "Ecosport 1.5 SE 4x2",
-      "precio": "",
+      "modelo": "Fiesta 1.6 4p S Plus",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Alzacristales y espejos eléctricos, climatizador automático y pantalla multimedia. Faros auxiliares, llantas de aleación y auxilio sin uso.",
-      "anio": 2019,
-      "tipo": "SUV",
-      "id": 19,
-      "kilometros": 61000,
-      "datos": "Nafta - MT- Unica Mano",
+      "descripcion": "2 airbags, ABS, control de estabilidad y tracción, aire acondicionado, dirección asistida, Bluetooth/USB, llantas de aleación 15” y vidrios eléctricos delanteros.",
+      "anio": 2014,
+      "tipo": "Hatch",
+      "id": 20,
+      "datos": "Nafta - MT",
       "marca": "FORD"
     }
   ]
