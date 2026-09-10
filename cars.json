@@ -362,21 +362,11 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.50.18-am-1-.jpeg-1789059391032-0"
     },
     {
-      "modelo": "Mobi 1.0 8v Way",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Alzacristales y espejos eléctricos, Bluetooth, USB/Aux y faros auxiliares. Cubiertas nuevas; vehículo económico y confortable.",
-      "anio": 2017,
-      "tipo": "Hatch",
-      "id": 16,
-      "datos": "Nafta - MT",
-      "marca": "FIAT",
       "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.59.13-am.jpeg-1789059574990-3",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.59.13-am-1-.jpeg-1789059570497-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.59.13-am-2-.jpeg-1789059572055-1",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.59.13-am-3-.jpeg-1789059573643-2",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.59.13-am.jpeg-1789059574990-3",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.59.14-am-1-.jpeg-1789059576642-4",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.59.14-am.jpeg-1789059578463-5",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.59.15-am-1-.jpeg-1789059580266-6",
@@ -391,6 +381,16 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.59.19-am.jpeg-1789059593478-15",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.59.20-am.jpeg-1789059595071-16"
       ],
+      "modelo": "Mobi 1.0 8v Way",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Alzacristales y espejos eléctricos, Bluetooth, USB/Aux y faros auxiliares. Cubiertas nuevas; vehículo económico y confortable.",
+      "anio": 2017,
+      "tipo": "Hatch",
+      "id": 16,
+      "datos": "Nafta - MT",
+      "marca": "FIAT",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.59.13-am-1-.jpeg-1789059570497-0"
     },
     {
