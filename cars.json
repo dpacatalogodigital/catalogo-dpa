@@ -630,7 +630,22 @@
       "tipo": "Pick-Up",
       "id": 24,
       "datos": "Diesel - MT",
-      "marca": "FORD"
+      "marca": "FORD",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/0f7824d3-d711-49b5-affd-9648d2a75009.jpg-1789062838839-0",
+        "/catalogo-dpa/imagenes/vehiculos/7b4c2760-d0c5-464a-ad8f-68d453c3e7a3.jpg-1789062840517-1",
+        "/catalogo-dpa/imagenes/vehiculos/18e19302-0665-4aba-923e-88a55fdab700.jpg-1789062842136-2",
+        "/catalogo-dpa/imagenes/vehiculos/83fc5552-8bef-4706-94e6-be1c4e0b232f.jpg-1789062843649-3",
+        "/catalogo-dpa/imagenes/vehiculos/423afb3d-67a3-4bbc-80f7-03995149b362.jpg-1789062845309-4",
+        "/catalogo-dpa/imagenes/vehiculos/9915f1d9-8db1-4535-a303-ea3c7e2cf01c.jpg-1789062847017-5",
+        "/catalogo-dpa/imagenes/vehiculos/a6682a9d-d39f-4e25-b5d5-f8913f9b72e3.jpg-1789062849117-6",
+        "/catalogo-dpa/imagenes/vehiculos/b80c1050-331c-4d70-bee5-c9eddc1afccc.jpg-1789062850983-7",
+        "/catalogo-dpa/imagenes/vehiculos/b338ad0b-8ce6-4de3-80f9-dcecd9eb5648.jpg-1789062852813-8",
+        "/catalogo-dpa/imagenes/vehiculos/ba4cf0b4-4d2c-4ddb-a6bc-12fc27dec64d.jpg-1789062854611-9",
+        "/catalogo-dpa/imagenes/vehiculos/befa094c-f1b0-4b2b-b364-d27271dc3fb0.jpg-1789062856321-10",
+        "/catalogo-dpa/imagenes/vehiculos/df07b241-cdbf-459a-9032-d2b717ab49c2.jpg-1789062858263-11"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/0f7824d3-d711-49b5-affd-9648d2a75009.jpg-1789062838839-0"
     },
     {
       "modelo": "F-150 Raptor 3.5 V6 EcoBoost",
