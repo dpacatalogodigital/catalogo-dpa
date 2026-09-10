@@ -813,6 +813,18 @@
       "marca": "MERCEDES"
     },
     {
+      "modelo": "Vito Plus 1.6 HDi 5 asientos",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 1.6 turbodiésel, 5 asientos, aire acondicionado, dirección asistida, alzacristales y espejos eléctricos, Bluetooth/USB, cámara de retroceso, puerta lateral corrediza, ABS, ESP, control de tracción y airbags frontales. Services al día.",
+      "anio": 2021,
+      "tipo": "Furgón-Utilitario",
+      "id": 31,
+      "datos": "Diesel - MT6",
+      "marca": "MERCEDES"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/mini.jpeg",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.17-am.jpeg",
@@ -888,18 +900,6 @@
       "id": 4,
       "datos": "Diésel · 4x2 · Caja manual",
       "marca": "TOYOTA"
-    },
-    {
-      "modelo": "Vito Plus 1.6 HDi 5 asientos",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Motor 1.6 turbodiésel, 5 asientos, aire acondicionado, dirección asistida, alzacristales y espejos eléctricos, Bluetooth/USB, cámara de retroceso, puerta lateral corrediza, ABS, ESP, control de tracción y airbags frontales. Services al día.",
-      "anio": 2021,
-      "tipo": "Furgón-Utilitario",
-      "id": 31,
-      "datos": "Diesel - MT6",
-      "marca": "MERCEDES"
     }
   ]
 }
