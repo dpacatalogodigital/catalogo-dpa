@@ -1947,7 +1947,28 @@
       "tipo": "Sedán",
       "id": 61,
       "datos": "Nafta - MT5",
-      "marca": "VOLKSWAGEN"
+      "marca": "VOLKSWAGEN",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.19.24-am.jpeg-1789075114588-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.19.25-am.jpeg-1789075116044-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.19.26-am.jpeg-1789075117559-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.19.29-am.jpeg-1789075119552-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.19.38-am.jpeg-1789075120948-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.19.42-am.jpeg-1789075122576-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.19.49-am.jpeg-1789075124053-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.19.56-am.jpeg-1789075125630-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.19.57-am.jpeg-1789075127080-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.19.59-am.jpeg-1789075128568-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.20.03-am.jpeg-1789075130087-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.20.24-am.jpeg-1789075131691-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.20.32-am.jpeg-1789075133235-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.20.33-am-1-.jpeg-1789075135211-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.20.33-am.jpeg-1789075136589-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.20.34-am.jpeg-1789075138200-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.20.35-am.jpeg-1789075139816-16",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.20.36-am.jpeg-1789075141051-17"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.19.24-am.jpeg-1789075114588-0"
     },
     {
       "modelo": "Voyage 1.6",
