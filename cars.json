@@ -752,7 +752,28 @@
       "tipo": "Pick-Up",
       "id": 27,
       "datos": "Diesel - MT",
-      "marca": "FORD"
+      "marca": "FORD",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.50-pm-1-.jpeg-1789063280600-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.50-pm-2-.jpeg-1789063282470-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.50-pm-3-.jpeg-1789063284436-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.50-pm-4-.jpeg-1789063286185-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.50-pm-5-.jpeg-1789063287850-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.50-pm-6-.jpeg-1789063290071-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.50-pm-7-.jpeg-1789063291893-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.50-pm-8-.jpeg-1789063293639-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.50-pm.jpeg-1789063295424-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.51-pm-1-.jpeg-1789063297341-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.51-pm-2-.jpeg-1789063299094-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.51-pm-3-.jpeg-1789063300797-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.51-pm-4-.jpeg-1789063302549-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.51-pm.jpeg-1789063304393-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-19-at-4.29.41-pm-1-.jpeg-1789063306303-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-19-at-4.29.41-pm.jpeg-1789063308125-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-19-at-4.29.42-pm-1-.jpeg-1789063309681-16",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-19-at-4.29.42-pm.jpeg-1789063311373-17"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.50-pm-1-.jpeg-1789063280600-0"
     },
     {
       "imagenes": [
