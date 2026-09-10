@@ -1381,7 +1381,24 @@
       "tipo": "Sedán",
       "id": 45,
       "datos": "Nafta - MT",
-      "marca": "TOYOTA"
+      "marca": "TOYOTA",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-1-.jpeg-1789070969380-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-2-.jpeg-1789070971076-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-3-.jpeg-1789070972581-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-4-.jpeg-1789070974869-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-5-.jpeg-1789070976600-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-6-.jpeg-1789070978232-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-7-.jpeg-1789070979734-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-8-.jpeg-1789070981127-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-9-.jpeg-1789070982982-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-10-.jpeg-1789070984372-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-11-.jpeg-1789070986456-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-12-.jpeg-1789070987874-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-13-.jpeg-1789070989462-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am.jpeg-1789070991388-13"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-1-.jpeg-1789070969380-0"
     },
     {
       "imagenes": [],
