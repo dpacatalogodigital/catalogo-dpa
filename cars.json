@@ -1226,6 +1226,19 @@
       "marca": "RENAULT"
     },
     {
+      "modelo": " Sandero Stepway 1.6 16v",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Aire acondicionado, dirección hidráulica, alzacristales delanteros eléctricos, control crucero, tapizado combinado en cuero, faros auxiliares, llantas de aleación y cubiertas nuevas.",
+      "anio": 2017,
+      "tipo": "SUV",
+      "id": 43,
+      "kilometros": 130000,
+      "datos": "Nafta/GNC 5ta Gen - MT",
+      "marca": "RENAULT"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/amarok.jpeg"
       ],
@@ -1256,19 +1269,6 @@
       "id": 4,
       "datos": "Diésel · 4x2 · Caja manual",
       "marca": "TOYOTA"
-    },
-    {
-      "modelo": " Sandero Stepway 1.6 16v",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Aire acondicionado, dirección hidráulica, alzacristales delanteros eléctricos, control crucero, tapizado combinado en cuero, faros auxiliares, llantas de aleación y cubiertas nuevas.",
-      "anio": 2017,
-      "tipo": "SUV",
-      "id": 43,
-      "kilometros": 130000,
-      "datos": "Nafta/GNC 5ta Gen - MT",
-      "marca": "RENAULT"
     }
   ]
 }
