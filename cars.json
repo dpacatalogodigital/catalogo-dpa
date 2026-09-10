@@ -394,17 +394,6 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.59.13-am-1-.jpeg-1789059570497-0"
     },
     {
-      "modelo": "Palio novo 1.4 Attractive",
-      "precio": "Nafta - MT",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Aire acondicionado, dirección hidráulica, alzacristales delanteros y espejos eléctricos. Faros auxiliares y llantas de aleación.",
-      "anio": 2022,
-      "tipo": "Hatch",
-      "id": 17,
-      "kilometros": 100000,
-      "marca": "FIAT",
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.10.43-pm.jpeg-1789060003072-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.10.44-pm.jpeg-1789060004850-1",
@@ -423,20 +412,20 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.11.28-pm.jpeg-1789060027331-14",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.11.32-pm.jpeg-1789060028981-15"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.10.43-pm.jpeg-1789060003072-0"
-    },
-    {
-      "modelo": "Pulse Impetus 1.0T",
+      "modelo": "Palio novo 1.4 Attractive",
+      "precio": "Nafta - MT",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Climatizador automático, tapizado en cuero, control crucero y acceso sin llave. Pantalla Uconnect de 10,1” con Android Auto/Apple CarPlay inalámbricos, navegador, tablero digital, cargador inalámbrico, cámara y sensores. Seguridad con ABS, ESC, 4 airbags, frenado autónomo y asistencia de carril. Llantas de 17”, ópticas LED y carrocería bitono.",
+      "descripcion": "Aire acondicionado, dirección hidráulica, alzacristales delanteros y espejos eléctricos. Faros auxiliares y llantas de aleación.",
       "anio": 2022,
-      "tipo": "SUV",
-      "id": 18,
-      "kilometros": 90000,
-      "datos": "Nafta - AT",
+      "tipo": "Hatch",
+      "id": 17,
+      "kilometros": 100000,
       "marca": "FIAT",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.10.43-pm.jpeg-1789060003072-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/pulse-1-1-.jpeg-1789059890841-0",
         "/catalogo-dpa/imagenes/vehiculos/pulse-1-2-.jpeg-1789059892537-1",
@@ -456,6 +445,17 @@
         "/catalogo-dpa/imagenes/vehiculos/pulse-1-16-.jpeg-1789059914627-15",
         "/catalogo-dpa/imagenes/vehiculos/pulse-1-17-.jpeg-1789059916372-16"
       ],
+      "modelo": "Pulse Impetus 1.0T",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Climatizador automático, tapizado en cuero, control crucero y acceso sin llave. Pantalla Uconnect de 10,1” con Android Auto/Apple CarPlay inalámbricos, navegador, tablero digital, cargador inalámbrico, cámara y sensores. Seguridad con ABS, ESC, 4 airbags, frenado autónomo y asistencia de carril. Llantas de 17”, ópticas LED y carrocería bitono.",
+      "anio": 2022,
+      "tipo": "SUV",
+      "id": 18,
+      "kilometros": 90000,
+      "datos": "Nafta - AT",
+      "marca": "FIAT",
       "portada": "/catalogo-dpa/imagenes/vehiculos/pulse-1-1-.jpeg-1789059890841-0"
     },
     {
@@ -549,6 +549,20 @@
       "tipo": "Pick-Up",
       "id": 5,
       "datos": "Bi-Turbo · 4x2 · AT10",
+      "marca": "FORD"
+    },
+    {
+      "modelo": "Ecosport 1.5 SE 4x2",
+      "precio": "",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Alzacristales y espejos eléctricos, climatizador automático y pantalla multimedia. Faros auxiliares, llantas de aleación y auxilio sin uso.",
+      "anio": 2019,
+      "tipo": "SUV",
+      "id": 19,
+      "kilometros": 61000,
+      "datos": "Nafta - MT- Unica Mano",
       "marca": "FORD"
     }
   ]
