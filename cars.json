@@ -1509,7 +1509,27 @@
       "tipo": "SUV",
       "id": 48,
       "datos": "Diesel - AT - L/24",
-      "marca": "TOYOTA"
+      "marca": "TOYOTA",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.01-pm.jpeg-1789071295834-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.02-pm.jpeg-1789071297241-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.04-pm.jpeg-1789071298985-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.05-pm-1-.jpeg-1789071300571-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.07-pm.jpeg-1789071302445-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.09-pm.jpeg-1789071303960-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.12-pm.jpeg-1789071305473-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.14-pm.jpeg-1789071307078-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.17-pm.jpeg-1789071308570-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.20-pm.jpeg-1789071310224-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.25-pm.jpeg-1789071311722-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.27-pm.jpeg-1789071313460-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.30-pm.jpeg-1789071315185-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.33-pm.jpeg-1789071316593-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.37-pm.jpeg-1789071318097-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.40-pm.jpeg-1789071319468-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.43-pm.jpeg-1789071320653-16"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.01-pm.jpeg-1789071295834-0"
     },
     {
       "modelo": "Yaris 1.5 XLS 5 Puertas",
