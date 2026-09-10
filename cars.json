@@ -420,6 +420,19 @@
       "id": 5,
       "datos": "Bi-Turbo · 4x2 · AT10",
       "marca": "FORD"
+    },
+    {
+      "modelo": "Cronos 1.8 Precision",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 1.8 E.torQ nafta, climatizador digital, volante en cuero con control crucero y pantalla Uconnect de 7” con Apple CarPlay/Android Auto. Cámara y sensores traseros, acceso sin llave, encendido por botón y amplio baúl de 525 L. Seguridad con ESP, control de tracción, ABS, airbags e ISOFIX. Llantas Precision diamantadas y faros antiniebla.",
+      "anio": 2018,
+      "tipo": "Sedán",
+      "id": 15,
+      "kilometros": 82000,
+      "datos": "Nafta/GNC - MT",
+      "marca": "FIAT"
     }
   ]
 }
