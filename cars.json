@@ -523,6 +523,18 @@
       "marca": "FORD"
     },
     {
+      "modelo": " F-100 3.9 Duty XLT 4x2 Motor Cummins",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, cierre centralizado, alarma y cubiertas nuevas. Lista para transferir, con duplicado de llave y manuales.",
+      "anio": 2009,
+      "tipo": "Pick-Up",
+      "id": 24,
+      "datos": "Diesel - MT",
+      "marca": "FORD"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/ranger.jpeg"
       ],
@@ -616,15 +628,16 @@
       "marca": "TOYOTA"
     },
     {
-      "modelo": " F-100 3.9 Duty XLT 4x2 Motor Cummins",
+      "modelo": "F-150 Raptor 3.5 V6 EcoBoost",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, cierre centralizado, alarma y cubiertas nuevas. Lista para transferir, con duplicado de llave y manuales.",
-      "anio": 2009,
+      "descripcion": "V6 3.5 Bi-Turbo de 456 CV, 4x4 con reductora, suspensión Fox, cuero, techo panorámico, pantalla 12”, CarPlay/Android Auto, cámara 360°, 6 airbags, crucero adaptativo y frenado autónomo.",
+      "anio": 2024,
       "tipo": "Pick-Up",
-      "id": 24,
-      "datos": "Diesel - MT",
+      "id": 25,
+      "kilometros": 53000,
+      "datos": "Nafta - AT10",
       "marca": "FORD"
     }
   ]
