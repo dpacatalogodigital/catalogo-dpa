@@ -1713,6 +1713,18 @@
       "kilometros": 100000,
       "datos": "Nafta - AT6 Tiptronic",
       "marca": "VOLKSWAGEN"
+    },
+    {
+      "modelo": "UP! White  5 Puertas",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 1.0 nafta de 75 CV, caja manual, aire acondicionado, dirección eléctrica, alzacristales y espejos eléctricos, cierre remoto, sensores traseros, 2 airbags, ABS, ISOFIX, llantas de 15” y antinieblas.",
+      "anio": 2015,
+      "tipo": "Hatch",
+      "id": 60,
+      "datos": "Nafta - MT",
+      "marca": "VOLKSWAGEN"
     }
   ]
 }
