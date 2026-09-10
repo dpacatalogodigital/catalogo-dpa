@@ -961,7 +961,27 @@
       "tipo": "Pick-Up",
       "id": 32,
       "datos": "Diesel - MT",
-      "marca": "NISSAN"
+      "marca": "NISSAN",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.15.38-am.jpeg-1789065801212-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.15.39-am.jpeg-1789065802711-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.15.41-am.jpeg-1789065804208-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.15.43-am.jpeg-1789065806167-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.15.50-am.jpeg-1789065807737-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.15.54-am.jpeg-1789065810111-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.16.01-am.jpeg-1789065811763-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.16.08-am.jpeg-1789065813425-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.16.27-am.jpeg-1789065815184-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.16.28-am-1-.jpeg-1789065816702-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.16.28-am.jpeg-1789065818384-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.16.29-am-2-.jpeg-1789065820040-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.16.29-am.jpeg-1789065821639-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.16.30-am.jpeg-1789065823453-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.16.31-am-1-.jpeg-1789065825108-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.16.31-am.jpeg-1789065826418-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.16.32-am.jpeg-1789065827651-16"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.15.38-am.jpeg-1789065801212-0"
     },
     {
       "modelo": "Kicks 1.6 Advance CVT",
