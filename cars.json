@@ -1401,7 +1401,26 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-1-.jpeg-1789070969380-0"
     },
     {
-      "imagenes": [],
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.37.34-pm.jpeg-1789071077125-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.37.35-pm.jpeg-1789071078791-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.37.36-pm.jpeg-1789071080522-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.37.38-pm.jpeg-1789071082074-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.37.41-pm.jpeg-1789071083473-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.37.44-pm.jpeg-1789071084849-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.37.46-pm.jpeg-1789071086385-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.37.49-pm.jpeg-1789071087812-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.37.51-pm.jpeg-1789071089328-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.37.54-pm.jpeg-1789071090781-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.37.57-pm.jpeg-1789071092093-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.38.00-pm.jpeg-1789071093681-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.38.02-pm.jpeg-1789071095001-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.38.04-pm.jpeg-1789071096499-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.38.07-pm.jpeg-1789071097761-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.38.10-pm.jpeg-1789071099469-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.38.12-pm.jpeg-1789071100977-16",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.41.23-pm.jpeg-1789071102400-17"
+      ],
       "modelo": "Hilux 2.4 TDi 4x2 DX",
       "precio": "",
       "sale": false,
@@ -1412,7 +1431,8 @@
       "tipo": "Pick-Up",
       "id": 4,
       "datos": "Diésel - MT6",
-      "marca": "TOYOTA"
+      "marca": "TOYOTA",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.37.34-pm.jpeg-1789071077125-0"
     },
     {
       "modelo": "Hilux 2.8 TDI DC SRV 4x2",
