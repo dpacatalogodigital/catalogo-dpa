@@ -1030,6 +1030,19 @@
       "marca": "PEUGEOT"
     },
     {
+      "modelo": "3008 1.6 THP GT Line",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 1.6 THP turbo, climatizador bi-zona, pantalla multimedia, cuero/alcántara, butacas con masaje, cámara y sensores, ABS, control de estabilidad y tracción, 6 airbags y llantas GT Line.",
+      "anio": 2022,
+      "tipo": "SUV",
+      "id": 35,
+      "kilometros": 80000,
+      "datos": "Nafta - Automatica",
+      "marca": "PEUGEOT"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/amarok.jpeg"
       ],
@@ -1062,16 +1075,15 @@
       "marca": "TOYOTA"
     },
     {
-      "modelo": "3008 1.6 THP GT Line",
+      "modelo": "Partner 1.4 N Confort PLC",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 1.6 THP turbo, climatizador bi-zona, pantalla multimedia, cuero/alcántara, butacas con masaje, cámara y sensores, ABS, control de estabilidad y tracción, 6 airbags y llantas GT Line.",
-      "anio": 2022,
-      "tipo": "SUV",
-      "id": 35,
-      "kilometros": 80000,
-      "datos": "Nafta - Automatica",
+      "descripcion": "Aire acondicionado. Cierre centralizado con mando a distancia.",
+      "anio": 2015,
+      "tipo": "Furgón-Utilitario",
+      "id": 36,
+      "datos": "Nafta/GNC - MT - Unica Mano",
       "marca": "PEUGEOT"
     }
   ]
