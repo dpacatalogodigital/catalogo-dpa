@@ -1792,7 +1792,26 @@
       "tipo": "Hatch",
       "id": 56,
       "datos": "Nafta - MT",
-      "marca": "VOLKSWAGEN"
+      "marca": "VOLKSWAGEN",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.43.46-pm.jpeg-1789074725278-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.43.47-pm.jpeg-1789074726760-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.43.49-pm.jpeg-1789074728394-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.43.51-pm.jpeg-1789074730077-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.43.53-pm.jpeg-1789074731558-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.43.56-pm.jpeg-1789074732986-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.43.59-pm.jpeg-1789074734307-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.44.02-pm.jpeg-1789074735969-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.44.07-pm.jpeg-1789074737363-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.44.10-pm.jpeg-1789074738902-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.44.14-pm.jpeg-1789074740402-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.44.18-pm.jpeg-1789074741727-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.44.21-pm.jpeg-1789074743231-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.44.25-pm.jpeg-1789074745001-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.44.28-pm.jpeg-1789074746967-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.44.30-pm.jpeg-1789074748511-15"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.43.46-pm.jpeg-1789074725278-0"
     },
     {
       "modelo": "New Beetle 2.0 8v",
