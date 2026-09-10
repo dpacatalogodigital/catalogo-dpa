@@ -1284,7 +1284,27 @@
       "tipo": "SUV",
       "id": 42,
       "datos": "Nafta/GNC 5ta Gen - MT",
-      "marca": "RENAULT"
+      "marca": "RENAULT",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.05-am.jpeg-1789069436073-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.06-am.jpeg-1789069437538-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.07-am.jpeg-1789069439029-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.08-am-1-.jpeg-1789069440132-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.08-am.jpeg-1789069441710-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.09-am-1-.jpeg-1789069443398-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.09-am-2-.jpeg-1789069444990-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.09-am-3-.jpeg-1789069446460-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.09-am-4-.jpeg-1789069447851-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.09-am.jpeg-1789069449447-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.10-am.jpeg-1789069451870-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.11-am-1-.jpeg-1789069453575-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.11-am.jpeg-1789069454997-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.12-am-1-.jpeg-1789069456676-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.12-am-2-.jpeg-1789069458224-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.12-am.jpeg-1789069459510-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.13-am.jpeg-1789069460892-16"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.05-am.jpeg-1789069436073-0"
     },
     {
       "modelo": " Sandero Stepway 1.6 16v",
