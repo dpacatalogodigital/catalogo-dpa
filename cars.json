@@ -534,7 +534,27 @@
       "tipo": "Hatch",
       "id": 21,
       "datos": "Nafta/GNC - MT5",
-      "marca": "FORD"
+      "marca": "FORD",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.20.57-am.jpeg-1789062513036-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.20.59-am.jpeg-1789062514649-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.21.00-am.jpeg-1789062516460-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.21.02-am.jpeg-1789062518065-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.21.11-am.jpeg-1789062519492-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.21.13-am.jpeg-1789062520924-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.21.22-am.jpeg-1789062522333-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.21.23-am-1-.jpeg-1789062523972-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.21.23-am.jpeg-1789062525501-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.21.24-am.jpeg-1789062527304-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.21.35-am.jpeg-1789062529321-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.21.36-am-1-.jpeg-1789062530752-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.21.36-am.jpeg-1789062532360-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.21.43-am.jpeg-1789062533926-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.21.44-am.jpeg-1789062535378-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.21.45-am-1-.jpeg-1789062536667-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.21.45-am.jpeg-1789062538270-16"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.20.57-am.jpeg-1789062513036-0"
     },
     {
       "modelo": "Focus III 2.0 SE Plus",
