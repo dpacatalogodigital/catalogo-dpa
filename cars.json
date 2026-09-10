@@ -850,7 +850,28 @@
       "tipo": "Cabriolet",
       "id": 30,
       "datos": "Nafta - AT",
-      "marca": "MERCEDES"
+      "marca": "MERCEDES",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.13-pm-1-.jpeg-1789065001522-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.13-pm-2-.jpeg-1789065003485-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.13-pm-3-.jpeg-1789065005553-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.13-pm-4-.jpeg-1789065007390-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.13-pm.jpeg-1789065009100-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.14-pm-1-.jpeg-1789065011030-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.14-pm-2-.jpeg-1789065012840-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.14-pm-3-.jpeg-1789065014622-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.14-pm.jpeg-1789065016247-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.15-pm-1-.jpeg-1789065018521-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.15-pm-2-.jpeg-1789065020606-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.15-pm-3-.jpeg-1789065022261-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.15-pm.jpeg-1789065024033-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.16-pm-1-.jpeg-1789065025754-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.16-pm-2-.jpeg-1789065027560-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.16-pm-3-.jpeg-1789065029359-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.16-pm.jpeg-1789065031197-16",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.17-pm.jpeg-1789065033398-17"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.13-pm-1-.jpeg-1789065001522-0"
     },
     {
       "modelo": "Vito Plus 1.6 HDi 5 asientos",
