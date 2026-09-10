@@ -2011,7 +2011,23 @@
       "tipo": "Hatch",
       "id": 63,
       "datos": "Nafta - MT",
-      "marca": "VOLKSWAGEN"
+      "marca": "VOLKSWAGEN",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.28-pm-1-.jpeg-1789075329784-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.28-pm.jpeg-1789075331740-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.29-pm-1-.jpeg-1789075333416-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.29-pm-2-.jpeg-1789075336795-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.29-pm-3-.jpeg-1789075338261-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.29-pm.jpeg-1789075340076-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.30-pm-1-.jpeg-1789075341830-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.30-pm-2-.jpeg-1789075343265-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.30-pm-3-.jpeg-1789075345047-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.30-pm.jpeg-1789075346695-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.31-pm-1-.jpeg-1789075348440-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.31-pm-2-.jpeg-1789075350316-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.31-pm.jpeg-1789075351853-12"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.28-pm-1-.jpeg-1789075329784-0"
     }
   ]
 }
