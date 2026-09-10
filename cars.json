@@ -1187,7 +1187,28 @@
       "tipo": "SUV",
       "id": 39,
       "datos": "Nafta/GNC - Manual",
-      "marca": "RENAULT"
+      "marca": "RENAULT",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.41-pm-1-.jpeg-1789069158810-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.41-pm.jpeg-1789069160612-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.42-pm-1-.jpeg-1789069162672-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.42-pm-2-.jpeg-1789069164382-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.42-pm-3-.jpeg-1789069166160-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.42-pm.jpeg-1789069167703-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.43-pm-1-.jpeg-1789069169345-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.43-pm.jpeg-1789069171097-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.44-pm-1-.jpeg-1789069172856-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.44-pm-2-.jpeg-1789069175059-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.44-pm.jpeg-1789069176742-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.45-pm-1-.jpeg-1789069178265-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.45-pm-2-.jpeg-1789069180018-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.45-pm.jpeg-1789069181567-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.46-pm.jpeg-1789069183362-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.47-pm-1-.jpeg-1789069185049-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.47-pm-2-.jpeg-1789069186500-16",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.47-pm.jpeg-1789069188495-17"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.41-pm-1-.jpeg-1789069158810-0"
     },
     {
       "modelo": "Duster 2.0 Privilege",
