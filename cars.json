@@ -1760,7 +1760,27 @@
       "tipo": "Pick-Up",
       "id": 55,
       "datos": "Diesel - AT",
-      "marca": "VOLKSWAGEN"
+      "marca": "VOLKSWAGEN",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.08.00-pm.jpeg-1789074663494-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.08.01-pm.jpeg-1789074664931-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.08.56-pm-1-.jpeg-1789074666318-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.08.56-pm.jpeg-1789074667880-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.08.57-pm-1-.jpeg-1789074669512-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.08.57-pm.jpeg-1789074670966-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.08.58-pm-1-.jpeg-1789074672445-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.08.58-pm.jpeg-1789074674678-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.08.59-pm.jpeg-1789074676136-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.09.05-pm.jpeg-1789074677640-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.13.53-pm-1-.jpeg-1789074678788-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.13.53-pm-2-.jpeg-1789074680324-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.13.53-pm.jpeg-1789074681700-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.13.54-pm-1-.jpeg-1789074683095-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.13.54-pm-2-.jpeg-1789074684304-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.13.54-pm.jpeg-1789074686231-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.13.59-pm.jpeg-1789074687732-16"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.08.00-pm.jpeg-1789074663494-0"
     },
     {
       "modelo": "Fox 1.6 3p",
