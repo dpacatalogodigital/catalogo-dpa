@@ -1533,8 +1533,8 @@
     },
     {
       "imagenes": [
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.47-am-1-.jpeg-1789071379109-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.47-am.jpeg-1789071380672-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.47-am-1-.jpeg-1789071379109-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.49-am.jpeg-1789071382323-2",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.50-am.jpeg-1789071383961-3",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.53-am.jpeg-1789071385404-4",
@@ -1595,16 +1595,6 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.12-pm-1-.jpeg-1789071826285-0"
     },
     {
-      "modelo": "Amarok 2.0 TDI Trendline 4x2 AT 180CV",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Motor 2.0 TDI Bi-Turbo de 180 CV, 4x2, aire acondicionado, dirección asistida, Bluetooth/USB, cierre remoto, levantavidrios eléctricos, ESP, control de tracción, ABS, airbags frontales y llantas R17.",
-      "anio": 2015,
-      "tipo": "Pick-Up",
-      "id": 50,
-      "datos": "Diesel - AT8",
-      "marca": "VOLKSWAGEN",
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.19-pm.jpeg-1789074166364-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.23-pm.jpeg-1789074168118-1",
@@ -1624,19 +1614,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.30-pm-2-.jpeg-1789074189666-15",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.30-pm.jpeg-1789074191180-16"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.19-pm.jpeg-1789074166364-0"
-    },
-    {
-      "modelo": "Amarok 2.0 TDi DC Highline Pk. 4x4 180CV",
+      "modelo": "Amarok 2.0 TDI Trendline 4x2 AT 180CV",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Cuero, butacas calefaccionadas, climatizador automático, control crucero, alzacristales y espejos eléctricos, Bluetooth/USB/AUX, sensores de estacionamiento y faros auxiliares.",
+      "descripcion": "Motor 2.0 TDI Bi-Turbo de 180 CV, 4x2, aire acondicionado, dirección asistida, Bluetooth/USB, cierre remoto, levantavidrios eléctricos, ESP, control de tracción, ABS, airbags frontales y llantas R17.",
       "anio": 2015,
       "tipo": "Pick-Up",
-      "id": 51,
-      "datos": "Diesel - AT",
+      "id": 50,
+      "datos": "Diesel - AT8",
       "marca": "VOLKSWAGEN",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.19-pm.jpeg-1789074166364-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.24.46-pm-1-.jpeg-1789074269862-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.24.46-pm.jpeg-1789074271293-1",
@@ -1656,18 +1646,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.24.54-pm-3-.jpeg-1789074292311-15",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.24.54-pm.jpeg-1789074293636-16"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.24.46-pm-1-.jpeg-1789074269862-0"
-    },
-    {
-      "modelo": "Amarok 2.0 TDI Trendline  4x4 140CV",
+      "modelo": "Amarok 2.0 TDi DC Highline Pk. 4x4 180CV",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "anio": 2017,
+      "descripcion": "Cuero, butacas calefaccionadas, climatizador automático, control crucero, alzacristales y espejos eléctricos, Bluetooth/USB/AUX, sensores de estacionamiento y faros auxiliares.",
+      "anio": 2015,
       "tipo": "Pick-Up",
-      "id": 52,
-      "datos": "Diesel - MT6",
+      "id": 51,
+      "datos": "Diesel - AT",
       "marca": "VOLKSWAGEN",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.24.46-pm-1-.jpeg-1789074269862-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.03-am-1-.jpeg-1789074389374-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.03-am.jpeg-1789074390870-1",
@@ -1684,19 +1675,18 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.29-am.jpeg-1789074407557-12",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.32-am.jpeg-1789074408809-13"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.03-am-1-.jpeg-1789074389374-0"
-    },
-    {
-      "modelo": "Amarok 2.0 TDi DC 4x2 140cv",
+      "modelo": "Amarok 2.0 TDI Trendline  4x4 140CV",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Alzacristales y espejos eléctricos, cuerina, multimedia Android con cámara, llantas R16, cubiertas nuevas, estribos, jaula y lona marítima.",
-      "anio": 2019,
+      "anio": 2017,
       "tipo": "Pick-Up",
-      "id": 53,
-      "datos": "Diesel - MT6 - L/17",
+      "id": 52,
+      "datos": "Diesel - MT6",
       "marca": "VOLKSWAGEN",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.03-am-1-.jpeg-1789074389374-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.01-pm.jpeg-1789074484484-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.03-pm.jpeg-1789074486015-1",
@@ -1715,19 +1705,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.57-pm.jpeg-1789074505493-14",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.10.03-pm.jpeg-1789074507081-15"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.01-pm.jpeg-1789074484484-0"
-    },
-    {
-      "modelo": "Amarok 2.0 TDI Highline 4x2",
+      "modelo": "Amarok 2.0 TDi DC 4x2 140cv",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 2.0 biturbo diésel de 180 CV, automática de 8 velocidades, 4x2, jaula, tapa rígida y estribos. Interior en excelente estado.",
-      "anio": 2020,
+      "descripcion": "Alzacristales y espejos eléctricos, cuerina, multimedia Android con cámara, llantas R16, cubiertas nuevas, estribos, jaula y lona marítima.",
+      "anio": 2019,
       "tipo": "Pick-Up",
-      "id": 54,
-      "datos": "Diesel - AT",
+      "id": 53,
+      "datos": "Diesel - MT6 - L/17",
       "marca": "VOLKSWAGEN",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.01-pm.jpeg-1789074484484-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.34-am-1-.jpeg-1789074548905-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.34-am.jpeg-1789074551099-1",
@@ -1748,19 +1738,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.38-am.jpeg-1789074576871-16",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.39-am.jpeg-1789074578227-17"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.34-am-1-.jpeg-1789074548905-0"
-    },
-    {
-      "modelo": "Amarok 3.0 V6 Extreme 4x4",
+      "modelo": "Amarok 2.0 TDI Highline 4x2",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Cuero, butacas eléctricas y calefaccionadas, climatizador automático, control crucero, alzacristales y espejos eléctricos, multimedia con navegador y cámara, sensores delanteros y traseros y faros auxiliares.",
-      "anio": 2023,
+      "descripcion": "Motor 2.0 biturbo diésel de 180 CV, automática de 8 velocidades, 4x2, jaula, tapa rígida y estribos. Interior en excelente estado.",
+      "anio": 2020,
       "tipo": "Pick-Up",
-      "id": 55,
+      "id": 54,
       "datos": "Diesel - AT",
       "marca": "VOLKSWAGEN",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.34-am-1-.jpeg-1789074548905-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.08.00-pm.jpeg-1789074663494-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.08.01-pm.jpeg-1789074664931-1",
@@ -1780,19 +1770,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.13.54-pm.jpeg-1789074686231-15",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.13.59-pm.jpeg-1789074687732-16"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.08.00-pm.jpeg-1789074663494-0"
-    },
-    {
-      "modelo": "Fox 1.6 3p",
+      "modelo": "Amarok 3.0 V6 Extreme 4x4",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Aire acondicionado, alzacristales eléctricos, alarma con cierre y cortacorriente, llantas de aleación.",
-      "anio": 2011,
-      "tipo": "Hatch",
-      "id": 56,
-      "datos": "Nafta - MT",
+      "descripcion": "Cuero, butacas eléctricas y calefaccionadas, climatizador automático, control crucero, alzacristales y espejos eléctricos, multimedia con navegador y cámara, sensores delanteros y traseros y faros auxiliares.",
+      "anio": 2023,
+      "tipo": "Pick-Up",
+      "id": 55,
+      "datos": "Diesel - AT",
       "marca": "VOLKSWAGEN",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.08.00-pm.jpeg-1789074663494-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.43.46-pm.jpeg-1789074725278-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.43.47-pm.jpeg-1789074726760-1",
@@ -1811,19 +1801,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.44.28-pm.jpeg-1789074746967-14",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.44.30-pm.jpeg-1789074748511-15"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.43.46-pm.jpeg-1789074725278-0"
-    },
-    {
-      "modelo": "New Beetle 2.0 8v",
+      "modelo": "Fox 1.6 3p",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 2.0 nafta, caja manual, aire acondicionado, dirección asistida, alzacristales y espejos eléctricos, cierre centralizado, 2 airbags, ABS y llantas Audi R18.",
-      "anio": 2007,
+      "descripcion": "Aire acondicionado, alzacristales eléctricos, alarma con cierre y cortacorriente, llantas de aleación.",
+      "anio": 2011,
       "tipo": "Hatch",
-      "id": 57,
+      "id": 56,
       "datos": "Nafta - MT",
       "marca": "VOLKSWAGEN",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.43.46-pm.jpeg-1789074725278-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.00-am.jpeg-1789074790309-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.02-am-1-.jpeg-1789074791917-1",
@@ -1841,19 +1831,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.16-am.jpeg-1789074811692-13",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.17-am.jpeg-1789074813420-14"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.00-am.jpeg-1789074790309-0"
-    },
-    {
-      "modelo": "Suran 1.6 Highline Cuero",
+      "modelo": "New Beetle 2.0 8v",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, cuero, faros auxiliares, llantas de aleación y GNC de 5.ª generación. Segunda mano.",
-      "anio": 2010,
-      "tipo": "Sedán",
-      "id": 58,
-      "datos": "Nafta/GNC - MT",
+      "descripcion": "Motor 2.0 nafta, caja manual, aire acondicionado, dirección asistida, alzacristales y espejos eléctricos, cierre centralizado, 2 airbags, ABS y llantas Audi R18.",
+      "anio": 2007,
+      "tipo": "Hatch",
+      "id": 57,
+      "datos": "Nafta - MT",
       "marca": "VOLKSWAGEN",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.00-am.jpeg-1789074790309-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.41.52-pm.jpeg-1789074888892-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.41.56-pm.jpeg-1789074890760-1",
@@ -1871,20 +1861,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.42.14-pm-1-.jpeg-1789074910748-13",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.42.14-pm.jpeg-1789074912688-14"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.41.52-pm.jpeg-1789074888892-0"
-    },
-    {
-      "modelo": "Taos Highline 1.4 TSI Tiptronic",
+      "modelo": "Suran 1.6 Highline Cuero",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 1.4 TSI, cuero, asiento eléctrico, techo panorámico, climatizador bizona, tablero digital, CarPlay/Android Auto, cámara y sensores, crucero adaptativo, frenado autónomo, asistente de carril, detector de punto ciego, ABS, control de estabilidad y airbags.",
-      "anio": 2021,
-      "tipo": "SUV",
-      "id": 59,
-      "kilometros": 100000,
-      "datos": "Nafta - AT6 Tiptronic",
+      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, cuero, faros auxiliares, llantas de aleación y GNC de 5.ª generación. Segunda mano.",
+      "anio": 2010,
+      "tipo": "Sedán",
+      "id": 58,
+      "datos": "Nafta/GNC - MT",
       "marca": "VOLKSWAGEN",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.41.52-pm.jpeg-1789074888892-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.24-pm.jpeg-1789074950282-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.25-pm.jpeg-1789074952128-1",
@@ -1905,19 +1894,20 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.50-pm.jpeg-1789074977825-16",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-07-at-4.27.37-pm.jpeg-1789074979563-17"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.24-pm.jpeg-1789074950282-0"
-    },
-    {
-      "modelo": "UP! White  5 Puertas",
+      "modelo": "Taos Highline 1.4 TSI Tiptronic",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 1.0 nafta de 75 CV, caja manual, aire acondicionado, dirección eléctrica, alzacristales y espejos eléctricos, cierre remoto, sensores traseros, 2 airbags, ABS, ISOFIX, llantas de 15” y antinieblas.",
-      "anio": 2015,
-      "tipo": "Hatch",
-      "id": 60,
-      "datos": "Nafta - MT",
+      "descripcion": "Motor 1.4 TSI, cuero, asiento eléctrico, techo panorámico, climatizador bizona, tablero digital, CarPlay/Android Auto, cámara y sensores, crucero adaptativo, frenado autónomo, asistente de carril, detector de punto ciego, ABS, control de estabilidad y airbags.",
+      "anio": 2021,
+      "tipo": "SUV",
+      "id": 59,
+      "kilometros": 100000,
+      "datos": "Nafta - AT6 Tiptronic",
       "marca": "VOLKSWAGEN",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.24-pm.jpeg-1789074950282-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.09.51-pm.jpeg-1789075014574-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.09.54-pm.jpeg-1789075016029-1",
@@ -1935,19 +1925,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.10.43-pm.jpeg-1789075034983-13",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.10.47-pm.jpeg-1789075036224-14"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.09.51-pm.jpeg-1789075014574-0"
-    },
-    {
-      "modelo": "Vento 2.5 Advance 170cv",
+      "modelo": "UP! White  5 Puertas",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 2.5 nafta de 170 CV, aire acondicionado, dirección asistida, Bluetooth/USB, control crucero, sensores de estacionamiento, ESP, control de tracción, ABS, airbags frontales y laterales y llantas de aleación.",
+      "descripcion": "Motor 1.0 nafta de 75 CV, caja manual, aire acondicionado, dirección eléctrica, alzacristales y espejos eléctricos, cierre remoto, sensores traseros, 2 airbags, ABS, ISOFIX, llantas de 15” y antinieblas.",
       "anio": 2015,
-      "tipo": "Sedán",
-      "id": 61,
-      "datos": "Nafta - MT5",
+      "tipo": "Hatch",
+      "id": 60,
+      "datos": "Nafta - MT",
       "marca": "VOLKSWAGEN",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.09.51-pm.jpeg-1789075014574-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.19.24-am.jpeg-1789075114588-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.19.25-am.jpeg-1789075116044-1",
@@ -1968,19 +1958,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.20.35-am.jpeg-1789075139816-16",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.20.36-am.jpeg-1789075141051-17"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.19.24-am.jpeg-1789075114588-0"
-    },
-    {
-      "modelo": "Voyage 1.6",
+      "modelo": "Vento 2.5 Advance 170cv",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 1.6 nafta, aire acondicionado, dirección hidráulica, audio CD/USB/AUX, ABS y 2 airbags.",
-      "anio": 2014,
+      "descripcion": "Motor 2.5 nafta de 170 CV, aire acondicionado, dirección asistida, Bluetooth/USB, control crucero, sensores de estacionamiento, ESP, control de tracción, ABS, airbags frontales y laterales y llantas de aleación.",
+      "anio": 2015,
       "tipo": "Sedán",
-      "id": 62,
+      "id": 61,
       "datos": "Nafta - MT5",
       "marca": "VOLKSWAGEN",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.19.24-am.jpeg-1789075114588-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.52.59-am.jpeg-1789075213694-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.00-am.jpeg-1789075215184-1",
@@ -2000,18 +1990,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.40-am.jpeg-1789075236740-15",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.44-am.jpeg-1789075238288-16"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.52.59-am.jpeg-1789075213694-0"
-    },
-    {
-      "modelo": "113 / 1300L Escarabajo",
+      "modelo": "Voyage 1.6",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "anio": 1980,
-      "tipo": "Hatch",
-      "id": 63,
-      "datos": "Nafta - MT",
+      "descripcion": "Motor 1.6 nafta, aire acondicionado, dirección hidráulica, audio CD/USB/AUX, ABS y 2 airbags.",
+      "anio": 2014,
+      "tipo": "Sedán",
+      "id": 62,
+      "datos": "Nafta - MT5",
       "marca": "VOLKSWAGEN",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.52.59-am.jpeg-1789075213694-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.28-pm-1-.jpeg-1789075329784-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.28-pm.jpeg-1789075331740-1",
@@ -2027,6 +2018,15 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.31-pm-2-.jpeg-1789075350316-11",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.31-pm.jpeg-1789075351853-12"
       ],
+      "modelo": "113 / 1300L Escarabajo",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "anio": 1980,
+      "tipo": "Hatch",
+      "id": 63,
+      "datos": "Nafta - MT",
+      "marca": "VOLKSWAGEN",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.28-pm-1-.jpeg-1789075329784-0"
     }
   ]
