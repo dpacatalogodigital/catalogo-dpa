@@ -964,6 +964,19 @@
       "marca": "NISSAN"
     },
     {
+      "modelo": "Kicks 1.6 Advance CVT",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 1.6 nafta de 120 CV, automática CVT, climatizador, arranque sin llave, control crucero, CarPlay/Android Auto, cámara y sensores traseros, 6 airbags, ABS, control de estabilidad y tracción, alerta de colisión frontal, faros LED y llantas de 17”",
+      "anio": 2023,
+      "tipo": "SUV",
+      "id": 33,
+      "kilometros": 21000,
+      "datos": "Nafta - AT",
+      "marca": "NISSAN"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/amarok.jpeg"
       ],
@@ -994,19 +1007,6 @@
       "id": 4,
       "datos": "Diésel · 4x2 · Caja manual",
       "marca": "TOYOTA"
-    },
-    {
-      "modelo": "Kicks 1.6 Advance CVT",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Motor 1.6 nafta de 120 CV, automática CVT, climatizador, arranque sin llave, control crucero, CarPlay/Android Auto, cámara y sensores traseros, 6 airbags, ABS, control de estabilidad y tracción, alerta de colisión frontal, faros LED y llantas de 17”",
-      "anio": 2023,
-      "tipo": "SUV",
-      "id": 33,
-      "kilometros": 21000,
-      "datos": "Nafta - AT",
-      "marca": "NISSAN"
     }
   ]
 }
