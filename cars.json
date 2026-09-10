@@ -502,7 +502,27 @@
       "tipo": "Hatch",
       "id": 20,
       "datos": "Nafta - MT",
-      "marca": "FORD"
+      "marca": "FORD",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.19-am.jpeg-1789062447500-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.20-am.jpeg-1789062449095-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.22-am.jpeg-1789062450562-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.25-am.jpeg-1789062452161-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.39-am.jpeg-1789062453681-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.40-am.jpeg-1789062455050-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.46-am.jpeg-1789062457080-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.47-am-1-.jpeg-1789062458508-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.47-am.jpeg-1789062459874-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.54-am.jpeg-1789062461112-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.55-am.jpeg-1789062462669-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.56-am.jpeg-1789062464461-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.05.03-am-1-.jpeg-1789062466325-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.05.03-am.jpeg-1789062468225-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.05.05-am-1-.jpeg-1789062469926-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.05.05-am-2-.jpeg-1789062471177-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.05.05-am.jpeg-1789062472814-16"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.19-am.jpeg-1789062447500-0"
     },
     {
       "modelo": "Fiesta Kinetic Design 1.6 S 5 Puertas",
