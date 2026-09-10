@@ -1214,6 +1214,18 @@
       "marca": "RENAULT"
     },
     {
+      "modelo": "Sandero Stepway 1.6 16v Privilegie",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Aire acondicionado, dirección hidráulica, alzacristales y espejos eléctricos, control crucero, tapizado combinado en cuero, multimedia con navegador, sensores, faros auxiliares, llantas de aleación, cubiertas nuevas y portaequipajes.",
+      "anio": 2017,
+      "tipo": "SUV",
+      "id": 42,
+      "datos": "Nafta/GNC 5ta Gen - MT",
+      "marca": "RENAULT"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/amarok.jpeg"
       ],
@@ -1244,18 +1256,6 @@
       "id": 4,
       "datos": "Diésel · 4x2 · Caja manual",
       "marca": "TOYOTA"
-    },
-    {
-      "modelo": "Sandero Stepway 1.6 16v Privilegie",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Aire acondicionado, dirección hidráulica, alzacristales y espejos eléctricos, control crucero, tapizado combinado en cuero, multimedia con navegador, sensores, faros auxiliares, llantas de aleación, cubiertas nuevas y portaequipajes.",
-      "anio": 2017,
-      "tipo": "SUV",
-      "id": 42,
-      "datos": "Nafta/GNC 5ta Gen - MT",
-      "marca": "RENAULT"
     }
   ]
 }
