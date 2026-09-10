@@ -1444,7 +1444,27 @@
       "tipo": "Pick-Up",
       "id": 46,
       "datos": "Diesel - AT",
-      "marca": "TOYOTA"
+      "marca": "TOYOTA",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.22-am.jpeg-1789071149346-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.23-am-1-.jpeg-1789071150797-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.23-am-2-.jpeg-1789071152252-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.23-am.jpeg-1789071154132-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.24-am-1-.jpeg-1789071155656-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.24-am-2-.jpeg-1789071157187-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.24-am-3-.jpeg-1789071158780-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.24-am-4-.jpeg-1789071160378-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.24-am.jpeg-1789071162008-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.25-am-1-.jpeg-1789071163703-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.25-am-2-.jpeg-1789071165103-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.25-am-3-.jpeg-1789071166615-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.25-am.jpeg-1789071168929-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.26-am-1-.jpeg-1789071171048-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.26-am-2-.jpeg-1789071172506-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.26-am-3-.jpeg-1789071174264-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.26-am.jpeg-1789071175783-16"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.22-am.jpeg-1789071149346-0"
     },
     {
       "modelo": "Hilux SW4 2.8 SRX 4X4 7AS",
