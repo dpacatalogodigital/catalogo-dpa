@@ -1595,8 +1595,16 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.12-pm-1-.jpeg-1789071826285-0"
     },
     {
+      "modelo": "Amarok 2.0 TDI Trendline 4x2 AT 180CV",
+      "sale": false,
       "recienLlegado": false,
-      "sale": false
+      "condicion": "usado",
+      "descripcion": "Motor 2.0 TDI Bi-Turbo de 180 CV, 4x2, aire acondicionado, dirección asistida, Bluetooth/USB, cierre remoto, levantavidrios eléctricos, ESP, control de tracción, ABS, airbags frontales y llantas R17.",
+      "anio": 2015,
+      "tipo": "Pick-Up",
+      "id": 50,
+      "datos": "Diesel - AT8",
+      "marca": "VOLKSWAGEN"
     }
   ]
 }
