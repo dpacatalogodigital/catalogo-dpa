@@ -1043,6 +1043,18 @@
       "marca": "PEUGEOT"
     },
     {
+      "modelo": "Partner 1.4 N Confort PLC",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Aire acondicionado. Cierre centralizado con mando a distancia.",
+      "anio": 2015,
+      "tipo": "Furgón-Utilitario",
+      "id": 36,
+      "datos": "Nafta/GNC - MT - Unica Mano",
+      "marca": "PEUGEOT"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/amarok.jpeg"
       ],
@@ -1075,15 +1087,15 @@
       "marca": "TOYOTA"
     },
     {
-      "modelo": "Partner 1.4 N Confort PLC",
+      "modelo": "Partner Patagonica 1.6 Hdi VTC Plus",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Aire acondicionado. Cierre centralizado con mando a distancia.",
-      "anio": 2015,
+      "descripcion": "Aire acondicionado, alzacristales eléctricos, faros auxiliares, alarma con cierre y cubiertas nuevas. Impecable estado.",
+      "anio": 2014,
       "tipo": "Furgón-Utilitario",
-      "id": 36,
-      "datos": "Nafta/GNC - MT - Unica Mano",
+      "id": 37,
+      "datos": "Diesel - MT",
       "marca": "PEUGEOT"
     }
   ]
