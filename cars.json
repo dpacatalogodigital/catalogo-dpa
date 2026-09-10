@@ -1980,7 +1980,27 @@
       "tipo": "Sedán",
       "id": 62,
       "datos": "Nafta - MT5",
-      "marca": "VOLKSWAGEN"
+      "marca": "VOLKSWAGEN",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.52.59-am.jpeg-1789075213694-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.00-am.jpeg-1789075215184-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.02-am.jpeg-1789075216958-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.04-am.jpeg-1789075218573-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.06-am.jpeg-1789075220101-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.09-am.jpeg-1789075221191-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.12-am.jpeg-1789075222833-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.15-am.jpeg-1789075224285-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.17-am.jpeg-1789075225863-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.21-am.jpeg-1789075227284-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.24-am.jpeg-1789075229156-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.28-am.jpeg-1789075230932-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.34-am.jpeg-1789075232395-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.36-am.jpeg-1789075233793-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.38-am.jpeg-1789075235444-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.40-am.jpeg-1789075236740-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.53.44-am.jpeg-1789075238288-16"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.52.59-am.jpeg-1789075213694-0"
     },
     {
       "modelo": "113 / 1300L Escarabajo",
