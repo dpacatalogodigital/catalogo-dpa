@@ -1917,7 +1917,25 @@
       "tipo": "Hatch",
       "id": 60,
       "datos": "Nafta - MT",
-      "marca": "VOLKSWAGEN"
+      "marca": "VOLKSWAGEN",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.09.51-pm.jpeg-1789075014574-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.09.54-pm.jpeg-1789075016029-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.09.55-pm.jpeg-1789075017465-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.10.00-pm.jpeg-1789075019106-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.10.03-pm.jpeg-1789075020595-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.10.08-pm.jpeg-1789075022025-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.10.13-pm.jpeg-1789075023504-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.10.17-pm.jpeg-1789075024923-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.10.22-pm.jpeg-1789075026409-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.10.26-pm.jpeg-1789075027865-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.10.30-pm.jpeg-1789075029484-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.10.34-pm.jpeg-1789075031629-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.10.39-pm.jpeg-1789075033281-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.10.43-pm.jpeg-1789075034983-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.10.47-pm.jpeg-1789075036224-14"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.09.51-pm.jpeg-1789075014574-0"
     },
     {
       "modelo": "Vento 2.5 Advance 170cv",
