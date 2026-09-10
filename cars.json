@@ -1593,6 +1593,10 @@
       "datos": "Diesel - AT8",
       "marca": "VOLKSWAGEN",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.12-pm-1-.jpeg-1789071826285-0"
+    },
+    {
+      "recienLlegado": false,
+      "sale": false
     }
   ]
 }
