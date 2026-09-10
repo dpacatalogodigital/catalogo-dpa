@@ -459,18 +459,6 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/pulse-1-1-.jpeg-1789059890841-0"
     },
     {
-      "modelo": "Ecosport 1.5 SE 4x2",
-      "precio": "",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Alzacristales y espejos eléctricos, climatizador automático y pantalla multimedia. Faros auxiliares, llantas de aleación y auxilio sin uso.",
-      "anio": 2019,
-      "tipo": "SUV",
-      "id": 19,
-      "kilometros": 61000,
-      "datos": "Nafta - MT- Unica Mano",
-      "marca": "FORD",
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-1-.jpeg-1789062375424-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-2-.jpeg-1789062377175-1",
@@ -490,19 +478,21 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.52-pm-4-.jpeg-1789062401226-15",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.52-pm.jpeg-1789062402899-16"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-1-.jpeg-1789062375424-0"
-    },
-    {
-      "modelo": "Fiesta 1.6 4p S Plus",
+      "modelo": "Ecosport 1.5 SE 4x2",
+      "precio": "",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "2 airbags, ABS, control de estabilidad y tracción, aire acondicionado, dirección asistida, Bluetooth/USB, llantas de aleación 15” y vidrios eléctricos delanteros.",
-      "anio": 2014,
-      "tipo": "Hatch",
-      "id": 20,
-      "datos": "Nafta - MT",
+      "descripcion": "Alzacristales y espejos eléctricos, climatizador automático y pantalla multimedia. Faros auxiliares, llantas de aleación y auxilio sin uso.",
+      "anio": 2019,
+      "tipo": "SUV",
+      "id": 19,
+      "kilometros": 61000,
+      "datos": "Nafta - MT- Unica Mano",
       "marca": "FORD",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-1-.jpeg-1789062375424-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.19-am.jpeg-1789062447500-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.20-am.jpeg-1789062449095-1",
@@ -538,19 +528,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.38-am.jpeg-1789062782563-14",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.42-am.jpeg-1789062783920-15"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.13.58-am.jpeg-1789062761252-0"
-    },
-    {
-      "modelo": "Fiesta Kinetic Design 1.6 S 5 Puertas",
+      "modelo": "Fiesta 1.6 4p S Plus",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 1.6 nafta de 120 CV, aire acondicionado, dirección eléctrica, alzacristales eléctricos, cierre remoto, Bluetooth/USB, ESP, control de tracción, asistente en pendiente, ABS, airbags frontales y laterales e ISOFIX.",
-      "anio": 2015,
+      "descripcion": "2 airbags, ABS, control de estabilidad y tracción, aire acondicionado, dirección asistida, Bluetooth/USB, llantas de aleación 15” y vidrios eléctricos delanteros.",
+      "anio": 2014,
       "tipo": "Hatch",
-      "id": 21,
-      "datos": "Nafta/GNC - MT5",
+      "id": 20,
+      "datos": "Nafta - MT",
       "marca": "FORD",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.13.58-am.jpeg-1789062761252-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.20.57-am.jpeg-1789062513036-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.20.59-am.jpeg-1789062514649-1",
@@ -570,20 +560,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.21.45-am-1-.jpeg-1789062536667-15",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.21.45-am.jpeg-1789062538270-16"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.20.57-am.jpeg-1789062513036-0"
-    },
-    {
-      "modelo": "Focus III 2.0 SE Plus",
+      "modelo": "Fiesta Kinetic Design 1.6 S 5 Puertas",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 2.0 nafta de 170 CV, climatizador bi-zona, control crucero, Bluetooth/USB, sensores traseros, ESP, control de tracción, ABS, 6 airbags, ISOFIX, llantas de aleación y cubiertas nuevas.",
+      "descripcion": "Motor 1.6 nafta de 120 CV, aire acondicionado, dirección eléctrica, alzacristales eléctricos, cierre remoto, Bluetooth/USB, ESP, control de tracción, asistente en pendiente, ABS, airbags frontales y laterales e ISOFIX.",
       "anio": 2015,
-      "tipo": "Sedán",
-      "id": 22,
-      "kilometros": 100000,
-      "datos": "Nafta - MT5",
+      "tipo": "Hatch",
+      "id": 21,
+      "datos": "Nafta/GNC - MT5",
       "marca": "FORD",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.20.57-am.jpeg-1789062513036-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.01.41-am.jpeg-1789062649604-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.01.43-am.jpeg-1789062651102-1",
@@ -605,6 +594,17 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.02.36-am-1-.jpeg-1789062676738-17",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.02.36-am.jpeg-1789062678295-18"
       ],
+      "modelo": "Focus III 2.0 SE Plus",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 2.0 nafta de 170 CV, climatizador bi-zona, control crucero, Bluetooth/USB, sensores traseros, ESP, control de tracción, ABS, 6 airbags, ISOFIX, llantas de aleación y cubiertas nuevas.",
+      "anio": 2015,
+      "tipo": "Sedán",
+      "id": 22,
+      "kilometros": 100000,
+      "datos": "Nafta - MT5",
+      "marca": "FORD",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.01.41-am.jpeg-1789062649604-0"
     },
     {
@@ -621,16 +621,6 @@
       "marca": "FORD"
     },
     {
-      "modelo": " F-100 3.9 Duty XLT 4x2 Motor Cummins",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, cierre centralizado, alarma y cubiertas nuevas. Lista para transferir, con duplicado de llave y manuales.",
-      "anio": 2009,
-      "tipo": "Pick-Up",
-      "id": 24,
-      "datos": "Diesel - MT",
-      "marca": "FORD",
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/0f7824d3-d711-49b5-affd-9648d2a75009.jpg-1789062838839-0",
         "/catalogo-dpa/imagenes/vehiculos/7b4c2760-d0c5-464a-ad8f-68d453c3e7a3.jpg-1789062840517-1",
@@ -645,20 +635,19 @@
         "/catalogo-dpa/imagenes/vehiculos/befa094c-f1b0-4b2b-b364-d27271dc3fb0.jpg-1789062856321-10",
         "/catalogo-dpa/imagenes/vehiculos/df07b241-cdbf-459a-9032-d2b717ab49c2.jpg-1789062858263-11"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/0f7824d3-d711-49b5-affd-9648d2a75009.jpg-1789062838839-0"
-    },
-    {
-      "modelo": "F-150 Raptor 3.5 V6 EcoBoost",
+      "modelo": " F-100 3.9 Duty XLT 4x2 Motor Cummins",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "V6 3.5 Bi-Turbo de 456 CV, 4x4 con reductora, suspensión Fox, cuero, techo panorámico, pantalla 12”, CarPlay/Android Auto, cámara 360°, 6 airbags, crucero adaptativo y frenado autónomo.",
-      "anio": 2024,
+      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, cierre centralizado, alarma y cubiertas nuevas. Lista para transferir, con duplicado de llave y manuales.",
+      "anio": 2009,
       "tipo": "Pick-Up",
-      "id": 25,
-      "kilometros": 53000,
-      "datos": "Nafta - AT10",
+      "id": 24,
+      "datos": "Diesel - MT",
       "marca": "FORD",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/0f7824d3-d711-49b5-affd-9648d2a75009.jpg-1789062838839-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.01-pm.jpeg-1789062949681-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.02-pm.jpeg-1789062951799-1",
@@ -677,6 +666,17 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.25-pm.jpeg-1789062972066-14",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.27-pm.jpeg-1789062973607-15"
       ],
+      "modelo": "F-150 Raptor 3.5 V6 EcoBoost",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "V6 3.5 Bi-Turbo de 456 CV, 4x4 con reductora, suspensión Fox, cuero, techo panorámico, pantalla 12”, CarPlay/Android Auto, cámara 360°, 6 airbags, crucero adaptativo y frenado autónomo.",
+      "anio": 2024,
+      "tipo": "Pick-Up",
+      "id": 25,
+      "kilometros": 53000,
+      "datos": "Nafta - AT10",
+      "marca": "FORD",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.01-pm.jpeg-1789062949681-0"
     },
     {
@@ -684,7 +684,7 @@
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "anio": 2037,
+      "anio": 2025,
       "tipo": "Pick-Up",
       "id": 26,
       "kilometros": 10000,
