@@ -776,16 +776,6 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.50-pm-1-.jpeg-1789063280600-0"
     },
     {
-      "modelo": "Compass 2.4 Sport 4x2",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Motor 2.4 nafta de 174 CV, automática de 6 velocidades, 4x2, climatizador bi-zona, arranque sin llave, control crucero, CarPlay/Android Auto, cámara y sensores traseros, 7 airbags, ABS, control de estabilidad y llantas R17.",
-      "anio": 2020,
-      "tipo": "SUV",
-      "id": 28,
-      "datos": "Nafta - AT6",
-      "marca": "JEEP",
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.02.35-pm.jpeg-1789064868197-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.02.37-pm.jpeg-1789064870798-1",
@@ -805,25 +795,24 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.03.29-pm.jpeg-1789064894416-15",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.03.30-pm.jpeg-1789064895857-16"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.02.35-pm.jpeg-1789064868197-0"
-    },
-    {
-      "modelo": "Renegade 1.8 Sport",
+      "modelo": "Compass 2.4 Sport 4x2",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 1.8 nafta, caja manual, aire acondicionado, dirección asistida, alzacristales eléctricos, cierre centralizado, multimedia con navegador y cámara, control de estabilidad, ABS, 2 airbags y llantas de aleación.",
-      "anio": 2019,
+      "descripcion": "Motor 2.4 nafta de 174 CV, automática de 6 velocidades, 4x2, climatizador bi-zona, arranque sin llave, control crucero, CarPlay/Android Auto, cámara y sensores traseros, 7 airbags, ABS, control de estabilidad y llantas R17.",
+      "anio": 2020,
       "tipo": "SUV",
-      "id": 29,
-      "kilometros": 120000,
-      "datos": "Nafta - MT",
+      "id": 28,
+      "datos": "Nafta - AT6",
       "marca": "JEEP",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.02.35-pm.jpeg-1789064868197-0"
+    },
+    {
       "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.31-pm.jpeg-1789064940183-3",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.28-pm.jpeg-1789064935357-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.30-pm.jpeg-1789064936858-1",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.31-pm-1-.jpeg-1789064938432-2",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.31-pm.jpeg-1789064940183-3",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.32-pm.jpeg-1789064941559-4",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.33-pm-1-.jpeg-1789064943420-5",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.33-pm-2-.jpeg-1789064945213-6",
@@ -838,23 +827,24 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.37-pm-1-.jpeg-1789064959742-15",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.37-pm.jpeg-1789064961141-16"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.28-pm.jpeg-1789064935357-0"
-    },
-    {
-      "modelo": "SLK250",
+      "modelo": "Renegade 1.8 Sport",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 2.0 turbo, caja automática, tracción trasera, techo rígido retráctil eléctrico, cuero, butacas eléctricas, Airscarf, climatizador bi-zona, Bluetooth, sensores de estacionamiento, airbags, ABS y control de estabilidad y tracción.",
-      "anio": 2012,
-      "tipo": "Cabriolet",
-      "id": 30,
-      "datos": "Nafta - AT",
-      "marca": "MERCEDES",
+      "descripcion": "Motor 1.8 nafta, caja manual, aire acondicionado, dirección asistida, alzacristales eléctricos, cierre centralizado, multimedia con navegador y cámara, control de estabilidad, ABS, 2 airbags y llantas de aleación.",
+      "anio": 2019,
+      "tipo": "SUV",
+      "id": 29,
+      "kilometros": 120000,
+      "datos": "Nafta - MT",
+      "marca": "JEEP",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.28-pm.jpeg-1789064935357-0"
+    },
+    {
       "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.13-pm-3-.jpeg-1789065005553-2",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.13-pm-1-.jpeg-1789065001522-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.13-pm-2-.jpeg-1789065003485-1",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.13-pm-3-.jpeg-1789065005553-2",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.13-pm-4-.jpeg-1789065007390-3",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.13-pm.jpeg-1789065009100-4",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.14-pm-1-.jpeg-1789065011030-5",
@@ -871,22 +861,22 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.16-pm.jpeg-1789065031197-16",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.17-pm.jpeg-1789065033398-17"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.13-pm-1-.jpeg-1789065001522-0"
-    },
-    {
-      "modelo": "Vito Plus 1.6 HDi 5 asientos",
+      "modelo": "SLK250",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 1.6 turbodiésel, 5 asientos, aire acondicionado, dirección asistida, alzacristales y espejos eléctricos, Bluetooth/USB, cámara de retroceso, puerta lateral corrediza, ABS, ESP, control de tracción y airbags frontales. Services al día.",
-      "anio": 2021,
-      "tipo": "Furgón-Utilitario",
-      "id": 31,
-      "datos": "Diesel - MT6",
+      "descripcion": "Motor 2.0 turbo, caja automática, tracción trasera, techo rígido retráctil eléctrico, cuero, butacas eléctricas, Airscarf, climatizador bi-zona, Bluetooth, sensores de estacionamiento, airbags, ABS y control de estabilidad y tracción.",
+      "anio": 2012,
+      "tipo": "Cabriolet",
+      "id": 30,
+      "datos": "Nafta - AT",
       "marca": "MERCEDES",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.13-pm-1-.jpeg-1789065001522-0"
+    },
+    {
       "imagenes": [
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.26-pm-1-.jpeg-1789065074980-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.26-pm.jpeg-1789065076649-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.26-pm-1-.jpeg-1789065074980-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.28-pm.jpeg-1789065078081-2",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.29-pm.jpeg-1789065079953-3",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.31-pm.jpeg-1789065082167-4",
@@ -904,6 +894,16 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.18.02-pm.jpeg-1789065100652-16",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.18.06-pm.jpeg-1789065102091-17"
       ],
+      "modelo": "Vito Plus 1.6 HDi 5 asientos",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 1.6 turbodiésel, 5 asientos, aire acondicionado, dirección asistida, alzacristales y espejos eléctricos, Bluetooth/USB, cámara de retroceso, puerta lateral corrediza, ABS, ESP, control de tracción y airbags frontales. Services al día.",
+      "anio": 2021,
+      "tipo": "Furgón-Utilitario",
+      "id": 31,
+      "datos": "Diesel - MT6",
+      "marca": "MERCEDES",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.26-pm-1-.jpeg-1789065074980-0"
     },
     {
