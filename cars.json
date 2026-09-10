@@ -1749,6 +1749,17 @@
       "id": 62,
       "datos": "Nafta - MT5",
       "marca": "VOLKSWAGEN"
+    },
+    {
+      "modelo": "113 / 1300L Escarabajo",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "anio": 1980,
+      "tipo": "Hatch",
+      "id": 63,
+      "datos": "Nafta - MT",
+      "marca": "VOLKSWAGEN"
     }
   ]
 }
