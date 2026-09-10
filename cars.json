@@ -470,7 +470,27 @@
       "id": 19,
       "kilometros": 61000,
       "datos": "Nafta - MT- Unica Mano",
-      "marca": "FORD"
+      "marca": "FORD",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-1-.jpeg-1789062375424-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-2-.jpeg-1789062377175-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-3-.jpeg-1789062378719-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-4-.jpeg-1789062380485-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-5-.jpeg-1789062382319-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-6-.jpeg-1789062384053-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-7-.jpeg-1789062385658-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-8-.jpeg-1789062387246-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-9-.jpeg-1789062388860-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-10-.jpeg-1789062390680-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-11-.jpeg-1789062392377-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm.jpeg-1789062394080-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.52-pm-1-.jpeg-1789062395925-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.52-pm-2-.jpeg-1789062397804-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.52-pm-3-.jpeg-1789062399644-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.52-pm-4-.jpeg-1789062401226-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.52-pm.jpeg-1789062402899-16"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-1-.jpeg-1789062375424-0"
     },
     {
       "modelo": "Fiesta 1.6 4p S Plus",
