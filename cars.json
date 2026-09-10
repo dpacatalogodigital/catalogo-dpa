@@ -1017,17 +1017,6 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-12.07.09-pm.jpeg-1789065869044-0"
     },
     {
-      "modelo": "208 1.6 Allure AM26 ",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "0km",
-      "descripcion": "Motor 1.6 de 115 CV, automática de 6 velocidades, climatizador, CarPlay/Android Auto, cámara y sensores, ABS, control de estabilidad y tracción, 6 airbags y llantas de 16”. Patentado y disponible para entrega inmediata.",
-      "anio": 2025,
-      "tipo": "Hatch",
-      "id": 34,
-      "kilometros": 0,
-      "datos": "Nafta - AT",
-      "marca": "PEUGEOT",
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.12.47-pm.jpeg-1789066623178-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.12.48-pm-1-.jpeg-1789066624830-1",
@@ -1046,20 +1035,20 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.13.07-pm.jpeg-1789066647020-14",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.13.09-pm.jpeg-1789066648821-15"
       ],
+      "modelo": "208 1.6 Allure AM26 ",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "0km",
+      "descripcion": "Motor 1.6 de 115 CV, automática de 6 velocidades, climatizador, CarPlay/Android Auto, cámara y sensores, ABS, control de estabilidad y tracción, 6 airbags y llantas de 16”. Patentado y disponible para entrega inmediata.",
+      "anio": 2025,
+      "tipo": "Hatch",
+      "id": 34,
+      "kilometros": 0,
+      "datos": "Nafta - AT",
+      "marca": "PEUGEOT",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.12.47-pm.jpeg-1789066623178-0"
     },
     {
-      "modelo": "3008 1.6 THP GT Line",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Motor 1.6 THP turbo, climatizador bi-zona, pantalla multimedia, cuero/alcántara, butacas con masaje, cámara y sensores, ABS, control de estabilidad y tracción, 6 airbags y llantas GT Line.",
-      "anio": 2022,
-      "tipo": "SUV",
-      "id": 35,
-      "kilometros": 80000,
-      "datos": "Nafta - Automatica",
-      "marca": "PEUGEOT",
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.22-am.jpeg-1789066740246-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.23-am.jpeg-1789066742291-1",
@@ -1082,19 +1071,20 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.58-am.jpeg-1789066770620-18",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-11.00.00-am.jpeg-1789066771953-19"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.22-am.jpeg-1789066740246-0"
-    },
-    {
-      "modelo": "Partner 1.4 N Confort PLC",
+      "modelo": "3008 1.6 THP GT Line",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Aire acondicionado. Cierre centralizado con mando a distancia.",
-      "anio": 2015,
-      "tipo": "Furgón-Utilitario",
-      "id": 36,
-      "datos": "Nafta/GNC - MT - Unica Mano",
+      "descripcion": "Motor 1.6 THP turbo, climatizador bi-zona, pantalla multimedia, cuero/alcántara, butacas con masaje, cámara y sensores, ABS, control de estabilidad y tracción, 6 airbags y llantas GT Line.",
+      "anio": 2022,
+      "tipo": "SUV",
+      "id": 35,
+      "kilometros": 80000,
+      "datos": "Nafta - Automatica",
       "marca": "PEUGEOT",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.22-am.jpeg-1789066740246-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.52.58-pm.jpeg-1789066818058-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.52.59-pm-1-.jpeg-1789066819746-1",
@@ -1112,19 +1102,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.53.03-pm-2-.jpeg-1789066839639-13",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.53.03-pm.jpeg-1789066840843-14"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.52.58-pm.jpeg-1789066818058-0"
-    },
-    {
-      "modelo": "Partner Patagonica 1.6 Hdi VTC Plus",
+      "modelo": "Partner 1.4 N Confort PLC",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Aire acondicionado, alzacristales eléctricos, faros auxiliares, alarma con cierre y cubiertas nuevas. Impecable estado.",
-      "anio": 2014,
+      "descripcion": "Aire acondicionado. Cierre centralizado con mando a distancia.",
+      "anio": 2015,
       "tipo": "Furgón-Utilitario",
-      "id": 37,
-      "datos": "Diesel - MT",
+      "id": 36,
+      "datos": "Nafta/GNC - MT - Unica Mano",
       "marca": "PEUGEOT",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.52.58-pm.jpeg-1789066818058-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.31.35-am.jpeg-1789066884871-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.31.36-am.jpeg-1789066886359-1",
@@ -1145,19 +1135,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.32.36-am.jpeg-1789066910234-16",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.32.37-am.jpeg-1789066912063-17"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.31.35-am.jpeg-1789066884871-0"
-    },
-    {
-      "modelo": "Partner 1.6 hdi furgon Confort Plc Ab",
+      "modelo": "Partner Patagonica 1.6 Hdi VTC Plus",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Aire acondicionado, alzacristales eléctricos y cierre centralizado remoto.",
-      "anio": 2018,
+      "descripcion": "Aire acondicionado, alzacristales eléctricos, faros auxiliares, alarma con cierre y cubiertas nuevas. Impecable estado.",
+      "anio": 2014,
       "tipo": "Furgón-Utilitario",
-      "id": 38,
+      "id": 37,
       "datos": "Diesel - MT",
       "marca": "PEUGEOT",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.31.35-am.jpeg-1789066884871-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.23-am.jpeg-1789066990013-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.24-am.jpeg-1789066991759-1",
@@ -1175,6 +1165,16 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.43-am.jpeg-1789067011471-13",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.46-am.jpeg-1789067013149-14"
       ],
+      "modelo": "Partner 1.6 hdi furgon Confort Plc Ab",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Aire acondicionado, alzacristales eléctricos y cierre centralizado remoto.",
+      "anio": 2018,
+      "tipo": "Furgón-Utilitario",
+      "id": 38,
+      "datos": "Diesel - MT",
+      "marca": "PEUGEOT",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.23-am.jpeg-1789066990013-0"
     },
     {
@@ -1208,6 +1208,18 @@
       "id": 4,
       "datos": "Diésel · 4x2 · Caja manual",
       "marca": "TOYOTA"
+    },
+    {
+      "modelo": "Duster 2.0 Luxe Nav",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, multimedia con navegador, cierre remoto, faros auxiliares, sensores de estacionamiento, cubiertas nuevas y GNC de 5.ª generación con 2 tubos.",
+      "anio": 2013,
+      "tipo": "SUV",
+      "id": 39,
+      "datos": "Nafta/GNC - Manual",
+      "marca": "RENAULT"
     }
   ]
 }
