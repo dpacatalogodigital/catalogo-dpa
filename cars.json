@@ -404,7 +404,26 @@
       "tipo": "Hatch",
       "id": 17,
       "kilometros": 100000,
-      "marca": "FIAT"
+      "marca": "FIAT",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.10.43-pm.jpeg-1789060003072-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.10.44-pm.jpeg-1789060004850-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.10.45-pm.jpeg-1789060006626-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.10.47-pm.jpeg-1789060008396-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.10.49-pm.jpeg-1789060010905-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.10.53-pm.jpeg-1789060012506-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.10.56-pm.jpeg-1789060014224-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.10.58-pm.jpeg-1789060015761-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.11.02-pm.jpeg-1789060017417-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.11.08-pm.jpeg-1789060018601-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.11.13-pm.jpeg-1789060020460-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.11.16-pm.jpeg-1789060022127-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.11.19-pm.jpeg-1789060024514-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.11.22-pm.jpeg-1789060026032-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.11.28-pm.jpeg-1789060027331-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.11.32-pm.jpeg-1789060028981-15"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.10.43-pm.jpeg-1789060003072-0"
     },
     {
       "modelo": "Pulse Impetus 1.0T",
