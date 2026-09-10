@@ -417,7 +417,27 @@
       "id": 18,
       "kilometros": 90000,
       "datos": "Nafta - AT",
-      "marca": "FIAT"
+      "marca": "FIAT",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/pulse-1-1-.jpeg-1789059890841-0",
+        "/catalogo-dpa/imagenes/vehiculos/pulse-1-2-.jpeg-1789059892537-1",
+        "/catalogo-dpa/imagenes/vehiculos/pulse-1-3-.jpeg-1789059893981-2",
+        "/catalogo-dpa/imagenes/vehiculos/pulse-1-4-.jpeg-1789059895365-3",
+        "/catalogo-dpa/imagenes/vehiculos/pulse-1-5-.jpeg-1789059896779-4",
+        "/catalogo-dpa/imagenes/vehiculos/pulse-1-6-.jpeg-1789059898233-5",
+        "/catalogo-dpa/imagenes/vehiculos/pulse-1-7-.jpeg-1789059899809-6",
+        "/catalogo-dpa/imagenes/vehiculos/pulse-1-8-.jpeg-1789059901455-7",
+        "/catalogo-dpa/imagenes/vehiculos/pulse-1-9-.jpeg-1789059903107-8",
+        "/catalogo-dpa/imagenes/vehiculos/pulse-1-10-.jpeg-1789059904616-9",
+        "/catalogo-dpa/imagenes/vehiculos/pulse-1-11-.jpeg-1789059906169-10",
+        "/catalogo-dpa/imagenes/vehiculos/pulse-1-12-.jpeg-1789059908109-11",
+        "/catalogo-dpa/imagenes/vehiculos/pulse-1-13-.jpeg-1789059909854-12",
+        "/catalogo-dpa/imagenes/vehiculos/pulse-1-14-.jpeg-1789059911526-13",
+        "/catalogo-dpa/imagenes/vehiculos/pulse-1-15-.jpeg-1789059913006-14",
+        "/catalogo-dpa/imagenes/vehiculos/pulse-1-16-.jpeg-1789059914627-15",
+        "/catalogo-dpa/imagenes/vehiculos/pulse-1-17-.jpeg-1789059916372-16"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/pulse-1-1-.jpeg-1789059890841-0"
     },
     {
       "imagenes": [
