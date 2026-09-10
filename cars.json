@@ -1351,7 +1351,25 @@
       "id": 44,
       "kilometros": 100000,
       "datos": "Nafta - AT",
-      "marca": "TOYOTA"
+      "marca": "TOYOTA",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.17.56-pm.jpeg-1789070878966-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.17.57-pm.jpeg-1789070880491-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.17.58-pm.jpeg-1789070882239-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.17.59-pm.jpeg-1789070883765-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.18.01-pm.jpeg-1789070885245-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.18.03-pm.jpeg-1789070886903-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.18.04-pm.jpeg-1789070888714-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.18.07-pm.jpeg-1789070890131-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.18.10-pm.jpeg-1789070891769-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.18.16-pm.jpeg-1789070893908-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.18.19-pm.jpeg-1789070895535-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.18.21-pm.jpeg-1789070896972-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.18.24-pm.jpeg-1789070898526-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-14-at-12.26.56-pm-1-.jpeg-1789070899704-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-14-at-12.26.56-pm.jpeg-1789070901151-14"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.17.56-pm.jpeg-1789070878966-0"
     },
     {
       "modelo": "Etios 1.5 XLS 4p",
