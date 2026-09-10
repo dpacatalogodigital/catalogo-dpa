@@ -1067,6 +1067,18 @@
       "marca": "PEUGEOT"
     },
     {
+      "modelo": "Partner 1.6 hdi furgon Confort Plc Ab",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Aire acondicionado, alzacristales eléctricos y cierre centralizado remoto.",
+      "anio": 2018,
+      "tipo": "Furgón-Utilitario",
+      "id": 38,
+      "datos": "Diesel - MT",
+      "marca": "PEUGEOT"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/amarok.jpeg"
       ],
@@ -1097,18 +1109,6 @@
       "id": 4,
       "datos": "Diésel · 4x2 · Caja manual",
       "marca": "TOYOTA"
-    },
-    {
-      "modelo": "Partner 1.6 hdi furgon Confort Plc Ab",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Aire acondicionado, alzacristales eléctricos y cierre centralizado remoto.",
-      "anio": 2018,
-      "tipo": "Furgón-Utilitario",
-      "id": 38,
-      "datos": "Diesel - MT",
-      "marca": "PEUGEOT"
     }
   ]
 }
