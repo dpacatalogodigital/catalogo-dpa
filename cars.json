@@ -535,6 +535,19 @@
       "marca": "FORD"
     },
     {
+      "modelo": "F-150 Raptor 3.5 V6 EcoBoost",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "V6 3.5 Bi-Turbo de 456 CV, 4x4 con reductora, suspensión Fox, cuero, techo panorámico, pantalla 12”, CarPlay/Android Auto, cámara 360°, 6 airbags, crucero adaptativo y frenado autónomo.",
+      "anio": 2024,
+      "tipo": "Pick-Up",
+      "id": 25,
+      "kilometros": 53000,
+      "datos": "Nafta - AT10",
+      "marca": "FORD"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/ranger.jpeg"
       ],
@@ -628,16 +641,15 @@
       "marca": "TOYOTA"
     },
     {
-      "modelo": "F-150 Raptor 3.5 V6 EcoBoost",
+      "modelo": "F-150 Raptor 3.5 V6 450CV Gen 4",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "V6 3.5 Bi-Turbo de 456 CV, 4x4 con reductora, suspensión Fox, cuero, techo panorámico, pantalla 12”, CarPlay/Android Auto, cámara 360°, 6 airbags, crucero adaptativo y frenado autónomo.",
-      "anio": 2024,
+      "anio": 2037,
       "tipo": "Pick-Up",
-      "id": 25,
-      "kilometros": 53000,
-      "datos": "Nafta - AT10",
+      "id": 26,
+      "kilometros": 10000,
+      "datos": "Nafta - AT",
       "marca": "FORD"
     }
   ]
