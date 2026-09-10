@@ -952,6 +952,18 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.43-am-1-.jpeg-1788871452478-0"
     },
     {
+      "modelo": "Frontier 2.8 TDI SE 4x2 ",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 2.8 turbodiésel, 4x2, aire acondicionado, dirección asistida, alzacristales eléctricos, cierre centralizado, ABS y airbags frontales.",
+      "anio": 2007,
+      "tipo": "Pick-Up",
+      "id": 32,
+      "datos": "Diesel - MT",
+      "marca": "NISSAN"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/amarok.jpeg"
       ],
@@ -984,15 +996,16 @@
       "marca": "TOYOTA"
     },
     {
-      "modelo": "Frontier 2.8 TDI SE 4x2 ",
+      "modelo": "Kicks 1.6 Advance CVT",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 2.8 turbodiésel, 4x2, aire acondicionado, dirección asistida, alzacristales eléctricos, cierre centralizado, ABS y airbags frontales.",
-      "anio": 2007,
-      "tipo": "Pick-Up",
-      "id": 32,
-      "datos": "Diesel - MT",
+      "descripcion": "Motor 1.6 nafta de 120 CV, automática CVT, climatizador, arranque sin llave, control crucero, CarPlay/Android Auto, cámara y sensores traseros, 6 airbags, ABS, control de estabilidad y tracción, alerta de colisión frontal, faros LED y llantas de 17”",
+      "anio": 2023,
+      "tipo": "SUV",
+      "id": 33,
+      "kilometros": 21000,
+      "datos": "Nafta - AT",
       "marca": "NISSAN"
     }
   ]
