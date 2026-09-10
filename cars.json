@@ -1564,19 +1564,17 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.47-am-1-.jpeg-1789071379109-0"
     },
     {
-      "imagenes": [
-        "/catalogo-dpa/amarok.jpeg"
-      ],
-      "modelo": "Amarok 2.0 TDI Highline 4x4",
+      "imagenes": [],
+      "modelo": "Amarok 2.0 TDI Highline 4x4 AT 180CV",
       "precio": "Consultar",
       "sale": false,
       "recienLlegado": true,
       "condicion": "usado",
-      "descripcion": "Volkswagen Amarok 2.0 TDI Highline 4x4 de 180 CV. Una pick-up de gran capacidad, confort y prestaciones.",
+      "descripcion": "Motor 2.0 TDI Bi-Turbo de 180 CV, 4x4, cuero, climatizador automático, Bluetooth/USB, cierre remoto, levantavidrios eléctricos, ESP, control de tracción, ABS, airbags frontales y llantas R17.",
       "anio": 2013,
       "tipo": "Pick-Up",
       "id": 3,
-      "datos": "180 CV · Diésel · 4x4",
+      "datos": "Diesel - AT8",
       "marca": "VOLKSWAGEN"
     }
   ]
