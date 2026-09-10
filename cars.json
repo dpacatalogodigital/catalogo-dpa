@@ -1354,19 +1354,29 @@
       "marca": "TOYOTA"
     },
     {
-      "imagenes": [
-        "/catalogo-dpa/hilux.jpeg"
-      ],
+      "modelo": "Etios 1.5 XLS 4p",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Alzacristales y espejos eléctricos, cierre remoto, estéreo Bluetooth, faros auxiliares y cubiertas nuevas. Impecable estado.",
+      "anio": 2015,
+      "tipo": "Sedán",
+      "id": 45,
+      "datos": "Nafta - MT",
+      "marca": "TOYOTA"
+    },
+    {
+      "imagenes": [],
       "modelo": "Hilux 2.4 TDi 4x2 DX",
-      "precio": "Consultar",
+      "precio": "",
       "sale": false,
       "recienLlegado": true,
       "condicion": "usado",
-      "descripcion": "Toyota Hilux 2.4 TDi 4x2 DX. Pick-up reconocida por su confiabilidad, robustez y capacidad de trabajo.",
+      "descripcion": "Motor 2.4 turbodiésel de 150 CV, 4x2, doble cabina, aire acondicionado, dirección hidráulica, alzacristales delanteros eléctricos, cierre remoto, multimedia Android con cámara, 3 airbags, ABS, control de estabilidad y tracción e ISOFIX.",
       "anio": 2018,
       "tipo": "Pick-Up",
       "id": 4,
-      "datos": "Diésel · 4x2 · Caja manual",
+      "datos": "Diésel - MT6",
       "marca": "TOYOTA"
     },
     {
@@ -1384,18 +1394,6 @@
       "id": 3,
       "datos": "180 CV · Diésel · 4x4",
       "marca": "VOLKSWAGEN"
-    },
-    {
-      "modelo": "Etios 1.5 XLS 4p",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Alzacristales y espejos eléctricos, cierre remoto, estéreo Bluetooth, faros auxiliares y cubiertas nuevas. Impecable estado.",
-      "anio": 2015,
-      "tipo": "Sedán",
-      "id": 45,
-      "datos": "Nafta - MT",
-      "marca": "TOYOTA"
     }
   ]
 }
