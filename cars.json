@@ -1380,6 +1380,18 @@
       "marca": "TOYOTA"
     },
     {
+      "modelo": "Hilux 2.8 TDI DC SRV 4x2",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Climatizador automático, alzacristales y espejos eléctricos, control crucero, multimedia con navegador y cámara, faros auxiliares, llantas de aleación, lona marítima y estribos.",
+      "anio": 2018,
+      "tipo": "Pick-Up",
+      "id": 46,
+      "datos": "Diesel - AT",
+      "marca": "TOYOTA"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/amarok.jpeg"
       ],
