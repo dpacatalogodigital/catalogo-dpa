@@ -485,6 +485,18 @@
       "marca": "FORD"
     },
     {
+      "modelo": "Fiesta Kinetic Design 1.6 S 5 Puertas",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 1.6 nafta de 120 CV, aire acondicionado, dirección eléctrica, alzacristales eléctricos, cierre remoto, Bluetooth/USB, ESP, control de tracción, asistente en pendiente, ABS, airbags frontales y laterales e ISOFIX.",
+      "anio": 2015,
+      "tipo": "Hatch",
+      "id": 21,
+      "datos": "Nafta/GNC - MT5",
+      "marca": "FORD"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/ranger.jpeg"
       ],
@@ -578,15 +590,16 @@
       "marca": "TOYOTA"
     },
     {
-      "modelo": "Fiesta Kinetic Design 1.6 S 5 Puertas",
+      "modelo": "Focus III 2.0 SE Plus",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 1.6 nafta de 120 CV, aire acondicionado, dirección eléctrica, alzacristales eléctricos, cierre remoto, Bluetooth/USB, ESP, control de tracción, asistente en pendiente, ABS, airbags frontales y laterales e ISOFIX.",
+      "descripcion": "Motor 2.0 nafta de 170 CV, climatizador bi-zona, control crucero, Bluetooth/USB, sensores traseros, ESP, control de tracción, ABS, 6 airbags, ISOFIX, llantas de aleación y cubiertas nuevas.",
       "anio": 2015,
-      "tipo": "Hatch",
-      "id": 21,
-      "datos": "Nafta/GNC - MT5",
+      "tipo": "Sedán",
+      "id": 22,
+      "kilometros": 100000,
+      "datos": "Nafta - MT5",
       "marca": "FORD"
     }
   ]
