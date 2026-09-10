@@ -1696,7 +1696,26 @@
       "tipo": "Pick-Up",
       "id": 53,
       "datos": "Diesel - MT6 - L/17",
-      "marca": "VOLKSWAGEN"
+      "marca": "VOLKSWAGEN",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.01-pm.jpeg-1789074484484-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.03-pm.jpeg-1789074486015-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.06-pm.jpeg-1789074487605-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.09-pm.jpeg-1789074488996-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.17-pm.jpeg-1789074490488-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.24-pm.jpeg-1789074491878-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.30-pm.jpeg-1789074493488-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.32-pm.jpeg-1789074494872-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.40-pm-1-.jpeg-1789074496532-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.40-pm.jpeg-1789074498323-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.45-pm.jpeg-1789074499988-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.51-pm.jpeg-1789074501408-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.56-pm-1-.jpeg-1789074502818-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.56-pm.jpeg-1789074504381-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.57-pm.jpeg-1789074505493-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.10.03-pm.jpeg-1789074507081-15"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.01-pm.jpeg-1789074484484-0"
     },
     {
       "modelo": "Amarok 2.0 TDI Highline 4x2",
