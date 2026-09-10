@@ -1406,6 +1406,18 @@
       "id": 3,
       "datos": "180 CV · Diésel · 4x4",
       "marca": "VOLKSWAGEN"
+    },
+    {
+      "modelo": "Hilux SW4 2.8 SRX 4X4 7AS",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Cuero, asientos eléctricos y calefaccionados, climatizador bizona, control crucero, multimedia con navegador y cámara, sensores de estacionamiento, faros auxiliares y 3 filas de asientos.",
+      "anio": 2016,
+      "tipo": "SUV",
+      "id": 47,
+      "datos": "Diesel - AT",
+      "marca": "TOYOTA"
     }
   ]
 }
