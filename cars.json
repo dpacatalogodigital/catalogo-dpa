@@ -1340,18 +1340,6 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-1-.jpeg-1789069533023-0"
     },
     {
-      "modelo": "Corolla 1.8 SE-G CVT",
-      "precio": "",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Climatizador dual, control crucero, cuero sintético, CarPlay/Android Auto, navegador, cámara y asistente de estacionamiento, alerta de punto ciego, 7 airbags, ABS, control de estabilidad y tracción, faros LED y llantas de 16”.",
-      "anio": 2018,
-      "tipo": "Sedán",
-      "id": 44,
-      "kilometros": 100000,
-      "datos": "Nafta - AT",
-      "marca": "TOYOTA",
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.17.56-pm.jpeg-1789070878966-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.17.57-pm.jpeg-1789070880491-1",
@@ -1369,20 +1357,23 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-14-at-12.26.56-pm-1-.jpeg-1789070899704-13",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-14-at-12.26.56-pm.jpeg-1789070901151-14"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.17.56-pm.jpeg-1789070878966-0"
-    },
-    {
-      "modelo": "Etios 1.5 XLS 4p",
+      "modelo": "Corolla 1.8 SE-G CVT",
+      "precio": "",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Alzacristales y espejos eléctricos, cierre remoto, estéreo Bluetooth, faros auxiliares y cubiertas nuevas. Impecable estado.",
-      "anio": 2015,
+      "descripcion": "Climatizador dual, control crucero, cuero sintético, CarPlay/Android Auto, navegador, cámara y asistente de estacionamiento, alerta de punto ciego, 7 airbags, ABS, control de estabilidad y tracción, faros LED y llantas de 16”.",
+      "anio": 2018,
       "tipo": "Sedán",
-      "id": 45,
-      "datos": "Nafta - MT",
+      "id": 44,
+      "kilometros": 100000,
+      "datos": "Nafta - AT",
       "marca": "TOYOTA",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.17.56-pm.jpeg-1789070878966-0"
+    },
+    {
       "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am.jpeg-1789070991388-13",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-1-.jpeg-1789070969380-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-2-.jpeg-1789070971076-1",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-3-.jpeg-1789070972581-2",
@@ -1395,9 +1386,18 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-10-.jpeg-1789070984372-9",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-11-.jpeg-1789070986456-10",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-12-.jpeg-1789070987874-11",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-13-.jpeg-1789070989462-12",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am.jpeg-1789070991388-13"
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-13-.jpeg-1789070989462-12"
       ],
+      "modelo": "Etios 1.5 XLS 4p",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Alzacristales y espejos eléctricos, cierre remoto, estéreo Bluetooth, faros auxiliares y cubiertas nuevas. Impecable estado.",
+      "anio": 2015,
+      "tipo": "Sedán",
+      "id": 45,
+      "datos": "Nafta - MT",
+      "marca": "TOYOTA",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-1-.jpeg-1789070969380-0"
     },
     {
@@ -1435,16 +1435,6 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.37.34-pm.jpeg-1789071077125-0"
     },
     {
-      "modelo": "Hilux 2.8 TDI DC SRV 4x2",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Climatizador automático, alzacristales y espejos eléctricos, control crucero, multimedia con navegador y cámara, faros auxiliares, llantas de aleación, lona marítima y estribos.",
-      "anio": 2018,
-      "tipo": "Pick-Up",
-      "id": 46,
-      "datos": "Diesel - AT",
-      "marca": "TOYOTA",
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.22-am.jpeg-1789071149346-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.23-am-1-.jpeg-1789071150797-1",
@@ -1464,19 +1454,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.26-am-3-.jpeg-1789071174264-15",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.26-am.jpeg-1789071175783-16"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.22-am.jpeg-1789071149346-0"
-    },
-    {
-      "modelo": "Hilux SW4 2.8 SRX 4X4 7AS",
+      "modelo": "Hilux 2.8 TDI DC SRV 4x2",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Cuero, asientos eléctricos y calefaccionados, climatizador bizona, control crucero, multimedia con navegador y cámara, sensores de estacionamiento, faros auxiliares y 3 filas de asientos.",
-      "anio": 2016,
-      "tipo": "SUV",
-      "id": 47,
+      "descripcion": "Climatizador automático, alzacristales y espejos eléctricos, control crucero, multimedia con navegador y cámara, faros auxiliares, llantas de aleación, lona marítima y estribos.",
+      "anio": 2018,
+      "tipo": "Pick-Up",
+      "id": 46,
       "datos": "Diesel - AT",
       "marca": "TOYOTA",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.22-am.jpeg-1789071149346-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.20-am-1-.jpeg-1789071227757-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.20-am-2-.jpeg-1789071229372-1",
@@ -1497,19 +1487,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.22-am-2-.jpeg-1789071253538-16",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.22-am.jpeg-1789071255325-17"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.20-am-1-.jpeg-1789071227757-0"
-    },
-    {
-      "modelo": " SW4 SRX 2.8 TD 4x4",
+      "modelo": "Hilux SW4 2.8 SRX 4X4 7AS",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 2.8 diésel de 204 CV, automática de 6 velocidades, 4x4 con reductora, 7 plazas, cuero, butacas calefaccionadas y ventiladas, climatizador bizona, CarPlay/Android Auto, cámara 360°, 7 airbags, frenado autónomo y crucero adaptativo.",
-      "anio": 2024,
+      "descripcion": "Cuero, asientos eléctricos y calefaccionados, climatizador bizona, control crucero, multimedia con navegador y cámara, sensores de estacionamiento, faros auxiliares y 3 filas de asientos.",
+      "anio": 2016,
       "tipo": "SUV",
-      "id": 48,
-      "datos": "Diesel - AT - L/24",
+      "id": 47,
+      "datos": "Diesel - AT",
       "marca": "TOYOTA",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.20-am-1-.jpeg-1789071227757-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.01-pm.jpeg-1789071295834-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.02-pm.jpeg-1789071297241-1",
@@ -1529,20 +1519,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.40-pm.jpeg-1789071319468-15",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.43-pm.jpeg-1789071320653-16"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.01-pm.jpeg-1789071295834-0"
-    },
-    {
-      "modelo": "Yaris 1.5 XLS 5 Puertas",
+      "modelo": " SW4 SRX 2.8 TD 4x4",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 1.5 nafta de 107 CV, climatizador digital, dirección eléctrica, alzacristales x4 y espejos eléctricos, CarPlay/Android Auto, cámara y sensores traseros, 7 airbags, ABS, control de estabilidad y tracción, ISOFIX y llantas de 15”.",
-      "anio": 2021,
-      "tipo": "Hatch",
-      "id": 49,
-      "kilometros": 65000,
-      "datos": "Nafta - MT6",
+      "descripcion": "Motor 2.8 diésel de 204 CV, automática de 6 velocidades, 4x4 con reductora, 7 plazas, cuero, butacas calefaccionadas y ventiladas, climatizador bizona, CarPlay/Android Auto, cámara 360°, 7 airbags, frenado autónomo y crucero adaptativo.",
+      "anio": 2024,
+      "tipo": "SUV",
+      "id": 48,
+      "datos": "Diesel - AT - L/24",
       "marca": "TOYOTA",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.01-pm.jpeg-1789071295834-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.47-am-1-.jpeg-1789071379109-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.47-am.jpeg-1789071380672-1",
@@ -1561,6 +1550,17 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.06.29-am.jpeg-1789071401552-14",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.06.33-am.jpeg-1789071403570-15"
       ],
+      "modelo": "Yaris 1.5 XLS 5 Puertas",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 1.5 nafta de 107 CV, climatizador digital, dirección eléctrica, alzacristales x4 y espejos eléctricos, CarPlay/Android Auto, cámara y sensores traseros, 7 airbags, ABS, control de estabilidad y tracción, ISOFIX y llantas de 15”.",
+      "anio": 2021,
+      "tipo": "Hatch",
+      "id": 49,
+      "kilometros": 65000,
+      "datos": "Nafta - MT6",
+      "marca": "TOYOTA",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.47-am-1-.jpeg-1789071379109-0"
     },
     {
