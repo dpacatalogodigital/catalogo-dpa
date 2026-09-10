@@ -776,6 +776,18 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.50-pm-1-.jpeg-1789063280600-0"
     },
     {
+      "modelo": "Compass 2.4 Sport 4x2",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 2.4 nafta de 174 CV, automática de 6 velocidades, 4x2, climatizador bi-zona, arranque sin llave, control crucero, CarPlay/Android Auto, cámara y sensores traseros, 7 airbags, ABS, control de estabilidad y llantas R17.",
+      "anio": 2020,
+      "tipo": "SUV",
+      "id": 28,
+      "datos": "Nafta - AT6",
+      "marca": "JEEP"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/mini.jpeg",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.17-am.jpeg",
@@ -853,15 +865,16 @@
       "marca": "TOYOTA"
     },
     {
-      "modelo": "Compass 2.4 Sport 4x2",
+      "modelo": "Renegade 1.8 Sport",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 2.4 nafta de 174 CV, automática de 6 velocidades, 4x2, climatizador bi-zona, arranque sin llave, control crucero, CarPlay/Android Auto, cámara y sensores traseros, 7 airbags, ABS, control de estabilidad y llantas R17.",
-      "anio": 2020,
+      "descripcion": "Motor 1.8 nafta, caja manual, aire acondicionado, dirección asistida, alzacristales eléctricos, cierre centralizado, multimedia con navegador y cámara, control de estabilidad, ABS, 2 airbags y llantas de aleación.",
+      "anio": 2019,
       "tipo": "SUV",
-      "id": 28,
-      "datos": "Nafta - AT6",
+      "id": 29,
+      "kilometros": 120000,
+      "datos": "Nafta - MT",
       "marca": "JEEP"
     }
   ]
