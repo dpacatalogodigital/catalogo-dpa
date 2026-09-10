@@ -1884,7 +1884,28 @@
       "id": 59,
       "kilometros": 100000,
       "datos": "Nafta - AT6 Tiptronic",
-      "marca": "VOLKSWAGEN"
+      "marca": "VOLKSWAGEN",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.24-pm.jpeg-1789074950282-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.25-pm.jpeg-1789074952128-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.27-pm.jpeg-1789074953994-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.28-pm.jpeg-1789074955715-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.30-pm.jpeg-1789074957396-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.31-pm.jpeg-1789074959402-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.33-pm.jpeg-1789074961078-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.35-pm.jpeg-1789074962920-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.37-pm.jpeg-1789074964545-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.38-pm.jpeg-1789074966387-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.41-pm-1-.jpeg-1789074967779-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.41-pm.jpeg-1789074969282-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.44-pm.jpeg-1789074971178-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.45-pm.jpeg-1789074972841-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.48-pm.jpeg-1789074974599-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.49-pm.jpeg-1789074976211-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.50-pm.jpeg-1789074977825-16",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-07-at-4.27.37-pm.jpeg-1789074979563-17"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.24-pm.jpeg-1789074950282-0"
     },
     {
       "modelo": "UP! White  5 Puertas",
