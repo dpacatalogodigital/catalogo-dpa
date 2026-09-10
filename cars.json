@@ -1564,7 +1564,23 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.47-am-1-.jpeg-1789071379109-0"
     },
     {
-      "imagenes": [],
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.12-pm-1-.jpeg-1789071826285-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.12-pm.jpeg-1789071828943-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.13-pm.jpeg-1789071830909-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.15-pm.jpeg-1789071832336-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.17-pm.jpeg-1789071834064-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.18-pm.jpeg-1789071835318-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.21-pm.jpeg-1789071837116-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.24-pm.jpeg-1789071838566-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.27-pm.jpeg-1789071840087-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.30-pm.jpeg-1789071841384-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.35-pm.jpeg-1789071842872-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.38-pm.jpeg-1789071844385-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.40-pm.jpeg-1789071846572-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.42-pm.jpeg-1789071848138-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.46-pm.jpeg-1789071849733-14"
+      ],
       "modelo": "Amarok 2.0 TDI Highline 4x4 AT 180CV",
       "precio": "Consultar",
       "sale": false,
@@ -1575,7 +1591,8 @@
       "tipo": "Pick-Up",
       "id": 3,
       "datos": "Diesel - AT8",
-      "marca": "VOLKSWAGEN"
+      "marca": "VOLKSWAGEN",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.12-pm-1-.jpeg-1789071826285-0"
     }
   ]
 }
