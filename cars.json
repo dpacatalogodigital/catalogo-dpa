@@ -1059,7 +1059,30 @@
       "id": 35,
       "kilometros": 80000,
       "datos": "Nafta - Automatica",
-      "marca": "PEUGEOT"
+      "marca": "PEUGEOT",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.22-am.jpeg-1789066740246-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.23-am.jpeg-1789066742291-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.24-am.jpeg-1789066743831-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.25-am.jpeg-1789066745574-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.28-am.jpeg-1789066746883-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.29-am.jpeg-1789066748737-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.31-am.jpeg-1789066750785-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.33-am.jpeg-1789066752480-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.35-am.jpeg-1789066754500-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.37-am.jpeg-1789066756113-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.40-am.jpeg-1789066757681-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.42-am.jpeg-1789066759301-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.46-am-1-.jpeg-1789066760517-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.46-am.jpeg-1789066761857-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.49-am.jpeg-1789066763733-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.51-am.jpeg-1789066765556-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.53-am.jpeg-1789066767173-16",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.56-am.jpeg-1789066769039-17",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.58-am.jpeg-1789066770620-18",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-11.00.00-am.jpeg-1789066771953-19"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.22-am.jpeg-1789066740246-0"
     },
     {
       "modelo": "Partner 1.4 N Confort PLC",
