@@ -1416,6 +1416,19 @@
       "marca": "TOYOTA"
     },
     {
+      "modelo": "Yaris 1.5 XLS 5 Puertas",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 1.5 nafta de 107 CV, climatizador digital, dirección eléctrica, alzacristales x4 y espejos eléctricos, CarPlay/Android Auto, cámara y sensores traseros, 7 airbags, ABS, control de estabilidad y tracción, ISOFIX y llantas de 15”.",
+      "anio": 2021,
+      "tipo": "Hatch",
+      "id": 49,
+      "kilometros": 65000,
+      "datos": "Nafta - MT6",
+      "marca": "TOYOTA"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/amarok.jpeg"
       ],
@@ -1430,19 +1443,6 @@
       "id": 3,
       "datos": "180 CV · Diésel · 4x4",
       "marca": "VOLKSWAGEN"
-    },
-    {
-      "modelo": "Yaris 1.5 XLS 5 Puertas",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Motor 1.5 nafta de 107 CV, climatizador digital, dirección eléctrica, alzacristales x4 y espejos eléctricos, CarPlay/Android Auto, cámara y sensores traseros, 7 airbags, ABS, control de estabilidad y tracción, ISOFIX y llantas de 15”.",
-      "anio": 2021,
-      "tipo": "Hatch",
-      "id": 49,
-      "kilometros": 65000,
-      "datos": "Nafta - MT6",
-      "marca": "TOYOTA"
     }
   ]
 }
