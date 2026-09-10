@@ -1542,7 +1542,26 @@
       "id": 49,
       "kilometros": 65000,
       "datos": "Nafta - MT6",
-      "marca": "TOYOTA"
+      "marca": "TOYOTA",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.47-am-1-.jpeg-1789071379109-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.47-am.jpeg-1789071380672-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.49-am.jpeg-1789071382323-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.50-am.jpeg-1789071383961-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.53-am.jpeg-1789071385404-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.55-am.jpeg-1789071386901-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.58-am.jpeg-1789071388562-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.06.01-am.jpeg-1789071390204-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.06.04-am.jpeg-1789071391825-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.06.08-am.jpeg-1789071393559-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.06.12-am.jpeg-1789071395112-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.06.15-am.jpeg-1789071396665-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.06.20-am.jpeg-1789071398349-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.06.25-am.jpeg-1789071400010-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.06.29-am.jpeg-1789071401552-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.06.33-am.jpeg-1789071403570-15"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.47-am-1-.jpeg-1789071379109-0"
     },
     {
       "imagenes": [
