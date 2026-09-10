@@ -1017,6 +1017,19 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-12.07.09-pm.jpeg-1789065869044-0"
     },
     {
+      "modelo": "208 1.6 Allure AM26 ",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "0km",
+      "descripcion": "Motor 1.6 de 115 CV, automática de 6 velocidades, climatizador, CarPlay/Android Auto, cámara y sensores, ABS, control de estabilidad y tracción, 6 airbags y llantas de 16”. Patentado y disponible para entrega inmediata.",
+      "anio": 2025,
+      "tipo": "Hatch",
+      "id": 34,
+      "kilometros": 0,
+      "datos": "Nafta - AT",
+      "marca": "PEUGEOT"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/amarok.jpeg"
       ],
@@ -1049,16 +1062,16 @@
       "marca": "TOYOTA"
     },
     {
-      "modelo": "208 1.6 Allure AM26 ",
+      "modelo": "3008 1.6 THP GT Line",
       "sale": false,
       "recienLlegado": false,
-      "condicion": "0km",
-      "descripcion": "Motor 1.6 de 115 CV, automática de 6 velocidades, climatizador, CarPlay/Android Auto, cámara y sensores, ABS, control de estabilidad y tracción, 6 airbags y llantas de 16”. Patentado y disponible para entrega inmediata.",
-      "anio": 2025,
-      "tipo": "Hatch",
-      "id": 34,
-      "kilometros": 0,
-      "datos": "Nafta - AT",
+      "condicion": "usado",
+      "descripcion": "Motor 1.6 THP turbo, climatizador bi-zona, pantalla multimedia, cuero/alcántara, butacas con masaje, cámara y sensores, ABS, control de estabilidad y tracción, 6 airbags y llantas GT Line.",
+      "anio": 2022,
+      "tipo": "SUV",
+      "id": 35,
+      "kilometros": 80000,
+      "datos": "Nafta - Automatica",
       "marca": "PEUGEOT"
     }
   ]
