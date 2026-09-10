@@ -1372,8 +1372,18 @@
       "marca": "TOYOTA"
     },
     {
+      "modelo": "Corolla 1.8 SE-G CVT",
+      "precio": "",
+      "sale": false,
       "recienLlegado": false,
-      "sale": false
+      "condicion": "usado",
+      "descripcion": "Climatizador dual, control crucero, cuero sintético, CarPlay/Android Auto, navegador, cámara y asistente de estacionamiento, alerta de punto ciego, 7 airbags, ABS, control de estabilidad y tracción, faros LED y llantas de 16”.",
+      "anio": 2018,
+      "tipo": "Sedán",
+      "id": 44,
+      "kilometros": 100000,
+      "datos": "Nafta - AT",
+      "marca": "TOYOTA"
     }
   ]
 }
