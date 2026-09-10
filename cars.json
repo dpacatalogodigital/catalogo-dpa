@@ -1220,7 +1220,27 @@
       "tipo": "SUV",
       "id": 40,
       "datos": "Nafta - Manual",
-      "marca": "RENAULT"
+      "marca": "RENAULT",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/3e557a58-f6f5-406f-8666-977eaa2eeb05.jpg-1789069278331-0",
+        "/catalogo-dpa/imagenes/vehiculos/9c1713cc-760d-4bcf-83ff-2cdd264fbde7.jpg-1789069280304-1",
+        "/catalogo-dpa/imagenes/vehiculos/70cfa55c-e481-4ef2-9c6b-99c6636ee039.jpg-1789069282153-2",
+        "/catalogo-dpa/imagenes/vehiculos/88a2cbca-23f5-4e2c-8b87-dbcc11847a86.jpg-1789069284131-3",
+        "/catalogo-dpa/imagenes/vehiculos/89b0b478-6a83-4d39-930f-217a91fd77f0.jpg-1789069285598-4",
+        "/catalogo-dpa/imagenes/vehiculos/824f3475-94b7-4a02-8278-f76da6e20595.jpg-1789069287492-5",
+        "/catalogo-dpa/imagenes/vehiculos/983de8d8-b426-4e8b-a608-36fffd919272.jpg-1789069289060-6",
+        "/catalogo-dpa/imagenes/vehiculos/5671ffa3-0ff0-432c-9294-55c0860af8ea.jpg-1789069291017-7",
+        "/catalogo-dpa/imagenes/vehiculos/7178f52a-0f52-4f2b-ac2c-3abe38c5a5ac.jpg-1789069292897-8",
+        "/catalogo-dpa/imagenes/vehiculos/5271455b-9552-4e9c-ab80-c3d4524c76c4.jpg-1789069294571-9",
+        "/catalogo-dpa/imagenes/vehiculos/89241189-ad57-4b09-9419-1b3ec649c6c8.jpg-1789069296528-10",
+        "/catalogo-dpa/imagenes/vehiculos/aac90d13-c421-41f6-b7f3-6fe9d0796aee.jpg-1789069298284-11",
+        "/catalogo-dpa/imagenes/vehiculos/ad44e235-4e13-4f23-a5ae-fb3f1c3777e7.jpg-1789069300084-12",
+        "/catalogo-dpa/imagenes/vehiculos/c9c1e8b0-ac85-4714-a3c1-2592ec07a012.jpg-1789069301852-13",
+        "/catalogo-dpa/imagenes/vehiculos/d3a91dfc-9756-4a5c-b0e7-20b5c412eeeb.jpg-1789069303576-14",
+        "/catalogo-dpa/imagenes/vehiculos/d6a4248d-ee11-4387-80d3-b2a73106644e.jpg-1789069305385-15",
+        "/catalogo-dpa/imagenes/vehiculos/eec1c284-4f54-46ec-b3f8-da691a17b04b.jpg-1789069307196-16"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/3e557a58-f6f5-406f-8666-977eaa2eeb05.jpg-1789069278331-0"
     },
     {
       "modelo": "Kwid 1.0 Outsider",
