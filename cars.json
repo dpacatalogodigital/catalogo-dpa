@@ -982,6 +982,18 @@
       "id": 4,
       "datos": "Diésel · 4x2 · Caja manual",
       "marca": "TOYOTA"
+    },
+    {
+      "modelo": "Frontier 2.8 TDI SE 4x2 ",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 2.8 turbodiésel, 4x2, aire acondicionado, dirección asistida, alzacristales eléctricos, cierre centralizado, ABS y airbags frontales.",
+      "anio": 2007,
+      "tipo": "Pick-Up",
+      "id": 32,
+      "datos": "Diesel - MT",
+      "marca": "NISSAN"
     }
   ]
 }
