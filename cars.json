@@ -1700,6 +1700,19 @@
       "id": 58,
       "datos": "Nafta/GNC - MT",
       "marca": "VOLKSWAGEN"
+    },
+    {
+      "modelo": "Taos Highline 1.4 TSI Tiptronic",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 1.4 TSI, cuero, asiento eléctrico, techo panorámico, climatizador bizona, tablero digital, CarPlay/Android Auto, cámara y sensores, crucero adaptativo, frenado autónomo, asistente de carril, detector de punto ciego, ABS, control de estabilidad y airbags.",
+      "anio": 2021,
+      "tipo": "SUV",
+      "id": 59,
+      "kilometros": 100000,
+      "datos": "Nafta - AT6 Tiptronic",
+      "marca": "VOLKSWAGEN"
     }
   ]
 }
