@@ -788,6 +788,19 @@
       "marca": "JEEP"
     },
     {
+      "modelo": "Renegade 1.8 Sport",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 1.8 nafta, caja manual, aire acondicionado, dirección asistida, alzacristales eléctricos, cierre centralizado, multimedia con navegador y cámara, control de estabilidad, ABS, 2 airbags y llantas de aleación.",
+      "anio": 2019,
+      "tipo": "SUV",
+      "id": 29,
+      "kilometros": 120000,
+      "datos": "Nafta - MT",
+      "marca": "JEEP"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/mini.jpeg",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.17-am.jpeg",
@@ -865,17 +878,16 @@
       "marca": "TOYOTA"
     },
     {
-      "modelo": "Renegade 1.8 Sport",
+      "modelo": "SLK250",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 1.8 nafta, caja manual, aire acondicionado, dirección asistida, alzacristales eléctricos, cierre centralizado, multimedia con navegador y cámara, control de estabilidad, ABS, 2 airbags y llantas de aleación.",
-      "anio": 2019,
-      "tipo": "SUV",
-      "id": 29,
-      "kilometros": 120000,
-      "datos": "Nafta - MT",
-      "marca": "JEEP"
+      "descripcion": "Motor 2.0 turbo, caja automática, tracción trasera, techo rígido retráctil eléctrico, cuero, butacas eléctricas, Airscarf, climatizador bi-zona, Bluetooth, sensores de estacionamiento, airbags, ABS y control de estabilidad y tracción.",
+      "anio": 2012,
+      "tipo": "Cabriolet",
+      "id": 30,
+      "datos": "Nafta - AT",
+      "marca": "MERCEDES"
     }
   ]
 }
