@@ -1676,6 +1676,18 @@
       "id": 56,
       "datos": "Nafta - MT",
       "marca": "VOLKSWAGEN"
+    },
+    {
+      "modelo": "New Beetle 2.0 8v",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 2.0 nafta, caja manual, aire acondicionado, dirección asistida, alzacristales y espejos eléctricos, cierre centralizado, 2 airbags, ABS y llantas Audi R18.",
+      "anio": 2007,
+      "tipo": "Hatch",
+      "id": 57,
+      "datos": "Nafta - MT",
+      "marca": "VOLKSWAGEN"
     }
   ]
 }
