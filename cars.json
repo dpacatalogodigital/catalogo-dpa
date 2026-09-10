@@ -1178,16 +1178,6 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.23-am.jpeg-1789066990013-0"
     },
     {
-      "modelo": "Duster 2.0 Luxe Nav",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, multimedia con navegador, cierre remoto, faros auxiliares, sensores de estacionamiento, cubiertas nuevas y GNC de 5.ª generación con 2 tubos.",
-      "anio": 2013,
-      "tipo": "SUV",
-      "id": 39,
-      "datos": "Nafta/GNC - Manual",
-      "marca": "RENAULT",
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.41-pm-1-.jpeg-1789069158810-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.41-pm.jpeg-1789069160612-1",
@@ -1208,19 +1198,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.47-pm-2-.jpeg-1789069186500-16",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.47-pm.jpeg-1789069188495-17"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.41-pm-1-.jpeg-1789069158810-0"
-    },
-    {
-      "modelo": "Duster 2.0 Privilege",
+      "modelo": "Duster 2.0 Luxe Nav",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, cierre remoto, multimedia con navegador y cámara, limitador y control crucero. Cubiertas nuevas.",
-      "anio": 2017,
+      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, multimedia con navegador, cierre remoto, faros auxiliares, sensores de estacionamiento, cubiertas nuevas y GNC de 5.ª generación con 2 tubos.",
+      "anio": 2013,
       "tipo": "SUV",
-      "id": 40,
-      "datos": "Nafta - Manual",
+      "id": 39,
+      "datos": "Nafta/GNC - Manual",
       "marca": "RENAULT",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.41-pm-1-.jpeg-1789069158810-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/3e557a58-f6f5-406f-8666-977eaa2eeb05.jpg-1789069278331-0",
         "/catalogo-dpa/imagenes/vehiculos/9c1713cc-760d-4bcf-83ff-2cdd264fbde7.jpg-1789069280304-1",
@@ -1240,19 +1230,19 @@
         "/catalogo-dpa/imagenes/vehiculos/d6a4248d-ee11-4387-80d3-b2a73106644e.jpg-1789069305385-15",
         "/catalogo-dpa/imagenes/vehiculos/eec1c284-4f54-46ec-b3f8-da691a17b04b.jpg-1789069307196-16"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/3e557a58-f6f5-406f-8666-977eaa2eeb05.jpg-1789069278331-0"
-    },
-    {
-      "modelo": "Kwid 1.0 Outsider",
+      "modelo": "Duster 2.0 Privilege",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 1.0 nafta, aire acondicionado, dirección eléctrica, CarPlay/Android Auto, cámara de retroceso, alzacristales eléctricos, cierre remoto, 2 airbags, ESP, ABS, ISOFIX, llantas de aleación y antinieblas.",
-      "anio": 2019,
+      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, cierre remoto, multimedia con navegador y cámara, limitador y control crucero. Cubiertas nuevas.",
+      "anio": 2017,
       "tipo": "SUV",
-      "id": 41,
-      "datos": "Nafta - MT5",
+      "id": 40,
+      "datos": "Nafta - Manual",
       "marca": "RENAULT",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/3e557a58-f6f5-406f-8666-977eaa2eeb05.jpg-1789069278331-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.13.49-am.jpeg-1789069361014-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.13.50-am-1-.jpeg-1789069362975-1",
@@ -1272,19 +1262,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.14.22-am.jpeg-1789069386370-15",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.14.25-am.jpeg-1789069388547-16"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.13.49-am.jpeg-1789069361014-0"
-    },
-    {
-      "modelo": "Sandero Stepway 1.6 16v Privilegie",
+      "modelo": "Kwid 1.0 Outsider",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Aire acondicionado, dirección hidráulica, alzacristales y espejos eléctricos, control crucero, tapizado combinado en cuero, multimedia con navegador, sensores, faros auxiliares, llantas de aleación, cubiertas nuevas y portaequipajes.",
-      "anio": 2017,
+      "descripcion": "Motor 1.0 nafta, aire acondicionado, dirección eléctrica, CarPlay/Android Auto, cámara de retroceso, alzacristales eléctricos, cierre remoto, 2 airbags, ESP, ABS, ISOFIX, llantas de aleación y antinieblas.",
+      "anio": 2019,
       "tipo": "SUV",
-      "id": 42,
-      "datos": "Nafta/GNC 5ta Gen - MT",
+      "id": 41,
+      "datos": "Nafta - MT5",
       "marca": "RENAULT",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.13.49-am.jpeg-1789069361014-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.05-am.jpeg-1789069436073-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.06-am.jpeg-1789069437538-1",
@@ -1304,20 +1294,19 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.12-am.jpeg-1789069459510-15",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.13-am.jpeg-1789069460892-16"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.05-am.jpeg-1789069436073-0"
-    },
-    {
-      "modelo": " Sandero Stepway 1.6 16v",
+      "modelo": "Sandero Stepway 1.6 16v Privilegie",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Aire acondicionado, dirección hidráulica, alzacristales delanteros eléctricos, control crucero, tapizado combinado en cuero, faros auxiliares, llantas de aleación y cubiertas nuevas.",
+      "descripcion": "Aire acondicionado, dirección hidráulica, alzacristales y espejos eléctricos, control crucero, tapizado combinado en cuero, multimedia con navegador, sensores, faros auxiliares, llantas de aleación, cubiertas nuevas y portaequipajes.",
       "anio": 2017,
       "tipo": "SUV",
-      "id": 43,
-      "kilometros": 130000,
+      "id": 42,
       "datos": "Nafta/GNC 5ta Gen - MT",
       "marca": "RENAULT",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.05-am.jpeg-1789069436073-0"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-1-.jpeg-1789069533023-0",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-2-.jpeg-1789069535349-1",
@@ -1337,6 +1326,17 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-16-.jpeg-1789069560486-15",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm.jpeg-1789069562264-16"
       ],
+      "modelo": " Sandero Stepway 1.6 16v",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Aire acondicionado, dirección hidráulica, alzacristales delanteros eléctricos, control crucero, tapizado combinado en cuero, faros auxiliares, llantas de aleación y cubiertas nuevas.",
+      "anio": 2017,
+      "tipo": "SUV",
+      "id": 43,
+      "kilometros": 130000,
+      "datos": "Nafta/GNC 5ta Gen - MT",
+      "marca": "RENAULT",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-1-.jpeg-1789069533023-0"
     },
     {
@@ -1370,6 +1370,10 @@
       "id": 4,
       "datos": "Diésel · 4x2 · Caja manual",
       "marca": "TOYOTA"
+    },
+    {
+      "recienLlegado": false,
+      "sale": false
     }
   ]
 }
