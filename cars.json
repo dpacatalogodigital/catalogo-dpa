@@ -1157,7 +1157,25 @@
       "tipo": "Furgón-Utilitario",
       "id": 38,
       "datos": "Diesel - MT",
-      "marca": "PEUGEOT"
+      "marca": "PEUGEOT",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.23-am.jpeg-1789066990013-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.24-am.jpeg-1789066991759-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.26-am.jpeg-1789066993237-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.27-am.jpeg-1789066994995-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.28-am.jpeg-1789066996554-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.30-am.jpeg-1789066998110-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.32-am.jpeg-1789066999871-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.35-am.jpeg-1789067001699-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.37-am.jpeg-1789067003313-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.39-am.jpeg-1789067005008-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.40-am.jpeg-1789067006506-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.41-am.jpeg-1789067008172-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.43-am-1-.jpeg-1789067009842-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.43-am.jpeg-1789067011471-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.46-am.jpeg-1789067013149-14"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.23-am.jpeg-1789066990013-0"
     },
     {
       "imagenes": [
