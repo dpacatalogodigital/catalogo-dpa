@@ -1628,6 +1628,18 @@
       "id": 52,
       "datos": "Diesel - MT6",
       "marca": "VOLKSWAGEN"
+    },
+    {
+      "modelo": "Amarok 2.0 TDi DC 4x2 140cv",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Alzacristales y espejos eléctricos, cuerina, multimedia Android con cámara, llantas R16, cubiertas nuevas, estribos, jaula y lona marítima.",
+      "anio": 2019,
+      "tipo": "Pick-Up",
+      "id": 53,
+      "datos": "Diesel - MT6 - L/17",
+      "marca": "VOLKSWAGEN"
     }
   ]
 }
