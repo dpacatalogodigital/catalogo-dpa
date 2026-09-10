@@ -1640,6 +1640,18 @@
       "id": 53,
       "datos": "Diesel - MT6 - L/17",
       "marca": "VOLKSWAGEN"
+    },
+    {
+      "modelo": "Amarok 2.0 TDI Highline 4x2",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 2.0 biturbo diésel de 180 CV, automática de 8 velocidades, 4x2, jaula, tapa rígida y estribos. Interior en excelente estado.",
+      "anio": 2020,
+      "tipo": "Pick-Up",
+      "id": 54,
+      "datos": "Diesel - AT",
+      "marca": "VOLKSWAGEN"
     }
   ]
 }
