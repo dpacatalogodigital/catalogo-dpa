@@ -1853,7 +1853,25 @@
       "tipo": "Sedán",
       "id": 58,
       "datos": "Nafta/GNC - MT",
-      "marca": "VOLKSWAGEN"
+      "marca": "VOLKSWAGEN",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.41.52-pm.jpeg-1789074888892-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.41.56-pm.jpeg-1789074890760-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.41.57-pm-1-.jpeg-1789074892145-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.41.57-pm.jpeg-1789074893694-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.41.59-pm.jpeg-1789074895606-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.42.00-pm.jpeg-1789074897356-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.42.04-pm.jpeg-1789074899094-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.42.06-pm-1-.jpeg-1789074900801-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.42.06-pm.jpeg-1789074902054-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.42.08-pm.jpeg-1789074903269-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.42.10-pm.jpeg-1789074905058-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.42.11-pm.jpeg-1789074906907-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.42.13-pm.jpeg-1789074908647-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.42.14-pm-1-.jpeg-1789074910748-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.42.14-pm.jpeg-1789074912688-14"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.41.52-pm.jpeg-1789074888892-0"
     },
     {
       "modelo": "Taos Highline 1.4 TSI Tiptronic",
