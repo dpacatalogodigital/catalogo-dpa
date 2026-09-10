@@ -1476,7 +1476,28 @@
       "tipo": "SUV",
       "id": 47,
       "datos": "Diesel - AT",
-      "marca": "TOYOTA"
+      "marca": "TOYOTA",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.20-am-1-.jpeg-1789071227757-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.20-am-2-.jpeg-1789071229372-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.20-am-3-.jpeg-1789071230846-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.20-am-4-.jpeg-1789071232126-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.20-am-5-.jpeg-1789071234556-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.20-am-6-.jpeg-1789071235752-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.20-am-7-.jpeg-1789071237244-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.20-am.jpeg-1789071238841-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.21-am-1-.jpeg-1789071240448-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.21-am-2-.jpeg-1789071241846-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.21-am-3-.jpeg-1789071243389-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.21-am-4-.jpeg-1789071245037-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.21-am-5-.jpeg-1789071246791-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.21-am-6-.jpeg-1789071248301-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.21-am.jpeg-1789071249837-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.22-am-1-.jpeg-1789071251829-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.22-am-2-.jpeg-1789071253538-16",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.22-am.jpeg-1789071255325-17"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.20-am-1-.jpeg-1789071227757-0"
     },
     {
       "modelo": " SW4 SRX 2.8 TD 4x4",
