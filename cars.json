@@ -1688,6 +1688,18 @@
       "id": 57,
       "datos": "Nafta - MT",
       "marca": "VOLKSWAGEN"
+    },
+    {
+      "modelo": "Suran 1.6 Highline Cuero",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, cuero, faros auxiliares, llantas de aleación y GNC de 5.ª generación. Segunda mano.",
+      "anio": 2010,
+      "tipo": "Sedán",
+      "id": 58,
+      "datos": "Nafta/GNC - MT",
+      "marca": "VOLKSWAGEN"
     }
   ]
 }
