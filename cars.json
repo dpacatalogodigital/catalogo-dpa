@@ -689,7 +689,26 @@
       "id": 26,
       "kilometros": 10000,
       "datos": "Nafta - AT",
-      "marca": "FORD"
+      "marca": "FORD",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.22.21-am.jpeg-1789063057803-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.22.23-am.jpeg-1789063059411-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.22.24-am.jpeg-1789063061162-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.22.32-am.jpeg-1789063062493-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.22.35-am.jpeg-1789063063873-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.22.36-am.jpeg-1789063065434-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.22.39-am.jpeg-1789063066952-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.22.41-am.jpeg-1789063068686-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.22.46-am-1-.jpeg-1789063070438-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.22.46-am.jpeg-1789063072228-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.22.52-am-1-.jpeg-1789063073716-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.22.52-am.jpeg-1789063075325-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.22.57-am.jpeg-1789063076983-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.22.58-am.jpeg-1789063078461-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.23.03-am-1-.jpeg-1789063079966-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.23.03-am.jpeg-1789063081790-15"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.22.21-am.jpeg-1789063057803-0"
     },
     {
       "imagenes": [
