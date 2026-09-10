@@ -1823,7 +1823,25 @@
       "tipo": "Hatch",
       "id": 57,
       "datos": "Nafta - MT",
-      "marca": "VOLKSWAGEN"
+      "marca": "VOLKSWAGEN",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.00-am.jpeg-1789074790309-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.02-am-1-.jpeg-1789074791917-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.02-am.jpeg-1789074793587-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.04-am.jpeg-1789074795304-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.05-am.jpeg-1789074796975-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.06-am.jpeg-1789074798869-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.08-am.jpeg-1789074800566-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.10-am.jpeg-1789074802217-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.11-am.jpeg-1789074803974-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.12-am-1-.jpeg-1789074805490-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.12-am.jpeg-1789074807214-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.15-am-1-.jpeg-1789074808629-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.15-am.jpeg-1789074810174-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.16-am.jpeg-1789074811692-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.17-am.jpeg-1789074813420-14"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.00-am.jpeg-1789074790309-0"
     },
     {
       "modelo": "Suran 1.6 Highline Cuero",
