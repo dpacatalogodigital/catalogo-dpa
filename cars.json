@@ -1317,7 +1317,27 @@
       "id": 43,
       "kilometros": 130000,
       "datos": "Nafta/GNC 5ta Gen - MT",
-      "marca": "RENAULT"
+      "marca": "RENAULT",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-1-.jpeg-1789069533023-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-2-.jpeg-1789069535349-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-3-.jpeg-1789069537116-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-4-.jpeg-1789069538933-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-5-.jpeg-1789069540591-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-6-.jpeg-1789069542084-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-7-.jpeg-1789069543858-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-8-.jpeg-1789069545671-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-9-.jpeg-1789069547335-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-10-.jpeg-1789069549221-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-11-.jpeg-1789069550909-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-12-.jpeg-1789069552678-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-13-.jpeg-1789069554812-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-14-.jpeg-1789069557077-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-15-.jpeg-1789069558752-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-16-.jpeg-1789069560486-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm.jpeg-1789069562264-16"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-1-.jpeg-1789069533023-0"
     },
     {
       "imagenes": [
