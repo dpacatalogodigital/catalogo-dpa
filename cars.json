@@ -1124,7 +1124,28 @@
       "tipo": "Furgón-Utilitario",
       "id": 37,
       "datos": "Diesel - MT",
-      "marca": "PEUGEOT"
+      "marca": "PEUGEOT",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.31.35-am.jpeg-1789066884871-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.31.36-am.jpeg-1789066886359-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.31.39-am.jpeg-1789066887895-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.31.40-am.jpeg-1789066889394-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.31.47-am.jpeg-1789066891073-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.31.50-am.jpeg-1789066892714-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.31.57-am.jpeg-1789066894437-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.31.58-am-1-.jpeg-1789066895997-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.31.58-am.jpeg-1789066897371-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.32.03-am.jpeg-1789066899281-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.32.11-am.jpeg-1789066900896-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.32.32-am.jpeg-1789066902540-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.32.33-am.jpeg-1789066904008-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.32.34-am-1-.jpeg-1789066905537-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.32.34-am.jpeg-1789066906979-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.32.35-am.jpeg-1789066908755-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.32.36-am.jpeg-1789066910234-16",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.32.37-am.jpeg-1789066912063-17"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.31.35-am.jpeg-1789066884871-0"
     },
     {
       "modelo": "Partner 1.6 hdi furgon Confort Plc Ab",
