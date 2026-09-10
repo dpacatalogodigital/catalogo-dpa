@@ -1094,7 +1094,25 @@
       "tipo": "Furgón-Utilitario",
       "id": 36,
       "datos": "Nafta/GNC - MT - Unica Mano",
-      "marca": "PEUGEOT"
+      "marca": "PEUGEOT",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.52.58-pm.jpeg-1789066818058-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.52.59-pm-1-.jpeg-1789066819746-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.52.59-pm-2-.jpeg-1789066821315-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.52.59-pm.jpeg-1789066823073-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.53.00-pm-1-.jpeg-1789066824960-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.53.00-pm-3-.jpeg-1789066826440-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.53.00-pm.jpeg-1789066828283-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.53.02-pm-1-.jpeg-1789066830185-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.53.02-pm-2-.jpeg-1789066831906-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.53.02-pm-3-.jpeg-1789066833649-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.53.02-pm-4-.jpeg-1789066835450-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.53.02-pm.jpeg-1789066836681-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.53.03-pm-1-.jpeg-1789066838148-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.53.03-pm-2-.jpeg-1789066839639-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.53.03-pm.jpeg-1789066840843-14"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.52.58-pm.jpeg-1789066818058-0"
     },
     {
       "modelo": "Partner Patagonica 1.6 Hdi VTC Plus",
