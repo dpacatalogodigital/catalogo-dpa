@@ -1617,6 +1617,17 @@
       "id": 51,
       "datos": "Diesel - AT",
       "marca": "VOLKSWAGEN"
+    },
+    {
+      "modelo": "Amarok 2.0 TDI Trendline  4x4 140CV",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "anio": 2017,
+      "tipo": "Pick-Up",
+      "id": 52,
+      "datos": "Diesel - MT6",
+      "marca": "VOLKSWAGEN"
     }
   ]
 }
