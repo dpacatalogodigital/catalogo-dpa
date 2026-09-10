@@ -818,7 +818,27 @@
       "id": 29,
       "kilometros": 120000,
       "datos": "Nafta - MT",
-      "marca": "JEEP"
+      "marca": "JEEP",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.28-pm.jpeg-1789064935357-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.30-pm.jpeg-1789064936858-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.31-pm-1-.jpeg-1789064938432-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.31-pm.jpeg-1789064940183-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.32-pm.jpeg-1789064941559-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.33-pm-1-.jpeg-1789064943420-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.33-pm-2-.jpeg-1789064945213-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.33-pm-3-.jpeg-1789064946766-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.33-pm.jpeg-1789064947949-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.34-pm.jpeg-1789064949917-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.35-pm-1-.jpeg-1789064951567-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.35-pm.jpeg-1789064953294-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.36-pm-1-.jpeg-1789064954845-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.36-pm-2-.jpeg-1789064956406-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.36-pm.jpeg-1789064958243-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.37-pm-1-.jpeg-1789064959742-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.37-pm.jpeg-1789064961141-16"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.28-pm.jpeg-1789064935357-0"
     },
     {
       "modelo": "SLK250",
