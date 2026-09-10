@@ -1737,6 +1737,18 @@
       "id": 61,
       "datos": "Nafta - MT5",
       "marca": "VOLKSWAGEN"
+    },
+    {
+      "modelo": "Voyage 1.6",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 1.6 nafta, aire acondicionado, dirección hidráulica, audio CD/USB/AUX, ABS y 2 airbags.",
+      "anio": 2014,
+      "tipo": "Sedán",
+      "id": 62,
+      "datos": "Nafta - MT5",
+      "marca": "VOLKSWAGEN"
     }
   ]
 }
