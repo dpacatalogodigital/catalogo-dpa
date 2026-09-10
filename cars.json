@@ -1727,7 +1727,28 @@
       "tipo": "Pick-Up",
       "id": 54,
       "datos": "Diesel - AT",
-      "marca": "VOLKSWAGEN"
+      "marca": "VOLKSWAGEN",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.34-am-1-.jpeg-1789074548905-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.34-am.jpeg-1789074551099-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.35-am-1-.jpeg-1789074552988-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.35-am.jpeg-1789074554671-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.36-am-1-.jpeg-1789074556141-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.36-am-2-.jpeg-1789074557788-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.36-am.jpeg-1789074559151-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.37-am-1-.jpeg-1789074560785-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.37-am-2-.jpeg-1789074562748-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.37-am-3-.jpeg-1789074565345-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.37-am-4-.jpeg-1789074567433-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.37-am.jpeg-1789074569172-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.38-am-1-.jpeg-1789074570791-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.38-am-2-.jpeg-1789074572419-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.38-am-3-.jpeg-1789074573844-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.38-am-4-.jpeg-1789074575402-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.38-am.jpeg-1789074576871-16",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.39-am.jpeg-1789074578227-17"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.34-am-1-.jpeg-1789074548905-0"
     },
     {
       "modelo": "Amarok 3.0 V6 Extreme 4x4",
