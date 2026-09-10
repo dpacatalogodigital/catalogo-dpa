@@ -1340,20 +1340,18 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-1-.jpeg-1789069533023-0"
     },
     {
-      "imagenes": [
-        "/catalogo-dpa/amarok.jpeg"
-      ],
-      "modelo": "Amarok 2.0 TDI Highline 4x4",
-      "precio": "Consultar",
+      "modelo": "Corolla 1.8 SE-G CVT",
+      "precio": "",
       "sale": false,
-      "recienLlegado": true,
+      "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Volkswagen Amarok 2.0 TDI Highline 4x4 de 180 CV. Una pick-up de gran capacidad, confort y prestaciones.",
-      "anio": 2013,
-      "tipo": "Pick-Up",
-      "id": 3,
-      "datos": "180 CV · Diésel · 4x4",
-      "marca": "VOLKSWAGEN"
+      "descripcion": "Climatizador dual, control crucero, cuero sintético, CarPlay/Android Auto, navegador, cámara y asistente de estacionamiento, alerta de punto ciego, 7 airbags, ABS, control de estabilidad y tracción, faros LED y llantas de 16”.",
+      "anio": 2018,
+      "tipo": "Sedán",
+      "id": 44,
+      "kilometros": 100000,
+      "datos": "Nafta - AT",
+      "marca": "TOYOTA"
     },
     {
       "imagenes": [
@@ -1372,17 +1370,31 @@
       "marca": "TOYOTA"
     },
     {
-      "modelo": "Corolla 1.8 SE-G CVT",
-      "precio": "",
+      "imagenes": [
+        "/catalogo-dpa/amarok.jpeg"
+      ],
+      "modelo": "Amarok 2.0 TDI Highline 4x4",
+      "precio": "Consultar",
+      "sale": false,
+      "recienLlegado": true,
+      "condicion": "usado",
+      "descripcion": "Volkswagen Amarok 2.0 TDI Highline 4x4 de 180 CV. Una pick-up de gran capacidad, confort y prestaciones.",
+      "anio": 2013,
+      "tipo": "Pick-Up",
+      "id": 3,
+      "datos": "180 CV · Diésel · 4x4",
+      "marca": "VOLKSWAGEN"
+    },
+    {
+      "modelo": "Etios 1.5 XLS 4p",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Climatizador dual, control crucero, cuero sintético, CarPlay/Android Auto, navegador, cámara y asistente de estacionamiento, alerta de punto ciego, 7 airbags, ABS, control de estabilidad y tracción, faros LED y llantas de 16”.",
-      "anio": 2018,
+      "descripcion": "Alzacristales y espejos eléctricos, cierre remoto, estéreo Bluetooth, faros auxiliares y cubiertas nuevas. Impecable estado.",
+      "anio": 2015,
       "tipo": "Sedán",
-      "id": 44,
-      "kilometros": 100000,
-      "datos": "Nafta - AT",
+      "id": 45,
+      "datos": "Nafta - MT",
       "marca": "TOYOTA"
     }
   ]
