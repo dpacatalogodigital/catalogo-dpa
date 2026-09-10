@@ -883,7 +883,28 @@
       "tipo": "Furgón-Utilitario",
       "id": 31,
       "datos": "Diesel - MT6",
-      "marca": "MERCEDES"
+      "marca": "MERCEDES",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.26-pm-1-.jpeg-1789065074980-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.26-pm.jpeg-1789065076649-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.28-pm.jpeg-1789065078081-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.29-pm.jpeg-1789065079953-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.31-pm.jpeg-1789065082167-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.33-pm.jpeg-1789065083782-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.36-pm.jpeg-1789065085320-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.39-pm.jpeg-1789065087070-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.42-pm.jpeg-1789065088885-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.45-pm.jpeg-1789065090373-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.48-pm.jpeg-1789065091742-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.50-pm.jpeg-1789065093033-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.52-pm.jpeg-1789065094554-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.55-pm.jpeg-1789065095986-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.58-pm.jpeg-1789065097438-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.18.00-pm.jpeg-1789065099281-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.18.02-pm.jpeg-1789065100652-16",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.18.06-pm.jpeg-1789065102091-17"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.26-pm-1-.jpeg-1789065074980-0"
     },
     {
       "imagenes": [
