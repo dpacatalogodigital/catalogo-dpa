@@ -473,6 +473,18 @@
       "marca": "FORD"
     },
     {
+      "modelo": "Fiesta 1.6 4p S Plus",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "2 airbags, ABS, control de estabilidad y tracción, aire acondicionado, dirección asistida, Bluetooth/USB, llantas de aleación 15” y vidrios eléctricos delanteros.",
+      "anio": 2014,
+      "tipo": "Hatch",
+      "id": 20,
+      "datos": "Nafta - MT",
+      "marca": "FORD"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/ranger.jpeg"
       ],
@@ -566,15 +578,15 @@
       "marca": "TOYOTA"
     },
     {
-      "modelo": "Fiesta 1.6 4p S Plus",
+      "modelo": "Fiesta Kinetic Design 1.6 S 5 Puertas",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "2 airbags, ABS, control de estabilidad y tracción, aire acondicionado, dirección asistida, Bluetooth/USB, llantas de aleación 15” y vidrios eléctricos delanteros.",
-      "anio": 2014,
+      "descripcion": "Motor 1.6 nafta de 120 CV, aire acondicionado, dirección eléctrica, alzacristales eléctricos, cierre remoto, Bluetooth/USB, ESP, control de tracción, asistente en pendiente, ABS, airbags frontales y laterales e ISOFIX.",
+      "anio": 2015,
       "tipo": "Hatch",
-      "id": 20,
-      "datos": "Nafta - MT",
+      "id": 21,
+      "datos": "Nafta/GNC - MT5",
       "marca": "FORD"
     }
   ]
