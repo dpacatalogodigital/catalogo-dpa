@@ -1220,6 +1220,18 @@
       "id": 39,
       "datos": "Nafta/GNC - Manual",
       "marca": "RENAULT"
+    },
+    {
+      "modelo": "Duster 2.0 Privilege",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, cierre remoto, multimedia con navegador y cámara, limitador y control crucero. Cubiertas nuevas.",
+      "anio": 2017,
+      "tipo": "SUV",
+      "id": 40,
+      "datos": "Nafta - Manual",
+      "marca": "RENAULT"
     }
   ]
 }
