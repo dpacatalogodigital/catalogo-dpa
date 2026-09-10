@@ -785,7 +785,27 @@
       "tipo": "SUV",
       "id": 28,
       "datos": "Nafta - AT6",
-      "marca": "JEEP"
+      "marca": "JEEP",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.02.35-pm.jpeg-1789064868197-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.02.37-pm.jpeg-1789064870798-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.02.39-pm.jpeg-1789064872484-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.02.40-pm.jpeg-1789064874117-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.02.53-pm.jpeg-1789064876098-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.02.54-pm.jpeg-1789064877909-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.03.04-pm.jpeg-1789064879332-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.03.05-pm-1-.jpeg-1789064881294-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.03.05-pm.jpeg-1789064882847-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.03.17-pm.jpeg-1789064884319-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.03.22-pm.jpeg-1789064885865-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.03.23-pm.jpeg-1789064887941-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.03.27-pm.jpeg-1789064889606-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.03.28-pm-1-.jpeg-1789064891071-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.03.28-pm.jpeg-1789064892861-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.03.29-pm.jpeg-1789064894416-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.03.30-pm.jpeg-1789064895857-16"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.02.35-pm.jpeg-1789064868197-0"
     },
     {
       "modelo": "Renegade 1.8 Sport",
