@@ -567,7 +567,29 @@
       "id": 22,
       "kilometros": 100000,
       "datos": "Nafta - MT5",
-      "marca": "FORD"
+      "marca": "FORD",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.01.41-am.jpeg-1789062649604-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.01.43-am.jpeg-1789062651102-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.01.44-am.jpeg-1789062652722-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.01.46-am.jpeg-1789062654080-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.01.56-am.jpeg-1789062655862-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.01.57-am.jpeg-1789062657445-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.02.09-am.jpeg-1789062659669-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.02.19-am-1-.jpeg-1789062661238-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.02.19-am.jpeg-1789062662414-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.02.20-am-1-.jpeg-1789062664103-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.02.20-am.jpeg-1789062665679-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.02.30-am.jpeg-1789062667280-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.02.31-am-1-.jpeg-1789062668824-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.02.31-am.jpeg-1789062670415-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.02.34-am-1-.jpeg-1789062672122-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.02.34-am.jpeg-1789062673553-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.02.35-am.jpeg-1789062675293-16",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.02.36-am-1-.jpeg-1789062676738-17",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.02.36-am.jpeg-1789062678295-18"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.01.41-am.jpeg-1789062649604-0"
     },
     {
       "modelo": "Focus 1.6 S 5 Puertas",
