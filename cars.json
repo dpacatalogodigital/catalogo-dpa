@@ -510,6 +510,19 @@
       "marca": "FORD"
     },
     {
+      "modelo": "Focus 1.6 S 5 Puertas",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 1.6 nafta de 125 CV, caja manual, aire acondicionado, dirección eléctrica, levantavidrios x4 y espejos eléctricos, cierre remoto, SYNC/USB, 2 airbags, ABS, ISOFIX, llantas de aleación 16” y antinieblas.",
+      "anio": 2015,
+      "tipo": "Hatch",
+      "id": 23,
+      "kilometros": 101000,
+      "datos": "Nafta - MT",
+      "marca": "FORD"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/ranger.jpeg"
       ],
@@ -603,16 +616,15 @@
       "marca": "TOYOTA"
     },
     {
-      "modelo": "Focus 1.6 S 5 Puertas",
+      "modelo": " F-100 3.9 Duty XLT 4x2 Motor Cummins",
       "sale": false,
       "recienLlegado": false,
       "condicion": "usado",
-      "descripcion": "Motor 1.6 nafta de 125 CV, caja manual, aire acondicionado, dirección eléctrica, levantavidrios x4 y espejos eléctricos, cierre remoto, SYNC/USB, 2 airbags, ABS, ISOFIX, llantas de aleación 16” y antinieblas.",
-      "anio": 2015,
-      "tipo": "Hatch",
-      "id": 23,
-      "kilometros": 101000,
-      "datos": "Nafta - MT",
+      "descripcion": "Aire acondicionado, alzacristales y espejos eléctricos, cierre centralizado, alarma y cubiertas nuevas. Lista para transferir, con duplicado de llave y manuales.",
+      "anio": 2009,
+      "tipo": "Pick-Up",
+      "id": 24,
+      "datos": "Diesel - MT",
       "marca": "FORD"
     }
   ]
