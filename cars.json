@@ -801,6 +801,18 @@
       "marca": "JEEP"
     },
     {
+      "modelo": "SLK250",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 2.0 turbo, caja automática, tracción trasera, techo rígido retráctil eléctrico, cuero, butacas eléctricas, Airscarf, climatizador bi-zona, Bluetooth, sensores de estacionamiento, airbags, ABS y control de estabilidad y tracción.",
+      "anio": 2012,
+      "tipo": "Cabriolet",
+      "id": 30,
+      "datos": "Nafta - AT",
+      "marca": "MERCEDES"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/mini.jpeg",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-31-at-10.45.17-am.jpeg",
@@ -876,18 +888,6 @@
       "id": 4,
       "datos": "Diésel · 4x2 · Caja manual",
       "marca": "TOYOTA"
-    },
-    {
-      "modelo": "SLK250",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "descripcion": "Motor 2.0 turbo, caja automática, tracción trasera, techo rígido retráctil eléctrico, cuero, butacas eléctricas, Airscarf, climatizador bi-zona, Bluetooth, sensores de estacionamiento, airbags, ABS y control de estabilidad y tracción.",
-      "anio": 2012,
-      "tipo": "Cabriolet",
-      "id": 30,
-      "datos": "Nafta - AT",
-      "marca": "MERCEDES"
     }
   ]
 }
