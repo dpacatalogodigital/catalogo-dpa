@@ -1664,6 +1664,18 @@
       "id": 55,
       "datos": "Diesel - AT",
       "marca": "VOLKSWAGEN"
+    },
+    {
+      "modelo": "Fox 1.6 3p",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Aire acondicionado, alzacristales eléctricos, alarma con cierre y cortacorriente, llantas de aleación.",
+      "anio": 2011,
+      "tipo": "Hatch",
+      "id": 56,
+      "datos": "Nafta - MT",
+      "marca": "VOLKSWAGEN"
     }
   ]
 }
