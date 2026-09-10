@@ -658,7 +658,26 @@
       "id": 25,
       "kilometros": 53000,
       "datos": "Nafta - AT10",
-      "marca": "FORD"
+      "marca": "FORD",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.01-pm.jpeg-1789062949681-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.02-pm.jpeg-1789062951799-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.04-pm.jpeg-1789062953985-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.06-pm.jpeg-1789062955584-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.08-pm.jpeg-1789062957129-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.09-pm.jpeg-1789062958559-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.10-pm.jpeg-1789062960167-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.11-pm.jpeg-1789062961826-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.13-pm.jpeg-1789062963123-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.14-pm.jpeg-1789062964371-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.17-pm.jpeg-1789062965646-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.18-pm.jpeg-1789062967153-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.21-pm.jpeg-1789062968678-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.23-pm.jpeg-1789062970344-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.25-pm.jpeg-1789062972066-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.27-pm.jpeg-1789062973607-15"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.01-pm.jpeg-1789062949681-0"
     },
     {
       "modelo": "F-150 Raptor 3.5 V6 450CV Gen 4",
