@@ -1725,6 +1725,18 @@
       "id": 60,
       "datos": "Nafta - MT",
       "marca": "VOLKSWAGEN"
+    },
+    {
+      "modelo": "Vento 2.5 Advance 170cv",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 2.5 nafta de 170 CV, aire acondicionado, dirección asistida, Bluetooth/USB, control crucero, sensores de estacionamiento, ESP, control de tracción, ABS, airbags frontales y laterales y llantas de aleación.",
+      "anio": 2015,
+      "tipo": "Sedán",
+      "id": 61,
+      "datos": "Nafta - MT5",
+      "marca": "VOLKSWAGEN"
     }
   ]
 }
