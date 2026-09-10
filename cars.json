@@ -851,6 +851,18 @@
       "id": 4,
       "datos": "Diésel · 4x2 · Caja manual",
       "marca": "TOYOTA"
+    },
+    {
+      "modelo": "Compass 2.4 Sport 4x2",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 2.4 nafta de 174 CV, automática de 6 velocidades, 4x2, climatizador bi-zona, arranque sin llave, control crucero, CarPlay/Android Auto, cámara y sensores traseros, 7 airbags, ABS, control de estabilidad y llantas R17.",
+      "anio": 2020,
+      "tipo": "SUV",
+      "id": 28,
+      "datos": "Nafta - AT6",
+      "marca": "JEEP"
     }
   ]
 }
