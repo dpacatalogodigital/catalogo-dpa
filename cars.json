@@ -548,19 +548,31 @@
       "marca": "FORD"
     },
     {
+      "modelo": "F-150 Raptor 3.5 V6 450CV Gen 4",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "anio": 2037,
+      "tipo": "Pick-Up",
+      "id": 26,
+      "kilometros": 10000,
+      "datos": "Nafta - AT",
+      "marca": "FORD"
+    },
+    {
       "imagenes": [
         "/catalogo-dpa/ranger.jpeg"
       ],
-      "modelo": "Ranger 2.0 XLT Bi-Turbo",
-      "precio": "Consultar",
+      "modelo": "Ranger 2.0 Bi-Turbo 4x2  XLT ",
+      "precio": "",
       "sale": false,
       "recienLlegado": true,
       "condicion": "usado",
-      "descripcion": "Ford Ranger 2.0 XLT Bi-Turbo. Línea 2023, año 2024. Excelente combinación de tecnología, potencia y confort.",
+      "descripcion": "Motor 2.0 Bi-Turbo diésel de 210 CV, automática de 10 velocidades, 4x2, cuero ecológico, climatizador bi-zona, CarPlay/Android Auto, cámara y sensores, 7 airbags, crucero adaptativo, asistente pre-colisión y faros LED.",
       "anio": 2024,
       "tipo": "Pick-Up",
       "id": 5,
-      "datos": "Bi-Turbo · 4x2 · AT10",
+      "datos": "L/23 - Nafta - AT10",
       "marca": "FORD"
     },
     {
@@ -639,18 +651,6 @@
       "id": 4,
       "datos": "Diésel · 4x2 · Caja manual",
       "marca": "TOYOTA"
-    },
-    {
-      "modelo": "F-150 Raptor 3.5 V6 450CV Gen 4",
-      "sale": false,
-      "recienLlegado": false,
-      "condicion": "usado",
-      "anio": 2037,
-      "tipo": "Pick-Up",
-      "id": 26,
-      "kilometros": 10000,
-      "datos": "Nafta - AT",
-      "marca": "FORD"
     }
   ]
 }
