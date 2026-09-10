@@ -1027,7 +1027,26 @@
       "id": 34,
       "kilometros": 0,
       "datos": "Nafta - AT",
-      "marca": "PEUGEOT"
+      "marca": "PEUGEOT",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.12.47-pm.jpeg-1789066623178-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.12.48-pm-1-.jpeg-1789066624830-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.12.48-pm.jpeg-1789066626516-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.12.53-pm-1-.jpeg-1789066628046-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.12.53-pm.jpeg-1789066629773-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.12.54-pm.jpeg-1789066631583-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.12.55-pm.jpeg-1789066633214-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.12.58-pm.jpeg-1789066635107-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.12.59-pm.jpeg-1789066636951-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.13.00-pm.jpeg-1789066638738-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.13.02-pm.jpeg-1789066640072-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.13.03-pm.jpeg-1789066641842-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.13.06-pm-1-.jpeg-1789066643614-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.13.06-pm.jpeg-1789066645071-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.13.07-pm.jpeg-1789066647020-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.13.09-pm.jpeg-1789066648821-15"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.12.47-pm.jpeg-1789066623178-0"
     },
     {
       "modelo": "3008 1.6 THP GT Line",
