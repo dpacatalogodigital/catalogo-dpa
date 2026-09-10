@@ -1232,6 +1232,18 @@
       "id": 4,
       "datos": "Diésel · 4x2 · Caja manual",
       "marca": "TOYOTA"
+    },
+    {
+      "modelo": "Kwid 1.0 Outsider",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Motor 1.0 nafta, aire acondicionado, dirección eléctrica, CarPlay/Android Auto, cámara de retroceso, alzacristales eléctricos, cierre remoto, 2 airbags, ESP, ABS, ISOFIX, llantas de aleación y antinieblas.",
+      "anio": 2019,
+      "tipo": "SUV",
+      "id": 41,
+      "datos": "Nafta - MT5",
+      "marca": "RENAULT"
     }
   ]
 }
