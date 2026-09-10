@@ -1667,7 +1667,24 @@
       "tipo": "Pick-Up",
       "id": 52,
       "datos": "Diesel - MT6",
-      "marca": "VOLKSWAGEN"
+      "marca": "VOLKSWAGEN",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.03-am-1-.jpeg-1789074389374-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.03-am.jpeg-1789074390870-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.04-am.jpeg-1789074392355-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.06-am.jpeg-1789074393886-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.07-am.jpeg-1789074395346-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.09-am.jpeg-1789074396940-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.10-am.jpeg-1789074398391-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.12-am.jpeg-1789074399929-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.16-am.jpeg-1789074401442-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.21-am.jpeg-1789074403391-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.24-am.jpeg-1789074404762-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.26-am.jpeg-1789074406096-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.29-am.jpeg-1789074407557-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.32-am.jpeg-1789074408809-13"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.03-am-1-.jpeg-1789074389374-0"
     },
     {
       "modelo": "Amarok 2.0 TDi DC 4x2 140cv",
