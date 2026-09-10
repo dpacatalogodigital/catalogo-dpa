@@ -1605,6 +1605,18 @@
       "id": 50,
       "datos": "Diesel - AT8",
       "marca": "VOLKSWAGEN"
+    },
+    {
+      "modelo": "Amarok 2.0 TDi DC Highline Pk. 4x4 180CV",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Cuero, butacas calefaccionadas, climatizador automático, control crucero, alzacristales y espejos eléctricos, Bluetooth/USB/AUX, sensores de estacionamiento y faros auxiliares.",
+      "anio": 2015,
+      "tipo": "Pick-Up",
+      "id": 51,
+      "datos": "Diesel - AT",
+      "marca": "VOLKSWAGEN"
     }
   ]
 }
