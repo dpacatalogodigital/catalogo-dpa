@@ -1252,7 +1252,27 @@
       "tipo": "SUV",
       "id": 41,
       "datos": "Nafta - MT5",
-      "marca": "RENAULT"
+      "marca": "RENAULT",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.13.49-am.jpeg-1789069361014-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.13.50-am-1-.jpeg-1789069362975-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.13.50-am.jpeg-1789069364630-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.13.52-am.jpeg-1789069366206-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.13.53-am.jpeg-1789069367928-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.13.55-am.jpeg-1789069369494-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.13.58-am.jpeg-1789069371572-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.14.00-am.jpeg-1789069373736-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.14.03-am.jpeg-1789069375083-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.14.06-am.jpeg-1789069376703-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.14.09-am.jpeg-1789069378245-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.14.11-am.jpeg-1789069380007-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.14.14-am.jpeg-1789069381636-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.14.16-am.jpeg-1789069383178-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.14.19-am.jpeg-1789069384714-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.14.22-am.jpeg-1789069386370-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.14.25-am.jpeg-1789069388547-16"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.13.49-am.jpeg-1789069361014-0"
     },
     {
       "modelo": "Sandero Stepway 1.6 16v Privilegie",
