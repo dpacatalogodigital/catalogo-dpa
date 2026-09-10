@@ -1652,6 +1652,18 @@
       "id": 54,
       "datos": "Diesel - AT",
       "marca": "VOLKSWAGEN"
+    },
+    {
+      "modelo": "Amarok 3.0 V6 Extreme 4x4",
+      "sale": false,
+      "recienLlegado": false,
+      "condicion": "usado",
+      "descripcion": "Cuero, butacas eléctricas y calefaccionadas, climatizador automático, control crucero, alzacristales y espejos eléctricos, multimedia con navegador y cámara, sensores delanteros y traseros y faros auxiliares.",
+      "anio": 2023,
+      "tipo": "Pick-Up",
+      "id": 55,
+      "datos": "Diesel - AT",
+      "marca": "VOLKSWAGEN"
     }
   ]
 }
