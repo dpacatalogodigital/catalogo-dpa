@@ -1604,7 +1604,27 @@
       "tipo": "Pick-Up",
       "id": 50,
       "datos": "Diesel - AT8",
-      "marca": "VOLKSWAGEN"
+      "marca": "VOLKSWAGEN",
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.19-pm.jpeg-1789074166364-0",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.23-pm.jpeg-1789074168118-1",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.24-pm.jpeg-1789074169749-2",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.25-pm-1-.jpeg-1789074171403-3",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.25-pm.jpeg-1789074172868-4",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.26-pm.jpeg-1789074174490-5",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.27-pm-1-.jpeg-1789074175981-6",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.27-pm-2-.jpeg-1789074177213-7",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.27-pm.jpeg-1789074178906-8",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.28-pm-1-.jpeg-1789074180491-9",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.28-pm-2-.jpeg-1789074181849-10",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.28-pm.jpeg-1789074183523-11",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.29-pm-1-.jpeg-1789074185174-12",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.29-pm.jpeg-1789074186617-13",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.30-pm-1-.jpeg-1789074188194-14",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.30-pm-2-.jpeg-1789074189666-15",
+        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.30-pm.jpeg-1789074191180-16"
+      ],
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.19-pm.jpeg-1789074166364-0"
     },
     {
       "modelo": "Amarok 2.0 TDi DC Highline Pk. 4x4 180CV",
