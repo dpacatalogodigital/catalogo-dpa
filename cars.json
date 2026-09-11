@@ -31,7 +31,12 @@
       "kilometros": 116000,
       "datos": "Nafta - MT",
       "marca": "AUDI",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.43-am-1-.jpeg-1788872194058-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.43-am-1-.jpeg-1788872194058-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -61,7 +66,12 @@
       "id": 6,
       "datos": "MT - Nafta",
       "marca": "CHEVROLET",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.11-am.jpeg-1788974314371-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-9.08.11-am.jpeg-1788974314371-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -94,7 +104,12 @@
       "kilometros": 125000,
       "datos": "Nafta - MT6",
       "marca": "CHEVROLET",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.16-pm-1-.jpeg-1788975134622-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.30.16-pm-1-.jpeg-1788975134622-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -126,7 +141,12 @@
       "id": 8,
       "datos": "Nafta/GNC - AT",
       "marca": "CHEVROLET",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-1-.jpeg-1788975355906-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-11-at-12.48.17-pm-1-.jpeg-1788975355906-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -158,7 +178,12 @@
       "kilometros": 140000,
       "datos": "Nafta - MT",
       "marca": "CHEVROLET",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.29.23-am.jpeg-1788976002951-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.29.23-am.jpeg-1788976002951-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -190,7 +215,12 @@
       "id": 10,
       "datos": "Nafta - MT - Unica mano",
       "marca": "CHEVROLET",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.13-pm.jpeg-1788976082299-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.13-pm.jpeg-1788976082299-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -222,7 +252,12 @@
       "id": 11,
       "datos": "7AS - Nafta - AT",
       "marca": "CHEVROLET",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.17-pm.jpeg-1788976153421-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-7.11.17-pm.jpeg-1788976153421-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -254,7 +289,12 @@
       "kilometros": 51000,
       "datos": "Nafta - AT",
       "marca": "CITROËN",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.01-pm.jpeg-1788977464432-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.01-pm.jpeg-1788977464432-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -293,7 +333,12 @@
       "kilometros": 135000,
       "datos": "Nafta - AT",
       "marca": "DODGE-RAM",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-1.26.17-pm.jpeg-1788978819896-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-1.26.17-pm.jpeg-1788978819896-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -326,7 +371,12 @@
       "kilometros": 105000,
       "datos": "Nafta - MT",
       "marca": "FIAT",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-1-.jpeg-1788978375977-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-18-at-12.25.28-pm-1-.jpeg-1788978375977-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -359,7 +409,12 @@
       "kilometros": 82000,
       "datos": "Nafta/GNC - MT",
       "marca": "FIAT",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.50.18-am-1-.jpeg-1789059391032-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.50.18-am-1-.jpeg-1789059391032-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -391,7 +446,12 @@
       "id": 16,
       "datos": "Nafta - MT",
       "marca": "FIAT",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.59.13-am-1-.jpeg-1789059570497-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.59.13-am-1-.jpeg-1789059570497-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -423,7 +483,12 @@
       "id": 17,
       "kilometros": 100000,
       "marca": "FIAT",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.10.43-pm.jpeg-1789060003072-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-23-at-12.10.43-pm.jpeg-1789060003072-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -456,7 +521,12 @@
       "kilometros": 90000,
       "datos": "Nafta - AT",
       "marca": "FIAT",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/pulse-1-1-.jpeg-1789059890841-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/pulse-1-1-.jpeg-1789059890841-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -490,7 +560,12 @@
       "kilometros": 61000,
       "datos": "Nafta - MT- Unica Mano",
       "marca": "FORD",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-1-.jpeg-1789062375424-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-1-.jpeg-1789062375424-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -538,7 +613,12 @@
       "id": 20,
       "datos": "Nafta - MT",
       "marca": "FORD",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.13.58-am.jpeg-1789062761252-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.13.58-am.jpeg-1789062761252-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -570,7 +650,12 @@
       "id": 21,
       "datos": "Nafta/GNC - MT5",
       "marca": "FORD",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.20.57-am.jpeg-1789062513036-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.20.57-am.jpeg-1789062513036-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -605,7 +690,12 @@
       "kilometros": 100000,
       "datos": "Nafta - MT5",
       "marca": "FORD",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.01.41-am.jpeg-1789062649604-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-10.01.41-am.jpeg-1789062649604-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "modelo": "Focus 1.6 S 5 Puertas",
@@ -637,7 +727,12 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.38-am.jpeg-1789076743812-14",
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.42-am.jpeg-1789076745364-15"
       ],
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.13.58-am.jpeg-1789076722376-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.13.58-am.jpeg-1789076722376-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -664,7 +759,12 @@
       "id": 24,
       "datos": "Diesel - MT",
       "marca": "FORD",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/0f7824d3-d711-49b5-affd-9648d2a75009.jpg-1789062838839-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/0f7824d3-d711-49b5-affd-9648d2a75009.jpg-1789062838839-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -696,7 +796,12 @@
       "kilometros": 53000,
       "datos": "Nafta - AT10",
       "marca": "FORD",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.01-pm.jpeg-1789062949681-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.01-pm.jpeg-1789062949681-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -727,7 +832,12 @@
       "kilometros": 10000,
       "datos": "Nafta - AT",
       "marca": "FORD",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.22.21-am.jpeg-1789063057803-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.22.21-am.jpeg-1789063057803-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -759,7 +869,12 @@
       "id": 5,
       "datos": "L/23 - Nafta - AT10",
       "marca": "FORD",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.11-pm.jpeg-1789063187393-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.11-pm.jpeg-1789063187393-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -792,7 +907,12 @@
       "id": 27,
       "datos": "Diesel - MT",
       "marca": "FORD",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.50-pm-1-.jpeg-1789063280600-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.50-pm-1-.jpeg-1789063280600-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -824,7 +944,12 @@
       "id": 28,
       "datos": "Nafta - AT6",
       "marca": "JEEP",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.02.35-pm.jpeg-1789064868197-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.02.35-pm.jpeg-1789064868197-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -857,7 +982,12 @@
       "kilometros": 120000,
       "datos": "Nafta - MT",
       "marca": "JEEP",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.28-pm.jpeg-1789064935357-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.28-pm.jpeg-1789064935357-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -890,7 +1020,12 @@
       "id": 30,
       "datos": "Nafta - AT",
       "marca": "MERCEDES",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.13-pm-1-.jpeg-1789065001522-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-4.59.13-pm-1-.jpeg-1789065001522-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -923,7 +1058,12 @@
       "id": 31,
       "datos": "Diesel - MT6",
       "marca": "MERCEDES",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.26-pm-1-.jpeg-1789065074980-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-15-at-8.17.26-pm-1-.jpeg-1789065074980-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -968,7 +1108,12 @@
       "id": 2,
       "datos": "Techo - Cuero y Tela - Nafta - MT6",
       "marca": "MINI",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.43-am-1-.jpeg-1788871452478-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-11.56.43-am-1-.jpeg-1788871452478-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1000,7 +1145,12 @@
       "id": 32,
       "datos": "Diesel - MT",
       "marca": "NISSAN",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.15.38-am.jpeg-1789065801212-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.15.38-am.jpeg-1789065801212-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1033,7 +1183,12 @@
       "kilometros": 21000,
       "datos": "Nafta - AT",
       "marca": "NISSAN",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-12.07.09-pm.jpeg-1789065869044-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-12.07.09-pm.jpeg-1789065869044-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1065,7 +1220,12 @@
       "kilometros": 0,
       "datos": "Nafta - AT",
       "marca": "PEUGEOT",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.12.47-pm.jpeg-1789066623178-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.12.47-pm.jpeg-1789066623178-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1101,7 +1261,12 @@
       "kilometros": 80000,
       "datos": "Nafta - Automatica",
       "marca": "PEUGEOT",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.22-am.jpeg-1789066740246-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.22-am.jpeg-1789066740246-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1131,7 +1296,12 @@
       "id": 36,
       "datos": "Nafta/GNC - MT - Unica Mano",
       "marca": "PEUGEOT",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.52.58-pm.jpeg-1789066818058-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.52.58-pm.jpeg-1789066818058-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1164,7 +1334,12 @@
       "id": 37,
       "datos": "Diesel - MT",
       "marca": "PEUGEOT",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.31.35-am.jpeg-1789066884871-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.31.35-am.jpeg-1789066884871-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1194,7 +1369,12 @@
       "id": 38,
       "datos": "Diesel - MT",
       "marca": "PEUGEOT",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.23-am.jpeg-1789066990013-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-02-26-at-9.04.23-am.jpeg-1789066990013-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1227,7 +1407,12 @@
       "id": 39,
       "datos": "Nafta/GNC - Manual",
       "marca": "RENAULT",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.41-pm-1-.jpeg-1789069158810-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.41-pm-1-.jpeg-1789069158810-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1259,7 +1444,12 @@
       "id": 40,
       "datos": "Nafta - Manual",
       "marca": "RENAULT",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/3e557a58-f6f5-406f-8666-977eaa2eeb05.jpg-1789069278331-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/3e557a58-f6f5-406f-8666-977eaa2eeb05.jpg-1789069278331-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1291,7 +1481,12 @@
       "id": 41,
       "datos": "Nafta - MT5",
       "marca": "RENAULT",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.13.49-am.jpeg-1789069361014-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-20-at-10.13.49-am.jpeg-1789069361014-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1323,7 +1518,12 @@
       "id": 42,
       "datos": "Nafta/GNC 5ta Gen - MT",
       "marca": "RENAULT",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.05-am.jpeg-1789069436073-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.05-am.jpeg-1789069436073-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1356,7 +1556,12 @@
       "kilometros": 130000,
       "datos": "Nafta/GNC 5ta Gen - MT",
       "marca": "RENAULT",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-1-.jpeg-1789069533023-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-28-at-6.16.21-pm-1-.jpeg-1789069533023-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1388,7 +1593,12 @@
       "kilometros": 100000,
       "datos": "Nafta - AT",
       "marca": "TOYOTA",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.17.56-pm.jpeg-1789070878966-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.17.56-pm.jpeg-1789070878966-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1417,7 +1627,12 @@
       "id": 45,
       "datos": "Nafta - MT",
       "marca": "TOYOTA",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-1-.jpeg-1789070969380-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-1-.jpeg-1789070969380-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1451,7 +1666,12 @@
       "id": 4,
       "datos": "Diésel - MT6",
       "marca": "TOYOTA",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.37.34-pm.jpeg-1789071077125-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.37.34-pm.jpeg-1789071077125-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1483,7 +1703,12 @@
       "id": 46,
       "datos": "Diesel - AT",
       "marca": "TOYOTA",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.22-am.jpeg-1789071149346-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.43.22-am.jpeg-1789071149346-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1516,7 +1741,12 @@
       "id": 47,
       "datos": "Diesel - AT",
       "marca": "TOYOTA",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.20-am-1-.jpeg-1789071227757-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.20-am-1-.jpeg-1789071227757-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1548,7 +1778,12 @@
       "id": 48,
       "datos": "Diesel - AT - L/24",
       "marca": "TOYOTA",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.01-pm.jpeg-1789071295834-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.01-pm.jpeg-1789071295834-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1580,7 +1815,12 @@
       "kilometros": 65000,
       "datos": "Nafta - MT6",
       "marca": "TOYOTA",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.47-am-1-.jpeg-1789071379109-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.47-am-1-.jpeg-1789071379109-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1611,7 +1851,12 @@
       "id": 3,
       "datos": "Diesel - AT8",
       "marca": "VOLKSWAGEN",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.12-pm-1-.jpeg-1789071826285-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-28-at-5.27.12-pm-1-.jpeg-1789071826285-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1643,7 +1888,12 @@
       "id": 50,
       "datos": "Diesel - AT8",
       "marca": "VOLKSWAGEN",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.19-pm.jpeg-1789074166364-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.19-pm.jpeg-1789074166364-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1675,7 +1925,12 @@
       "id": 51,
       "datos": "Diesel - AT",
       "marca": "VOLKSWAGEN",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.24.46-pm-1-.jpeg-1789074269862-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.24.46-pm-1-.jpeg-1789074269862-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1703,7 +1958,12 @@
       "id": 52,
       "datos": "Diesel - MT6",
       "marca": "VOLKSWAGEN",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.03-am-1-.jpeg-1789074389374-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-06-at-10.03.03-am-1-.jpeg-1789074389374-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1734,7 +1994,12 @@
       "id": 53,
       "datos": "Diesel - MT6 - L/17",
       "marca": "VOLKSWAGEN",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.01-pm.jpeg-1789074484484-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-19-at-12.09.01-pm.jpeg-1789074484484-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1767,7 +2032,12 @@
       "id": 54,
       "datos": "Diesel - AT",
       "marca": "VOLKSWAGEN",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.34-am-1-.jpeg-1789074548905-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-30-at-11.17.34-am-1-.jpeg-1789074548905-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1799,7 +2069,12 @@
       "id": 55,
       "datos": "Diesel - AT",
       "marca": "VOLKSWAGEN",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.08.00-pm.jpeg-1789074663494-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-06-at-6.08.00-pm.jpeg-1789074663494-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1830,7 +2105,12 @@
       "id": 56,
       "datos": "Nafta - MT",
       "marca": "VOLKSWAGEN",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.43.46-pm.jpeg-1789074725278-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-25-at-12.43.46-pm.jpeg-1789074725278-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1860,7 +2140,12 @@
       "id": 57,
       "datos": "Nafta - MT",
       "marca": "VOLKSWAGEN",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.00-am.jpeg-1789074790309-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.00-am.jpeg-1789074790309-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1890,7 +2175,12 @@
       "id": 58,
       "datos": "Nafta/GNC - MT",
       "marca": "VOLKSWAGEN",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.41.52-pm.jpeg-1789074888892-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.41.52-pm.jpeg-1789074888892-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1924,7 +2214,12 @@
       "kilometros": 100000,
       "datos": "Nafta - AT6 Tiptronic",
       "marca": "VOLKSWAGEN",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.24-pm.jpeg-1789074950282-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.24-pm.jpeg-1789074950282-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1954,7 +2249,12 @@
       "id": 60,
       "datos": "Nafta - MT",
       "marca": "VOLKSWAGEN",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.09.51-pm.jpeg-1789075014574-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-4.09.51-pm.jpeg-1789075014574-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -1987,7 +2287,12 @@
       "id": 61,
       "datos": "Nafta - MT5",
       "marca": "VOLKSWAGEN",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.19.24-am.jpeg-1789075114588-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-21-at-11.19.24-am.jpeg-1789075114588-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -2019,7 +2324,12 @@
       "id": 62,
       "datos": "Nafta - MT5",
       "marca": "VOLKSWAGEN",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.52.59-am.jpeg-1789075213694-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.52.59-am.jpeg-1789075213694-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     },
     {
       "imagenes": [
@@ -2046,7 +2356,20 @@
       "id": 63,
       "datos": "Nafta - MT",
       "marca": "VOLKSWAGEN",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.28-pm-1-.jpeg-1789075329784-0"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-7.00.28-pm-1-.jpeg-1789075329784-0",
+      "estadoInventario": "activo",
+      "fechaAlta": null,
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": null
     }
-  ]
+  ],
+  "schemaVersion": 1,
+  "nextId": 64,
+  "movimientos": [],
+  "migracion": {
+    "fecha": "2026-09-11T18:56:26.283Z",
+    "origen": "stock-existente",
+    "fechasHistoricasDesconocidas": true
+  }
 }

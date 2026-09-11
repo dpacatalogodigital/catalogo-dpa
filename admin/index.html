@@ -1,16 +1,24 @@
 <!doctype html>
 <html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Administración | DPA Automotores</title>
-  <style>
-    #dpa-lote{position:fixed;right:22px;bottom:22px;z-index:999999;padding:14px 18px;border-radius:9px;background:#f15a24;color:#fff;text-decoration:none;font:700 16px Arial;box-shadow:0 4px 15px #0008}
-  </style>
-</head>
-<body>
-  <div id="nc-root"></div>
-  <a id="dpa-lote" href="cargar-fotos.html">Cargar varias fotos</a>
-  <script src="https://unpkg.com/decap-cms@3.7.0/dist/decap-cms.js"></script>
-</body>
-</html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer"><title>Inventario | DPA Automotores</title><link rel="stylesheet" href="inventory.css"></head>
+<body><main>
+<header><div><p class="eyebrow">DPA · ADMINISTRACIÓN</p><h1>Inventario de vehículos</h1></div><button id="login">Iniciar sesión con GitHub</button><button id="logout" hidden>Cerrar sesión</button></header>
+<p class="banner">Versión de prueba. Los cambios se guardan por separado y no se publican en el catálogo actual.</p>
+<p id="status" role="status" aria-live="polite">Cargando inventario…</p>
+<section aria-labelledby="summary-title" class="panel"><div class="toolbar"><h2 id="summary-title">Movimientos del mes</h2><label>Mes <input id="month" type="month"></label><button id="export" disabled>Descargar CSV</button></div><div id="counts" class="counts"></div>
+<p class="muted">El stock importado no cuenta como altas. Las fechas anteriores sin registro se muestran como desconocidas.</p>
+<details><summary>Ver movimientos</summary><div class="table-wrap"><table><thead><tr><th>Fecha</th><th>Vehículo</th><th>Movimiento</th><th>Cambios</th></tr></thead><tbody id="movements"></tbody></table></div></details></section>
+<div class="workspace">
+<section class="panel" aria-labelledby="stock-title"><div class="toolbar"><h2 id="stock-title">Vehículos</h2><button id="new" disabled>Nuevo vehículo</button><button id="reload">Recargar</button></div>
+<label>Buscar <input id="search" type="search" placeholder="ID, marca o modelo"></label><label>Estado <select id="filter"><option value="todos">Todos</option><option value="activo">Activos</option><option value="archivado">Archivados</option><option value="vendido">Vendidos</option><option value="reingreso">Reingresos</option><option value="proximo_ingreso">Próximos ingresos</option></select></label>
+<p id="total" class="muted"></p><div id="vehicles" class="vehicles"></div></section>
+<section class="panel" aria-labelledby="editor-title"><h2 id="editor-title">Seleccioná un vehículo</h2><p id="identity" class="muted"></p>
+<form id="editor" hidden><fieldset id="fields" disabled><div class="form-grid" id="form-fields"></div>
+<label>Descripción <textarea name="descripcion" rows="5"></textarea></label>
+<label>Fotos actuales (un enlace por línea; la primera es la portada)<textarea name="imagenes" rows="4"></textarea></label>
+<label>Agregar varias fotos <input id="photos" type="file" multiple accept="image/jpeg,image/png,image/webp"></label>
+<label class="check"><input id="first-cover" type="checkbox" checked> Usar la primera foto nueva como portada</label>
+<p class="muted">Hasta 25 fotos por operación, 8 MB por foto y 40 MB en total. Las fotos se guardan junto con la ficha.</p>
+<div class="toolbar"><button type="submit" id="save">Guardar cambios</button><button type="button" id="cancel">Descartar cambios</button></div>
+</fieldset></form><dl id="dates" class="dates"></dl><details id="history-section" hidden><summary>Historial de este vehículo</summary><ul id="history"></ul></details>
+</section></div></main><script type="module" src="app.mjs"></script></body></html>
