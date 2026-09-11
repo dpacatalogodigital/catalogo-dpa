@@ -2371,13 +2371,13 @@
       "fechaAlta": "2026-09-11T19:45:25.040Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-09-11T19:45:25.040Z",
+      "fechaUltimaModificacion": "2026-09-11T19:45:25.060Z",
       "marca": "FORD",
       "modelo": "PRUEBA TÉCNICA — NO ES STOCK",
       "tipo": "Hatch",
       "anio": 2026,
       "condicion": "usado",
-      "estadoInventario": "proximo_ingreso"
+      "estadoInventario": "activo"
     }
   ],
   "schemaVersion": 1,
@@ -2400,6 +2400,18 @@
         "recienLlegado",
         "sale",
         "imagenes",
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "04428d00-63e4-45f8-ab81-2abc2c685b44",
+      "vehiculoId": 64,
+      "tipo": "modificacion",
+      "fecha": "2026-09-11T19:45:25.060Z",
+      "mes": "2026-09",
+      "estadoAnterior": "proximo_ingreso",
+      "estadoPosterior": "activo",
+      "campos": [
         "estadoInventario"
       ]
     }
