@@ -1,12 +1,14 @@
 import { FIELDS, STATES, BRANDS, TYPES, monthly, monthOf, validateInventory } from './inventory.mjs';
 import { InventoryStore } from './github.mjs';
 import { authenticate } from './auth.mjs';
+import { createStatePicker } from './state-picker.mjs';
 
 const $ = id => document.getElementById(id);
 const labels = { activo: 'Activo', archivado: 'Archivado', vendido: 'Vendido', reingreso: 'Reingreso', proximo_ingreso: 'Próximo ingreso', alta: 'Alta', baja: 'Baja', modificacion: 'Modificación' };
 const dateLabels = { fechaAlta: 'Alta', fechaBaja: 'Última baja', fechaReingreso: 'Último reingreso', fechaUltimaModificacion: 'Última modificación' };
 const formatDate = value => value ? new Date(value).toLocaleString('es-AR', { timeZone: 'America/Argentina/Cordoba' }) : 'Sin registro histórico';
 let store = new InventoryStore(), snapshot, selected = null, dirty = false, busy = false, pending = null;
+let statePicker;
 const node = (tag, text, className) => { const el = document.createElement(tag); if (text !== undefined) el.textContent = text; if (className) el.className = className; return el; };
 function status(text, error = false) { $('status').textContent = text; $('status').className = error ? 'error' : ''; }
 function controls() {
@@ -19,6 +21,11 @@ function mayDiscard() { return !dirty || window.confirm('Hay cambios sin guardar
 function buildForm() {
   const definitions = [ ['marca', 'Marca', BRANDS], ['modelo', 'Modelo', 'text'], ['tipo', 'Tipo', TYPES], ['anio', 'Año', 'number'], ['kilometros', 'Kilómetros', 'number'], ['condicion', 'Condición', ['usado','0km']], ['precio', 'Precio', 'text'], ['datos', 'Datos destacados', 'text'], ['estadoInventario', 'Estado', STATES], ['recienLlegado', 'Recién llegado', 'checkbox'], ['sale', 'Oferta / SALE', 'checkbox'] ];
   for (const [name, title, type] of definitions) {
+    if (name === 'estadoInventario') {
+      const group = node('div'); group.append(node('span', title));
+      statePicker = createStatePicker(STATES, labels); group.append(statePicker.element);
+      $('form-fields').append(group); continue;
+    }
     const label = node('label', title), input = node(Array.isArray(type) ? 'select' : 'input');
     input.name = name;
     if (Array.isArray(type)) for (const value of type) { const option = node('option', labels[value] || value); option.value = value; input.append(option); }
@@ -49,7 +56,8 @@ function openVehicle(id) {
   $('identity').textContent = id === null ? 'El ID permanente se asignará al guardar.' : `ID permanente: ${id}`;
   for (const name of [...FIELDS, 'estadoInventario']) {
     const input = $('editor').elements.namedItem(name); if (!input) continue;
-    if (input.type === 'checkbox') input.checked = Boolean(vehicle[name]);
+    if (name === 'estadoInventario') statePicker.set(vehicle[name]);
+    else if (input.type === 'checkbox') input.checked = Boolean(vehicle[name]);
     else input.value = name === 'imagenes' ? vehicle.imagenes.join('\n') : vehicle[name] ?? '';
   }
   $('photos').value = ''; $('first-cover').checked = true;
