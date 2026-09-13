@@ -2176,11 +2176,11 @@
       "datos": "Nafta/GNC - MT",
       "marca": "VOLKSWAGEN",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-26-at-6.41.52-pm.jpeg-1789074888892-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-09-13T20:24:54.383Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-09-13T20:24:54.383Z"
     },
     {
       "imagenes": [
@@ -2398,6 +2398,18 @@
       "fecha": "2026-09-13T20:02:42.954Z",
       "mes": "2026-09",
       "estadoAnterior": "reingreso",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "feca8531-7c0e-4baa-a5ec-bdc2c17d2bad",
+      "vehiculoId": 58,
+      "tipo": "baja",
+      "fecha": "2026-09-13T20:24:54.383Z",
+      "mes": "2026-09",
+      "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
       "campos": [
         "estadoInventario"
