@@ -2141,11 +2141,11 @@
       "datos": "Nafta - MT",
       "marca": "VOLKSWAGEN",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-14-at-10.28.00-am.jpeg-1789074790309-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-09-13T20:25:19.119Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-09-13T20:25:19.119Z"
     },
     {
       "imagenes": [
@@ -2408,6 +2408,18 @@
       "vehiculoId": 58,
       "tipo": "baja",
       "fecha": "2026-09-13T20:24:54.383Z",
+      "mes": "2026-09",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "14d89815-4abc-4e01-a7fb-62aa96ed6dd4",
+      "vehiculoId": 57,
+      "tipo": "baja",
+      "fecha": "2026-09-13T20:25:19.119Z",
       "mes": "2026-09",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
