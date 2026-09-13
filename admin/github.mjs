@@ -25,6 +25,11 @@ export class InventoryStore {
     }
     return response.json();
   }
+  async authorize() {
+    if (!this.token) throw new Error('Iniciá sesión para guardar.');
+    const repo = await this.api('');
+    if (repo.permissions?.push !== true) throw new Error('Tu cuenta no tiene permiso para modificar el stock. Solicitá acceso al responsable del catálogo.');
+  }
   async load() {
     const ref = await this.api(`/git/ref/heads/${this.config.branch}`);
     const head = ref.object.sha;
@@ -34,7 +39,8 @@ export class InventoryStore {
   }
   async save(snapshot, operation, photos = []) {
     if (!this.token) throw new Error('Iniciá sesión para guardar.');
-    if (this.config.branch === 'main') throw new Error('Esta versión de prueba no puede guardar en main.');
+    if (this.config.branch === 'main' && !this.config.production) throw new Error('Esta versión de prueba no puede guardar en main.');
+    await this.authorize();
     const latest = await this.load();
     if (latest.db.movimientos.some(e => e.id === operation.id)) return latest;
     if (latest.head !== snapshot.head) throw new Error('El inventario cambió en otra sesión. Recargá y revisá tus cambios antes de guardar.');

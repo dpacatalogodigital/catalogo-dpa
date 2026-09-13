@@ -3,7 +3,7 @@
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer"><title>Inventario | DPA Automotores</title><link rel="stylesheet" href="inventory.css"></head>
 <body><link rel="stylesheet" href="state-picker.css"><main>
 <header><div><p class="eyebrow">DPA · ADMINISTRACIÓN</p><h1>Inventario de vehículos</h1></div><button id="login">Iniciar sesión con GitHub</button><button id="logout" hidden>Cerrar sesión</button></header>
-<p class="banner">Versión de prueba. Los cambios se guardan por separado y no se publican en el catálogo actual.</p>
+<p id="environment" class="banner">Versión de prueba. Los cambios se guardan por separado y no se publican en el catálogo actual.</p>
 <p id="status" role="status" aria-live="polite">Cargando inventario…</p>
 <section aria-labelledby="summary-title" class="panel"><div class="toolbar"><h2 id="summary-title">Movimientos del mes</h2><label>Mes <input id="month" type="month"></label><button id="export" disabled>Descargar CSV</button></div><div id="counts" class="counts"></div>
 <p class="muted">El stock importado no cuenta como altas. Las fechas anteriores sin registro se muestran como desconocidas.</p>
@@ -22,3 +22,4 @@
 <div class="toolbar"><button type="submit" id="save">Guardar cambios</button><button type="button" id="cancel">Descartar cambios</button></div>
 </fieldset></form><dl id="dates" class="dates"></dl><details id="history-section" hidden><summary>Historial de este vehículo</summary><ul id="history"></ul></details>
 </section></div></main><script type="module" src="app.mjs"></script></body></html>
+

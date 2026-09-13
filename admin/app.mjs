@@ -2,6 +2,7 @@ import { FIELDS, STATES, BRANDS, TYPES, monthly, monthOf, validateInventory } fr
 import { InventoryStore } from './github.mjs';
 import { authenticate } from './auth.mjs';
 import { createStatePicker } from './state-picker.mjs';
+import { settings } from './settings.mjs';
 
 const $ = id => document.getElementById(id);
 const labels = { activo: 'Activo', archivado: 'Archivado', vendido: 'Vendido', reingreso: 'Reingreso', proximo_ingreso: 'Próximo ingreso', alta: 'Alta', baja: 'Baja', modificacion: 'Modificación' };
@@ -73,8 +74,8 @@ function renderMonthly() {
   $('movements').replaceChildren(...rows.map(e => { const tr = node('tr'); for (const text of [formatDate(e.fecha),String(e.vehiculoId),labels[e.tipo],e.campos.join(', ')]) tr.append(node('td', text)); return tr; }));
 }
 async function reload() {
-  busy = true; controls(); status('Cargando la versión de prueba…');
-  try { const next = await store.load(); validateInventory(next.db); snapshot = next; dirty = false; pending = null; renderList(); renderMonthly(); if (!$('editor').hidden) openVehicle(selected); status(store.token ? 'Sesión iniciada. Podés editar la versión de prueba.' : 'Inventario en modo consulta. Iniciá sesión para guardar.'); }
+  busy = true; controls(); status('Cargando inventario…');
+  try { const next = await store.load(); validateInventory(next.db); snapshot = next; dirty = false; pending = null; renderList(); renderMonthly(); if (!$('editor').hidden) openVehicle(selected); status(store.token ? (settings.production ? 'Sesión iniciada. Podés editar el inventario real.' : 'Sesión iniciada. Podés editar la versión de prueba.') : 'Inventario en modo consulta. Iniciá sesión para guardar.'); }
   catch (e) { status(e.message, true); }
   finally { busy = false; controls(); renderList(); }
 }
@@ -114,7 +115,7 @@ $('editor').onsubmit = async event => {
     const next = await store.save(snapshot, pending.operation, pending.photos);
     const movement = next.db.movimientos.find(e => e.id === operationId);
     snapshot = next; openVehicle(movement?.vehiculoId ?? selected); renderMonthly();
-    status(movement ? 'Guardado en la versión de prueba. El catálogo público sigue igual.' : 'No había cambios; no se registró ningún movimiento.');
+    status(movement ? (settings.production ? 'Guardado. El catálogo se actualizará en unos minutos.' : 'Guardado en la versión de prueba. El catálogo público sigue igual.') : 'No había cambios; no se registró ningún movimiento.');
   } catch (e) { status(`${e.message} Los datos del formulario se conservan.`, true); }
   finally { busy = false; controls(); renderList(); }
 };
@@ -122,7 +123,7 @@ $('editor').oninput = () => { dirty = true; pending = null; };
 $('editor').onchange = () => { dirty = true; pending = null; };
 $('login').onclick = async () => {
   if (busy || !mayDiscard()) return; busy = true; controls(); status('Completá el inicio de sesión en la ventana de GitHub…');
-  try { store = new InventoryStore(await authenticate()); $('login').hidden = true; $('logout').hidden = false; await reload(); }
+  try { const authorized = new InventoryStore(await authenticate()); await authorized.authorize(); store = authorized; $('login').hidden = true; $('logout').hidden = false; await reload(); }
   catch (e) { status(e.message, true); }
   finally { busy = false; controls(); }
 };
@@ -139,4 +140,6 @@ $('export').onclick = () => {
   const url = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' })); const a = node('a'); a.href = url; a.download = `movimientos-${$('month').value}.csv`; a.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
 };
 window.addEventListener('beforeunload', event => { if (dirty || busy) { event.preventDefault(); event.returnValue = ''; } });
+$('environment').textContent = settings.production ? 'Inventario real. Al guardar, los cambios se publican en el catálogo; pueden tardar unos minutos en aparecer.' : 'Versión de prueba. Los cambios se guardan por separado y no se publican en el catálogo actual.';
 buildForm(); $('month').value = monthOf(new Date().toISOString()); reload();
+

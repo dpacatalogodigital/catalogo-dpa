@@ -67,6 +67,7 @@ function mockGit({ conflict = false, failBlob = false, lostResponse = false } = 
     const body = options.body ? JSON.parse(options.body) : null;
     const ok = content => ({ ok: true, json: async () => content });
     if (options.method === 'GET') {
+      if (path === '') return ok({ permissions: { push: true } });
       if (path.startsWith('/git/ref/')) return ok({ object: { sha: head } });
       if (path === '/contents/cars.json') return ok({ content: encodeText(JSON.stringify(db)) });
       if (path.startsWith('/git/commits/')) return ok({ tree: { sha: 'base-tree' } });
@@ -127,4 +128,35 @@ test('OAuth accepts only messages from the expected origin AND popup', async () 
   receiver({ origin: config.authOrigin, source: popup, data: 'authorizing:github' }); assert(handshake);
   receiver({ origin: config.authOrigin, source: popup, data: 'authorization:github:success:{"token":"correct-secret-123"}' });
   assert.equal(await promise, 'correct-secret-123'); assert(closed);
+});
+
+import { settingsFor } from '../admin/settings.mjs';
+test('production is limited to the published HTTPS admin; local and foreign previews stay isolated', () => {
+  assert.equal(settingsFor({origin:'https://dpacatalogodigital.github.io',pathname:'/catalogo-dpa/admin/'}).branch,'main');
+  for (const origin of ['http://127.0.0.1:4321','https://example.com','http://dpacatalogodigital.github.io']) assert.equal(settingsFor({origin,pathname:'/catalogo-dpa/admin/'}).production,false);
+  assert.equal(settingsFor({origin:'https://dpacatalogodigital.github.io',pathname:'/other/'}).production,false);
+});
+test('read-only accounts cannot publish any Git changes', async () => {
+  let writes=0;
+  const store = new InventoryStore('test-token', async (_url,opts) => { if(opts.method !== 'GET') writes++; return {ok:true,json:async()=>({permissions:{push:false}})}; });
+  await assert.rejects(store.authorize(),/permiso/);
+  await assert.rejects(store.save({},op),/permiso/);
+  assert.equal(writes,0);
+});
+test('production creation, edit, sale and reentry preserve photos and monthly history', async () => {
+  for (const patch of [
+    {estadoInventario:'activo',modelo:'Alta de prueba'},
+    {precio:'Precio editado'}, {estadoInventario:'vendido'}, {estadoInventario:'reingreso'}
+  ]) {
+    const git=mockGit(); git.store.config=settingsFor({origin:'https://dpacatalogodigital.github.io',pathname:'/catalogo-dpa/admin/'});
+    const snapshot=await git.store.load();
+    // The reentry case begins with an already sold fixture.
+    if(patch.estadoInventario==='reingreso') snapshot.db.vehiculos[0].estadoInventario='vendido';
+    const operation=patch.modelo ? {id:crypto.randomUUID(),action:'crear',patch:{...baseline.vehiculos[0],id:undefined,...patch}} : {...op,id:crypto.randomUUID(),patch};
+    if(patch.modelo) for(const key of ['id','fechaAlta','fechaBaja','fechaReingreso','fechaUltimaModificacion']) delete operation.patch[key];
+    const saved=await git.store.save(snapshot,operation);
+    assert(git.writes.at(-1).path.endsWith('/main'));
+    assert.equal(saved.db.movimientos.length,1);
+    assert.deepEqual(saved.db.vehiculos[0].imagenes,baseline.vehiculos[0].imagenes);
+  }
 });
