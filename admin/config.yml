@@ -1,7 +1,9 @@
+# Referencia del panel Decap anterior. El panel actual no carga este archivo.
+# No reactivar el editor genérico: omite las reglas e historial del inventario.
 backend:
   name: github
   repo: dpacatalogodigital/catalogo-dpa
-  branch: main
+  branch: codex/inventario-historial-seguro
   base_url: https://dpa-decap-auth.redesdpa2023.workers.dev
   auth_endpoint: auth
 media_folder: "imagenes/vehiculos"

@@ -1,0 +1,26 @@
+name: Comprobar inventario
+on:
+  pull_request:
+  push:
+    branches: [main, codex/inventario-historial-seguro]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      - run: node scripts/validate.mjs
+      - name: Conservar IDs e historial de la base
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          git show "$BASE_SHA:cars.json" > "$RUNNER_TEMP/cars-base.json"
+          node scripts/validate.mjs "$RUNNER_TEMP/cars-base.json"
