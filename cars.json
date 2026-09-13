@@ -1519,11 +1519,11 @@
       "datos": "Nafta/GNC 5ta Gen - MT",
       "marca": "RENAULT",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-11.20.05-am.jpeg-1789069436073-0",
-      "estadoInventario": "vendido",
+      "estadoInventario": "reingreso",
       "fechaAlta": null,
       "fechaBaja": "2026-09-13T14:49:14.241Z",
-      "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-09-13T14:49:14.241Z"
+      "fechaReingreso": "2026-09-13T14:51:14.504Z",
+      "fechaUltimaModificacion": "2026-09-13T14:51:14.504Z"
     },
     {
       "imagenes": [
@@ -2375,6 +2375,18 @@
       "mes": "2026-09",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "2cd84e89-15b6-46c4-adaf-d4306a443d37",
+      "vehiculoId": 42,
+      "tipo": "reingreso",
+      "fecha": "2026-09-13T14:51:14.504Z",
+      "mes": "2026-09",
+      "estadoAnterior": "vendido",
+      "estadoPosterior": "reingreso",
       "campos": [
         "estadoInventario"
       ]
