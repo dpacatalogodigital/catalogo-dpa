@@ -1742,11 +1742,11 @@
       "datos": "Diesel - AT",
       "marca": "TOYOTA",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-12-19-at-9.39.20-am-1-.jpeg-1789071227757-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-09-13T20:25:42.705Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-09-13T20:25:42.705Z"
     },
     {
       "imagenes": [
@@ -2420,6 +2420,18 @@
       "vehiculoId": 57,
       "tipo": "baja",
       "fecha": "2026-09-13T20:25:19.119Z",
+      "mes": "2026-09",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "514c00e9-d89a-4a23-9565-12deddcc9aa0",
+      "vehiculoId": 47,
+      "tipo": "baja",
+      "fecha": "2026-09-13T20:25:42.705Z",
       "mes": "2026-09",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
