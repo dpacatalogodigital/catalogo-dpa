@@ -1667,11 +1667,11 @@
       "datos": "Diésel - MT6",
       "marca": "TOYOTA",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-5.37.34-pm.jpeg-1789071077125-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-09-13T20:26:02.651Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-09-13T20:26:02.651Z"
     },
     {
       "imagenes": [
@@ -2432,6 +2432,18 @@
       "vehiculoId": 47,
       "tipo": "baja",
       "fecha": "2026-09-13T20:25:42.705Z",
+      "mes": "2026-09",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "5d6a87da-06d2-4828-9155-2ff5e39a34cf",
+      "vehiculoId": 4,
+      "tipo": "baja",
+      "fecha": "2026-09-13T20:26:02.651Z",
       "mes": "2026-09",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
