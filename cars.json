@@ -2362,11 +2362,58 @@
       "fechaBaja": null,
       "fechaReingreso": null,
       "fechaUltimaModificacion": null
+    },
+    {
+      "id": 64,
+      "imagenes": [],
+      "recienLlegado": false,
+      "sale": false,
+      "fechaAlta": "2026-09-13T14:31:22.521Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-09-13T14:31:22.521Z",
+      "marca": "FORD",
+      "modelo": "PRUEBA DE ACCESO — NO ES STOCK",
+      "tipo": "Hatch",
+      "anio": 2026,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": "",
+      "precio": "",
+      "descripcion": "",
+      "estadoInventario": "proximo_ingreso",
+      "portada": ""
     }
   ],
   "schemaVersion": 1,
-  "nextId": 64,
-  "movimientos": [],
+  "nextId": 65,
+  "movimientos": [
+    {
+      "id": "89cfd2ee-6d61-4211-be6d-bfaf707b0ee5",
+      "vehiculoId": 64,
+      "tipo": "alta",
+      "fecha": "2026-09-13T14:31:22.521Z",
+      "mes": "2026-09",
+      "estadoAnterior": null,
+      "estadoPosterior": "proximo_ingreso",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
+        "estadoInventario"
+      ]
+    }
+  ],
   "migracion": {
     "fecha": "2026-09-11T18:56:26.283Z",
     "origen": "stock-existente",
