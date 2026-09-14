@@ -1100,7 +1100,7 @@
       "modelo": "Cooper S 2008 1.6 Turbo 175 CV",
       "precio": "Consultar",
       "sale": false,
-      "recienLlegado": true,
+      "recienLlegado": false,
       "condicion": "usado",
       "descripcion": "Cooper S 1.6 turbo de 175 CV, manual de 6 velocidades, techo panorámico, tapizado mixto cuero/tela JCW, asientos calefaccionados, aire acondicionado, control crucero, 6 airbags, ABS, control de estabilidad y tracción. Cubiertas nuevas.",
       "anio": 2008,
@@ -1113,7 +1113,7 @@
       "fechaAlta": null,
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-09-14T19:17:15.086Z"
     },
     {
       "imagenes": [
@@ -2701,6 +2701,18 @@
         "imagenes",
         "portada",
         "estadoInventario"
+      ]
+    },
+    {
+      "id": "48275953-4e9a-48ca-bbb6-f052bbd7b3e3",
+      "vehiculoId": 2,
+      "tipo": "modificacion",
+      "fecha": "2026-09-14T19:17:15.086Z",
+      "mes": "2026-09",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
       ]
     }
   ],
