@@ -1,5 +1,5 @@
 export const STATES = Object.freeze(['activo', 'archivado', 'vendido', 'reingreso', 'proximo_ingreso']);
-export const BRANDS = Object.freeze(['AUDI','BMW','CHEVROLET','CITROËN','FIAT','FORD','JEEP','MERCEDES','MERCEDES BENZ','MINI','NISSAN','PEUGEOT','DODGE-RAM','RENAULT','TOYOTA','VOLKSWAGEN']);
+export const BRANDS = Object.freeze(["AUDI","BAIC","BMW","BYD","CHANGAN","CHEVROLET","CITROËN","DODGE-RAM","FIAT","FORD","FOTON","HONDA","JEEP","MERCEDES","MINI","NISSAN","PEUGEOT","RENAULT","SUZUKI","TOYOTA","VOLKSWAGEN"]);
 export const TYPES = Object.freeze(['Hatch','Sedán','Rural','SUV','Pick-Up','Furgón-Utilitario','Coupé','Cabriolet']);
 export const FIELDS = Object.freeze(['marca', 'modelo', 'tipo', 'anio', 'kilometros', 'condicion', 'datos', 'precio', 'recienLlegado', 'sale', 'descripcion', 'imagenes', 'portada']);
 const DATES = ['fechaAlta', 'fechaBaja', 'fechaReingreso', 'fechaUltimaModificacion'];
@@ -25,7 +25,7 @@ export function validateVehicle(v) {
   assert(Number.isSafeInteger(v.id) && v.id > 0, 'El ID debe ser un entero positivo.');
   assert(STATES.includes(v.estadoInventario), 'Estado de inventario inválido.');
   for (const key of ['marca', 'modelo', 'tipo', 'condicion']) assert(typeof v[key] === 'string' && v[key].trim(), `Falta ${key}.`);
-  assert(BRANDS.includes(v.marca) && TYPES.includes(v.tipo) && ['usado','0km'].includes(v.condicion), 'Marca, tipo o condición incompatibles con los filtros del catálogo.');
+  assert((BRANDS.includes(v.marca) || v.marca === 'MERCEDES BENZ') && TYPES.includes(v.tipo) && ['usado','0km'].includes(v.condicion), 'Marca, tipo o condición incompatibles con los filtros del catálogo.');
   assert(Number.isSafeInteger(v.anio) && v.anio >= 1900 && v.anio <= 2200, 'Año inválido.');
   assert(v.kilometros === undefined || v.kilometros === null || (Number.isSafeInteger(v.kilometros) && v.kilometros >= 0), 'Kilómetros inválidos.');
   for (const key of ['datos', 'precio', 'descripcion']) assert(v[key] === undefined || typeof v[key] === 'string', `Formato inválido: ${key}.`);
