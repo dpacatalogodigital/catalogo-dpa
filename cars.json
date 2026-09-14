@@ -861,7 +861,7 @@
       "modelo": "Ranger 2.0 Bi-Turbo 4x2  XLT ",
       "precio": "",
       "sale": false,
-      "recienLlegado": true,
+      "recienLlegado": false,
       "condicion": "usado",
       "descripcion": "Motor 2.0 Bi-Turbo diésel de 210 CV, automática de 10 velocidades, 4x2, cuero ecológico, climatizador bi-zona, CarPlay/Android Auto, cámara y sensores, 7 airbags, crucero adaptativo, asistente pre-colisión y faros LED.",
       "anio": 2024,
@@ -874,7 +874,7 @@
       "fechaAlta": null,
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-09-14T19:17:46.683Z"
     },
     {
       "imagenes": [
@@ -2708,6 +2708,18 @@
       "vehiculoId": 2,
       "tipo": "modificacion",
       "fecha": "2026-09-14T19:17:15.086Z",
+      "mes": "2026-09",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
+      ]
+    },
+    {
+      "id": "32e60d06-e8c2-4be7-af6f-5f3f241eea13",
+      "vehiculoId": 5,
+      "tipo": "modificacion",
+      "fecha": "2026-09-14T19:17:46.683Z",
       "mes": "2026-09",
       "estadoAnterior": "activo",
       "estadoPosterior": "activo",
