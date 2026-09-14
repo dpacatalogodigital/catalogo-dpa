@@ -2362,10 +2362,49 @@
       "fechaBaja": null,
       "fechaReingreso": null,
       "fechaUltimaModificacion": null
+    },
+    {
+      "id": 64,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/934a04ce-510d-489a-bb91-59289c8f5187.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/9c4df090-1da2-408a-8065-e1dd03a45d97.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/285c12e6-5fa1-492f-9535-a284dc46390e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/b8dcfba8-1b06-4ce4-bdaf-caa68e41b73b.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/c7461026-0115-48aa-827f-46838b194e19.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/df95d743-56a7-412c-af53-356c0fe4d402.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/9b1ad3a0-ddf2-4438-9ba4-2245f5c483f6.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/cf7adbe3-8cf1-4132-aa6d-3bddbccb3a38.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/884f5bd9-e62e-47f2-9a26-1d47476a5528.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/0d98a55e-0159-42ee-be57-0e072fcc14b5.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/74acddc4-6528-406c-8101-67139685e191.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/ee15c732-a056-4317-997b-d6d7e192288c.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/c25c244b-2cc4-4148-a920-854004a25320.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/70d29dd9-5d8b-42ea-b0d0-83337659ea90.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/8b5174aa-dea5-49f0-8a69-4d9ead0872ee.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/ebd87e8e-b304-4865-b29e-a0ee0ca993c0.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/43bc4776-9ba8-48a6-ac4e-404d7629cdbe.jpg"
+      ],
+      "recienLlegado": false,
+      "sale": false,
+      "fechaAlta": "2026-09-14T19:02:32.706Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-09-14T19:02:32.706Z",
+      "marca": "TOYOTA",
+      "modelo": "Hilux 3.0 D-4D SRV 4x2",
+      "tipo": "Pick-Up",
+      "anio": 2012,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": "Única mano - MT - Diesel",
+      "precio": "",
+      "descripcion": "Motor 3.0 turbodiésel de 171 CV, manual de 5 velocidades, 4x2, doble cabina, aire acondicionado, dirección hidráulica, alzacristales x4 y espejos eléctricos, Bluetooth/USB, 2 airbags, ABS, antinieblas, barra antivuelco, estribos y cobertor de caja.",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/934a04ce-510d-489a-bb91-59289c8f5187.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 64,
+  "nextId": 65,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -2448,6 +2487,31 @@
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
       "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "68c32427-d9ed-415c-8a5f-a19a18d77223",
+      "vehiculoId": 64,
+      "tipo": "alta",
+      "fecha": "2026-09-14T19:02:32.706Z",
+      "mes": "2026-09",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
         "estadoInventario"
       ]
     }
