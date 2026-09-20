@@ -2522,8 +2522,8 @@
       "sale": false,
       "fechaAlta": "2026-09-15T19:27:35.875Z",
       "fechaBaja": "2026-09-15T19:27:35.901Z",
-      "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-09-15T19:27:35.901Z",
+      "fechaReingreso": "2026-09-15T19:27:35.908Z",
+      "fechaUltimaModificacion": "2026-09-15T19:27:35.908Z",
       "marca": "FORD",
       "modelo": "PRUEBA SYNC — NO ES STOCK",
       "tipo": "SUV",
@@ -2531,7 +2531,7 @@
       "condicion": "0km",
       "datos": "Texto inicial de ensayo",
       "descripcion": "Ficha ficticia para medir sincronización.",
-      "estadoInventario": "vendido"
+      "estadoInventario": "reingreso"
     }
   ],
   "schemaVersion": 1,
@@ -2775,6 +2775,18 @@
       "mes": "2026-09",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "70ceb8c5-2268-4b57-8c4b-14a492f3b974",
+      "vehiculoId": 68,
+      "tipo": "reingreso",
+      "fecha": "2026-09-15T19:27:35.908Z",
+      "mes": "2026-09",
+      "estadoAnterior": "vendido",
+      "estadoPosterior": "reingreso",
       "campos": [
         "estadoInventario"
       ]
