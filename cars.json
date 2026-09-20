@@ -290,11 +290,11 @@
       "datos": "Nafta - AT",
       "marca": "CITROËN",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-11-at-1.02.01-pm.jpeg-1788977464432-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-09-20T14:18:09.885Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-09-20T14:18:09.885Z"
     },
     {
       "imagenes": [
@@ -2732,6 +2732,18 @@
       "vehiculoId": 9,
       "tipo": "baja",
       "fecha": "2026-09-20T14:11:54.994Z",
+      "mes": "2026-09",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "925dff57-5a11-4974-afc4-de7c9464cef4",
+      "vehiculoId": 12,
+      "tipo": "baja",
+      "fecha": "2026-09-20T14:18:09.885Z",
       "mes": "2026-09",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
