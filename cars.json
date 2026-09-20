@@ -2733,9 +2733,9 @@
       "fechaAlta": "2026-09-20T15:51:03.367Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-09-20T15:51:03.367Z",
+      "fechaUltimaModificacion": "2026-09-20T15:52:17.373Z",
       "marca": "TOYOTA",
-      "modelo": "Hilux 3.0 SRV 4x2",
+      "modelo": "Hilux 3.0 SRV 4x2 TDi",
       "tipo": "Pick-Up",
       "anio": 2013,
       "kilometros": null,
@@ -3254,6 +3254,18 @@
         "imagenes",
         "portada",
         "estadoInventario"
+      ]
+    },
+    {
+      "id": "810c95e1-a6ad-49e6-adb3-46ab480b635b",
+      "vehiculoId": 73,
+      "tipo": "modificacion",
+      "fecha": "2026-09-20T15:52:17.373Z",
+      "mes": "2026-09",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "modelo"
       ]
     }
   ],
