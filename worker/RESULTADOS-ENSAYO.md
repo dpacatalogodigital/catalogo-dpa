@@ -41,3 +41,6 @@ GitHub confirmó la nueva referencia de rama, y la URL del commit inmutable ya d
 
 ## Próximo paso propuesto, NO implementado
 Ensayar lectura del último commit mediante la API de GitHub y cargar datos/fotos por ese commit inmutable. Requiere evaluar caché/cuotas y autorización para una credencial de solo lectura, limitada a este repositorio, almacenada únicamente como secreto del Worker. No crear ni copiar credenciales sin autorización; la persona usuaria debería introducir el secreto directamente en Cloudflare. No cambiar el login existente ni publicar hasta repetir y aprobar mediciones.
+
+## Revisión final concurrente
+Durante el ensayo main recibió dos guardados ajenos a estas pruebas: Inventario: baja #9 (1bf772ed1e309260e6f26cc8c637d00a4cd1e00e) y baja #12 (256b993ac4c06a69a7916ee21171e7fc95a83ba7). Ambos afectan solo cars.json y se conservaron. No se debe fusionar ningún inventario antiguo desde la rama de ensayo. El diff final de la rama respecto de su base no incluye cars.json, imágenes ni admin. El catálogo público respondió HTTP 200.
