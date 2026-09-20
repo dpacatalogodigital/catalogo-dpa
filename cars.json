@@ -2517,13 +2517,15 @@
     },
     {
       "id": 68,
-      "imagenes": [],
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/sync-test-20260920.jpeg"
+      ],
       "recienLlegado": true,
       "sale": false,
       "fechaAlta": "2026-09-15T19:27:35.875Z",
       "fechaBaja": "2026-09-15T19:27:35.901Z",
       "fechaReingreso": "2026-09-15T19:27:35.908Z",
-      "fechaUltimaModificacion": "2026-09-15T19:27:35.918Z",
+      "fechaUltimaModificacion": "2026-09-15T19:27:35.923Z",
       "marca": "FORD",
       "modelo": "PRUEBA SYNC — NO ES STOCK",
       "tipo": "SUV",
@@ -2531,7 +2533,8 @@
       "condicion": "0km",
       "datos": "TEXTO ACTUALIZADO ENSAYO",
       "descripcion": "Descripción modificada en ensayo.",
-      "estadoInventario": "reingreso"
+      "estadoInventario": "reingreso",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/sync-test-20260920.jpeg"
     }
   ],
   "schemaVersion": 1,
@@ -2802,6 +2805,19 @@
       "campos": [
         "datos",
         "descripcion"
+      ]
+    },
+    {
+      "id": "e1541b4c-4226-457e-8ec0-48696e1e30a3",
+      "vehiculoId": 68,
+      "tipo": "modificacion",
+      "fecha": "2026-09-15T19:27:35.923Z",
+      "mes": "2026-09",
+      "estadoAnterior": "reingreso",
+      "estadoPosterior": "reingreso",
+      "campos": [
+        "imagenes",
+        "portada"
       ]
     }
   ],
