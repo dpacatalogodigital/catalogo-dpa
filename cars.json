@@ -179,11 +179,11 @@
       "datos": "Nafta - MT",
       "marca": "CHEVROLET",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-10.29.23-am.jpeg-1788976002951-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-09-20T14:11:54.994Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-09-20T14:11:54.994Z"
     },
     {
       "imagenes": [
@@ -2725,6 +2725,18 @@
       "estadoPosterior": "activo",
       "campos": [
         "recienLlegado"
+      ]
+    },
+    {
+      "id": "a1e11725-d964-4b9b-bec8-976578b25ff8",
+      "vehiculoId": 9,
+      "tipo": "baja",
+      "fecha": "2026-09-20T14:11:54.994Z",
+      "mes": "2026-09",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
       ]
     }
   ],
