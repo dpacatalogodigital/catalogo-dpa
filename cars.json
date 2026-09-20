@@ -2423,12 +2423,12 @@
         "/catalogo-dpa/imagenes/vehiculos/cc2eaa52-122e-4a2d-92e1-c0ee7d4bcab6.jpg",
         "/catalogo-dpa/imagenes/vehiculos/2eaf46e4-6eef-4d63-b3c1-ae41dfdbc275.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-09-14T19:07:44.044Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-09-14T19:07:44.044Z",
+      "fechaUltimaModificacion": "2026-09-20T14:47:49.327Z",
       "marca": "RENAULT",
       "modelo": "Kangoo Express 5 Asientos 1.6 SCE",
       "tipo": "Furgón-Utilitario",
@@ -2890,6 +2890,18 @@
       "vehiculoId": 67,
       "tipo": "modificacion",
       "fecha": "2026-09-20T14:46:28.192Z",
+      "mes": "2026-09",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
+      ]
+    },
+    {
+      "id": "b5f773fe-2643-4df7-a2a4-6685684b4370",
+      "vehiculoId": 65,
+      "tipo": "modificacion",
+      "fecha": "2026-09-20T14:47:49.327Z",
       "mes": "2026-09",
       "estadoAnterior": "activo",
       "estadoPosterior": "activo",
