@@ -2630,10 +2630,49 @@
       "descripcion": "",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/0297209f-bb7c-4209-a680-6273e469925c.jpg"
+    },
+    {
+      "id": 71,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/eb6c8c44-6658-4a87-806c-e62489a07ce7.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/6cc59b2b-ea3a-4c0c-8ffa-b7ba644ea765.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/4a44cc3b-9a34-4222-9209-cb79a0e8cd36.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/f2ecf49f-545a-4a08-b4d8-1e2999323d73.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/4883e4f1-a312-46cf-852a-27b6a347f9a2.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/827c138a-a571-4e41-9b14-0570106df5d1.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/36f4ac5f-b140-4c7b-a21e-03840ce33bce.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/764f44c7-082a-42af-8498-39070cec2547.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/48e89fe6-5a6f-462f-8d0a-4bae5099dba6.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/b83cb2e2-ebb5-4290-8351-bc1cd5561f41.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/93431c33-d237-4a87-9b0f-fc12aa556f19.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/3349beab-4e6a-48ea-afb2-adb6db71b51d.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/38d1149f-9b74-43f2-ba61-d1f2b1a7ce73.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/25350faa-c2dc-4c68-bf39-0bce3cc186fc.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/60ec68e7-fd4b-4298-a1a0-ec860eeb664e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1621272d-6bf5-46fb-a84e-3967362beb3d.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/87bd21e6-7213-4fcc-9552-982f6f78bc4f.jpg"
+      ],
+      "recienLlegado": true,
+      "sale": false,
+      "fechaAlta": "2026-09-20T15:16:11.950Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-09-20T15:16:11.950Z",
+      "marca": "FORD",
+      "modelo": "Ranger XL 2.0 TDI DC 4x2",
+      "tipo": "Pick-Up",
+      "anio": 2026,
+      "kilometros": 0,
+      "condicion": "0km",
+      "datos": "L/23 - MT - Diesel",
+      "precio": "",
+      "descripcion": "Mecánica: Motor 2.0 Turbo Diésel · 170 CV / 405 Nm · Caja manual de 6ta · Tracción 4x2 trasera.\nSeguridad: 7 airbags · ABS · Control de estabilidad y tracción · Antivuelco · Asistente en pendiente · ISOFIX.\nConfort: Aire digital · Tablero digital 8\" · Pantalla SYNC 4 de 10\" · Android Auto / Apple CarPlay inalámbrico · Control crucero · Volante multifunción · Levantavidrios eléctricos.\nExterior / Interior: Llantas 16\" · Tapizado de tela · Ganchos de carga · Escalón en caja.",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/eb6c8c44-6658-4a87-806c-e62489a07ce7.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 71,
+  "nextId": 72,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -3064,6 +3103,31 @@
       "estadoPosterior": "activo",
       "campos": [
         "recienLlegado"
+      ]
+    },
+    {
+      "id": "d1eb3036-b592-4bf7-b960-a9cd206855dc",
+      "vehiculoId": 71,
+      "tipo": "alta",
+      "fecha": "2026-09-20T15:16:11.950Z",
+      "mes": "2026-09",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
+        "estadoInventario"
       ]
     }
   ],
