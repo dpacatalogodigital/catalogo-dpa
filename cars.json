@@ -2514,10 +2514,47 @@
       "descripcion": "Motor 2.8 turbodiésel de 200 CV, manual de 6 velocidades, 4x2, aire acondicionado, dirección eléctrica, levantavidrios eléctricos, cierre centralizado, Bluetooth/USB, ABS, control de estabilidad y tracción, 2 airbags y 4 cubiertas nuevas.",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/8f36bb43-98cf-4ceb-b5ec-d528378375e5.jpg"
+    },
+    {
+      "id": 68,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/41268f52-6756-4d56-9b75-a61cbf28690e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/ff2f6c91-78f0-4bc6-900b-fc333518ca8a.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/106c5dcf-db7b-49a0-a0f2-63dc485a7eb4.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/5be6c8bd-eb1d-4c96-938a-0a4b90494784.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/2daff1e7-c5c4-4a49-9978-d404404abf01.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/da30f4ec-12f1-4b9a-a3c1-18ce1d8c22c3.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/7909adbe-4e4c-47b6-9462-5eb0746cbede.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/2dbccf21-a512-4416-b96e-7ae0b390f987.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/afec6ee3-b977-4a5a-bfd9-bee4afcfebd6.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/3ed8be91-f389-458a-9c0b-6d4c03adbbd7.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/d08aa005-268f-495b-9491-a4e9fb9c6530.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/0f03ff5e-6034-4133-94fb-cec31cb204c7.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/94bcf6f2-915b-4648-9b86-cc2f33a2ee5a.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1d1fe76a-9f8a-41aa-877e-e52d2e1833fe.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/837747b8-58fc-42ea-8b67-8a5a60b3578f.jpg"
+      ],
+      "recienLlegado": true,
+      "sale": false,
+      "fechaAlta": "2026-09-20T14:43:44.430Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-09-20T14:43:44.430Z",
+      "marca": "BMW",
+      "modelo": "125i Coupé",
+      "tipo": "Coupé",
+      "anio": 2008,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": "6 Cilindros - MT - Nafta ",
+      "precio": "",
+      "descripcion": "",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/41268f52-6756-4d56-9b75-a61cbf28690e.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 68,
+  "nextId": 69,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -2820,6 +2857,31 @@
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
       "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "b2701f7a-03e2-4824-90b0-fe1b09108978",
+      "vehiculoId": 68,
+      "tipo": "alta",
+      "fecha": "2026-09-20T14:43:44.430Z",
+      "mes": "2026-09",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
         "estadoInventario"
       ]
     }
