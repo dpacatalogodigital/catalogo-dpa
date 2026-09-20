@@ -2514,10 +2514,28 @@
       "descripcion": "Motor 2.8 turbodiésel de 200 CV, manual de 6 velocidades, 4x2, aire acondicionado, dirección eléctrica, levantavidrios eléctricos, cierre centralizado, Bluetooth/USB, ABS, control de estabilidad y tracción, 2 airbags y 4 cubiertas nuevas.",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/8f36bb43-98cf-4ceb-b5ec-d528378375e5.jpg"
+    },
+    {
+      "id": 68,
+      "imagenes": [],
+      "recienLlegado": true,
+      "sale": false,
+      "fechaAlta": "2026-09-15T19:27:35.875Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-09-15T19:27:35.875Z",
+      "marca": "FORD",
+      "modelo": "PRUEBA SYNC — NO ES STOCK",
+      "tipo": "SUV",
+      "anio": 2026,
+      "condicion": "0km",
+      "datos": "Texto inicial de ensayo",
+      "descripcion": "Ficha ficticia para medir sincronización.",
+      "estadoInventario": "activo"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 68,
+  "nextId": 69,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -2725,6 +2743,28 @@
       "estadoPosterior": "activo",
       "campos": [
         "recienLlegado"
+      ]
+    },
+    {
+      "id": "7e063ddb-272c-414b-a19c-b39fb0618954",
+      "vehiculoId": 68,
+      "tipo": "alta",
+      "fecha": "2026-09-15T19:27:35.875Z",
+      "mes": "2026-09",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "condicion",
+        "datos",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "estadoInventario"
       ]
     }
   ],
