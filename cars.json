@@ -728,11 +728,11 @@
         "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.42-am.jpeg-1789076745364-15"
       ],
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.13.58-am.jpeg-1789076722376-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-09-20T14:20:49.245Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-09-20T14:20:49.245Z"
     },
     {
       "imagenes": [
@@ -2744,6 +2744,18 @@
       "vehiculoId": 12,
       "tipo": "baja",
       "fecha": "2026-09-20T14:18:09.885Z",
+      "mes": "2026-09",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "b1b6cb83-0f54-441e-a635-2ffe0df639ad",
+      "vehiculoId": 23,
+      "tipo": "baja",
+      "fecha": "2026-09-20T14:20:49.245Z",
       "mes": "2026-09",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
