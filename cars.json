@@ -2593,10 +2593,31 @@
       "descripcion": "Mecánica: Híbrido enchufable IDD · Motor 1.5 nafta + eléctrico · 212 CV / 330 Nm · Caja DHT · Autonomía eléctrica hasta 125 km y combinada hasta 1.215 km.\nConfort: Techo panorámico · Butacas eléctricas calefaccionadas y ventiladas · Climatizador bi-zona · Pantalla 12,3\" con CarPlay / Android Auto · Tablero digital · Cargador inalámbrico · Portón eléctrico · Audio Pioneer.\nSeguridad: 6 airbags · Cámara 360° · Sensores delanteros/traseros · Crucero adaptativo · Frenado autónomo · Mantenimiento de carril · Punto ciego · Estacionamiento automático.\nExtras: Llantas 19\" · Full LED · Garantía 5 años / 150.000 km · Batería 8 años / 150.000 km.",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/fadba441-98da-4269-809d-0c70e8a858de.jpg"
+    },
+    {
+      "id": 70,
+      "imagenes": [],
+      "recienLlegado": false,
+      "sale": false,
+      "fechaAlta": "2026-09-20T15:07:55.871Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-09-20T15:07:55.871Z",
+      "marca": "FORD",
+      "modelo": "Territory Titanium 1.8",
+      "tipo": "SUV",
+      "anio": 2026,
+      "kilometros": 0,
+      "condicion": "0km",
+      "datos": "a",
+      "precio": "",
+      "descripcion": "",
+      "estadoInventario": "proximo_ingreso",
+      "portada": ""
     }
   ],
   "schemaVersion": 1,
-  "nextId": 70,
+  "nextId": 71,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -2959,6 +2980,31 @@
       "mes": "2026-09",
       "estadoAnterior": null,
       "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "b672c9f0-0a8e-410c-b094-ff021e3940c3",
+      "vehiculoId": 70,
+      "tipo": "alta",
+      "fecha": "2026-09-20T15:07:55.871Z",
+      "mes": "2026-09",
+      "estadoAnterior": null,
+      "estadoPosterior": "proximo_ingreso",
       "campos": [
         "marca",
         "modelo",
