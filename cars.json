@@ -1816,11 +1816,11 @@
       "datos": "Nafta - MT6",
       "marca": "TOYOTA",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-05-at-10.05.47-am-1-.jpeg-1789071379109-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-09-20T14:30:25.039Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-09-20T14:30:25.039Z"
     },
     {
       "imagenes": [
@@ -2780,6 +2780,18 @@
       "vehiculoId": 32,
       "tipo": "baja",
       "fecha": "2026-09-20T14:27:21.912Z",
+      "mes": "2026-09",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "9de37774-25d8-487c-b0f4-fbe09985bb80",
+      "vehiculoId": 49,
+      "tipo": "baja",
+      "fecha": "2026-09-20T14:30:25.039Z",
       "mes": "2026-09",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
