@@ -2523,14 +2523,14 @@
       "fechaAlta": "2026-09-15T19:27:35.875Z",
       "fechaBaja": "2026-09-15T19:27:35.901Z",
       "fechaReingreso": "2026-09-15T19:27:35.908Z",
-      "fechaUltimaModificacion": "2026-09-15T19:27:35.908Z",
+      "fechaUltimaModificacion": "2026-09-15T19:27:35.918Z",
       "marca": "FORD",
       "modelo": "PRUEBA SYNC — NO ES STOCK",
       "tipo": "SUV",
       "anio": 2026,
       "condicion": "0km",
-      "datos": "Texto inicial de ensayo",
-      "descripcion": "Ficha ficticia para medir sincronización.",
+      "datos": "TEXTO ACTUALIZADO ENSAYO",
+      "descripcion": "Descripción modificada en ensayo.",
       "estadoInventario": "reingreso"
     }
   ],
@@ -2789,6 +2789,19 @@
       "estadoPosterior": "reingreso",
       "campos": [
         "estadoInventario"
+      ]
+    },
+    {
+      "id": "61e66a53-395a-49d2-bee1-dd0fbecd93de",
+      "vehiculoId": 68,
+      "tipo": "modificacion",
+      "fecha": "2026-09-15T19:27:35.918Z",
+      "mes": "2026-09",
+      "estadoAnterior": "reingreso",
+      "estadoPosterior": "reingreso",
+      "campos": [
+        "datos",
+        "descripcion"
       ]
     }
   ],
