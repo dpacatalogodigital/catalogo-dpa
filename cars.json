@@ -1843,7 +1843,7 @@
       "modelo": "Amarok 2.0 TDI Highline 4x4 AT 180CV",
       "precio": "Consultar",
       "sale": false,
-      "recienLlegado": true,
+      "recienLlegado": false,
       "condicion": "usado",
       "descripcion": "Motor 2.0 TDI Bi-Turbo de 180 CV, 4x4, cuero, climatizador automático, Bluetooth/USB, cierre remoto, levantavidrios eléctricos, ESP, control de tracción, ABS, airbags frontales y llantas R17.",
       "anio": 2013,
@@ -1856,7 +1856,7 @@
       "fechaAlta": null,
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-09-20T15:10:44.556Z"
     },
     {
       "imagenes": [
@@ -3052,6 +3052,18 @@
         "imagenes",
         "portada",
         "estadoInventario"
+      ]
+    },
+    {
+      "id": "1c3e79e2-5408-42cd-8f05-9c4cf39fb27c",
+      "vehiculoId": 3,
+      "tipo": "modificacion",
+      "fecha": "2026-09-20T15:10:44.556Z",
+      "mes": "2026-09",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
       ]
     }
   ],
