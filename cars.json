@@ -2514,31 +2514,10 @@
       "descripcion": "Motor 2.8 turbodiésel de 200 CV, manual de 6 velocidades, 4x2, aire acondicionado, dirección eléctrica, levantavidrios eléctricos, cierre centralizado, Bluetooth/USB, ABS, control de estabilidad y tracción, 2 airbags y 4 cubiertas nuevas.",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/8f36bb43-98cf-4ceb-b5ec-d528378375e5.jpg"
-    },
-    {
-      "id": 68,
-      "imagenes": [
-        "/catalogo-dpa/imagenes/vehiculos/sync-test-20260920.jpeg"
-      ],
-      "recienLlegado": true,
-      "sale": false,
-      "fechaAlta": "2026-09-15T19:27:35.875Z",
-      "fechaBaja": "2026-09-15T19:27:35.901Z",
-      "fechaReingreso": "2026-09-15T19:27:35.908Z",
-      "fechaUltimaModificacion": "2026-09-15T19:27:35.923Z",
-      "marca": "FORD",
-      "modelo": "PRUEBA SYNC — NO ES STOCK",
-      "tipo": "SUV",
-      "anio": 2026,
-      "condicion": "0km",
-      "datos": "TEXTO ACTUALIZADO ENSAYO",
-      "descripcion": "Descripción modificada en ensayo.",
-      "estadoInventario": "reingreso",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/sync-test-20260920.jpeg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 69,
+  "nextId": 68,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -2746,78 +2725,6 @@
       "estadoPosterior": "activo",
       "campos": [
         "recienLlegado"
-      ]
-    },
-    {
-      "id": "7e063ddb-272c-414b-a19c-b39fb0618954",
-      "vehiculoId": 68,
-      "tipo": "alta",
-      "fecha": "2026-09-15T19:27:35.875Z",
-      "mes": "2026-09",
-      "estadoAnterior": null,
-      "estadoPosterior": "activo",
-      "campos": [
-        "marca",
-        "modelo",
-        "tipo",
-        "anio",
-        "condicion",
-        "datos",
-        "recienLlegado",
-        "sale",
-        "descripcion",
-        "imagenes",
-        "estadoInventario"
-      ]
-    },
-    {
-      "id": "5011f5ce-1bc2-442c-92e6-6ba30366d767",
-      "vehiculoId": 68,
-      "tipo": "baja",
-      "fecha": "2026-09-15T19:27:35.901Z",
-      "mes": "2026-09",
-      "estadoAnterior": "activo",
-      "estadoPosterior": "vendido",
-      "campos": [
-        "estadoInventario"
-      ]
-    },
-    {
-      "id": "70ceb8c5-2268-4b57-8c4b-14a492f3b974",
-      "vehiculoId": 68,
-      "tipo": "reingreso",
-      "fecha": "2026-09-15T19:27:35.908Z",
-      "mes": "2026-09",
-      "estadoAnterior": "vendido",
-      "estadoPosterior": "reingreso",
-      "campos": [
-        "estadoInventario"
-      ]
-    },
-    {
-      "id": "61e66a53-395a-49d2-bee1-dd0fbecd93de",
-      "vehiculoId": 68,
-      "tipo": "modificacion",
-      "fecha": "2026-09-15T19:27:35.918Z",
-      "mes": "2026-09",
-      "estadoAnterior": "reingreso",
-      "estadoPosterior": "reingreso",
-      "campos": [
-        "datos",
-        "descripcion"
-      ]
-    },
-    {
-      "id": "e1541b4c-4226-457e-8ec0-48696e1e30a3",
-      "vehiculoId": 68,
-      "tipo": "modificacion",
-      "fecha": "2026-09-15T19:27:35.923Z",
-      "mes": "2026-09",
-      "estadoAnterior": "reingreso",
-      "estadoPosterior": "reingreso",
-      "campos": [
-        "imagenes",
-        "portada"
       ]
     }
   ],
