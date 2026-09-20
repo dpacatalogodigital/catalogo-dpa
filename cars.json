@@ -2497,12 +2497,12 @@
         "/catalogo-dpa/imagenes/vehiculos/965b6a03-12fc-4b82-9e23-5713bd850ead.jpg",
         "/catalogo-dpa/imagenes/vehiculos/7d30fa48-3304-41c0-9cc7-c8ce92833b28.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-09-14T19:15:30.239Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-09-14T19:15:30.239Z",
+      "fechaUltimaModificacion": "2026-09-20T14:46:28.192Z",
       "marca": "CHEVROLET",
       "modelo": "S10 LS 4x2",
       "tipo": "Pick-Up",
@@ -2883,6 +2883,18 @@
         "imagenes",
         "portada",
         "estadoInventario"
+      ]
+    },
+    {
+      "id": "eaab51f2-731c-4ce7-bd25-ba29e2b6a47c",
+      "vehiculoId": 67,
+      "tipo": "modificacion",
+      "fecha": "2026-09-20T14:46:28.192Z",
+      "mes": "2026-09",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
       ]
     }
   ],
