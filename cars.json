@@ -797,11 +797,11 @@
       "datos": "Nafta - AT10",
       "marca": "FORD",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.01-pm.jpeg-1789062949681-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-09-20T14:25:03.566Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-09-20T14:25:03.566Z"
     },
     {
       "imagenes": [
@@ -2756,6 +2756,18 @@
       "vehiculoId": 23,
       "tipo": "baja",
       "fecha": "2026-09-20T14:20:49.245Z",
+      "mes": "2026-09",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "0e8e68ff-5318-4cd2-8925-f372235c8572",
+      "vehiculoId": 25,
+      "tipo": "baja",
+      "fecha": "2026-09-20T14:25:03.566Z",
       "mes": "2026-09",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
