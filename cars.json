@@ -2551,10 +2551,52 @@
       "descripcion": "",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/41268f52-6756-4d56-9b75-a61cbf28690e.jpg"
+    },
+    {
+      "id": 69,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/fadba441-98da-4269-809d-0c70e8a858de.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/01e3af25-9581-470d-bb78-4d3294c747ca.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/ba3bda10-e355-4ab6-8e31-140b6bf545f3.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1346fb12-b7c0-443f-a45e-d396c67f0357.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/845b4836-cf15-4b9e-988d-5d2b196bc772.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/ac261070-0c46-4151-8d0e-17fe82a963df.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/ab9525e7-4aca-47b7-bab1-8d72da1395d8.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/75a56923-71a0-4423-bf02-e28d23a6c109.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1020e77c-6dea-4f7c-bb33-cb4d00e7863e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/9863521a-6808-4c46-a4d2-2f672c6c7a47.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/a0377580-8628-45ce-9984-42994cbf7b69.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/a0ecf480-c6e7-4841-8411-d20fd3d8665e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/82548f2f-6d78-48e9-99a3-7710a0e74642.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/d3b48793-f01b-42e0-8037-6f8f859f2113.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/0bc2dde0-8f1f-4fcf-80ec-0eec7bfd1a0c.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/08df9d97-3bf6-4370-b2f2-8c9dc5c7e215.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/d6858afe-f299-4adf-afd1-d56a3b08cde1.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/7880a966-9b75-4c3f-9311-c1da907d013c.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/9fc8c48c-9461-4b9c-849b-33ec58502d31.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/7fd3ea2f-8acc-49e6-ba1a-a870302b0ef4.jpg"
+      ],
+      "recienLlegado": true,
+      "sale": false,
+      "fechaAlta": "2026-09-20T15:02:45.492Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-09-20T15:02:45.492Z",
+      "marca": "CHANGAN",
+      "modelo": "CS55 Plus",
+      "tipo": "SUV",
+      "anio": 2026,
+      "kilometros": 0,
+      "condicion": "0km",
+      "datos": "PHEV - AT - Nafta/Electrico",
+      "precio": "",
+      "descripcion": "Mecánica: Híbrido enchufable IDD · Motor 1.5 nafta + eléctrico · 212 CV / 330 Nm · Caja DHT · Autonomía eléctrica hasta 125 km y combinada hasta 1.215 km.\nConfort: Techo panorámico · Butacas eléctricas calefaccionadas y ventiladas · Climatizador bi-zona · Pantalla 12,3\" con CarPlay / Android Auto · Tablero digital · Cargador inalámbrico · Portón eléctrico · Audio Pioneer.\nSeguridad: 6 airbags · Cámara 360° · Sensores delanteros/traseros · Crucero adaptativo · Frenado autónomo · Mantenimiento de carril · Punto ciego · Estacionamiento automático.\nExtras: Llantas 19\" · Full LED · Garantía 5 años / 150.000 km · Batería 8 años / 150.000 km.",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/fadba441-98da-4269-809d-0c70e8a858de.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 69,
+  "nextId": 70,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -2907,6 +2949,31 @@
       "estadoPosterior": "activo",
       "campos": [
         "recienLlegado"
+      ]
+    },
+    {
+      "id": "3f4ce3a2-617a-463e-8ce8-511524d094bf",
+      "vehiculoId": 69,
+      "tipo": "alta",
+      "fecha": "2026-09-20T15:02:45.492Z",
+      "mes": "2026-09",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
+        "estadoInventario"
       ]
     }
   ],
