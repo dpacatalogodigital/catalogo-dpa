@@ -1146,11 +1146,11 @@
       "datos": "Diesel - MT",
       "marca": "NISSAN",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-11.15.38-am.jpeg-1789065801212-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-09-20T14:27:21.912Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-09-20T14:27:21.912Z"
     },
     {
       "imagenes": [
@@ -2768,6 +2768,18 @@
       "vehiculoId": 25,
       "tipo": "baja",
       "fecha": "2026-09-20T14:25:03.566Z",
+      "mes": "2026-09",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "1c4fc2f6-cd24-45e0-84f4-e10352fffe09",
+      "vehiculoId": 32,
+      "tipo": "baja",
+      "fecha": "2026-09-20T14:27:21.912Z",
       "mes": "2026-09",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
