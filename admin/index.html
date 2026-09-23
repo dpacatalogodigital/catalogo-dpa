@@ -10,7 +10,7 @@
 <details><summary>Ver movimientos</summary><div class="table-wrap"><table><thead><tr><th>Fecha</th><th>Vehículo</th><th>Movimiento</th><th>Cambios</th></tr></thead><tbody id="movements"></tbody></table></div></details></section>
 <div class="workspace">
 <section class="panel" aria-labelledby="stock-title"><div class="toolbar"><h2 id="stock-title">Vehículos</h2><button id="new" disabled>Nuevo vehículo</button><button id="reload">Recargar</button></div>
-<label>Buscar <input id="search" type="search" placeholder="ID, marca o modelo"></label><label>Estado <select id="filter"><option value="todos">Todos</option><option value="activo">Activos</option><option value="archivado">Archivados</option><option value="vendido">Vendidos</option><option value="reingreso">Reingresos</option><option value="proximo_ingreso">Próximos ingresos</option></select></label>
+<label>Buscar <input id="search" type="search" placeholder="ID, marca o modelo"></label><label>Estado <select id="filter"><option value="todos">Todos</option><option value="activo">Activos</option><option value="reservado">Reservados</option><option value="archivado">Archivados</option><option value="vendido">Vendidos</option><option value="reingreso">Reingresos</option><option value="proximo_ingreso">Próximos ingresos</option></select></label>
 <p id="total" class="muted"></p><div id="vehicles" class="vehicles"></div></section>
 <section class="panel" aria-labelledby="editor-title"><h2 id="editor-title">Seleccioná un vehículo</h2><p id="identity" class="muted"></p>
 <form id="editor" hidden><fieldset id="fields" disabled><div class="form-grid" id="form-fields"></div>
@@ -22,4 +22,5 @@
 <div class="toolbar"><button type="submit" id="save">Guardar cambios</button><button type="button" id="cancel">Descartar cambios</button></div>
 </fieldset></form><dl id="dates" class="dates"></dl><details id="history-section" hidden><summary>Historial de este vehículo</summary><ul id="history"></ul></details>
 </section></div></main><script type="module" src="app.mjs"></script></body></html>
+
 

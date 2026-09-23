@@ -1,18 +1,19 @@
-export const STATES = Object.freeze(['activo', 'archivado', 'vendido', 'reingreso', 'proximo_ingreso']);
+export const STATES = Object.freeze(['activo', 'reservado', 'archivado', 'vendido', 'reingreso', 'proximo_ingreso']);
 export const BRANDS = Object.freeze(["AUDI","BAIC","BMW","BYD","CHANGAN","CHEVROLET","CITROËN","DODGE-RAM","FIAT","FORD","FOTON","HONDA","JEEP","MERCEDES","MINI","NISSAN","PEUGEOT","RENAULT","SUZUKI","TOYOTA","VOLKSWAGEN"]);
 export const TYPES = Object.freeze(['Hatch','Sedán','Rural','SUV','Pick-Up','Furgón-Utilitario','Coupé','Cabriolet']);
 export const FIELDS = Object.freeze(['marca', 'modelo', 'tipo', 'anio', 'kilometros', 'condicion', 'datos', 'precio', 'recienLlegado', 'sale', 'descripcion', 'imagenes', 'portada']);
 const DATES = ['fechaAlta', 'fechaBaja', 'fechaReingreso', 'fechaUltimaModificacion'];
 const transitions = {
-  activo: ['archivado', 'vendido'], reingreso: ['activo', 'archivado', 'vendido'],
+  activo: ['reservado', 'archivado', 'vendido'], reingreso: ['activo', 'reservado', 'archivado', 'vendido'],
+  reservado: ['activo', 'archivado', 'vendido'],
   archivado: ['vendido', 'reingreso'], vendido: ['archivado', 'reingreso'],
-  proximo_ingreso: ['activo', 'archivado', 'vendido'],
+  proximo_ingreso: ['activo', 'reservado', 'archivado', 'vendido'],
 };
 const clone = value => structuredClone(value);
 const equal = (a, b) => JSON.stringify(a) === JSON.stringify(b);
 const assert = (condition, message) => { if (!condition) throw new Error(message); };
 export function visible(vehicle) {
-  return vehicle.estadoInventario === undefined || ['activo', 'reingreso'].includes(vehicle.estadoInventario);
+  return vehicle.estadoInventario === undefined || ['activo', 'reservado', 'reingreso'].includes(vehicle.estadoInventario);
 }
 export function monthOf(iso) {
   const parts = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Argentina/Cordoba', year: 'numeric', month: '2-digit' }).formatToParts(new Date(iso));
@@ -76,7 +77,7 @@ export function applyOperation(input, operation, now = new Date().toISOString())
   const vehicle = isNew ? { id: db.nextId, imagenes: [], recienLlegado: false, sale: false, ...Object.fromEntries(DATES.map(k => [k, null])), ...clone(patch) } : { ...previous, ...clone(patch) };
   vehicle.estadoInventario ||= 'activo';
   const before = previous?.estadoInventario ?? null, after = vehicle.estadoInventario;
-  if (isNew) assert(['activo', 'proximo_ingreso'].includes(after), 'Un vehículo nuevo debe ser activo o próximo ingreso.');
+  if (isNew) assert(['activo', 'reservado', 'proximo_ingreso'].includes(after), 'Un vehículo nuevo debe ser activo, reservado o próximo ingreso.');
   else if (before !== after) assert(transitions[before]?.includes(after), 'Transición inválida. Para recuperar una ficha archivada o vendida, elegí Reingreso.');
   const changed = [...FIELDS, 'estadoInventario'].filter(k => !equal(previous?.[k], vehicle[k]));
   if (!isNew && !changed.length) return db;

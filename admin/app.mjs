@@ -5,7 +5,7 @@ import { createStatePicker } from './state-picker.mjs';
 import { settings } from './settings.mjs';
 
 const $ = id => document.getElementById(id);
-const labels = { activo: 'Activo', archivado: 'Archivado', vendido: 'Vendido', reingreso: 'Reingreso', proximo_ingreso: 'Próximo ingreso', alta: 'Alta', baja: 'Baja', modificacion: 'Modificación' };
+const labels = { activo: 'Activo', reservado: 'Reservado', archivado: 'Archivado', vendido: 'Vendido', reingreso: 'Reingreso', proximo_ingreso: 'Próximo ingreso', alta: 'Alta', baja: 'Baja', modificacion: 'Modificación' };
 const dateLabels = { fechaAlta: 'Alta', fechaBaja: 'Última baja', fechaReingreso: 'Último reingreso', fechaUltimaModificacion: 'Última modificación' };
 const formatDate = value => value ? new Date(value).toLocaleString('es-AR', { timeZone: 'America/Argentina/Cordoba' }) : 'Sin registro histórico';
 let store = new InventoryStore(), snapshot, selected = null, dirty = false, busy = false, pending = null;
@@ -142,4 +142,5 @@ $('export').onclick = () => {
 window.addEventListener('beforeunload', event => { if (dirty || busy) { event.preventDefault(); event.returnValue = ''; } });
 $('environment').textContent = settings.production ? 'Inventario real. Al guardar, los cambios se publican en el catálogo; pueden tardar unos minutos en aparecer.' : 'Versión de prueba. Los cambios se guardan por separado y no se publican en el catálogo actual.';
 buildForm(); $('month').value = monthOf(new Date().toISOString()); reload();
+
 

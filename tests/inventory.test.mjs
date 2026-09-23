@@ -6,6 +6,25 @@ import { authenticate } from '../admin/auth.mjs';
 const baseline = migrate({ vehiculos: Array.from({ length: 63 }, (_, i) => ({ id: i + 1, marca: 'FORD', modelo: `Prueba ${i + 1}`, tipo: 'Hatch', anio: 2020, condicion: 'usado', imagenes: ['/catalogo-dpa/imagenes/vehiculos/prueba.jpg'], kilometros: 1000 })) });
 const edit = (db, patch, id = crypto.randomUUID(), at = '2026-09-15T15:00:00.000Z') => applyOperation(db, { id, action: 'guardar', vehiculoId: 1, patch }, at);
 
+test('reserved remains visible, is reusable and preserves sale/reentry history', () => {
+  let db=edit(baseline,{estadoInventario:'reservado'});
+  assert(visible(db.vehiculos[0]));
+  assert.equal(db.movimientos.at(-1).tipo,'modificacion');
+  assert.equal(db.vehiculos[0].fechaBaja,null);
+  db=applyOperation(db,{id:'reserve-another',action:'guardar',vehiculoId:2,patch:{estadoInventario:'reservado'}});
+  assert.equal(db.vehiculos[1].estadoInventario,'reservado');
+  db=edit(db,{estadoInventario:'activo'});assert(visible(db.vehiculos[0]));
+  db=edit(db,{estadoInventario:'reservado'});
+  db=edit(db,{estadoInventario:'vendido'});assert(!visible(db.vehiculos[0]));
+  assert.equal(db.movimientos.at(-1).tipo,'baja');
+  assert.throws(()=>edit(db,{estadoInventario:'reservado'}));
+  db=edit(db,{estadoInventario:'reingreso'});
+  db=edit(db,{estadoInventario:'reservado'});
+  assert.equal(db.movimientos.filter(e=>e.tipo==='reingreso').length,1);
+  assert.deepEqual(db.vehiculos[0].imagenes,baseline.vehiculos[0].imagenes);
+  assert.equal(db.vehiculos[0].id,baseline.vehiculos[0].id);
+});
+
 test('baseline preserves 63 permanent IDs and starts without invented dates or events', () => {
   validateInventory(baseline); assert.equal(baseline.vehiculos.length, 63); assert.equal(baseline.movimientos.length, 0);
   assert.equal(new Set(baseline.vehiculos.map(v => v.id)).size, 63);
