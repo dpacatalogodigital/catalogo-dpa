@@ -447,11 +447,11 @@
       "datos": "Nafta - MT",
       "marca": "FIAT",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.59.13-am-1-.jpeg-1789059570497-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "reservado",
       "fechaAlta": null,
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-09-24T15:05:17.760Z"
     },
     {
       "imagenes": [
@@ -3285,6 +3285,18 @@
       "vehiculoId": 34,
       "tipo": "modificacion",
       "fecha": "2026-09-24T15:04:44.428Z",
+      "mes": "2026-09",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "reservado",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "70c2f351-2dc3-4456-998c-33a2de78afd4",
+      "vehiculoId": 16,
+      "tipo": "modificacion",
+      "fecha": "2026-09-24T15:05:17.760Z",
       "mes": "2026-09",
       "estadoAnterior": "activo",
       "estadoPosterior": "reservado",
