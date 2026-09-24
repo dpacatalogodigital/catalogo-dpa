@@ -2464,7 +2464,7 @@
       "fechaAlta": "2026-09-14T19:11:59.039Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-09-14T19:11:59.039Z",
+      "fechaUltimaModificacion": "2026-09-24T13:17:09.353Z",
       "marca": "TOYOTA",
       "modelo": "Hilux 2.4 TDi 4x2 Cabina Simple",
       "tipo": "Pick-Up",
@@ -2474,7 +2474,7 @@
       "datos": "MT - Diesel",
       "precio": "",
       "descripcion": "",
-      "estadoInventario": "activo",
+      "estadoInventario": "reservado",
       "portada": "/catalogo-dpa/imagenes/vehiculos/b18b26eb-c306-4152-a234-746348f38331.jpg"
     },
     {
@@ -3266,6 +3266,18 @@
       "estadoPosterior": "activo",
       "campos": [
         "modelo"
+      ]
+    },
+    {
+      "id": "ccd0cd07-f0e8-46d3-bee0-ad3fb018ccb8",
+      "vehiculoId": 66,
+      "tipo": "modificacion",
+      "fecha": "2026-09-24T13:17:09.353Z",
+      "mes": "2026-09",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "reservado",
+      "campos": [
+        "estadoInventario"
       ]
     }
   ],
