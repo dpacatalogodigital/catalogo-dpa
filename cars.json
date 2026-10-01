@@ -2693,9 +2693,9 @@
       "recienLlegado": true,
       "sale": false,
       "fechaAlta": "2026-09-20T15:21:39.684Z",
-      "fechaBaja": null,
+      "fechaBaja": "2026-10-01T18:31:06.982Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-09-20T15:21:39.684Z",
+      "fechaUltimaModificacion": "2026-10-01T18:31:06.982Z",
       "marca": "HONDA",
       "modelo": "Civic 1.8 EXS",
       "tipo": "Hatch",
@@ -2705,7 +2705,7 @@
       "datos": "MT - Nafta/GNC",
       "precio": "",
       "descripcion": "Mecánica: Motor 1.8 i-VTEC nafta · 140 CV · Caja manual de 5ta · Equipo de GNC · 150.000 km.\nConfort: Climatizador automático · Tapizado de cuero camel · Techo solar eléctrico · Volante multifunción · Control crucero · Pantalla multimedia · Bluetooth / USB / AUX.\nSeguridad: 6 airbags · Control de estabilidad y tracción · ABS + EBD · Asistente de frenado · ISOFIX · Cámara de retroceso · Sensores de estacionamiento.\nExterior: Llantas de aleación · Faros antiniebla delanteros.",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "portada": "/catalogo-dpa/imagenes/vehiculos/2899d4f1-7f72-48fd-bb30-e5d063d973bf.jpg"
     },
     {
@@ -3345,6 +3345,18 @@
       "vehiculoId": 27,
       "tipo": "baja",
       "fecha": "2026-10-01T18:30:43.816Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "b56c8b32-698e-42c4-b47b-8fe1d4faaeaf",
+      "vehiculoId": 72,
+      "tipo": "baja",
+      "fecha": "2026-10-01T18:31:06.982Z",
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
