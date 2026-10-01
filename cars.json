@@ -908,11 +908,11 @@
       "datos": "Diesel - MT",
       "marca": "FORD",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-17-at-6.51.50-pm-1-.jpeg-1789063280600-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-10-01T18:30:43.816Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-10-01T18:30:43.816Z"
     },
     {
       "imagenes": [
@@ -3333,6 +3333,18 @@
       "vehiculoId": 24,
       "tipo": "baja",
       "fecha": "2026-10-01T18:30:16.655Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "32a78e4b-9f35-43c8-bc9d-69f589d6f13f",
+      "vehiculoId": 27,
+      "tipo": "baja",
+      "fecha": "2026-10-01T18:30:43.816Z",
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
