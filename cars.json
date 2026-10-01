@@ -2215,11 +2215,11 @@
       "datos": "Nafta - AT6 Tiptronic",
       "marca": "VOLKSWAGEN",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-03-17-at-3.55.24-pm.jpeg-1789074950282-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-10-01T18:33:14.473Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-10-01T18:33:14.473Z"
     },
     {
       "imagenes": [
@@ -3405,6 +3405,18 @@
       "vehiculoId": 53,
       "tipo": "baja",
       "fecha": "2026-10-01T18:32:56.749Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "09103a8c-ed5e-4577-8cf8-7151d87d88cc",
+      "vehiculoId": 59,
+      "tipo": "baja",
+      "fecha": "2026-10-01T18:33:14.473Z",
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
