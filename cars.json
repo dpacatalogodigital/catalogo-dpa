@@ -1297,11 +1297,11 @@
       "datos": "Nafta/GNC - MT - Unica Mano",
       "marca": "PEUGEOT",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-4.52.58-pm.jpeg-1789066818058-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-10-01T18:32:00.336Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-10-01T18:32:00.336Z"
     },
     {
       "imagenes": [
@@ -3371,6 +3371,18 @@
       "fecha": "2026-10-01T18:31:27.416Z",
       "mes": "2026-10",
       "estadoAnterior": "reservado",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "cc4e336e-0925-4a36-8239-a08ada67aff5",
+      "vehiculoId": 36,
+      "tipo": "baja",
+      "fecha": "2026-10-01T18:32:00.336Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
       "campos": [
         "estadoInventario"
