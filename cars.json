@@ -1221,11 +1221,11 @@
       "datos": "Nafta - AT",
       "marca": "PEUGEOT",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2025-11-13-at-12.12.47-pm.jpeg-1789066623178-0",
-      "estadoInventario": "reservado",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-10-01T18:31:27.416Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-09-24T15:04:44.428Z"
+      "fechaUltimaModificacion": "2026-10-01T18:31:27.416Z"
     },
     {
       "imagenes": [
@@ -3359,6 +3359,18 @@
       "fecha": "2026-10-01T18:31:06.982Z",
       "mes": "2026-10",
       "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "ec007add-c970-479d-aab5-099628d35449",
+      "vehiculoId": 34,
+      "tipo": "baja",
+      "fecha": "2026-10-01T18:31:27.416Z",
+      "mes": "2026-10",
+      "estadoAnterior": "reservado",
       "estadoPosterior": "vendido",
       "campos": [
         "estadoInventario"
