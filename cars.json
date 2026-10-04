@@ -2745,10 +2745,48 @@
       "descripcion": "",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/0e30e3fe-8638-44c8-a09d-64ffaef0fb88.jpg"
+    },
+    {
+      "id": 74,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/7cad089c-01f6-46a4-8925-5f9010346d32.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/d14d8159-252c-4d3a-86d6-9be41b499c44.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/47e693f9-aee0-4da4-9b55-9c98bfa85b27.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/3f6d8559-36a1-40d8-a833-95c9893f90b9.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/497dcad1-77e1-47a8-8e40-9040ba9d3047.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/588a64b4-eb62-49e2-90a7-7cf670e2d240.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/2b63968d-88f5-4ca8-93eb-4c2c8607cada.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/3cd68913-8853-49b8-bda9-1f1b04cd6418.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1fe3a4b5-408e-4991-a985-1e5500058b17.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/292f1454-d252-4051-8015-53a5f72624a8.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/992a8526-bbd2-4b73-a1ad-95fb8366c504.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/dffb1d50-8d02-476e-b0dc-85fc188815cd.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/20110643-4917-4c1e-8928-90ff9b7acbb9.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/35f2f073-bc6a-4d05-9290-a8a963fa7f26.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1f8e2c39-bd0c-4e56-a1e2-83a35bc31967.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/89cd848c-7832-4233-a8c6-e8d1ff8bce5d.jpg"
+      ],
+      "recienLlegado": true,
+      "sale": false,
+      "fechaAlta": "2026-10-04T20:02:10.287Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-10-04T20:02:10.287Z",
+      "marca": "FORD",
+      "modelo": "EcoSport 1.5 S",
+      "tipo": "SUV",
+      "anio": 2019,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": "L/18 - MT - Nafta",
+      "precio": "",
+      "descripcion": "Motor: 1.5 Dragon nafta, 3 cil., 123 CV. Caja manual 5ta. Dirección eléctrica.\nConfort: Aire acondicionado, levantavidrios eléctricos, cierre centralizado, volante multifunción, computadora de a bordo y SYNC con Bluetooth/USB.\nSeguridad: Doble airbag, ABS, control de estabilidad y tracción, asistente en pendiente e ISOFIX.\nExterior: Llantas de aleación, barras de techo, antinieblas y auxilio exterior.",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/7cad089c-01f6-46a4-8925-5f9010346d32.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 74,
+  "nextId": 75,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -3421,6 +3459,31 @@
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
       "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "fd0900d8-14ee-45ac-82ae-466622dce9ca",
+      "vehiculoId": 74,
+      "tipo": "alta",
+      "fecha": "2026-10-04T20:02:10.287Z",
+      "mes": "2026-10",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
         "estadoInventario"
       ]
     }
