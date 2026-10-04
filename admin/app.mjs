@@ -1,3 +1,4 @@
+import { mountContentPanel } from './content-panel.mjs';
 import { FIELDS, STATES, BRANDS, TYPES, monthly, monthOf, validateInventory } from './inventory.mjs';
 import { InventoryStore } from './github.mjs';
 import { authenticate } from './auth.mjs';
@@ -9,10 +10,11 @@ const labels = { activo: 'Activo', reservado: 'Reservado', archivado: 'Archivado
 const dateLabels = { fechaAlta: 'Alta', fechaBaja: 'Última baja', fechaReingreso: 'Último reingreso', fechaUltimaModificacion: 'Última modificación' };
 const formatDate = value => value ? new Date(value).toLocaleString('es-AR', { timeZone: 'America/Argentina/Cordoba' }) : 'Sin registro histórico';
 let store = new InventoryStore(), snapshot, selected = null, dirty = false, busy = false, pending = null;
-let statePicker;
+let statePicker, contentPanel;
 const node = (tag, text, className) => { const el = document.createElement(tag); if (text !== undefined) el.textContent = text; if (className) el.className = className; return el; };
 function status(text, error = false) { $('status').textContent = text; $('status').className = error ? 'error' : ''; }
 function controls() {
+  contentPanel?.setDisabled(busy || dirty);
   $('fields').disabled = busy || !store.token;
   $('new').disabled = busy || !snapshot || !store.token;
   for (const id of ['reload','login','logout']) $(id).disabled = busy;
@@ -119,8 +121,8 @@ $('editor').onsubmit = async event => {
   } catch (e) { status(`${e.message} Los datos del formulario se conservan.`, true); }
   finally { busy = false; controls(); renderList(); }
 };
-$('editor').oninput = () => { dirty = true; pending = null; };
-$('editor').onchange = () => { dirty = true; pending = null; };
+$('editor').oninput = () => { dirty = true; pending = null; controls(); };
+$('editor').onchange = () => { dirty = true; pending = null; controls(); };
 $('login').onclick = async () => {
   if (busy || !mayDiscard()) return; busy = true; controls(); status('Completá el inicio de sesión en la ventana de GitHub…');
   try { const authorized = new InventoryStore(await authenticate()); await authorized.authorize(); store = authorized; $('login').hidden = true; $('logout').hidden = false; await reload(); }
@@ -141,6 +143,8 @@ $('export').onclick = () => {
 };
 window.addEventListener('beforeunload', event => { if (dirty || busy) { event.preventDefault(); event.returnValue = ''; } });
 $('environment').textContent = settings.production ? 'Inventario real. Al guardar, los cambios se publican en el catálogo; pueden tardar unos minutos en aparecer.' : 'Versión de prueba. Los cambios se guardan por separado y no se publican en el catálogo actual.';
+contentPanel = mountContentPanel({ getStore: () => store, locked: () => busy || dirty, setBusy: value => { busy = value; controls(); renderList(); }, onSaved: reload });
 buildForm(); $('month').value = monthOf(new Date().toISOString()); reload();
+
 
 
