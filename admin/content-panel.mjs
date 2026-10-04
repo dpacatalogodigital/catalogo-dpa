@@ -11,9 +11,10 @@ export function mountContentPanel({ getStore, locked, setBusy, onSaved }) {
   }
   function controls() {
     $('content-fields').disabled = working || externalLock || !getStore().token || !snapshot;
+    $('content-links-fields').disabled = $('content-fields').disabled;
     $('content-reload').disabled = working || externalLock;
   }
-  function render() {
+  function render(updateLinks = true) {
     $('flyer-list').replaceChildren();
     for (const flyer of snapshot.data.flyers) {
       const row = document.createElement('div'); row.className = 'content-flyer';
@@ -26,8 +27,10 @@ export function mountContentPanel({ getStore, locked, setBusy, onSaved }) {
       };
       row.append(img, text, button); $('flyer-list').append(row);
     }
-    for (const key of LINK_KEYS) $('content-links').querySelector(`[name="${key}"]`).value = snapshot.data.links[key];
-    dirty = false;
+    if (updateLinks) {
+      for (const key of LINK_KEYS) $('content-links').querySelector(`[name="${key}"]`).value = snapshot.data.links[key];
+      dirty = false;
+    }
   }
   async function reload() {
     if (working || locked()) return;
@@ -37,32 +40,38 @@ export function mountContentPanel({ getStore, locked, setBusy, onSaved }) {
     catch (e) { message(e.message); }
     finally { working = false; controls(); }
   }
-  async function run(change, uploads = []) {
+  async function run(change, uploads = [], saveLinks = false) {
     if (working || locked() || !getStore().token || !snapshot) return;
     let saved = false;
     working = true; setBusy(true); controls(); message('Guardando contenido…');
     try {
       const data = structuredClone(snapshot.data);
-      for (const key of LINK_KEYS) data.links[key] = $('content-links').querySelector(`[name="${key}"]`).value.trim();
+      if (saveLinks) for (const key of LINK_KEYS) data.links[key] = $('content-links').querySelector(`[name="${key}"]`).value.trim();
       change(data); snapshot = await saveContent(getStore(), snapshot, data, uploads);
-      saved = true; render(); $('flyer-file').value = ''; $('flyer-title').value = ''; message('Guardado. Se publicará con la actualización habitual del catálogo.');
+      saved = true; render(saveLinks); $('flyer-file').value = ''; message('Guardado. Se publicará con la actualización habitual del catálogo.');
     } catch (e) { message(`${e.message} Si se interrumpió la conexión, recargá para comprobar el resultado antes de repetir.`); }
     finally { working = false; setBusy(false); controls(); }
     if (saved) await onSaved();
   }
   $('content-links').oninput = () => { dirty = true; };
-  $('content-save-links').onclick = () => run(() => {});
+  $('content-save-links').onclick = () => run(() => {}, [], true);
   $('content-reload').onclick = reload;
   $('flyer-add').onclick = async () => {
     if (working || locked() || !getStore().token) return;
-    const file = $('flyer-file').files[0], title = $('flyer-title').value.trim();
+    const files = [...$('flyer-file').files];
     const types = { 'image/jpeg':'jpg', 'image/png':'png', 'image/webp':'webp' };
-    if (!file || !types[file.type] || file.size > 8 * 1024 * 1024 || !title) { message('Ingresá un título y elegí un flyer JPG, PNG o WebP de hasta 8 MB.'); return; }
+    if (!files.length || files.some(file => !types[file.type] || file.size > 8 * 1024 * 1024) || files.reduce((total, file) => total + file.size, 0) > 40 * 1024 * 1024) { message('Elegí imágenes JPG, PNG o WebP de hasta 8 MB cada una y 40 MB en total.'); return; }
     try {
-      const id = crypto.randomUUID(), path = `imagenes/proximos/${id}.${types[file.type]}`;
-      const bytes = new Uint8Array(await file.arrayBuffer()); let binary = '';
-      for (let i = 0; i < bytes.length; i += 16384) binary += String.fromCharCode(...bytes.subarray(i, i + 16384));
-      await run(data => data.flyers.push({ id, title, image: `/catalogo-dpa/${path}` }), [{ path, content:btoa(binary) }]);
+      const flyers = [], uploads = [];
+      for (const file of files) {
+        const id = crypto.randomUUID(), path = `imagenes/proximos/${id}.${types[file.type]}`;
+        const title = file.name.replace(/\.[^.]+$/, '').trim().slice(0, 160) || 'Próximo ingreso';
+        const bytes = new Uint8Array(await file.arrayBuffer()); let binary = '';
+        for (let i = 0; i < bytes.length; i += 16384) binary += String.fromCharCode(...bytes.subarray(i, i + 16384));
+        flyers.push({ id, title, image: `/catalogo-dpa/${path}` });
+        uploads.push({ path, content:btoa(binary) });
+      }
+      await run(data => data.flyers.push(...flyers), uploads);
     } catch (e) { message(e.message); }
   };
   window.addEventListener('beforeunload', event => { if (dirty || working) { event.preventDefault(); event.returnValue = ''; } });
