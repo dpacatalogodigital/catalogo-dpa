@@ -3,6 +3,7 @@ import { LINK_KEYS } from '../content-model.mjs';
 export function mountContentPanel({ getStore, locked, setBusy, onSaved }) {
   const $ = id => document.getElementById(id);
   let snapshot, working = false, dirty = false, externalLock = false;
+  const previews = new Map();
   const labels = { instagram:'Instagram', facebook:'Facebook', tiktok:'TikTok', youtube:'YouTube', review:'Reseñas de Google', maps3714:'Google Maps · Sabattini 3714', maps4024:'Google Maps · Sabattini 4024' };
   const message = text => $('content-status').textContent = text;
   for (const key of LINK_KEYS) {
@@ -18,7 +19,13 @@ export function mountContentPanel({ getStore, locked, setBusy, onSaved }) {
     $('flyer-list').replaceChildren();
     for (const flyer of snapshot.data.flyers) {
       const row = document.createElement('div'); row.className = 'content-flyer';
-      const img = document.createElement('img'); img.src = flyer.image; img.alt = flyer.title;
+      const img = document.createElement('img'); img.alt = flyer.title;
+      const path = flyer.image.startsWith('/catalogo-dpa/imagenes/proximos/') ? flyer.image.slice('/catalogo-dpa/'.length) : null;
+      img.onerror = () => {
+        img.onerror = null;
+        if (path) img.src = `https://raw.githubusercontent.com/${getStore().config.repository}/${snapshot.head}/${path.split('/').map(encodeURIComponent).join('/')}`;
+      };
+      img.src = previews.get(flyer.image) || (path ? `${flyer.image}?v=${snapshot.head}` : flyer.image);
       const text = document.createElement('span'); text.textContent = flyer.title;
       const button = document.createElement('button'); button.type = 'button'; button.textContent = 'Eliminar flyer';
       button.onclick = () => {
@@ -48,6 +55,11 @@ export function mountContentPanel({ getStore, locked, setBusy, onSaved }) {
       const data = structuredClone(snapshot.data);
       if (saveLinks) for (const key of LINK_KEYS) data.links[key] = $('content-links').querySelector(`[name="${key}"]`).value.trim();
       change(data); snapshot = await saveContent(getStore(), snapshot, data, uploads);
+      for (const upload of uploads) {
+        const mime = upload.path.endsWith('.png') ? 'image/png' : upload.path.endsWith('.webp') ? 'image/webp' : 'image/jpeg';
+        previews.set(`/catalogo-dpa/${upload.path}`, `data:${mime};base64,${upload.content}`);
+      }
+      for (const url of previews.keys()) if (!snapshot.data.flyers.some(f => f.image === url)) previews.delete(url);
       saved = true; render(saveLinks); $('flyer-file').value = ''; message('Guardado. Se publicará con la actualización habitual del catálogo.');
     } catch (e) { message(`${e.message} Si se interrumpió la conexión, recargá para comprobar el resultado antes de repetir.`); }
     finally { working = false; setBusy(false); controls(); }

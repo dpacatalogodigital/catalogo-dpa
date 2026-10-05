@@ -1,4 +1,4 @@
-import { mountContentPanel } from './content-panel.mjs?v=flyers-independent';
+import { mountContentPanel } from './content-panel.mjs?v=flyer-preview-2';
 import { FIELDS, STATES, BRANDS, TYPES, monthly, monthOf, validateInventory } from './inventory.mjs';
 import { InventoryStore } from './github.mjs';
 import { authenticate } from './auth.mjs';
