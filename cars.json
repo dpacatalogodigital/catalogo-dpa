@@ -1779,11 +1779,11 @@
       "datos": "Diesel - AT - L/24",
       "marca": "TOYOTA",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.07.01-pm.jpeg-1789071295834-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-10-05T21:21:19.237Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-10-05T21:21:19.237Z"
     },
     {
       "imagenes": [
@@ -3582,6 +3582,18 @@
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "reservado",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "f48e13c3-6ffd-4630-8e2e-ed78b970f7ad",
+      "vehiculoId": 48,
+      "tipo": "baja",
+      "fecha": "2026-10-05T21:21:19.237Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
       "campos": [
         "estadoInventario"
       ]
