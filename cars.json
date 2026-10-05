@@ -410,11 +410,11 @@
       "datos": "Nafta/GNC - MT",
       "marca": "FIAT",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.50.18-am-1-.jpeg-1789059391032-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-10-05T21:20:19.307Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-10-05T21:20:19.307Z"
     },
     {
       "imagenes": [
@@ -3557,6 +3557,18 @@
       "fecha": "2026-10-05T21:19:57.026Z",
       "mes": "2026-10",
       "estadoAnterior": "reservado",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "ce7d861b-d6ce-496a-a536-ccd54d97a0dd",
+      "vehiculoId": 15,
+      "tipo": "baja",
+      "fecha": "2026-10-05T21:20:19.307Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
       "campos": [
         "estadoInventario"
