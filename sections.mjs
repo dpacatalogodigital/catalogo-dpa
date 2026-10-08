@@ -38,9 +38,11 @@ try {
     else { link.removeAttribute('href'); link.setAttribute('aria-disabled','true'); link.title = 'Enlace próximamente disponible'; }
   });
   for (const flyer of data.flyers) {
+    // Resolve legacy repository paths against this module on either Pages URL.
+    const image = new URL(flyer.image.replace(/^\/catalogo-dpa\//, './'), import.meta.url).href;
     const button = document.createElement('button'); button.className = 'dpa-flyer'; button.type = 'button'; button.setAttribute('aria-label', `Ampliar ${flyer.title}`);
-    const img = document.createElement('img'); img.src = flyer.image; img.alt = flyer.title; img.loading = 'lazy'; img.onload = schedule; button.append(img);
-    button.onclick = () => { $('flyer-large').src = flyer.image; $('flyer-large').alt = flyer.title; dialog.showModal(); schedule(); };
+    const img = document.createElement('img'); img.src = image; img.alt = flyer.title; img.loading = 'lazy'; img.onload = schedule; button.append(img);
+    button.onclick = () => { $('flyer-large').src = image; $('flyer-large').alt = flyer.title; dialog.showModal(); schedule(); };
     track.append(button);
   }
   $('flyers-empty').hidden = data.flyers.length > 0; $('flyer-controls').hidden = data.flyers.length < 2; schedule();
