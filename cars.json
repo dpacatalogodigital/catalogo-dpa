@@ -1389,11 +1389,11 @@
       "datos": "Nafta/GNC - Manual",
       "marca": "RENAULT",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-1.20.41-pm-1-.jpeg-1789069158810-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-10-13T20:01:04.234Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-10-13T20:01:04.234Z"
     },
     {
       "imagenes": [
@@ -3645,6 +3645,18 @@
       "vehiculoId": 5,
       "tipo": "baja",
       "fecha": "2026-10-13T18:13:57.846Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "cb4c4343-c6f5-4867-88c4-a8c6382ea3be",
+      "vehiculoId": 39,
+      "tipo": "baja",
+      "fecha": "2026-10-13T20:01:04.234Z",
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
