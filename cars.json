@@ -447,11 +447,11 @@
       "datos": "Nafta - MT",
       "marca": "FIAT",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-10.59.13-am-1-.jpeg-1789059570497-0",
-      "estadoInventario": "reservado",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-10-13T18:10:44.818Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-09-24T15:05:17.760Z"
+      "fechaUltimaModificacion": "2026-10-13T18:10:44.818Z"
     },
     {
       "imagenes": [
@@ -569,39 +569,20 @@
     },
     {
       "imagenes": [
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.19-am.jpeg-1789062447500-0",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.20-am.jpeg-1789062449095-1",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.22-am.jpeg-1789062450562-2",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.25-am.jpeg-1789062452161-3",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.39-am.jpeg-1789062453681-4",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.40-am.jpeg-1789062455050-5",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.46-am.jpeg-1789062457080-6",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.47-am-1-.jpeg-1789062458508-7",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.47-am.jpeg-1789062459874-8",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.54-am.jpeg-1789062461112-9",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.55-am.jpeg-1789062462669-10",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.04.56-am.jpeg-1789062464461-11",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.05.03-am-1-.jpeg-1789062466325-12",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.05.03-am.jpeg-1789062468225-13",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.05.05-am-1-.jpeg-1789062469926-14",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.05.05-am-2-.jpeg-1789062471177-15",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-18-at-11.05.05-am.jpeg-1789062472814-16",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.13.58-am.jpeg-1789062761252-0",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.13.59-am.jpeg-1789062762712-1",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.01-am.jpeg-1789062764271-2",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.04-am.jpeg-1789062766045-3",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.05-am.jpeg-1789062767252-4",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.13-am.jpeg-1789062768867-5",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.16-am.jpeg-1789062770460-6",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.19-am.jpeg-1789062771814-7",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.22-am.jpeg-1789062772976-8",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.25-am.jpeg-1789062774686-9",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.09-am.jpeg-1789062776384-10",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.29-am.jpeg-1789062777958-11",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.33-am.jpeg-1789062779882-12",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.35-am.jpeg-1789062781394-13",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.38-am.jpeg-1789062782563-14",
-        "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.14.42-am.jpeg-1789062783920-15"
+        "/catalogo-dpa/imagenes/vehiculos/8a9a3186-fd1f-4e25-b2c8-1a7025aeabf1.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/5cc945bd-e683-4f90-8e15-e75305d7fc62.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/2c60913c-25e3-43de-82db-d2e63b6a4f58.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/14e347f9-9d5b-4a82-a5f7-8a0eb4e76456.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/00e91932-e2a3-4935-a903-107d2fb56f87.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1ea7c263-d8bd-4881-bdf0-a932dda08860.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/29afef69-048a-4690-9b26-1992ea35f296.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/c6763071-6ae6-4094-8932-5ab8246047bb.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/886aa819-5103-4cf4-98d2-b625c5ef093b.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/76acb9e5-ab8d-47d2-a7e8-5f7b882ed0b8.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/36591618-c69e-454a-bd60-bc2fbafec8a2.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/46dd0236-015c-471b-aa70-01827eeed580.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/fa7b7564-fb76-41fd-9590-5615bbda85dc.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/0e3e408d-d227-4e13-abdf-4c4dba76620b.jpg"
       ],
       "modelo": "Fiesta 1.6 4p S Plus",
       "sale": false,
@@ -613,12 +594,12 @@
       "id": 20,
       "datos": "Nafta - MT",
       "marca": "FORD",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-11.13.58-am.jpeg-1789062761252-0",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/8a9a3186-fd1f-4e25-b2c8-1a7025aeabf1.jpg",
       "estadoInventario": "activo",
       "fechaAlta": null,
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-10-13T18:05:49.035Z"
     },
     {
       "imagenes": [
@@ -799,9 +780,9 @@
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-5.17.01-pm.jpeg-1789062949681-0",
       "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": "2026-09-20T14:25:03.566Z",
+      "fechaBaja": "2026-10-13T18:09:32.724Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-09-20T14:25:03.566Z"
+      "fechaUltimaModificacion": "2026-10-13T18:09:32.724Z"
     },
     {
       "imagenes": [
@@ -833,11 +814,11 @@
       "datos": "Nafta - AT",
       "marca": "FORD",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-25-at-10.22.21-am.jpeg-1789063057803-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-10-13T18:09:50.544Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-10-13T18:09:50.544Z"
     },
     {
       "imagenes": [
@@ -870,11 +851,11 @@
       "datos": "L/23 - Nafta - AT10",
       "marca": "FORD",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.11-pm.jpeg-1789063187393-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-10-13T18:13:57.846Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-09-14T19:17:46.683Z"
+      "fechaUltimaModificacion": "2026-10-13T18:13:57.846Z"
     },
     {
       "imagenes": [
@@ -3603,6 +3584,67 @@
       "vehiculoId": 54,
       "tipo": "baja",
       "fecha": "2026-10-05T21:22:10.401Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "dc333a36-1420-4ee6-a8f5-5a9231f5eebc",
+      "vehiculoId": 20,
+      "tipo": "modificacion",
+      "fecha": "2026-10-13T18:05:49.035Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "imagenes",
+        "portada"
+      ]
+    },
+    {
+      "id": "8c8056c6-8894-4b26-a86d-026051a6b5da",
+      "vehiculoId": 25,
+      "tipo": "baja",
+      "fecha": "2026-10-13T18:09:32.724Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "897dbba8-ac8b-4b31-a267-78266069886d",
+      "vehiculoId": 26,
+      "tipo": "baja",
+      "fecha": "2026-10-13T18:09:50.544Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "8722a41e-f26e-4c2a-a7e4-4c95fb71b860",
+      "vehiculoId": 16,
+      "tipo": "baja",
+      "fecha": "2026-10-13T18:10:44.818Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "065be748-b375-4231-881f-c6c900dc1db1",
+      "vehiculoId": 5,
+      "tipo": "baja",
+      "fecha": "2026-10-13T18:13:57.846Z",
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",

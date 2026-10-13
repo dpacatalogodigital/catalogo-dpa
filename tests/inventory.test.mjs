@@ -151,6 +151,9 @@ test('OAuth accepts only messages from the expected origin AND popup', async () 
 
 import { settingsFor } from '../admin/settings.mjs';
 test('production is limited to the published HTTPS admin; local and foreign previews stay isolated', () => {
+  assert.equal(settingsFor({origin:'https://daponteautomotores.com.ar',pathname:'/admin/'}).branch,'main');
+  for (const origin of ['http://daponteautomotores.com.ar','https://daponteautomotores.com.ar.example.com']) assert.equal(settingsFor({origin,pathname:'/admin/'}).production,false);
+  assert.equal(settingsFor({origin:'https://daponteautomotores.com.ar',pathname:'/other/'}).production,false);
   assert.equal(settingsFor({origin:'https://dpacatalogodigital.github.io',pathname:'/catalogo-dpa/admin/'}).branch,'main');
   for (const origin of ['http://127.0.0.1:4321','https://example.com','http://dpacatalogodigital.github.io']) assert.equal(settingsFor({origin,pathname:'/catalogo-dpa/admin/'}).production,false);
   assert.equal(settingsFor({origin:'https://dpacatalogodigital.github.io',pathname:'/other/'}).production,false);
