@@ -851,11 +851,11 @@
       "datos": "L/23 - Nafta - AT10",
       "marca": "FORD",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-26-at-4.34.11-pm.jpeg-1789063187393-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-10-13T18:13:57.846Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-10-13T18:13:57.846Z"
     },
     {
       "imagenes": [
@@ -2414,6 +2414,18 @@
       "vehiculoId": 16,
       "tipo": "baja",
       "fecha": "2026-10-13T18:10:44.818Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "065be748-b375-4231-881f-c6c900dc1db1",
+      "vehiculoId": 5,
+      "tipo": "baja",
+      "fecha": "2026-10-13T18:13:57.846Z",
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
