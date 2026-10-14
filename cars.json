@@ -2515,12 +2515,12 @@
         "/catalogo-dpa/imagenes/vehiculos/1d1fe76a-9f8a-41aa-877e-e52d2e1833fe.jpg",
         "/catalogo-dpa/imagenes/vehiculos/837747b8-58fc-42ea-8b67-8a5a60b3578f.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-09-20T14:43:44.430Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-09-20T14:43:44.430Z",
+      "fechaUltimaModificacion": "2026-10-14T14:06:36.155Z",
       "marca": "BMW",
       "modelo": "125i Coupé",
       "tipo": "Coupé",
@@ -3731,6 +3731,18 @@
       "vehiculoId": 71,
       "tipo": "modificacion",
       "fecha": "2026-10-14T14:05:36.066Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
+      ]
+    },
+    {
+      "id": "f16e7070-3769-4256-84c0-300765631518",
+      "vehiculoId": 68,
+      "tipo": "modificacion",
+      "fecha": "2026-10-14T14:06:36.155Z",
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "activo",
