@@ -2594,12 +2594,12 @@
         "/catalogo-dpa/imagenes/vehiculos/69d4476e-8f15-4b09-8024-66ef91840980.jpg",
         "/catalogo-dpa/imagenes/vehiculos/e2126562-7df0-469b-bd7a-1fc6672fab89.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-09-20T15:07:55.871Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-09-20T15:08:57.737Z",
+      "fechaUltimaModificacion": "2026-10-14T14:06:53.158Z",
       "marca": "FORD",
       "modelo": "Territory Titanium 1.8",
       "tipo": "SUV",
@@ -3743,6 +3743,18 @@
       "vehiculoId": 68,
       "tipo": "modificacion",
       "fecha": "2026-10-14T14:06:36.155Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
+      ]
+    },
+    {
+      "id": "a25aeab4-d0e5-45b6-8374-03080415e376",
+      "vehiculoId": 70,
+      "tipo": "modificacion",
+      "fecha": "2026-10-14T14:06:53.158Z",
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "activo",
