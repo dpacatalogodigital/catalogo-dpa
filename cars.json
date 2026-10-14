@@ -3175,10 +3175,48 @@
       "descripcion": "",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/518d86c5-f2e5-42f8-825a-9d1f485e7756.jpg"
+    },
+    {
+      "id": 86,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/861f3b66-a5e0-4329-b5b4-65ab8a0a2641.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/5eca04fb-1271-49cc-b99d-8619b12e0323.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/a05ca5aa-b4ea-45cc-9eea-3c9a00dd431e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/472e16da-91ea-41ec-871d-a144cc8467fc.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/024c21b4-ca0f-4590-b14a-08167c281b59.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/c11baf6b-bc89-40d0-a8db-95d22c7f7c6a.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/64181ddd-caf8-4300-b482-64ad14c27065.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/9d4be001-2cbe-4a80-bdf1-72399d2f260c.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/8e81e9b6-4cbd-4176-862c-95a459bdcb84.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/27432502-b632-4ed7-b731-d98465012cc7.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/d9f7d9c8-6e26-4c1a-83b7-57d4ab5d6199.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/a2fb025d-a303-431f-92bd-46ebfbb4c42c.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/f43ca82e-dd93-4ef2-b01f-6340cbe2bb11.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/5339bb27-d6f6-427e-8281-c6e24c63b53f.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/28d82ea6-e482-4448-9c47-c2dcc32cbf93.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/5e4d4ff1-cdaf-4764-9192-4c325d7f8336.jpg"
+      ],
+      "recienLlegado": false,
+      "sale": false,
+      "fechaAlta": "2026-10-14T17:47:00.255Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-10-14T17:47:00.255Z",
+      "marca": "FORD",
+      "modelo": "Ranger 2.0 XLT 4x2 ",
+      "tipo": "Pick-Up",
+      "anio": 2024,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": "AT",
+      "precio": "",
+      "descripcion": "",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/861f3b66-a5e0-4329-b5b4-65ab8a0a2641.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 86,
+  "nextId": 87,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -4405,6 +4443,31 @@
       "estadoPosterior": "activo",
       "campos": [
         "recienLlegado"
+      ]
+    },
+    {
+      "id": "4d597d43-a23d-4f7b-9803-86c7ff0dafab",
+      "vehiculoId": 86,
+      "tipo": "alta",
+      "fecha": "2026-10-14T17:47:00.255Z",
+      "mes": "2026-10",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
+        "estadoInventario"
       ]
     }
   ],
