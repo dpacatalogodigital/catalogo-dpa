@@ -3031,10 +3031,39 @@
       "descripcion": "",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/191c6747-e1e7-495f-9f48-ed388a850e11.jpg"
+    },
+    {
+      "id": 82,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/af7b653c-fe52-41a7-9e24-317428b97db5.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/4ef46dab-56e2-4993-997f-57717624a119.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/932ed7a0-1729-4bad-a8cd-3e93f4265eb8.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/26a2b19b-2d94-4735-bf70-f88b7d7bd793.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/dbf13a65-40a6-4e49-9cd8-95ed98941eb3.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/89579f70-75b8-4f81-8d61-737b1461f1ed.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/e450f297-9d5c-4630-9b0a-9479a3ee5c04.jpg"
+      ],
+      "recienLlegado": false,
+      "sale": false,
+      "fechaAlta": "2026-10-14T15:05:43.617Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-10-14T15:05:43.617Z",
+      "marca": "BMW",
+      "modelo": "118i Sport",
+      "tipo": "Hatch",
+      "anio": 2013,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": "5P - AT - Nafta",
+      "precio": "",
+      "descripcion": "",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/af7b653c-fe52-41a7-9e24-317428b97db5.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 82,
+  "nextId": 83,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -4131,6 +4160,31 @@
       "vehiculoId": 81,
       "tipo": "alta",
       "fecha": "2026-10-14T14:58:00.085Z",
+      "mes": "2026-10",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "4477e9d7-1b44-4af7-a344-4656d0127fa9",
+      "vehiculoId": 82,
+      "tipo": "alta",
+      "fecha": "2026-10-14T15:05:43.617Z",
       "mes": "2026-10",
       "estadoAnterior": null,
       "estadoPosterior": "activo",
