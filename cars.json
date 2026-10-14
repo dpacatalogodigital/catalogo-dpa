@@ -1898,7 +1898,7 @@
       ],
       "modelo": "Amarok 2.0 TDi DC Highline Pk. 4x4 180CV",
       "sale": false,
-      "recienLlegado": true,
+      "recienLlegado": false,
       "condicion": "usado",
       "descripcion": "Cuero, butacas calefaccionadas, climatizador automático, control crucero, alzacristales y espejos eléctricos, Bluetooth/USB/AUX, sensores de estacionamiento y faros auxiliares.",
       "anio": 2015,
@@ -1911,7 +1911,7 @@
       "fechaAlta": null,
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-14T14:38:10.360Z"
+      "fechaUltimaModificacion": "2026-10-14T14:48:33.967Z"
     },
     {
       "imagenes": [
@@ -4004,6 +4004,18 @@
       "vehiculoId": 50,
       "tipo": "modificacion",
       "fecha": "2026-10-14T14:48:18.791Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
+      ]
+    },
+    {
+      "id": "d5ca92fb-d644-44e8-b707-f89c980edc55",
+      "vehiculoId": 51,
+      "tipo": "modificacion",
+      "fecha": "2026-10-14T14:48:33.967Z",
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "activo",
