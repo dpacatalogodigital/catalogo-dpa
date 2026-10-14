@@ -182,3 +182,20 @@ test('production creation, edit, sale and reentry preserve photos and monthly hi
     assert.deepEqual(saved.db.vehiculos[0].imagenes,baseline.vehiculos[0].imagenes);
   }
 });
+import { waitForPublication } from '../admin/publication.mjs';
+test('isolated edit to atomic main publication to public read, with stale CDN first', async () => {
+  const git=mockGit(); git.store.config=settingsFor({origin:'https://daponteautomotores.com.ar',pathname:'/admin/'});
+  const before=await git.store.load();
+  const operation={...op,id:'isolated-publication-check',patch:{precio:'Prueba aislada'}};
+  const saved=await git.store.save(before,operation);
+  let calls=0;
+  const published=await waitForPublication('https://example.com/cars.json', data=>data.movimientos.some(e=>e.id===operation.id), {
+    attempts:2,sleep:async()=>{},fetcher:async()=>({ok:true,json:async()=>++calls===1?before.db:saved.db}),
+  });
+  assert(published);assert.equal(calls,2);
+  assert.equal(saved.db.vehiculos[0].precio,'Prueba aislada');
+  assert.deepEqual(saved.db.vehiculos[0].imagenes,before.db.vehiculos[0].imagenes);
+  assert.deepEqual(saved.db.movimientos.slice(0,-1),before.db.movimientos);
+  assert(git.writes.at(-1).path.endsWith('/main'));
+  assert.equal(saved.db.vehiculos.length,before.db.vehiculos.length);
+});

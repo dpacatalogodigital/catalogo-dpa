@@ -27,11 +27,19 @@ new IntersectionObserver(([entry]) => { visible = entry.isIntersecting; schedule
 document.addEventListener('visibilitychange', schedule); reduced.addEventListener('change', schedule); window.addEventListener('resize', schedule);
 $('flyer-close').onclick = () => dialog.close(); dialog.addEventListener('click', e => { if (e.target === dialog) dialog.close(); }); dialog.addEventListener('close', schedule);
 document.querySelector('#modal a.contacto').addEventListener('click', () => { cerrar(); $('contacto').focus({ preventScroll:true }); });
-try {
-  const response = await fetch('site-content.json', { cache:'no-store' });
+let lastContent = '', contentLoading = false;
+async function refreshContent() {
+  if (contentLoading || dialog.open) return;
+  contentLoading = true;
+  try {
+  const response = await fetch(`site-content.json?content=${Date.now()}`, { cache:'no-store' });
   if (!response.ok) throw Error('Contenido no disponible');
   const data = validateContent(await response.json());
-  if (data.teamImage) { $('dpa-team').src = data.teamImage; $('dpa-team').hidden = false; }
+  const signature = JSON.stringify(data);
+  if (signature === lastContent) return;
+  track.replaceChildren();
+  $('dpa-team').hidden = !data.teamImage;
+  if (data.teamImage) $('dpa-team').src = data.teamImage;
   document.querySelectorAll('[data-dpa-link]').forEach(link => {
     const url = data.links[link.dataset.dpaLink];
     if (url) { link.href = url; link.removeAttribute('aria-disabled'); link.removeAttribute('title'); }
@@ -46,4 +54,11 @@ try {
     track.append(button);
   }
   $('flyers-empty').hidden = data.flyers.length > 0; $('flyer-controls').hidden = data.flyers.length < 2; schedule();
-} catch { $('flyers-empty').textContent = 'Las novedades no están disponibles en este momento.'; }
+  lastContent = signature;
+} catch { if (!lastContent) $('flyers-empty').textContent = 'Las novedades no están disponibles en este momento.'; }
+finally { contentLoading = false; }
+}
+void refreshContent();
+window.addEventListener('focus', () => void refreshContent());
+document.addEventListener('visibilitychange', () => { if (!document.hidden) void refreshContent(); });
+setInterval(() => { if (!document.hidden) void refreshContent(); }, 60000);

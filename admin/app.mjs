@@ -1,9 +1,19 @@
-import { mountContentPanel } from './content-panel.mjs?v=flyer-preview-2';
+import { mountContentPanel } from './content-panel.mjs?v=publication-20261014';
 import { FIELDS, STATES, BRANDS, TYPES, monthly, monthOf, validateInventory } from './inventory.mjs';
 import { InventoryStore } from './github.mjs';
 import { authenticate } from './auth.mjs';
 import { createStatePicker } from './state-picker.mjs';
 import { settings } from './settings.mjs';
+import { waitForPublication } from './publication.mjs';
+let publicationGeneration = 0;
+async function confirmPublication(operationId) {
+  const generation = ++publicationGeneration;
+  const output = $('publication-status');
+  output.textContent = 'Guardado en GitHub. Comprobando publicación…';
+  const published = await waitForPublication(new URL('../cars.json', location.href), data => data.movimientos?.some(e => e.id === operationId));
+  if (generation !== publicationGeneration) return;
+  output.textContent = published ? 'Publicación comprobada: el catálogo público ya entrega el cambio.' : 'Guardado en GitHub; publicación todavía no confirmada. No vuelvas a ingresar la ficha. Revisá el estado de publicación en GitHub Actions.';
+}
 
 const $ = id => document.getElementById(id);
 const labels = { activo: 'Activo', reservado: 'Reservado', archivado: 'Archivado', vendido: 'Vendido', reingreso: 'Reingreso', proximo_ingreso: 'Próximo ingreso', alta: 'Alta', baja: 'Baja', modificacion: 'Modificación' };
@@ -117,6 +127,7 @@ $('editor').onsubmit = async event => {
     const next = await store.save(snapshot, pending.operation, pending.photos);
     const movement = next.db.movimientos.find(e => e.id === operationId);
     snapshot = next; openVehicle(movement?.vehiculoId ?? selected); renderMonthly();
+    if (movement && settings.production) void confirmPublication(operationId);
     status(movement ? (settings.production ? 'Guardado. El catálogo se actualizará en unos minutos.' : 'Guardado en la versión de prueba. El catálogo público sigue igual.') : 'No había cambios; no se registró ningún movimiento.');
   } catch (e) { status(`${e.message} Los datos del formulario se conservan.`, true); }
   finally { busy = false; controls(); renderList(); }
