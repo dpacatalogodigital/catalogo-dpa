@@ -2747,12 +2747,12 @@
         "/catalogo-dpa/imagenes/vehiculos/1f8e2c39-bd0c-4e56-a1e2-83a35bc31967.jpg",
         "/catalogo-dpa/imagenes/vehiculos/89cd848c-7832-4233-a8c6-e8d1ff8bce5d.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-10-04T20:02:10.287Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-04T20:02:10.287Z",
+      "fechaUltimaModificacion": "2026-10-14T14:07:28.757Z",
       "marca": "FORD",
       "modelo": "EcoSport 1.5 S",
       "tipo": "SUV",
@@ -3755,6 +3755,18 @@
       "vehiculoId": 70,
       "tipo": "modificacion",
       "fecha": "2026-10-14T14:06:53.158Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
+      ]
+    },
+    {
+      "id": "07bf40f6-4a38-4a88-a997-ab9ca7c88d9d",
+      "vehiculoId": 74,
+      "tipo": "modificacion",
+      "fecha": "2026-10-14T14:07:28.757Z",
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "activo",
