@@ -2802,10 +2802,47 @@
       "descripcion": "",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/e45b09b5-2530-449e-822d-05d33269d2e4.jpg"
+    },
+    {
+      "id": 76,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/9936defc-929f-4b7d-9876-9dfe1d86c70c.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/3ad6f28c-8e39-4816-bcf1-12f096f3c244.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/045dd52b-1a2d-4764-89e8-e7b1c44d0f45.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/7c4c81f9-0050-446c-bc12-ea77053c80fa.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/f9bac8f0-3d89-4adc-bdf5-e41dcf5577f7.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/7586dbba-4a74-46cf-9fd0-e4d71785bdf7.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/46872642-b189-4878-81a2-0a91c2421790.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/5db94bca-a7ba-4cfe-8586-93b2ab8bdf2c.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/27d2343e-dc6a-4021-a224-86b3e51dfee6.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/38a0081e-a52b-4c59-affc-21a4da498797.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1f7c8272-db48-4d9f-9b29-ee100218e53e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/0d48f2f0-e3f3-4b99-8de3-852840251206.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/807e30ad-1ee5-478e-b6e6-3e1c08f40f9e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/2c1af083-51cc-436a-8b06-25189124c49c.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1723e65d-c1f7-49de-a1d5-3e8316d88470.jpg"
+      ],
+      "recienLlegado": true,
+      "sale": false,
+      "fechaAlta": "2026-10-14T14:04:10.700Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-10-14T14:04:10.700Z",
+      "marca": "VOLKSWAGEN",
+      "modelo": "Amarok 2.0  TDi DC Highline 4x2",
+      "tipo": "Pick-Up",
+      "anio": 2017,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": " AT- Diesel",
+      "precio": "",
+      "descripcion": "- Tapizados de cuero\n- Butacas con regulación eléctrica y calefaccionadas\n- Climatizador automático bizona \n- Pantalla multimedia con navegador y camara de retroceso \n- Velocidad crucero \n- Faros auxiliares \n- Llantas de aleación R18",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/9936defc-929f-4b7d-9876-9dfe1d86c70c.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 76,
+  "nextId": 77,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -3661,6 +3698,31 @@
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
       "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "d656aeb0-6889-464e-97b1-c0c00595490c",
+      "vehiculoId": 76,
+      "tipo": "alta",
+      "fecha": "2026-10-14T14:04:10.700Z",
+      "mes": "2026-10",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
         "estadoInventario"
       ]
     }
