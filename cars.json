@@ -3213,10 +3213,49 @@
       "descripcion": "",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/861f3b66-a5e0-4329-b5b4-65ab8a0a2641.jpg"
+    },
+    {
+      "id": 87,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/85667eec-ad02-409a-8542-b1c5d9419138.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/cbe82aed-aa73-485b-96a4-06e99cddd1ee.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/b7869bf8-cc3a-4d4f-b9ff-4c6b001d186e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/b838321a-cc00-406a-bb68-58ae5caa4b6d.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/9a38b062-7957-42fb-b935-ee80a1e256ec.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/90e28f46-01d2-4ab8-a4bf-fd6d66d3c426.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/0a26eadd-c855-4bcd-bfd3-64855b657139.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/b9388251-f3d2-468f-9462-c3b9932a1da0.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/a195f644-b6d4-46bc-861a-7141bb5046f8.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/6b75c593-8f4b-42ac-be6d-ca91fdb1688e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/81e18688-0233-44e0-8a41-66db2d994146.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/a56b5cdf-0763-414a-bc1b-0b191cba3fc2.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/2692ab4d-d477-4575-a4d6-bb369074d656.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/871f35f7-db55-416a-b8ab-721c84479457.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/e495f854-b236-438c-8b6b-409b40f821fa.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/e3d83281-2fc4-48b9-975a-06333cac388e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/8b16f2c5-c1d9-47c3-9d6d-60f7e6a387e1.jpg"
+      ],
+      "recienLlegado": false,
+      "sale": false,
+      "fechaAlta": "2026-10-14T17:50:38.195Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-10-14T17:50:38.195Z",
+      "marca": "TOYOTA",
+      "modelo": "SW4 SRV 3.0 4x4 ",
+      "tipo": "Pick-Up",
+      "anio": 2009,
+      "kilometros": 0,
+      "condicion": "usado",
+      "datos": "Cuero - 7As - AT",
+      "precio": "",
+      "descripcion": "",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/85667eec-ad02-409a-8542-b1c5d9419138.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 87,
+  "nextId": 88,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -4480,6 +4519,31 @@
       "estadoPosterior": "activo",
       "campos": [
         "datos"
+      ]
+    },
+    {
+      "id": "c9888d26-3858-4d84-b3a4-65cddbf91dc6",
+      "vehiculoId": 87,
+      "tipo": "alta",
+      "fecha": "2026-10-14T17:50:38.195Z",
+      "mes": "2026-10",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
+        "estadoInventario"
       ]
     }
   ],
