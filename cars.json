@@ -3201,14 +3201,14 @@
       "fechaAlta": "2026-10-14T17:47:00.255Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-14T17:47:00.255Z",
+      "fechaUltimaModificacion": "2026-10-14T17:48:09.296Z",
       "marca": "FORD",
       "modelo": "Ranger 2.0 XLT 4x2 ",
       "tipo": "Pick-Up",
       "anio": 2024,
       "kilometros": null,
       "condicion": "usado",
-      "datos": "AT",
+      "datos": "AT10",
       "precio": "",
       "descripcion": "",
       "estadoInventario": "activo",
@@ -4468,6 +4468,18 @@
         "imagenes",
         "portada",
         "estadoInventario"
+      ]
+    },
+    {
+      "id": "d9b40dea-f166-40c9-9002-f2c6a5a23219",
+      "vehiculoId": 86,
+      "tipo": "modificacion",
+      "fecha": "2026-10-14T17:48:09.296Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "datos"
       ]
     }
   ],
