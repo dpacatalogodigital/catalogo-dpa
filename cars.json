@@ -2839,10 +2839,49 @@
       "descripcion": "- Tapizados de cuero\n- Butacas con regulación eléctrica y calefaccionadas\n- Climatizador automático bizona \n- Pantalla multimedia con navegador y camara de retroceso \n- Velocidad crucero \n- Faros auxiliares \n- Llantas de aleación R18",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/9936defc-929f-4b7d-9876-9dfe1d86c70c.jpg"
+    },
+    {
+      "id": 77,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/09b41839-c4b8-4bfc-9763-d3d9647f54cb.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/6604bf0b-0975-4c51-8daf-38749e817eb4.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/d974c8e5-e955-4390-bd42-08c51d19b353.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/dd390014-60b8-46df-963e-485407ac18e7.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/f3301e6f-87aa-423b-bcb0-18dd9b90ffe5.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1e0182de-c789-4398-94f2-58e6bff3417c.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/d10daf6a-308f-4434-992c-eb1efc159b9d.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/48b7ba9b-c1e4-4c6d-9206-d7c38489a4ad.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/3f8c189a-76e8-4fa0-88b8-fd40126e59a4.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1c592fbc-b695-4ff8-9e09-f1655b049851.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1ef9dfd9-9fe3-41a1-909e-d506cfa63ed5.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/36bd16f4-365d-43e1-b60d-991cc32919b1.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/fd93f4fa-ae19-4500-ba6d-a99f428b939e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/6a29bc09-f957-4f38-893b-b59a5148e515.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/e54332d8-159d-48d8-9b59-b8b2370d4e0b.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/c33366d4-5efa-42de-982e-a11e613a458e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/46fc54e1-ee5d-40d3-9928-b68af040c424.jpg"
+      ],
+      "recienLlegado": true,
+      "sale": false,
+      "fechaAlta": "2026-10-14T14:22:41.661Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-10-14T14:22:41.661Z",
+      "marca": "TOYOTA",
+      "modelo": "SW4 SRX 4x4 2.8 TDi ",
+      "tipo": "SUV",
+      "anio": 2016,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": "7As - AT6 - Diesel ",
+      "precio": "",
+      "descripcion": "",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/09b41839-c4b8-4bfc-9763-d3d9647f54cb.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 77,
+  "nextId": 78,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -3784,6 +3823,31 @@
       "estadoPosterior": "activo",
       "campos": [
         "recienLlegado"
+      ]
+    },
+    {
+      "id": "5751de65-3290-4168-88da-3aba68d7db43",
+      "vehiculoId": 77,
+      "tipo": "alta",
+      "fecha": "2026-10-14T14:22:41.661Z",
+      "mes": "2026-10",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
+        "estadoInventario"
       ]
     }
   ],
