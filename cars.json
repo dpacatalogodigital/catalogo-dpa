@@ -2785,12 +2785,12 @@
         "/catalogo-dpa/imagenes/vehiculos/44315926-ad07-4f3a-8197-78dc9ef46e20.jpg",
         "/catalogo-dpa/imagenes/vehiculos/d6f378d8-e984-4515-bb85-d2e4cd8c1936.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-10-04T20:08:24.022Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-04T20:08:24.022Z",
+      "fechaUltimaModificacion": "2026-10-14T17:37:34.037Z",
       "marca": "VOLKSWAGEN",
       "modelo": "2.0 TDI Highline 4x2 180CV",
       "tipo": "Pick-Up",
@@ -4393,6 +4393,18 @@
         "imagenes",
         "portada",
         "estadoInventario"
+      ]
+    },
+    {
+      "id": "fix-recent-amarok-75-20261014",
+      "vehiculoId": 75,
+      "tipo": "modificacion",
+      "fecha": "2026-10-14T17:37:34.037Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
       ]
     }
   ],

@@ -1,3 +1,12 @@
+export function inventoryPublished(data, expected, operationId) {
+  const event = expected.movimientos.find(e => e.id === operationId);
+  if (!event || !data.movimientos?.some(e => e.id === operationId)) return false;
+  const saved = expected.vehiculos.find(v => v.id === event.vehiculoId);
+  const published = data.vehiculos?.find(v => v.id === event.vehiculoId);
+  return Boolean(published) && event.campos.every(key =>
+    JSON.stringify(published[key]) === JSON.stringify(saved[key]));
+}
+
 // Confirm public reads separately from Git persistence. Never repeat a write.
 export async function waitForPublication(url, matches, {
   fetcher = globalThis.fetch, sleep = ms => new Promise(resolve => setTimeout(resolve, ms)),

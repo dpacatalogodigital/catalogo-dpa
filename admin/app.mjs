@@ -4,13 +4,13 @@ import { InventoryStore } from './github.mjs';
 import { authenticate } from './auth.mjs';
 import { createStatePicker } from './state-picker.mjs';
 import { settings } from './settings.mjs';
-import { waitForPublication } from './publication.mjs';
+import { waitForPublication, inventoryPublished } from './publication.mjs?v=recent-20261014';
 let publicationGeneration = 0;
-async function confirmPublication(operationId) {
+async function confirmPublication(operationId, expected) {
   const generation = ++publicationGeneration;
   const output = $('publication-status');
   output.textContent = 'Guardado en GitHub. Comprobando publicación…';
-  const published = await waitForPublication(new URL('../cars.json', location.href), data => data.movimientos?.some(e => e.id === operationId));
+  const published = await waitForPublication(new URL('../cars.json', location.href), data => inventoryPublished(data, expected, operationId));
   if (generation !== publicationGeneration) return;
   output.textContent = published ? 'Publicación comprobada: el catálogo público ya entrega el cambio.' : 'Guardado en GitHub; publicación todavía no confirmada. No vuelvas a ingresar la ficha. Revisá el estado de publicación en GitHub Actions.';
 }
@@ -65,7 +65,7 @@ function openVehicle(id) {
   selected = id; pending = null; dirty = false;
   const vehicle = snapshot.db.vehiculos.find(v => v.id === id) || { estadoInventario: 'proximo_ingreso', condicion: 'usado', imagenes: [], tipo: 'Hatch' };
   $('editor').hidden = false;
-  $('editor-title').textContent = id === null ? 'Nuevo vehículo' : `${vehicle.marca} ${vehicle.modelo}`;
+  $('editor-title').textContent = id === null ? 'Nuevo vehículo' : `#${id} · ${vehicle.marca} ${vehicle.modelo} · ${vehicle.anio}`;
   $('identity').textContent = id === null ? 'El ID permanente se asignará al guardar.' : `ID permanente: ${id}`;
   for (const name of [...FIELDS, 'estadoInventario']) {
     const input = $('editor').elements.namedItem(name); if (!input) continue;
@@ -103,9 +103,11 @@ async function prepare() {
     else value = key === 'imagenes' ? input.value.split('\n').map(x => x.trim()).filter(Boolean) : input.value;
     // Missing optional values remain missing, so opening and saving is a no-op.
     if (previous && previous[key] === undefined && (value === '' || value === null || value === false)) continue;
+    if (previous && JSON.stringify(previous[key]) === JSON.stringify(value)) continue;
     patch[key] = value;
   }
-  const photosChanged = JSON.stringify(previous?.imagenes || []) !== JSON.stringify(patch.imagenes);
+  const photosChanged = Object.hasOwn(patch, 'imagenes');
+  const images = patch.imagenes ?? previous?.imagenes ?? [];
   const photos = [];
   for (const file of files) {
     const path = `imagenes/vehiculos/${crypto.randomUUID()}.${types[file.type]}`;
@@ -114,8 +116,8 @@ async function prepare() {
     photos.push({ path, content: btoa(binary) });
   }
   const urls = photos.map(p => `/catalogo-dpa/${p.path}`);
-  if (urls.length) patch.imagenes = $('first-cover').checked ? [...urls, ...patch.imagenes] : [...patch.imagenes, ...urls];
-  if (photosChanged || urls.length || !previous) patch.portada = patch.imagenes[0] || '';
+  if (urls.length) patch.imagenes = $('first-cover').checked ? [...urls, ...images] : [...images, ...urls];
+  if (photosChanged || urls.length || !previous) patch.portada = (patch.imagenes ?? images)[0] || '';
   return { operation: { id: crypto.randomUUID(), action: selected === null ? 'crear' : 'guardar', vehiculoId: selected, patch }, photos };
 }
 $('editor').onsubmit = async event => {
@@ -127,7 +129,7 @@ $('editor').onsubmit = async event => {
     const next = await store.save(snapshot, pending.operation, pending.photos);
     const movement = next.db.movimientos.find(e => e.id === operationId);
     snapshot = next; openVehicle(movement?.vehiculoId ?? selected); renderMonthly();
-    if (movement && settings.production) void confirmPublication(operationId);
+    if (movement && settings.production) void confirmPublication(operationId, next.db);
     status(movement ? (settings.production ? 'Guardado. El catálogo se actualizará en unos minutos.' : 'Guardado en la versión de prueba. El catálogo público sigue igual.') : 'No había cambios; no se registró ningún movimiento.');
   } catch (e) { status(`${e.message} Los datos del formulario se conservan.`, true); }
   finally { busy = false; controls(); renderList(); }
