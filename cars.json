@@ -2916,10 +2916,47 @@
       "descripcion": "Motor 1.6 de 115 CV con GNC, caja manual, cuero, techo panorámico, climatizador bizona, control crucero, multimedia Bluetooth/USB, cámara y sensores traseros, ABS, control de estabilidad y tracción, airbags e ISOFIX.",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/90295e36-93e7-49bb-9e15-6aa9ebe0b148.jpg"
+    },
+    {
+      "id": 79,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/818188d3-f332-4cd8-a066-6a4d37f41fec.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/7dbfffa9-f951-494f-9ba3-bfbbc4d4f764.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/5ddbf42f-7443-4e67-89f2-5a28f08acbaa.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/dec1f6d2-6786-467f-83c1-093f075585f7.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/9737ac3f-ef4c-4944-99c4-c399c3c7ccfb.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/db12da23-1384-4bfd-94e7-1f8b481ed803.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/e342f703-fc8e-4efb-9508-a6b9a6fa6b75.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/288f4ccb-77d8-4551-84c9-982a0ee2710a.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/89c3ac09-8ed3-40bf-83ca-f5255585126b.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/7bd7a1db-2b0e-4e62-9b7e-5b4487f8d469.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/7c64d22d-9d48-4405-b9b4-cf4de2f9c782.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/d68d7a23-1923-46ed-976f-5d6a49a2202b.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/001897d7-1bce-440c-ab70-a834b4c6ab5a.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/36686333-de58-475a-b442-8f69a8b1a808.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/01bc7b34-ad81-4e8b-8142-53d44171f832.jpg"
+      ],
+      "recienLlegado": true,
+      "sale": false,
+      "fechaAlta": "2026-10-14T14:44:34.506Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-10-14T14:44:34.506Z",
+      "marca": "RENAULT",
+      "modelo": "Sandero R.S. 2.0",
+      "tipo": "Hatch",
+      "anio": 2017,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": "Nafta - MT6",
+      "precio": "",
+      "descripcion": "Motor 2.0 de 145 CV, manual de 6 velocidades, suspensión deportiva Renault Sport, climatizador, butacas R.S., control crucero, multimedia con GPS/Bluetooth/USB, sensores traseros, ESP, ABS, 2 airbags y llantas de 17”.",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/818188d3-f332-4cd8-a066-6a4d37f41fec.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 79,
+  "nextId": 80,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -3935,6 +3972,31 @@
       "estadoPosterior": "activo",
       "campos": [
         "recienLlegado"
+      ]
+    },
+    {
+      "id": "94bfe9d4-be5e-496e-b1c2-2c325adbde7f",
+      "vehiculoId": 79,
+      "tipo": "alta",
+      "fecha": "2026-10-14T14:44:34.506Z",
+      "mes": "2026-10",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
+        "estadoInventario"
       ]
     }
   ],
