@@ -1861,7 +1861,7 @@
       ],
       "modelo": "Amarok 2.0 TDI Trendline 4x2 AT 180CV",
       "sale": false,
-      "recienLlegado": false,
+      "recienLlegado": true,
       "condicion": "usado",
       "descripcion": "Motor 2.0 TDI Bi-Turbo de 180 CV, 4x2, aire acondicionado, dirección asistida, Bluetooth/USB, cierre remoto, levantavidrios eléctricos, ESP, control de tracción, ABS, airbags frontales y llantas R17.",
       "anio": 2015,
@@ -1874,7 +1874,7 @@
       "fechaAlta": null,
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-10-14T14:38:22.987Z"
     },
     {
       "imagenes": [
@@ -3918,6 +3918,18 @@
       "vehiculoId": 51,
       "tipo": "modificacion",
       "fecha": "2026-10-14T14:38:10.360Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
+      ]
+    },
+    {
+      "id": "64121107-74d8-4448-b9ec-e9a5e89be77b",
+      "vehiculoId": 50,
+      "tipo": "modificacion",
+      "fecha": "2026-10-14T14:38:22.987Z",
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "activo",
