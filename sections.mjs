@@ -39,7 +39,7 @@ async function refreshContent() {
   if (signature === lastContent) return;
   track.replaceChildren();
   $('dpa-team').hidden = !data.teamImage;
-  if (data.teamImage) $('dpa-team').src = data.teamImage;
+  if (data.teamImage) $('dpa-team').src = new URL(data.teamImage.replace(/^\/catalogo-dpa\//, './'), import.meta.url).href;
   document.querySelectorAll('[data-dpa-link]').forEach(link => {
     const url = data.links[link.dataset.dpaLink];
     if (url) { link.href = url; link.removeAttribute('aria-disabled'); link.removeAttribute('title'); }
