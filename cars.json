@@ -2953,10 +2953,49 @@
       "descripcion": "Motor 2.0 de 145 CV, manual de 6 velocidades, suspensión deportiva Renault Sport, climatizador, butacas R.S., control crucero, multimedia con GPS/Bluetooth/USB, sensores traseros, ESP, ABS, 2 airbags y llantas de 17”.",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/818188d3-f332-4cd8-a066-6a4d37f41fec.jpg"
+    },
+    {
+      "id": 80,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/bee58327-e5c9-432b-a8b0-f54696a181c0.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/62aa06f6-cca3-4230-a311-b26a144da4a7.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/f396736a-1b77-4129-aef2-69d9e28438db.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/0a5e3459-a55d-466f-8624-6623f6e1cca2.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/5ce1cdda-5e73-419e-9be8-61f295b28d3c.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/76e3eb47-7aca-49b7-b4c4-0726480c3368.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/6299d077-dbbe-4567-809c-d6ae35c6439e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/02d7d550-9588-4d39-acee-e750dafe21fd.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/cba1e1ac-325b-4726-80a7-eede43fcc02b.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/9c0ec6fa-d805-42df-ba59-8e059a8cdd54.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/ee4afed4-f322-410f-a6c1-e94b6e04e9dc.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/ff449781-160a-4a93-98ab-4fc7d265fecd.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/3597f038-0800-4e1d-aeb9-7c7578552ed8.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/096f354b-660e-4a93-ae1c-1455c1eb2f8f.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/e70e42c6-6913-4ae8-bb6c-8893db556244.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/abfaea92-10b2-4bb2-bbec-3ccf7d347594.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/9dc5b19b-1ff5-459d-aa6b-e67943dcff0f.jpg"
+      ],
+      "recienLlegado": true,
+      "sale": false,
+      "fechaAlta": "2026-10-14T14:53:57.110Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-10-14T14:53:57.110Z",
+      "marca": "FIAT",
+      "modelo": "STRADA FREEDOM 1.4 CABINA DOBLE ",
+      "tipo": "Pick-Up",
+      "anio": 2021,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": "Unica Mano - MT - Nafta",
+      "precio": "",
+      "descripcion": "Motor 1.4 Fire, caja manual, doble cabina, aire acondicionado, dirección asistida, levantavidrios eléctricos, cierre centralizado, multimedia Bluetooth/USB, 2 airbags, ABS, control de estabilidad y tracción, llantas de aleación y protector de caja.",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/bee58327-e5c9-432b-a8b0-f54696a181c0.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 80,
+  "nextId": 81,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -4021,6 +4060,31 @@
       "estadoPosterior": "activo",
       "campos": [
         "recienLlegado"
+      ]
+    },
+    {
+      "id": "7dee6181-5d81-4033-925b-eae1442cb774",
+      "vehiculoId": 80,
+      "tipo": "alta",
+      "fecha": "2026-10-14T14:53:57.110Z",
+      "mes": "2026-10",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
+        "estadoInventario"
       ]
     }
   ],
