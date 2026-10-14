@@ -2633,12 +2633,12 @@
         "/catalogo-dpa/imagenes/vehiculos/1621272d-6bf5-46fb-a84e-3967362beb3d.jpg",
         "/catalogo-dpa/imagenes/vehiculos/87bd21e6-7213-4fcc-9552-982f6f78bc4f.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-09-20T15:16:11.950Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-09-20T15:16:11.950Z",
+      "fechaUltimaModificacion": "2026-10-14T14:05:36.066Z",
       "marca": "FORD",
       "modelo": "Ranger XL 2.0 TDI DC 4x2",
       "tipo": "Pick-Up",
@@ -3724,6 +3724,18 @@
         "imagenes",
         "portada",
         "estadoInventario"
+      ]
+    },
+    {
+      "id": "b2889cdc-82ed-46c4-8a94-c27bf71bdc1a",
+      "vehiculoId": 71,
+      "tipo": "modificacion",
+      "fecha": "2026-10-14T14:05:36.066Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
       ]
     }
   ],
