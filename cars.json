@@ -3368,10 +3368,48 @@
       "descripcion": "",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/3577aec0-43de-4e87-84b0-ea51e8dcf761.jpg"
+    },
+    {
+      "id": 91,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/735c0011-1c66-4f48-b595-65b0504f09b2.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/e95caba0-5da6-4fb3-b99a-60f7f908cce0.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/2ec02fef-32ef-4470-989f-3d26cccd799e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/c1db3a5a-6043-4b1c-82c1-b9bbae5ae402.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/a684a6b9-5e38-4b07-bee4-5e3c5bde76e9.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/60eb1761-18ac-4592-b78f-c46a8d05a70d.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/55faecb3-1fbf-4c10-adb2-8e697f3dadc3.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/030c311a-166d-4430-8294-337779e79b04.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/f0db4523-e30a-4743-a69d-06118daabd35.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/fb0f00c8-be5a-4a33-ab08-01014cbe030f.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/29e28ef2-ac65-439f-92f9-b778294f5e1a.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/04d1b9d7-a7f6-487c-a34e-e44d7cc55375.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/5f8b6bb3-4ff6-4513-95ab-8c24c1ec05e8.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/6093e90e-b798-46cc-8e88-b9ee0aab0ed3.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/f35c4e1d-5b35-43f7-ba9c-aeabf94b54be.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/38987d48-994b-44cf-a2c4-7cfca9ee7467.jpg"
+      ],
+      "recienLlegado": true,
+      "sale": false,
+      "fechaAlta": "2026-10-20T18:13:15.339Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-10-20T18:13:15.339Z",
+      "marca": "FORD",
+      "modelo": "Territory Titanium",
+      "tipo": "SUV",
+      "anio": 2024,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": "AT7 - Nafta",
+      "precio": "",
+      "descripcion": "Motor 1.8 EcoBoost de 185 CV, automática de 7 velocidades, climatizador bizona, asientos eléctricos calefaccionados y refrigerados, techo panorámico, CarPlay/Android Auto, cámara 360°, sensores, crucero adaptativo, punto ciego y llantas R19.",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/735c0011-1c66-4f48-b595-65b0504f09b2.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 91,
+  "nextId": 92,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -4746,6 +4784,31 @@
       "estadoAnterior": "activo",
       "estadoPosterior": "reservado",
       "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "bfd9eba9-6df1-4940-a69d-0bfc07bd8325",
+      "vehiculoId": 91,
+      "tipo": "alta",
+      "fecha": "2026-10-20T18:13:15.339Z",
+      "mes": "2026-10",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
         "estadoInventario"
       ]
     }
