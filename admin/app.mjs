@@ -1,21 +1,13 @@
-import { mountContentPanel } from './content-panel.mjs?v=publication-20261014';
+import { mountContentPanel } from './content-panel.mjs?v=publication-20261020';
 import { FIELDS, STATES, BRANDS, TYPES, monthly, monthOf, validateInventory } from './inventory.mjs';
 import { InventoryStore } from './github.mjs';
 import { authenticate } from './auth.mjs';
 import { createStatePicker } from './state-picker.mjs';
 import { settings } from './settings.mjs';
-import { waitForPublication, inventoryPublished } from './publication.mjs?v=recent-20261014';
-let publicationGeneration = 0;
-async function confirmPublication(operationId, expected) {
-  const generation = ++publicationGeneration;
-  const output = $('publication-status');
-  output.textContent = 'Guardado en GitHub. Comprobando publicación…';
-  const published = await waitForPublication(new URL('../cars.json', location.href), data => inventoryPublished(data, expected, operationId));
-  if (generation !== publicationGeneration) return;
-  output.textContent = published ? 'Publicación comprobada: el catálogo público ya entrega el cambio.' : 'Guardado en GitHub; publicación todavía no confirmada. No vuelvas a ingresar la ficha. Revisá el estado de publicación en GitHub Actions.';
-}
+import { createPublicationStatus } from './publication-status.mjs?v=publication-20261020';
 
 const $ = id => document.getElementById(id);
+const publication = createPublicationStatus($('publication-status'), $('publication-retry'), { kind: 'inventory' });
 const labels = { activo: 'Activo', reservado: 'Reservado', archivado: 'Archivado', vendido: 'Vendido', reingreso: 'Reingreso', proximo_ingreso: 'Próximo ingreso', alta: 'Alta', baja: 'Baja', modificacion: 'Modificación' };
 const dateLabels = { fechaAlta: 'Alta', fechaBaja: 'Última baja', fechaReingreso: 'Último reingreso', fechaUltimaModificacion: 'Última modificación' };
 const formatDate = value => value ? new Date(value).toLocaleString('es-AR', { timeZone: 'America/Argentina/Cordoba' }) : 'Sin registro histórico';
@@ -129,8 +121,11 @@ $('editor').onsubmit = async event => {
     const next = await store.save(snapshot, pending.operation, pending.photos);
     const movement = next.db.movimientos.find(e => e.id === operationId);
     snapshot = next; openVehicle(movement?.vehiculoId ?? selected); renderMonthly();
-    if (movement && settings.production) void confirmPublication(operationId, next.db);
-    status(movement ? (settings.production ? 'Guardado. El catálogo se actualizará en unos minutos.' : 'Guardado en la versión de prueba. El catálogo público sigue igual.') : 'No había cambios; no se registró ningún movimiento.');
+    if (movement && settings.production) void publication.start({ head: next.head, operationId,
+      expected: { movimientos: [movement], vehiculos: [next.db.vehiculos.find(v => v.id === movement.vehiculoId)] },
+      images: next.db.vehiculos.find(v => v.id === movement.vehiculoId).imagenes,
+    });
+    status(movement ? (settings.production ? 'Guardado en GitHub; publicación pendiente de comprobación. Consultá el estado de publicación de arriba.' : 'Guardado en la versión de prueba. El catálogo público sigue igual.') : 'No había cambios; no se registró ningún movimiento.');
   } catch (e) { status(`${e.message} Los datos del formulario se conservan.`, true); }
   finally { busy = false; controls(); renderList(); }
 };
@@ -155,7 +150,7 @@ $('export').onclick = () => {
   const url = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' })); const a = node('a'); a.href = url; a.download = `movimientos-${$('month').value}.csv`; a.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
 };
 window.addEventListener('beforeunload', event => { if (dirty || busy) { event.preventDefault(); event.returnValue = ''; } });
-$('environment').textContent = settings.production ? 'Inventario real. Al guardar, los cambios se publican en el catálogo; pueden tardar unos minutos en aparecer.' : 'Versión de prueba. Los cambios se guardan por separado y no se publican en el catálogo actual.';
+$('environment').textContent = settings.production ? 'Inventario real. Guardar en GitHub y publicar son pasos distintos. La publicación solo está confirmada cuando el estado indica PUBLICACIÓN COMPROBADA.' : 'Versión de prueba. Los cambios se guardan por separado y no se publican en el catálogo actual.';
 contentPanel = mountContentPanel({ getStore: () => store, locked: () => busy || dirty, setBusy: value => { busy = value; controls(); renderList(); }, onSaved: reload });
 buildForm(); $('month').value = monthOf(new Date().toISOString()); reload();
 

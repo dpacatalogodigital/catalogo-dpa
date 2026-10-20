@@ -21,6 +21,14 @@ El sitio y el inventario son públicos; el login protege las modificaciones, no 
 
 Los guardados actualizan main en una sola operación con ficha, fotos e historial. GitHub Pages puede tardar unos minutos en reflejarlos. Si otra persona guardó antes, recargar y revisar los cambios; nunca se sobrescribe su trabajo automáticamente.
 
+### Confirmación de publicación (20/10/2026)
+
+Guardar en GitHub no confirma la publicación. El administrador muestra el commit y mantiene el estado PENDIENTE hasta comprobar los campos modificados y las fotos locales en el dominio público. Comprueba hasta 15 minutos: el 20/10 se midió `Cache-Control: max-age=600` en GitHub Pages; el verificador anterior abandonaba a los 180 segundos. Una consulta fallida o una foto ausente nunca producen PUBLICACIÓN COMPROBADA. La comprobación pendiente se conserva localmente al cerrar o recargar (solo datos públicos; nunca tokens). «Volver a comprobar» repite lecturas, nunca el guardado.
+
+GitHub Actions ejecuta pruebas unitarias y un flujo de navegador totalmente interceptado con una ficha sintética. Luego compara los archivos servidos con el commit de main, comprueba fotos y el catálogo renderizado, incluidos recientes, flyers, ficha, taller y horarios. Se ejecuta en cada push a main y cada hora; un fallo deja la ejecución en rojo. Un push posterior sustituye la comprobación del commit anterior. No se ingresan fichas de prueba en el inventario real. El control público es de lectura y no modifica la configuración de Pages.
+
+Diagnóstico verificado: las altas #91 y #92, la baja #81 y la exclusión de recientes de #75 estaban publicadas durante la revisión del 20/10, y la usuaria confirmó que el cambio ya figuraba. No se reprodujo una pérdida de escritura ni un despliegue fallido. La demora observada es compatible con despliegue y caché; no demuestra por sí sola la causa de todos los incidentes anteriores. Esta corrección elimina la promesa de publicación sin prueba y permite detectar divergencias posteriores, sin cambiar inventario, contenido ni fotos.
+
 ## Desarrollo y recuperación
 
 La URL pública del administrador usa main. Las vistas locales y otros dominios usan codex/inventario-historial-seguro. Los parámetros de URL no cambian la rama. No probar operaciones sobre vehículos reales en producción.

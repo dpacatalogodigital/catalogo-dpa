@@ -3,6 +3,9 @@ on:
   pull_request:
   push:
     branches: [main, codex/inventario-historial-seguro]
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
 permissions:
   contents: read
 jobs:
@@ -17,6 +20,17 @@ jobs:
           node-version: '22'
       - run: npm test
       - run: node scripts/validate.mjs
+      - name: Instalar navegador de pruebas (versión fija)
+        run: |
+          npm install --no-save --ignore-scripts playwright@1.62.1
+          npx playwright install --with-deps chromium
+      - name: Flujo completo aislado, sin tocar inventario real
+        run: node scripts/e2e-publication.mjs
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: prueba-aislada
+          path: publication-artifacts/
       - name: Conservar IDs e historial de la base
         if: github.event_name == 'pull_request'
         env:
@@ -24,3 +38,31 @@ jobs:
         run: |
           git show "$BASE_SHA:cars.json" > "$RUNNER_TEMP/cars-base.json"
           node scripts/validate.mjs "$RUNNER_TEMP/cars-base.json"
+  publicacion:
+    name: Comprobar sitio público y fotos
+    if: github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    concurrency:
+      group: comprobar-publicacion-main
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          npm install --no-save --ignore-scripts playwright@1.62.1
+          npx playwright install --with-deps chromium
+      - name: Comparar publicación con el commit y comprobar catálogo renderizado
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+        run: node scripts/check-publication.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: publicacion-comprobada
+          path: publication-artifacts/

@@ -1,17 +1,12 @@
 import { loadContent, saveContent } from './content-store.mjs';
 import { LINK_KEYS } from '../content-model.mjs';
-import { waitForPublication } from './publication.mjs';
+import { createPublicationStatus } from './publication-status.mjs?v=publication-20261020';
 export function mountContentPanel({ getStore, locked, setBusy, onSaved }) {
   const $ = id => document.getElementById(id);
   let snapshot, working = false, dirty = false, externalLock = false;
   const previews = new Map();
   const labels = { instagram:'Instagram', facebook:'Facebook', tiktok:'TikTok', youtube:'YouTube', review:'Reseñas de Google', maps3714:'Google Maps · Sabattini 3714', maps4024:'Google Maps · Sabattini 4024' };
-  let publicationGeneration = 0;
-  async function confirmContent(data) {
-    const generation = ++publicationGeneration, signature = JSON.stringify(data);
-    const published = await waitForPublication(new URL('../site-content.json', location.href), value => JSON.stringify(value) === signature);
-    if (generation === publicationGeneration) message(published ? 'Publicación comprobada: el catálogo ya entrega este contenido.' : 'Guardado en GitHub; publicación todavía no confirmada. No repitas la carga. Revisá GitHub Actions.');
-  }
+  const publication = createPublicationStatus($('content-publication-status'), $('content-publication-retry'), { kind: 'content' });
   const message = text => $('content-status').textContent = text;
   for (const key of LINK_KEYS) {
     const label = document.createElement('label'); label.textContent = labels[key];
@@ -67,8 +62,8 @@ export function mountContentPanel({ getStore, locked, setBusy, onSaved }) {
         previews.set(`/catalogo-dpa/${upload.path}`, `data:${mime};base64,${upload.content}`);
       }
       for (const url of previews.keys()) if (!snapshot.data.flyers.some(f => f.image === url)) previews.delete(url);
-      saved = true; render(saveLinks); $('flyer-file').value = ''; message('Guardado en GitHub. Comprobando publicación…');
-      if (getStore().config.production) void confirmContent(snapshot.data);
+      saved = true; render(saveLinks); $('flyer-file').value = ''; message('Guardado en GitHub; publicación pendiente de comprobación. Consultá el estado de publicación de Próximos ingresos.');
+      if (getStore().config.production) void publication.start({ head: snapshot.head, expected: snapshot.data, images: [snapshot.data.teamImage, ...snapshot.data.flyers.map(f => f.image)] });
       else message('Guardado en la versión de prueba.');
     } catch (e) { message(`${e.message} Si se interrumpió la conexión, recargá para comprobar el resultado antes de repetir.`); }
     finally { working = false; setBusy(false); controls(); }
