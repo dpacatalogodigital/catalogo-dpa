@@ -3081,12 +3081,12 @@
         "/catalogo-dpa/imagenes/vehiculos/fc039782-a33f-49d4-89e4-a678e9c3306b.jpg",
         "/catalogo-dpa/imagenes/vehiculos/cc1a1f4d-a8ef-4511-b664-571b048f23b2.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-10-14T15:12:03.047Z",
-      "fechaBaja": null,
+      "fechaBaja": "2026-10-20T19:10:49.088Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-14T19:59:47.466Z",
+      "fechaUltimaModificacion": "2026-10-20T19:10:49.088Z",
       "marca": "PEUGEOT",
       "modelo": "2008 1.6 Feline",
       "tipo": "SUV",
@@ -3096,7 +3096,7 @@
       "datos": "MT - Nafta",
       "precio": "",
       "descripcion": "Motor 1.6 de 115 CV, caja manual, cuero, techo panorámico, climatizador bizona, control crucero, multimedia Bluetooth/USB, cámara y sensores traseros, ABS, control de estabilidad y tracción, airbags e ISOFIX.",
-      "estadoInventario": "reservado",
+      "estadoInventario": "vendido",
       "portada": "/catalogo-dpa/imagenes/vehiculos/86fe8dc4-ede9-4927-945b-f29785cf0113.jpg"
     },
     {
@@ -4959,6 +4959,19 @@
         "descripcion",
         "imagenes",
         "portada",
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "dfe638b0-a705-40ec-9684-d464ab53b215",
+      "vehiculoId": 83,
+      "tipo": "baja",
+      "fecha": "2026-10-20T19:10:49.088Z",
+      "mes": "2026-10",
+      "estadoAnterior": "reservado",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "recienLlegado",
         "estadoInventario"
       ]
     }
