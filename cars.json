@@ -3014,12 +3014,12 @@
         "/catalogo-dpa/imagenes/vehiculos/c48792a1-e24f-4407-832d-d28aee2bac25.jpg",
         "/catalogo-dpa/imagenes/vehiculos/ed866db4-2fea-4fdc-8412-2c1520a0ee86.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-10-14T14:58:00.085Z",
-      "fechaBaja": null,
+      "fechaBaja": "2026-10-20T18:18:56.499Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-14T14:58:00.085Z",
+      "fechaUltimaModificacion": "2026-10-20T18:18:56.499Z",
       "marca": "PEUGEOT",
       "modelo": "208 Allure AM25",
       "tipo": "Hatch",
@@ -3029,7 +3029,7 @@
       "datos": "MT - Nafta",
       "precio": "",
       "descripcion": "",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "portada": "/catalogo-dpa/imagenes/vehiculos/191c6747-e1e7-495f-9f48-ed388a850e11.jpg"
     },
     {
@@ -4872,6 +4872,19 @@
         "descripcion",
         "imagenes",
         "portada",
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "90680496-1761-4a71-a478-8551c093693e",
+      "vehiculoId": 81,
+      "tipo": "baja",
+      "fecha": "2026-10-20T18:18:56.499Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "recienLlegado",
         "estadoInventario"
       ]
     }
