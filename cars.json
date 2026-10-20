@@ -3444,10 +3444,47 @@
       "descripcion": "Aire acondicionado, dirección hidráulica, alzacristales eléctricos delanteros, alarma, llantas de aleación y cubiertas nuevas.",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/85b5e0d7-93a0-4f5b-8f22-d52bbac08601.jpg"
+    },
+    {
+      "id": 93,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/7bd05a9f-9ffe-48ed-8877-5ec76352be66.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/54121e7b-6c61-4cbe-bd8f-9d166f24a376.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/dd514f13-4109-4307-bf1d-8d11ad657f49.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/6945203a-908f-400a-909c-4c707769aab2.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/623aadb6-6f17-438c-905a-f3305b40fcf5.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1cdcc510-faf4-4f2c-97a7-bf0016052807.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/d4204581-acba-435f-9a54-1bba66f0af7e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/4a0eda76-20c8-4aaa-a46d-87803ba25f36.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/238d5d7a-b762-4d0d-95de-76c17bec0b06.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/79dc0543-8de9-4c58-a5a8-d7c939ba271a.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/c47c16c4-e726-4be5-91b5-e2ee6343153e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/3656a2bd-e40d-492b-95f9-06c3f964faf8.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/590dadc3-e3fc-4524-b597-40c883b9a76b.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/71a93190-dd6e-4a54-a30e-e0a3bcccc73f.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/3697ab63-444c-4646-a5a0-284a2675ac90.jpg"
+      ],
+      "recienLlegado": true,
+      "sale": false,
+      "fechaAlta": "2026-10-20T18:47:11.968Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-10-20T18:47:11.968Z",
+      "marca": "FIAT",
+      "modelo": "Strada Adventure 1.6 16V",
+      "tipo": "Pick-Up",
+      "anio": 2013,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": "MT5 - Nafta",
+      "precio": "",
+      "descripcion": "Motor 1.6 de 115 CV, caja manual, doble cabina, aire acondicionado, dirección hidráulica, alzacristales y espejos eléctricos, llantas de 15”, neumáticos nuevos, faros auxiliares, estribos, portaequipaje, portaescalera y lona cubre caja.",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/7bd05a9f-9ffe-48ed-8877-5ec76352be66.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 93,
+  "nextId": 94,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -4898,6 +4935,31 @@
       "estadoPosterior": "activo",
       "campos": [
         "recienLlegado"
+      ]
+    },
+    {
+      "id": "b2350d41-a5da-498c-8624-6ec13b180767",
+      "vehiculoId": 93,
+      "tipo": "alta",
+      "fecha": "2026-10-20T18:47:11.968Z",
+      "mes": "2026-10",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
+        "estadoInventario"
       ]
     }
   ],
