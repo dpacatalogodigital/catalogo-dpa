@@ -38,13 +38,30 @@ export async function waitForPublication(url, matches, {
   return false;
 }
 
-// Local images must be served as images, not merely referenced in published JSON.
+export function imageBytes(bytes) {
+  return (bytes[0] === 0xff && bytes[1] === 0xd8 && bytes[2] === 0xff) ||
+    [0x89,0x50,0x4e,0x47,0x0d,0x0a,0x1a,0x0a].every((value,i)=>bytes[i]===value) ||
+    (String.fromCharCode(...bytes.slice(0,4)) === 'RIFF' && String.fromCharCode(...bytes.slice(8,12)) === 'WEBP');
+}
+
+export async function imagePublished(url, signal, fetcher = globalThis.fetch) {
+  try {
+    const response = await fetcher(url, { method: 'HEAD', cache: 'no-store', signal });
+    if (!response.ok) return false;
+    if (response.headers.get('content-type')?.startsWith('image/')) return true;
+    // Legacy uploads have no extension: Pages serves valid JPEG bytes as octet-stream.
+    // Check a byte range instead of renaming assets or accepting arbitrary HTTP 200 pages.
+    const content = await fetcher(url, { cache:'no-store', signal, headers:{Range:'bytes=0-31'} });
+    return content.ok && imageBytes(new Uint8Array(await content.arrayBuffer()));
+  } catch { return false; }
+}
+
+// Local images must be available, not merely referenced in published JSON.
 export async function imagesPublished(paths, base, signal, fetcher = globalThis.fetch) {
-  const urls = [...new Set(paths.filter(Boolean).map(path => new URL(path.replace(/^\/catalogo-dpa\//, './'), base)))];
-  for (const url of urls) {
-    if (url.origin !== new URL(base).origin) continue;
-    const response = await fetcher(url.href, { method: 'HEAD', cache: 'no-store', signal });
-    if (!response.ok || !response.headers.get('content-type')?.startsWith('image/')) return false;
+  const urls = [...new Set(paths.filter(Boolean).map(path => new URL(path.replace(/^\/catalogo-dpa\//, './'), base).href))]
+    .filter(url => new URL(url).origin === new URL(base).origin);
+  for (let i=0; i<urls.length; i+=6) {
+    if (!(await Promise.all(urls.slice(i,i+6).map(url=>imagePublished(url,signal,fetcher)))).every(Boolean)) return false;
   }
   return true;
 }

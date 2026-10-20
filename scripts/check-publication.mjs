@@ -3,6 +3,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
+import { imagePublished } from '../admin/publication.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const git = (...args) => execFileSync('git', args, { cwd: root, encoding: 'utf8' }).trim();
@@ -37,8 +38,7 @@ async function check() {
   for (let i = 0; i < images.length; i += 6) {
     await Promise.all(images.slice(i, i + 6).map(async p => {
       await fs.access(path.join(root, p));
-      const response = await fetch(new URL(p, base), { method:'HEAD', cache:'no-store', signal:AbortSignal.timeout(10000) });
-      assert(response.ok && response.headers.get('content-type')?.startsWith('image/'), `Foto sin publicar: ${p} (HTTP ${response.status})`);
+      assert(await imagePublished(new URL(p, base).href, AbortSignal.timeout(10000)), `Foto sin publicar o contenido inválido: ${p}`);
     }));
   }
 }

@@ -1,6 +1,6 @@
 import { loadContent, saveContent } from './content-store.mjs';
 import { LINK_KEYS } from '../content-model.mjs';
-import { createPublicationStatus } from './publication-status.mjs?v=publication-20261020';
+import { createPublicationStatus } from './publication-status.mjs?v=publication-20261020b';
 export function mountContentPanel({ getStore, locked, setBusy, onSaved }) {
   const $ = id => document.getElementById(id);
   let snapshot, working = false, dirty = false, externalLock = false;

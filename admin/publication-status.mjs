@@ -1,4 +1,4 @@
-import { waitForPublication, inventoryPublished, imagesPublished } from './publication.mjs?v=publication-20261020';
+import { waitForPublication, inventoryPublished, imagesPublished } from './publication.mjs?v=publication-20261020b';
 
 export const ACTIONS_URL = 'https://github.com/dpacatalogodigital/catalogo-dpa/actions';
 

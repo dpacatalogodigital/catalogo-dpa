@@ -1,10 +1,10 @@
-import { mountContentPanel } from './content-panel.mjs?v=publication-20261020';
+import { mountContentPanel } from './content-panel.mjs?v=publication-20261020b';
 import { FIELDS, STATES, BRANDS, TYPES, monthly, monthOf, validateInventory } from './inventory.mjs';
 import { InventoryStore } from './github.mjs';
 import { authenticate } from './auth.mjs';
 import { createStatePicker } from './state-picker.mjs';
 import { settings } from './settings.mjs';
-import { createPublicationStatus } from './publication-status.mjs?v=publication-20261020';
+import { createPublicationStatus } from './publication-status.mjs?v=publication-20261020b';
 
 const $ = id => document.getElementById(id);
 const publication = createPublicationStatus($('publication-status'), $('publication-retry'), { kind: 'inventory' });
