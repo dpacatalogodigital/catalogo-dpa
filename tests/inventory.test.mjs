@@ -78,7 +78,7 @@ test('unknown legacy fields survive; root array migration is supported', () => {
   assert.equal(imported.movimientos.length, 0);
 });
 
-function mockGit({ conflict = false, failBlob = false, lostResponse = false } = {}) {
+function mockGit({ conflict = false, failBlob = false, lostResponse = false, raceOnce = false } = {}) {
   let head = 'head-1', db = structuredClone(baseline), tree;
   const writes = [];
   const fetcher = async (url, options) => {
@@ -94,17 +94,18 @@ function mockGit({ conflict = false, failBlob = false, lostResponse = false } = 
     writes.push({ path, body });
     if (path === '/git/blobs') { if (failBlob) throw new Error('Upload failed'); return ok({ sha: 'photo-blob' }); }
     if (path === '/git/trees') { tree = body; return ok({ sha: 'new-tree' }); }
-    if (path === '/git/commits') { assert.deepEqual(body.parents, ['head-1']); return ok({ sha: 'head-2' }); }
+    if (path === '/git/commits') { assert.deepEqual(body.parents, [head]); return ok({ sha: 'head-2' }); }
     if (path.startsWith('/git/refs/')) {
       assert.equal(body.force, false);
-      if (conflict) return { ok: false, status: 422 };
+      if (conflict) return { ok: false, status: 422, json: async () => ({message:'Update is not a fast forward'}) };
+      if (raceOnce) { raceOnce=false; head='racing-head'; db=edit(db,{precio:'Concurrente'},'concurrent'); return {ok:false,status:409,json:async()=>({message:'Reference update failed'})}; }
       head = body.sha; db = JSON.parse(tree.tree.find(e => e.path === 'cars.json').content);
       if (lostResponse) throw new Error('Response lost');
       return ok({ object: { sha: head } });
     }
     throw new Error(`Unexpected request ${path}`);
   };
-  return { store: new InventoryStore('test-token', fetcher), writes, get db() { return db; } };
+  return { store: new InventoryStore('test-token', fetcher), writes, get db() { return db; }, advance(next = db) { db=structuredClone(next); head='advanced-head'; } };
 }
 const op = { id: 'atomic-op', action: 'guardar', vehiculoId: 1, patch: { precio: 'Prueba' } };
 test('data + event + photos publish atomically in one non-forced branch update', async () => {
@@ -115,10 +116,43 @@ test('data + event + photos publish atomically in one non-forced branch update',
   assert(git.writes.at(-1).path.endsWith('/codex/inventario-historial-seguro'));
   const count = git.writes.length; await git.store.save(snapshot, op); assert.equal(git.writes.length, count);
 });
-test('stale snapshots and racing commits never overwrite newer work', async () => {
+test('unrelated commits do not block saves; same-vehicle conflicts preserve newer work', async () => {
   const git = mockGit(); const snapshot = await git.store.load();
-  await assert.rejects(git.store.save({ ...snapshot, head: 'stale' }, op), /otra sesión/); assert.equal(git.writes.length, 0);
-  const race = mockGit({ conflict: true }); await assert.rejects(race.store.save(await race.store.load(), op), /otra sesión/); assert.equal(race.db.movimientos.length, 0);
+  git.advance(); await git.store.save(snapshot, op); assert.equal(git.db.vehiculos[0].precio,'Prueba');
+  const changed=mockGit(), old=await changed.store.load(); changed.advance(edit(changed.db,{precio:'Más reciente'}));
+  await assert.rejects(changed.store.save(old,op),/otra sesión/); assert.equal(changed.writes.length,0);
+  const race = mockGit({ conflict: true }); await assert.rejects(race.store.save(await race.store.load(), op), /422/); assert.equal(race.db.movimientos.length, 0);
+  assert.equal(race.writes.filter(w=>w.path.startsWith('/git/refs/')).length,3);
+});
+
+const createOp = {id:'new-safe',action:'crear',patch:{marca:'FORD',modelo:'Alta aislada',tipo:'SUV',anio:2026,condicion:'0km',estadoInventario:'activo'}};
+test('stale new vehicle uses latest ID and preserves concurrent inventory changes and photos', async()=>{
+  const git=mockGit(), old=await git.store.load();
+  const concurrent=applyOperation(edit(git.db,{precio:'Reciente'}),{...createOp,id:'other-new'});
+  git.advance(concurrent);
+  const next=await git.store.save(old,createOp,[{path:'imagenes/vehiculos/new.jpg',content:'YQ=='}]);
+  assert.equal(next.db.vehiculos.at(-1).id,65); assert.equal(next.db.nextId,66);
+  assert.deepEqual(next.db.vehiculos.slice(0,-1),concurrent.vehiculos);
+  assert.deepEqual(next.db.movimientos.slice(0,-1),concurrent.movimientos);
+  const count=git.writes.length; await git.store.save(old,createOp); assert.equal(git.writes.length,count);
+});
+test('new vehicle retries a racing branch update without duplicates or lost edits',async()=>{
+  const git=mockGit({raceOnce:true}); const next=await git.store.save(await git.store.load(),createOp);
+  assert.equal(next.db.vehiculos[0].precio,'Concurrente');
+  assert.equal(next.db.movimientos.filter(e=>e.id===createOp.id).length,1);
+  assert.equal(next.db.vehiculos.length,64);
+});
+test('creation response lost is verified and retry writes nothing',async()=>{
+  const git=mockGit({lostResponse:true}), old=await git.store.load();
+  await git.store.save(old,createOp); const count=git.writes.length;
+  await git.store.save(old,createOp); assert.equal(git.writes.length,count);
+  assert.equal(git.db.movimientos.length,1); assert.equal(git.db.vehiculos.length,64);
+});
+test('API errors distinguish session, permissions, validation, limits and payload',async()=>{
+  for(const status of [401,403,404,409,413,422,429,500]) {
+    const store=new InventoryStore('test',async()=>({ok:false,status,json:async()=>({message:'Synthetic detail'})}));
+    await assert.rejects(store.api('/git/blobs','POST',{}),e=>e.status===status && e.message.includes('Synthetic detail') && !e.retryableConflict);
+  }
 });
 test('failed image upload cannot publish partial data or history', async () => {
   const git = mockGit({ failBlob: true });
@@ -173,7 +207,7 @@ test('production creation, edit, sale and reentry preserve photos and monthly hi
     const git=mockGit(); git.store.config=settingsFor({origin:'https://dpacatalogodigital.github.io',pathname:'/catalogo-dpa/admin/'});
     const snapshot=await git.store.load();
     // The reentry case begins with an already sold fixture.
-    if(patch.estadoInventario==='reingreso') snapshot.db.vehiculos[0].estadoInventario='vendido';
+    if(patch.estadoInventario==='reingreso') { git.db.vehiculos[0].estadoInventario='vendido'; snapshot.db.vehiculos[0].estadoInventario='vendido'; }
     const operation=patch.modelo ? {id:crypto.randomUUID(),action:'crear',patch:{...baseline.vehiculos[0],id:undefined,...patch}} : {...op,id:crypto.randomUUID(),patch};
     if(patch.modelo) for(const key of ['id','fechaAlta','fechaBaja','fechaReingreso','fechaUltimaModificacion']) delete operation.patch[key];
     const saved=await git.store.save(snapshot,operation);

@@ -1,6 +1,6 @@
 import { mountContentPanel } from './content-panel.mjs?v=publication-20261020b';
 import { FIELDS, STATES, BRANDS, TYPES, monthly, monthOf, validateInventory } from './inventory.mjs';
-import { InventoryStore } from './github.mjs';
+import { InventoryStore } from './github.mjs?v=save-20261020';
 import { authenticate } from './auth.mjs';
 import { createStatePicker } from './state-picker.mjs';
 import { settings } from './settings.mjs';
@@ -126,14 +126,22 @@ $('editor').onsubmit = async event => {
       images: next.db.vehiculos.find(v => v.id === movement.vehiculoId).imagenes,
     });
     status(movement ? (settings.production ? 'Guardado en GitHub; publicación pendiente de comprobación. Consultá el estado de publicación de arriba.' : 'Guardado en la versión de prueba. El catálogo público sigue igual.') : 'No había cambios; no se registró ningún movimiento.');
-  } catch (e) { status(`${e.message} Los datos del formulario se conservan.`, true); }
+  } catch (e) {
+    if (e.status === 401 || e.status === 403) $('login').hidden = false;
+    status(`${e.message} Los datos y fotos del formulario se conservan. Podés volver a guardar sin duplicar la operación.`, true);
+  }
   finally { busy = false; controls(); renderList(); }
 };
 $('editor').oninput = () => { dirty = true; pending = null; controls(); };
 $('editor').onchange = () => { dirty = true; pending = null; controls(); };
 $('login').onclick = async () => {
-  if (busy || !mayDiscard()) return; busy = true; controls(); status('Completá el inicio de sesión en la ventana de GitHub…');
-  try { const authorized = new InventoryStore(await authenticate()); await authorized.authorize(); store = authorized; $('login').hidden = true; $('logout').hidden = false; await reload(); }
+  if (busy) return; busy = true; controls(); status('Completá el inicio de sesión en la ventana de GitHub…');
+  try {
+    const authorized = new InventoryStore(await authenticate()); await authorized.authorize(); store = authorized;
+    $('login').hidden = true; $('logout').hidden = false;
+    if (dirty || pending) status('Sesión renovada. Tus datos y fotos se conservaron. Volvé a guardar.');
+    else await reload();
+  }
   catch (e) { status(e.message, true); }
   finally { busy = false; controls(); }
 };

@@ -11,6 +11,7 @@ const origin = 'https://daponteautomotores.com.ar';
 const before = migrate([{id:1,marca:'FORD',modelo:'Ficha sintética E2E',tipo:'SUV',anio:2020,condicion:'usado',
   imagenes:['/catalogo-dpa/imagenes/vehiculos/fixture.png'],precio:'Antes',recienLlegado:true,sale:false}]);
 let db = structuredClone(before), head = 'fixture-before', tree, writes = 0, published = false, photosReady = false;
+let expired = false, loseNextResponse = false;
 const content = {version:1,teamImage:'',flyers:[],links:Object.fromEntries(['instagram','facebook','tiktok','youtube','review','maps3714','maps4024'].map(k=>[k,'']))};
 const pixel = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aD1sAAAAASUVORK5CYII=','base64');
 const browser = await chromium.launch({headless:true});
@@ -24,7 +25,10 @@ await context.route('**/*',async route => {
     assert(url.pathname.startsWith('/repos/dpacatalogodigital/catalogo-dpa'));
     const p=url.pathname.slice('/repos/dpacatalogodigital/catalogo-dpa'.length);
     if(req.method()==='GET') {
-      if(p==='') return json({permissions:{push:true}});
+      if(p==='') {
+        if(expired) return route.fulfill({status:401,headers:cors,contentType:'application/json',body:JSON.stringify({message:'Bad credentials'})});
+        return json({permissions:{push:true}});
+      }
       if(p.startsWith('/git/ref/')) return json({object:{sha:head}});
       if(p==='/contents/cars.json') return json({content:Buffer.from(JSON.stringify(db)).toString('base64')});
       if(p==='/contents/site-content.json') return json({sha:'fixture-content',content:Buffer.from(JSON.stringify(content)).toString('base64')});
@@ -32,11 +36,13 @@ await context.route('**/*',async route => {
     }
     assert.equal(req.headers().authorization,'Bearer synthetic-token-for-e2e-only');
     const body=req.postDataJSON();
+    if(p==='/git/blobs') return json({sha:'fixture-photo'});
     if(p==='/git/trees') { tree=body; return json({sha:'fixture-new-tree'}); }
     if(p==='/git/commits') return json({sha:'fixture-after'});
     if(p==='/git/refs/heads/main') {
       assert.equal(body.force,false); writes++;
       db=JSON.parse(tree.tree.find(f=>f.path==='cars.json').content); head=body.sha;
+      if(loseNextResponse) {loseNextResponse=false; return route.abort();}
       return json({object:{sha:head}});
     }
     throw Error(`Unexpected fixture Git request ${req.method()} ${p}`);
@@ -64,6 +70,7 @@ await context.addInitScript(() => {
   };
 });
 const page=await context.newPage(),errors=[];
+page.setDefaultTimeout(15000);
 page.on('pageerror', e=>errors.push(e.message));
 await fs.mkdir('publication-artifacts',{recursive:true});
 try {
@@ -99,8 +106,33 @@ try {
   await catalog.locator('#modal.activo').waitFor();
   assert.equal(await catalog.locator('#modalPrecio').textContent(),'Después E2E');
   assert.deepEqual(errors,[]);
+  // New vehicle from a stale form, expired session, retained photo and lost save response.
+  await page.getByRole('button',{name:'Iniciar sesión con GitHub'}).click();
+  await page.getByRole('button',{name:'Nuevo vehículo',exact:true}).click();
+  await page.locator('[name=marca]').selectOption('FORD');
+  await page.getByLabel('Modelo',{exact:true}).fill('Alta sintética sin inventario real');
+  await page.getByLabel('Año',{exact:true}).fill('2026');
+  await page.getByLabel('Descripción',{exact:true}).fill('Borrador que debe conservarse');
+  await page.locator('#photos').setInputFiles({name:'fixture.png',mimeType:'image/png',buffer:pixel});
+  head='concurrent-code-update'; expired=true;
+  await page.getByRole('button',{name:'Guardar cambios',exact:true}).click();
+  await page.locator('#status.error').filter({hasText:'sesión'}).waitFor();
+  assert.equal(writes,1);
+  expired=false;
+  await page.getByRole('button',{name:'Iniciar sesión con GitHub'}).click();
+  await page.locator('#status').filter({hasText:'Sesión renovada'}).waitFor();
+  assert.equal(await page.getByLabel('Modelo',{exact:true}).inputValue(),'Alta sintética sin inventario real');
+  assert.equal(await page.getByLabel('Descripción',{exact:true}).inputValue(),'Borrador que debe conservarse');
+  assert.equal(await page.locator('#photos').evaluate(el=>el.files.length),1);
+  loseNextResponse=true;
+  await page.getByRole('button',{name:'Guardar cambios',exact:true}).click();
+  await page.locator('#status').filter({hasText:'Guardado en GitHub'}).waitFor();
+  assert.equal(writes,2); assert.equal(db.vehiculos.length,2);
+  assert.equal(db.movimientos.filter(e=>e.tipo==='alta').length,1);
+  assert.equal(db.vehiculos.at(-1).imagenes.length,1);
+  assert.deepEqual(errors,[]);
   await page.screenshot({path:'publication-artifacts/admin-aislado.png',fullPage:true});
-  console.log('E2E OK: formulario → commit atómico simulado → caché anterior → foto no disponible → cierre/reapertura → publicación confirmada → catálogo/ficha/retiro de recientes. Cero escrituras reales.');
+  console.log('E2E OK: edición y publicación; alta con foto desde formulario desactualizado; sesión vencida y renovación sin perder borrador/foto; respuesta perdida recuperada sin duplicados. Cero escrituras reales.');
 } catch(e) {
   await page.screenshot({path:'publication-artifacts/error-aislado.png',fullPage:true});
   throw e;
