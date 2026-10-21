@@ -1870,11 +1870,11 @@
       "datos": "Diesel - AT8",
       "marca": "VOLKSWAGEN",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.08.19-pm.jpeg-1789074166364-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-10-21T15:34:22.831Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-14T14:48:18.791Z"
+      "fechaUltimaModificacion": "2026-10-21T15:34:22.831Z"
     },
     {
       "imagenes": [
@@ -5004,6 +5004,18 @@
       "vehiculoId": 73,
       "tipo": "baja",
       "fecha": "2026-10-21T15:30:02.018Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "07cdd791-c711-4a12-b742-59ba015a4a65",
+      "vehiculoId": 50,
+      "tipo": "baja",
+      "fecha": "2026-10-21T15:34:22.831Z",
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
