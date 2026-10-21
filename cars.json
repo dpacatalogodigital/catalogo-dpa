@@ -2712,9 +2712,9 @@
       "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-09-20T15:51:03.367Z",
-      "fechaBaja": null,
+      "fechaBaja": "2026-10-21T15:30:02.018Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-14T14:09:00.694Z",
+      "fechaUltimaModificacion": "2026-10-21T15:30:02.018Z",
       "marca": "TOYOTA",
       "modelo": "Hilux 3.0 SRV 4x2 TDi",
       "tipo": "Pick-Up",
@@ -2724,7 +2724,7 @@
       "datos": "L/12 - MT - Diesel",
       "precio": "",
       "descripcion": "",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "portada": "/catalogo-dpa/imagenes/vehiculos/0e30e3fe-8638-44c8-a09d-64ffaef0fb88.jpg"
     },
     {
@@ -4995,6 +4995,18 @@
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "reservado",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "3c703ce3-a5cb-405f-8723-316e6ba8d64a",
+      "vehiculoId": 73,
+      "tipo": "baja",
+      "fecha": "2026-10-21T15:30:02.018Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
       "campos": [
         "estadoInventario"
       ]
