@@ -561,11 +561,11 @@
       "datos": "Nafta - MT- Unica Mano",
       "marca": "FORD",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-03-at-12.17.51-pm-1-.jpeg-1789062375424-0",
-      "estadoInventario": "reservado",
+      "estadoInventario": "activo",
       "fechaAlta": null,
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-05T21:20:49.838Z"
+      "fechaUltimaModificacion": "2026-10-21T15:17:40.037Z"
     },
     {
       "imagenes": [
@@ -4972,6 +4972,18 @@
       "estadoPosterior": "vendido",
       "campos": [
         "recienLlegado",
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "7c43fc25-c9d6-4caf-b4c3-f279cc09ce3c",
+      "vehiculoId": 19,
+      "tipo": "modificacion",
+      "fecha": "2026-10-21T15:17:40.037Z",
+      "mes": "2026-10",
+      "estadoAnterior": "reservado",
+      "estadoPosterior": "activo",
+      "campos": [
         "estadoInventario"
       ]
     }
