@@ -1575,11 +1575,11 @@
       "datos": "Nafta - AT",
       "marca": "TOYOTA",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-05-12-at-12.17.56-pm.jpeg-1789070878966-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-10-21T15:50:12.397Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-10-21T15:50:12.397Z"
     },
     {
       "imagenes": [
@@ -5016,6 +5016,18 @@
       "vehiculoId": 50,
       "tipo": "baja",
       "fecha": "2026-10-21T15:34:22.831Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "8b6658d0-8ca0-49a6-9b56-6890abeb5b07",
+      "vehiculoId": 44,
+      "tipo": "baja",
+      "fecha": "2026-10-21T15:50:12.397Z",
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
