@@ -1165,11 +1165,11 @@
       "datos": "Nafta - AT",
       "marca": "NISSAN",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-21-at-12.07.09-pm.jpeg-1789065869044-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "reservado",
       "fechaAlta": null,
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-10-21T15:21:32.105Z"
     },
     {
       "imagenes": [
@@ -4983,6 +4983,18 @@
       "mes": "2026-10",
       "estadoAnterior": "reservado",
       "estadoPosterior": "activo",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "8091208b-77bd-47b0-ba6b-a82c5c2bb48f",
+      "vehiculoId": 33,
+      "tipo": "modificacion",
+      "fecha": "2026-10-21T15:21:32.105Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "reservado",
       "campos": [
         "estadoInventario"
       ]
