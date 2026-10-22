@@ -3240,7 +3240,7 @@
       "fechaAlta": "2026-10-14T17:50:38.195Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-14T17:50:38.195Z",
+      "fechaUltimaModificacion": "2026-10-22T13:48:21.526Z",
       "marca": "TOYOTA",
       "modelo": "SW4 SRV 3.0 4x4 ",
       "tipo": "Pick-Up",
@@ -3250,7 +3250,7 @@
       "datos": "Cuero - 7As - AT",
       "precio": "",
       "descripcion": "",
-      "estadoInventario": "activo",
+      "estadoInventario": "reservado",
       "portada": "/catalogo-dpa/imagenes/vehiculos/85667eec-ad02-409a-8542-b1c5d9419138.jpg"
     },
     {
@@ -5031,6 +5031,18 @@
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "631dd0b6-3fba-4548-a828-73975f63aad4",
+      "vehiculoId": 87,
+      "tipo": "modificacion",
+      "fecha": "2026-10-22T13:48:21.526Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "reservado",
       "campos": [
         "estadoInventario"
       ]
