@@ -1,13 +1,20 @@
 import { mountContentPanel } from './content-panel.mjs?v=publication-20261020b';
-import { FIELDS, STATES, BRANDS, TYPES, monthly, monthOf, validateInventory } from './inventory.mjs';
+import { FIELDS, STATES, BRANDS, TYPES, monthly, monthOf, validateInventory } from './inventory.mjs?v=feedback-20261022';
 import { InventoryStore } from './github.mjs?v=save-20261020';
 import { authenticate } from './auth.mjs';
 import { createStatePicker } from './state-picker.mjs';
 import { settings } from './settings.mjs';
-import { createPublicationStatus } from './publication-status.mjs?v=publication-20261020b';
+import { createPublicationStatus } from './publication-status.mjs?v=feedback-20261022';
 
 const $ = id => document.getElementById(id);
-const publication = createPublicationStatus($('publication-status'), $('publication-retry'), { kind: 'inventory' });
+function saveFeedback(text, state) {
+  for (const id of ['save-status', 'save-notice']) {
+    const output = $(id); output.textContent = text; output.dataset.state = state; output.hidden = false;
+  }
+}
+const publication = createPublicationStatus($('publication-status'), $('publication-retry'), {
+  kind: 'inventory', onStatus: (text, state) => saveFeedback(text, state),
+});
 const labels = { activo: 'Activo', reservado: 'Reservado', archivado: 'Archivado', vendido: 'Vendido', reingreso: 'Reingreso', proximo_ingreso: 'Próximo ingreso', alta: 'Alta', baja: 'Baja', modificacion: 'Modificación' };
 const dateLabels = { fechaAlta: 'Alta', fechaBaja: 'Última baja', fechaReingreso: 'Último reingreso', fechaUltimaModificacion: 'Última modificación' };
 const formatDate = value => value ? new Date(value).toLocaleString('es-AR', { timeZone: 'America/Argentina/Cordoba' }) : 'Sin registro histórico';
@@ -46,9 +53,20 @@ function renderList() {
   const rows = snapshot.db.vehiculos.filter(v => ($('filter').value === 'todos' || v.estadoInventario === $('filter').value) && normalized(`${v.id} ${v.marca} ${v.modelo}`).includes(normalized($('search').value)));
   $('total').textContent = `${rows.length} de ${snapshot.db.vehiculos.length} vehículos`;
   $('vehicles').replaceChildren(...rows.map(v => {
-    const button = node('button', `#${v.id} · ${v.marca} ${v.modelo}`, `vehicle${selected === v.id ? ' selected' : ''}`);
+    const button = node('button', undefined, `vehicle${selected === v.id ? ' selected' : ''}`);
     button.type = 'button'; button.disabled = busy;
-    button.append(node('span', `${v.anio} · ${labels[v.estadoInventario]}`));
+    const imagePath = v.portada || v.imagenes?.[0];
+    const thumbnail = node('div', undefined, 'vehicle-thumbnail');
+    const fallback = node('span', 'Sin foto'); thumbnail.append(fallback);
+    if (imagePath) {
+      const image = node('img'); image.alt = ''; image.loading = 'lazy'; image.decoding = 'async';
+      image.src = new URL(imagePath.replace(/^\/catalogo-dpa\//, './'), new URL('../', location.href)).href;
+      image.onerror = () => { image.remove(); fallback.hidden = false; };
+      fallback.hidden = true; thumbnail.append(image);
+    }
+    const info = node('div', undefined, 'vehicle-info');
+    info.append(node('strong', `#${v.id} · ${v.marca} ${v.modelo}`), node('span', `${v.anio} · ${labels[v.estadoInventario]}`));
+    button.append(thumbnail, info);
     button.onclick = () => { if (!busy && mayDiscard()) openVehicle(v.id); };
     return button;
   }));
@@ -114,19 +132,21 @@ async function prepare() {
 }
 $('editor').onsubmit = async event => {
   event.preventDefault(); if (busy || !store.token) return;
-  busy = true; controls(); renderList(); status('Guardando la ficha, las fotos y el movimiento…');
+  publication.pause(); busy = true; controls(); renderList(); status('Guardando la ficha, las fotos y el movimiento…'); saveFeedback('Guardando… Esperá la confirmación.', 'saving');
   try {
     pending ||= await prepare();
     const operationId = pending.operation.id;
     const next = await store.save(snapshot, pending.operation, pending.photos);
     const movement = next.db.movimientos.find(e => e.id === operationId);
     snapshot = next; openVehicle(movement?.vehiculoId ?? selected); renderMonthly();
+    saveFeedback(movement ? `Guardado en GitHub · #${movement.vehiculoId} · ${labels[movement.estadoPosterior]}.` : 'No había cambios para guardar.', 'saved');
     if (movement && settings.production) void publication.start({ head: next.head, operationId,
       expected: { movimientos: [movement], vehiculos: [next.db.vehiculos.find(v => v.id === movement.vehiculoId)] },
       images: next.db.vehiculos.find(v => v.id === movement.vehiculoId).imagenes,
     });
     status(movement ? (settings.production ? 'Guardado en GitHub; publicación pendiente de comprobación. Consultá el estado de publicación de arriba.' : 'Guardado en la versión de prueba. El catálogo público sigue igual.') : 'No había cambios; no se registró ningún movimiento.');
   } catch (e) {
+    saveFeedback(`Error al guardar: ${e.message} El formulario y las fotos se conservan.`, 'error');
     if (e.status === 401 || e.status === 403) $('login').hidden = false;
     status(`${e.message} Los datos y fotos del formulario se conservan. Podés volver a guardar sin duplicar la operación.`, true);
   }

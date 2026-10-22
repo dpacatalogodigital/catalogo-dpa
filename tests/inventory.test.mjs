@@ -57,7 +57,13 @@ test('no-op and retry do not count; simultaneous data plus status is a single mo
 test('invalid transitions, deletion, ID/date edits and bad input are rejected', () => {
   for (const patch of [{ id: 999 }, { fechaAlta: '2020-01-01' }, { estadoInventario: 'typo' }, { kilometros: -1 }, { imagenes: ['javascript:alert(1)'] }]) assert.throws(() => edit(baseline, patch));
   const sold = edit(baseline, { estadoInventario: 'vendido' });
-  assert.throws(() => edit(sold, { estadoInventario: 'activo' }));
+  const returned = edit(sold, { estadoInventario: 'activo' });
+  assert.equal(returned.vehiculos[0].estadoInventario, 'activo');
+  assert.equal(returned.movimientos.at(-1).tipo, 'reingreso');
+  assert.equal(returned.vehiculos[0].fechaBaja, sold.vehiculos[0].fechaBaja);
+  assert.deepEqual(returned.vehiculos[0].imagenes, sold.vehiculos[0].imagenes);
+  assert(returned.vehiculos[0].fechaReingreso);
+  assert.equal(returned.movimientos.length, sold.movimientos.length + 1);
   assert.throws(() => applyOperation(baseline, { id: 'x', action: 'borrar', vehiculoId: 1 }));
   assert.throws(() => edit(baseline, { estadoInventario: 'proximo_ingreso' }));
 });
