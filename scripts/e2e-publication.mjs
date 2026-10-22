@@ -47,6 +47,7 @@ await context.route('**/*',async route => {
     }
     throw Error(`Unexpected fixture Git request ${req.method()} ${p}`);
   }
+  if(url.origin === 'https://raw.githubusercontent.com' && url.pathname.endsWith('/cars.json')) return json(published?db:before);
   if(url.origin !== origin) return route.abort();
   if(url.pathname==='/cars.json') return json(published?db:before);
   if(url.pathname==='/site-content.json') return json(content);
@@ -81,6 +82,9 @@ try {
   await page.getByLabel('Recién llegado',{exact:true}).uncheck();
   await page.getByRole('button',{name:'Guardar cambios',exact:true}).click();
   await page.locator('#publication-status[data-state="pending"]').waitFor();
+  assert((await page.locator('#save-status').textContent()).includes('Guardado en GitHub'));
+  assert(await page.locator('#save-notice').isVisible());
+  assert.equal(await page.locator('.vehicle-thumbnail img').count(),1);
   assert.equal(writes,1); assert.equal(db.vehiculos[0].precio,'Después E2E');
   assert.equal(db.vehiculos[0].recienLlegado,false);
   assert.deepEqual(db.vehiculos[0].imagenes,before.vehiculos[0].imagenes);
@@ -106,8 +110,21 @@ try {
   await catalog.locator('#modal.activo').waitFor();
   assert.equal(await catalog.locator('#modalPrecio').textContent(),'Después E2E');
   assert.deepEqual(errors,[]);
-  // New vehicle from a stale form, expired session, retained photo and lost save response.
+  // Sold -> active uses the real state picker and records one reentry, preserving photos.
   await page.getByRole('button',{name:'Iniciar sesión con GitHub'}).click();
+  await page.getByRole('button',{name:'#1 · FORD Ficha sintética E2E'}).click();
+  const originalImages = structuredClone(db.vehiculos[0].imagenes);
+  for (const state of ['Vendido', 'Activo']) {
+    await page.getByLabel('Estado del vehículo',{exact:true}).click();
+    await page.getByRole('button',{name:state,exact:true}).click();
+    await page.getByRole('button',{name:'Guardar cambios',exact:true}).click();
+    await page.locator('#status').filter({hasText:'Guardado en GitHub'}).waitFor();
+  }
+  assert.equal(db.vehiculos[0].estadoInventario,'activo');
+  assert.equal(db.movimientos.at(-1).tipo,'reingreso');
+  assert.deepEqual(db.vehiculos[0].imagenes,originalImages);
+  const writesBeforeCreation = writes;
+  // New vehicle from a stale form, expired session, retained photo and lost save response.
   await page.getByRole('button',{name:'Nuevo vehículo',exact:true}).click();
   await page.locator('[name=marca]').selectOption('FORD');
   await page.getByLabel('Modelo',{exact:true}).fill('Alta sintética sin inventario real');
@@ -117,7 +134,8 @@ try {
   head='concurrent-code-update'; expired=true;
   await page.getByRole('button',{name:'Guardar cambios',exact:true}).click();
   await page.locator('#status.error').filter({hasText:'sesión'}).waitFor();
-  assert.equal(writes,1);
+  assert.equal(writes,writesBeforeCreation);
+  assert.equal(await page.locator('#save-notice').getAttribute('data-state'),'error');
   expired=false;
   await page.getByRole('button',{name:'Iniciar sesión con GitHub'}).click();
   await page.locator('#status').filter({hasText:'Sesión renovada'}).waitFor();
@@ -127,7 +145,7 @@ try {
   loseNextResponse=true;
   await page.getByRole('button',{name:'Guardar cambios',exact:true}).click();
   await page.locator('#status').filter({hasText:'Guardado en GitHub'}).waitFor();
-  assert.equal(writes,2); assert.equal(db.vehiculos.length,2);
+  assert.equal(writes,writesBeforeCreation+1); assert.equal(db.vehiculos.length,2);
   assert.equal(db.movimientos.filter(e=>e.tipo==='alta').length,1);
   assert.equal(db.vehiculos.at(-1).imagenes.length,1);
   assert.deepEqual(errors,[]);

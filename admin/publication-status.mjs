@@ -5,12 +5,12 @@ export const ACTIONS_URL = 'https://github.com/dpacatalogodigital/catalogo-dpa/a
 // Only public catalog data is stored; never credentials. Pending checks survive navigation.
 export function createPublicationStatus(output, retry, {
   kind, base = new URL('../', globalThis.location?.href), storage = globalThis.localStorage,
-  verify = waitForPublication,
+  verify = waitForPublication, onStatus = () => {},
 } = {}) {
   const key = `dpa-publication-${kind}`;
   let pending, generation = 0;
   const remember = value => { try { value ? storage?.setItem(key, JSON.stringify(value)) : storage?.removeItem(key); } catch { /* Verification still works without storage. */ } };
-  const show = (text, state) => { output.textContent = text; output.dataset.state = state; };
+  const show = (text, state) => { output.textContent = text; output.dataset.state = state; onStatus(text, state); };
   async function check() {
     if (!pending) return;
     const current = pending, run = ++generation;
@@ -37,5 +37,5 @@ export function createPublicationStatus(output, retry, {
   retry.onclick = () => void check();
   try { pending = JSON.parse(storage?.getItem(key) || 'null'); } catch { pending = null; }
   if (pending?.head && pending.expected) void check();
-  return { start(record) { pending = record; remember(record); return check(); } };
+  return { pause() { generation++; retry.hidden = true; }, start(record) { pending = record; remember(record); return check(); } };
 }

@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="es">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer"><title>Inventario | DPA Automotores</title><link rel="stylesheet" href="inventory.css"><style>.content-flyer{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin:20px 0}.content-flyer img{width:100px;height:auto;max-height:180px;object-fit:contain}#content-fields h3{margin:24px 0 16px}</style></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer"><title>Inventario | DPA Automotores</title><link rel="stylesheet" href="inventory.css?v=feedback-20261022"><style>.content-flyer{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin:20px 0}.content-flyer img{width:100px;height:auto;max-height:180px;object-fit:contain}#content-fields h3{margin:24px 0 16px}</style></head>
 <body><link rel="stylesheet" href="state-picker.css"><main>
 <header><div><p class="eyebrow">DPA · ADMINISTRACIÓN</p><h1>Inventario de vehículos</h1></div><button id="login">Iniciar sesión con GitHub</button><button id="logout" hidden>Cerrar sesión</button></header>
 <p id="environment" class="banner">Versión de prueba. Los cambios se guardan por separado y no se publican en el catálogo actual.</p>
@@ -20,9 +20,9 @@
 <label>Agregar varias fotos <input id="photos" type="file" multiple accept="image/jpeg,image/png,image/webp"></label>
 <label class="check"><input id="first-cover" type="checkbox" checked> Usar la primera foto nueva como portada</label>
 <p class="muted">Hasta 25 fotos por operación, 8 MB por foto y 40 MB en total. Las fotos se guardan junto con la ficha.</p>
-<div class="toolbar"><button type="submit" id="save">Guardar cambios</button><button type="button" id="cancel">Descartar cambios</button></div>
+<div class="toolbar"><button type="submit" id="save">Guardar cambios</button><span id="save-status" role="status" aria-live="polite" hidden></span><button type="button" id="cancel">Descartar cambios</button></div>
 </fieldset></form><dl id="dates" class="dates"></dl><details id="history-section" hidden><summary>Historial de este vehículo</summary><ul id="history"></ul></details>
-</section></div><section class="panel" aria-labelledby="links-title"><h2 id="links-title">Redes, Google y ubicaciones</h2><fieldset id="content-links-fields" disabled><div class="form-grid" id="content-links"></div><button type="button" id="content-save-links">Guardar enlaces</button></fieldset></section></main><script type="module" src="app.mjs?v=save-20261020"></script></body></html>
+</section></div><section class="panel" aria-labelledby="links-title"><h2 id="links-title">Redes, Google y ubicaciones</h2><fieldset id="content-links-fields" disabled><div class="form-grid" id="content-links"></div><button type="button" id="content-save-links">Guardar enlaces</button></fieldset></section></main><div id="save-notice" role="status" aria-live="polite" aria-atomic="true" hidden></div><script type="module" src="app.mjs?v=feedback-20261022"></script></body></html>
 
 
 

@@ -6,7 +6,7 @@ const DATES = ['fechaAlta', 'fechaBaja', 'fechaReingreso', 'fechaUltimaModificac
 const transitions = {
   activo: ['reservado', 'archivado', 'vendido'], reingreso: ['activo', 'reservado', 'archivado', 'vendido'],
   reservado: ['activo', 'archivado', 'vendido'],
-  archivado: ['vendido', 'reingreso'], vendido: ['archivado', 'reingreso'],
+  archivado: ['activo', 'vendido', 'reingreso'], vendido: ['activo', 'archivado', 'reingreso'],
   proximo_ingreso: ['activo', 'reservado', 'archivado', 'vendido'],
 };
 const clone = value => structuredClone(value);
@@ -83,7 +83,7 @@ export function applyOperation(input, operation, now = new Date().toISOString())
   if (!isNew && !changed.length) return db;
   let type = 'modificacion';
   if (isNew) { type = 'alta'; vehicle.fechaAlta = now; }
-  else if (before !== after && after === 'reingreso') { type = 'reingreso'; vehicle.fechaReingreso = now; }
+  else if (before !== after && (after === 'reingreso' || (['archivado', 'vendido'].includes(before) && after === 'activo'))) { type = 'reingreso'; vehicle.fechaReingreso = now; }
   else if (!['archivado', 'vendido'].includes(before) && ['archivado', 'vendido'].includes(after)) { type = 'baja'; vehicle.fechaBaja = now; }
   vehicle.fechaUltimaModificacion = now;
   validateVehicle(vehicle);
