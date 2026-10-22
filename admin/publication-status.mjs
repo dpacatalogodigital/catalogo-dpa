@@ -20,7 +20,7 @@ export function createPublicationStatus(output, retry, {
     waiting();
     let published = false;
     try {
-      published = await verify(new URL(kind === 'inventory' ? 'cars.json' : 'site-content.json', base), async (data, signal) => {
+      published = await verify(kind === 'inventory' ? new URL('https://raw.githubusercontent.com/dpacatalogodigital/catalogo-dpa/main/cars.json') : new URL('site-content.json', base), async (data, signal) => {
         const matches = kind === 'inventory'
           ? inventoryPublished(data, current.expected, current.operationId)
           : JSON.stringify(data) === JSON.stringify(current.expected);
