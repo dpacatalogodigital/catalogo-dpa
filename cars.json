@@ -1316,11 +1316,11 @@
       "datos": "Diesel - MT",
       "marca": "PEUGEOT",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-17-at-10.31.35-am.jpeg-1789066884871-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "reservado",
       "fechaAlta": null,
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-10-23T15:21:19.962Z"
     },
     {
       "imagenes": [
@@ -5055,6 +5055,18 @@
       "mes": "2026-10",
       "estadoAnterior": "vendido",
       "estadoPosterior": "activo",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "34d8300d-fb14-44e7-b2d7-35fa374c89f9",
+      "vehiculoId": 37,
+      "tipo": "modificacion",
+      "fecha": "2026-10-23T15:21:19.962Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "reservado",
       "campos": [
         "estadoInventario"
       ]
