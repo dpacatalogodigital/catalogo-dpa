@@ -3163,7 +3163,7 @@
       "fechaAlta": "2026-10-14T15:22:59.375Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-14T15:22:59.375Z",
+      "fechaUltimaModificacion": "2026-10-23T21:17:02.795Z",
       "marca": "PEUGEOT",
       "modelo": "308 1.6 active",
       "tipo": "Hatch",
@@ -3173,7 +3173,7 @@
       "datos": "MT - Nafta",
       "precio": "",
       "descripcion": "",
-      "estadoInventario": "activo",
+      "estadoInventario": "reservado",
       "portada": "/catalogo-dpa/imagenes/vehiculos/518d86c5-f2e5-42f8-825a-9d1f485e7756.jpg"
     },
     {
@@ -5079,6 +5079,18 @@
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "902e0df0-8d03-4c8e-b99f-0afeeeaa4cd5",
+      "vehiculoId": 85,
+      "tipo": "modificacion",
+      "fecha": "2026-10-23T21:17:02.795Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "reservado",
       "campos": [
         "estadoInventario"
       ]
