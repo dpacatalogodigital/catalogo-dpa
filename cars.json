@@ -2827,7 +2827,7 @@
       "fechaAlta": "2026-10-14T14:04:10.700Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-14T14:04:10.700Z",
+      "fechaUltimaModificacion": "2026-10-26T19:49:17.439Z",
       "marca": "VOLKSWAGEN",
       "modelo": "Amarok 2.0  TDi DC Highline 4x2",
       "tipo": "Pick-Up",
@@ -2837,7 +2837,7 @@
       "datos": " AT- Diesel",
       "precio": "",
       "descripcion": "- Tapizados de cuero\n- Butacas con regulación eléctrica y calefaccionadas\n- Climatizador automático bizona \n- Pantalla multimedia con navegador y camara de retroceso \n- Velocidad crucero \n- Faros auxiliares \n- Llantas de aleación R18",
-      "estadoInventario": "activo",
+      "estadoInventario": "reservado",
       "portada": "/catalogo-dpa/imagenes/vehiculos/9936defc-929f-4b7d-9876-9dfe1d86c70c.jpg"
     },
     {
@@ -5100,6 +5100,18 @@
       "vehiculoId": 84,
       "tipo": "modificacion",
       "fecha": "2026-10-23T21:17:59.094Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "reservado",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "84a8bd47-7ffc-44f3-8ca6-e4fa58b8ded7",
+      "vehiculoId": 76,
+      "tipo": "modificacion",
+      "fecha": "2026-10-26T19:49:17.439Z",
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "reservado",
