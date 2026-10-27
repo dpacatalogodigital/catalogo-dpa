@@ -2936,12 +2936,12 @@
         "/catalogo-dpa/imagenes/vehiculos/36686333-de58-475a-b442-8f69a8b1a808.jpg",
         "/catalogo-dpa/imagenes/vehiculos/01bc7b34-ad81-4e8b-8142-53d44171f832.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-10-14T14:44:34.506Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-14T14:44:34.506Z",
+      "fechaUltimaModificacion": "2026-10-27T19:40:43.349Z",
       "marca": "RENAULT",
       "modelo": "Sandero R.S. 2.0",
       "tipo": "Hatch",
@@ -5302,6 +5302,18 @@
       "vehiculoId": 78,
       "tipo": "modificacion",
       "fecha": "2026-10-27T19:40:24.966Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
+      ]
+    },
+    {
+      "id": "953e1f8a-4a61-4a4b-90b6-eeb1b5d45965",
+      "vehiculoId": 79,
+      "tipo": "modificacion",
+      "fecha": "2026-10-27T19:40:43.349Z",
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "activo",
