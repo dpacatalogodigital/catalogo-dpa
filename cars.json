@@ -3508,16 +3508,16 @@
       "fechaAlta": "2026-10-27T19:10:55.931Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-27T19:10:55.931Z",
+      "fechaUltimaModificacion": "2026-10-27T19:29:32.907Z",
       "marca": "TOYOTA",
       "modelo": "Hilux SRX 4x2",
       "tipo": "Pick-Up",
-      "anio": 2020,
+      "anio": 2019,
       "kilometros": null,
       "condicion": "usado",
-      "datos": "L/20 - AT",
+      "datos": "L/20 - AT6",
       "precio": "",
-      "descripcion": "",
+      "descripcion": "Motor 2.8 turbodiésel de 177 CV, cuero, butaca eléctrica, climatizador, multimedia con GPS/Bluetooth, control crucero, cámara y sensores, 7 airbags, control de estabilidad y tracción, faros LED, llantas de 18”, cubiertas Michelin y auxilio sin uso.",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/72832c9c-62cd-41f6-b1da-aed84bbb2e91.jpg"
     },
@@ -5245,6 +5245,20 @@
         "imagenes",
         "portada",
         "estadoInventario"
+      ]
+    },
+    {
+      "id": "1b591a04-7298-4b02-ac9c-cb4568b47569",
+      "vehiculoId": 94,
+      "tipo": "modificacion",
+      "fecha": "2026-10-27T19:29:32.907Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "anio",
+        "datos",
+        "descripcion"
       ]
     }
   ],
