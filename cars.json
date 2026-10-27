@@ -2861,12 +2861,12 @@
         "/catalogo-dpa/imagenes/vehiculos/c33366d4-5efa-42de-982e-a11e613a458e.jpg",
         "/catalogo-dpa/imagenes/vehiculos/46fc54e1-ee5d-40d3-9928-b68af040c424.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-10-14T14:22:41.661Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-14T14:22:41.661Z",
+      "fechaUltimaModificacion": "2026-10-27T19:39:48.927Z",
       "marca": "TOYOTA",
       "modelo": "SW4 SRX 4x4 2.8 TDi ",
       "tipo": "SUV",
@@ -5278,6 +5278,18 @@
       "vehiculoId": 69,
       "tipo": "modificacion",
       "fecha": "2026-10-27T19:39:13.568Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
+      ]
+    },
+    {
+      "id": "dc684813-d8e5-4bfa-9569-683c0528c2e3",
+      "vehiculoId": 77,
+      "tipo": "modificacion",
+      "fecha": "2026-10-27T19:39:48.927Z",
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "activo",
