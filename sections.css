@@ -2,3 +2,21 @@
 .dpa-flyer-controls[hidden]{display:none}
 .dpa-hours{margin-top:24px;padding:26px;background:#17171a;border:1px solid #29292d;border-radius:18px}.dpa-hours h3{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:700;letter-spacing:1.2px;line-height:1.6}.dpa-hours h3 svg{flex:0 0 22px;width:22px;height:22px;color:#FA8008}.dpa-hours-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:22px}.dpa-hours-list>div{min-width:0}.dpa-hours dt{color:#bdbdbd;font-size:13px;line-height:1.6}.dpa-hours dd{margin:8px 0 0;font-size:15px;font-weight:600;line-height:1.8;font-variant-numeric:tabular-nums}.dpa-hours dd span{display:block}.dpa-hours .dpa-hours-closed{color:#FA8008}@media(max-width:600px){.dpa-hours{padding:22px}.dpa-hours-list{grid-template-columns:1fr;gap:16px}.dpa-hours-list>div+div{padding-top:16px;border-top:1px solid #29292d}.dpa-hours dd{margin-top:4px}}
 .dpa-workshop-gallery{max-width:1050px;margin:32px auto 0}.dpa-workshop-gallery h3{font-size:13px;font-weight:600;letter-spacing:2px;line-height:1.6;color:#FA8008;text-align:center;margin:0 0 18px}.dpa-workshop-photos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.dpa-workshop-photos img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border:1px solid #29292d;border-radius:16px}.dpa-workshop-photos img:first-child{object-position:50% 25%}.dpa-workshop-photos img:nth-child(2){object-position:50% 40%}.dpa-workshop-photos img:nth-child(3){object-position:50% 60%}@media(max-width:600px){.dpa-workshop-gallery{margin-top:26px}.dpa-workshop-photos{grid-template-columns:minmax(0,1fr);gap:16px}}
+
+.dpa-services{margin-top:24px;background:#080809;border-block:1px solid #FA8008;border-radius:8px;overflow:hidden}
+.dpa-services-viewport{overflow:hidden}
+.dpa-services-group{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px 20px;padding:20px;font-size:12px;font-weight:600;letter-spacing:1px;line-height:1.6}
+.dpa-services-group>span[aria-hidden]{color:#FA8008}
+.dpa-services-group>strong{color:#FA8008;font-weight:800}
+.dpa-services-group[aria-hidden="true"]{display:none}
+.dpa-services-pause{display:block;margin:0 auto 10px;min-height:44px;padding:8px 14px;border:1px solid #454549;border-radius:6px;background:transparent;color:#ccc;font:500 11px Montserrat,Arial,sans-serif;cursor:pointer}
+.dpa-services-pause:hover{border-color:#FA8008;color:#fff}
+.dpa-services-pause:focus-visible{outline:2px solid #FA8008;outline-offset:3px}
+.dpa-services-pause[hidden]{display:none}
+@keyframes dpa-services-scroll{to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:no-preference){
+  .dpa-services-ready .dpa-services-track{display:flex;width:max-content;min-width:200%;animation:dpa-services-scroll 45s linear infinite}
+  .dpa-services-ready .dpa-services-group{display:flex;flex:1 0 auto;flex-wrap:nowrap;justify-content:space-around;gap:24px;padding:20px 24px 20px 0;white-space:nowrap}
+  .dpa-services-paused .dpa-services-track,.dpa-services:hover .dpa-services-track,.dpa-services:focus-within .dpa-services-track{animation-play-state:paused}
+}
+@media(prefers-reduced-motion:reduce){.dpa-services-pause{display:none}}
