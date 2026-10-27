@@ -2557,12 +2557,12 @@
         "/catalogo-dpa/imagenes/vehiculos/9fc8c48c-9461-4b9c-849b-33ec58502d31.jpg",
         "/catalogo-dpa/imagenes/vehiculos/7fd3ea2f-8acc-49e6-ba1a-a870302b0ef4.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-09-20T15:02:45.492Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-09-20T15:02:45.492Z",
+      "fechaUltimaModificacion": "2026-10-27T19:39:13.568Z",
       "marca": "CHANGAN",
       "modelo": "CS55 Plus",
       "tipo": "SUV",
@@ -5271,6 +5271,18 @@
       "estadoPosterior": "vendido",
       "campos": [
         "estadoInventario"
+      ]
+    },
+    {
+      "id": "c9467e21-e161-4f24-ba92-c07be21485e8",
+      "vehiculoId": 69,
+      "tipo": "modificacion",
+      "fecha": "2026-10-27T19:39:13.568Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
       ]
     }
   ],
