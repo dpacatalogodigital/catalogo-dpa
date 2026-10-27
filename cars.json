@@ -3274,12 +3274,12 @@
         "/catalogo-dpa/imagenes/vehiculos/a6f5897c-b6e5-4276-9725-cbf081c0daa6.jpg",
         "/catalogo-dpa/imagenes/vehiculos/7dec533f-caa8-4eeb-aa6b-270e5a92a1a8.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-10-14T17:53:15.557Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-14T17:53:15.557Z",
+      "fechaUltimaModificacion": "2026-10-27T19:41:15.500Z",
       "marca": "RENAULT",
       "modelo": "Clio 2 1.2 Authentic Pack",
       "tipo": "Hatch",
@@ -5314,6 +5314,18 @@
       "vehiculoId": 79,
       "tipo": "modificacion",
       "fecha": "2026-10-27T19:40:43.349Z",
+      "mes": "2026-10",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
+      ]
+    },
+    {
+      "id": "5696d2c3-76e3-4c19-b116-c03c64b0ad0e",
+      "vehiculoId": 88,
+      "tipo": "modificacion",
+      "fecha": "2026-10-27T19:41:15.500Z",
       "mes": "2026-10",
       "estadoAnterior": "activo",
       "estadoPosterior": "activo",
