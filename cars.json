@@ -3481,10 +3481,49 @@
       "descripcion": "Motor 1.6 de 115 CV, caja manual, doble cabina, aire acondicionado, dirección hidráulica, alzacristales y espejos eléctricos, llantas de 15”, neumáticos nuevos, faros auxiliares, estribos, portaequipaje, portaescalera y lona cubre caja.",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/7bd05a9f-9ffe-48ed-8877-5ec76352be66.jpg"
+    },
+    {
+      "id": 94,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/72832c9c-62cd-41f6-b1da-aed84bbb2e91.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/eda463f7-e81b-45ba-92f6-5a18499737ba.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/a6b02256-081a-4f91-abfb-11687fb9f888.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1fb20895-5f3a-4b94-8083-1386d740b816.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/bae0b6b3-c741-4eb6-8290-0c91c02d63b3.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1580d7d9-1c2a-4c30-bd52-10d0ac7e54a6.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/d8158479-a970-4da8-8816-1be8d2ca5019.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/52a51d95-7035-4497-9522-12d5f583c30d.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/17dcdd19-d55b-45b9-a6ef-696d6ca69ff3.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/8a927426-f058-4c79-a00e-ec749365d6c8.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/3c736902-0e88-4f4c-9ad4-6fd0fe34ace1.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/3904d179-2660-4749-89ef-b3f48fb6611f.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/2fa2990e-4a5b-4ba1-8441-f29c35e0a5c1.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/b150d00f-21bd-4eb9-8462-64d14d5bf118.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/e8b58ad0-82e4-4f91-af54-5c3169e4af92.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/4bf497f9-40d8-4baf-b2a5-03ebd57d59e6.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/49d5bed5-18d0-4216-8cd2-a51e9fd21fe6.jpg"
+      ],
+      "recienLlegado": true,
+      "sale": false,
+      "fechaAlta": "2026-10-27T19:10:55.931Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-10-27T19:10:55.931Z",
+      "marca": "TOYOTA",
+      "modelo": "Hilux SRX 4x2",
+      "tipo": "Pick-Up",
+      "anio": 2020,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": "L/20 - AT",
+      "precio": "",
+      "descripcion": "",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/72832c9c-62cd-41f6-b1da-aed84bbb2e91.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 94,
+  "nextId": 95,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -5116,6 +5155,31 @@
       "estadoAnterior": "activo",
       "estadoPosterior": "reservado",
       "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "4997c33d-de95-4d08-8a7f-7343de4cddc0",
+      "vehiculoId": 94,
+      "tipo": "alta",
+      "fecha": "2026-10-27T19:10:55.931Z",
+      "mes": "2026-10",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
         "estadoInventario"
       ]
     }
