@@ -2975,12 +2975,12 @@
         "/catalogo-dpa/imagenes/vehiculos/abfaea92-10b2-4bb2-bbec-3ccf7d347594.jpg",
         "/catalogo-dpa/imagenes/vehiculos/9dc5b19b-1ff5-459d-aa6b-e67943dcff0f.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-10-14T14:53:57.110Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-14T14:53:57.110Z",
+      "fechaUltimaModificacion": "2026-11-03T22:46:33.895Z",
       "marca": "FIAT",
       "modelo": "STRADA FREEDOM 1.4 CABINA DOBLE ",
       "tipo": "Pick-Up",
@@ -5625,6 +5625,18 @@
       "campos": [
         "recienLlegado",
         "estadoInventario"
+      ]
+    },
+    {
+      "id": "77565ee1-cd46-439b-8371-901e0d215f12",
+      "vehiculoId": 80,
+      "tipo": "modificacion",
+      "fecha": "2026-11-03T22:46:33.895Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
       ]
     }
   ],
