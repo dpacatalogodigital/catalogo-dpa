@@ -3427,12 +3427,12 @@
         "/catalogo-dpa/imagenes/vehiculos/d59a64a8-9634-4d48-b04d-7bb62e45d901.jpg",
         "/catalogo-dpa/imagenes/vehiculos/c3ca4c95-696c-4776-907d-9635b78eeaf9.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-10-20T18:17:23.907Z",
-      "fechaBaja": null,
+      "fechaBaja": "2026-11-03T21:53:31.316Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-20T18:24:15.069Z",
+      "fechaUltimaModificacion": "2026-11-03T21:53:31.316Z",
       "marca": "CHEVROLET",
       "modelo": "S10 Pick Up LS 4x2 ",
       "tipo": "Pick-Up",
@@ -3442,7 +3442,7 @@
       "datos": "L/12 - MT - Diesel",
       "precio": "",
       "descripcion": "Aire acondicionado, dirección hidráulica, alzacristales eléctricos delanteros, alarma, llantas de aleación y cubiertas nuevas.",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "portada": "/catalogo-dpa/imagenes/vehiculos/85b5e0d7-93a0-4f5b-8f22-d52bbac08601.jpg"
     },
     {
@@ -5352,6 +5352,19 @@
       "fecha": "2026-11-03T21:52:58.646Z",
       "mes": "2026-11",
       "estadoAnterior": "reservado",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "recienLlegado",
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "1836efd1-e23e-4de7-960f-4e068d10c18b",
+      "vehiculoId": 92,
+      "tipo": "baja",
+      "fecha": "2026-11-03T21:53:31.316Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
       "campos": [
         "recienLlegado",
