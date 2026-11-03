@@ -1,5 +1,5 @@
 export const STATES = Object.freeze(['activo', 'reservado', 'archivado', 'vendido', 'reingreso', 'proximo_ingreso']);
-export const BRANDS = Object.freeze(["AUDI","BAIC","BMW","BYD","CHANGAN","CHEVROLET","CITROËN","DODGE-RAM","FIAT","FORD","FOTON","HONDA","JEEP","MERCEDES","MINI","NISSAN","PEUGEOT","RENAULT","SUZUKI","TOYOTA","VOLKSWAGEN"]);
+export const BRANDS = Object.freeze(["AUDI","BAIC","BMW","BYD","CHANGAN","CHERY","CHEVROLET","CITROËN","DODGE-RAM","FIAT","FORD","FOTON","HONDA","JEEP","MERCEDES","MINI","NISSAN","PEUGEOT","RENAULT","SUZUKI","TOYOTA","VOLKSWAGEN"]);
 export const TYPES = Object.freeze(['Hatch','Sedán','Rural','SUV','Pick-Up','Furgón-Utilitario','Coupé','Cabriolet']);
 export const FIELDS = Object.freeze(['marca', 'modelo', 'tipo', 'anio', 'kilometros', 'condicion', 'datos', 'precio', 'recienLlegado', 'sale', 'descripcion', 'imagenes', 'portada']);
 const DATES = ['fechaAlta', 'fechaBaja', 'fechaReingreso', 'fechaUltimaModificacion'];
