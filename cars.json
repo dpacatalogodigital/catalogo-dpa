@@ -3120,12 +3120,12 @@
         "/catalogo-dpa/imagenes/vehiculos/007d3dc5-a0e1-4c77-86c5-a8967d0ed01a.jpg",
         "/catalogo-dpa/imagenes/vehiculos/94490be4-1f78-4b08-a4ca-e043ba5d794e.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-10-14T15:14:11.615Z",
-      "fechaBaja": null,
+      "fechaBaja": "2026-11-03T22:45:51.097Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-23T21:17:59.094Z",
+      "fechaUltimaModificacion": "2026-11-03T22:45:51.097Z",
       "marca": "CHEVROLET",
       "modelo": " Prisma 1.4 LT",
       "tipo": "Sedán",
@@ -3135,7 +3135,7 @@
       "datos": "MT - Nafta",
       "precio": "",
       "descripcion": "- Alzacristales delanteros eléctricos\n- Comandos de radio al volante\n- Pantalla multimedia con enlace Smartphone\n- Aire acondicionado \n- Cierre centralizado con mando a distancia \n- cubiertas nuevas",
-      "estadoInventario": "reservado",
+      "estadoInventario": "vendido",
       "portada": "/catalogo-dpa/imagenes/vehiculos/fd7f1154-3359-4e25-af0c-4194f1d9d736.jpg"
     },
     {
@@ -5611,6 +5611,19 @@
         "descripcion",
         "imagenes",
         "portada",
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "c333290b-395c-4b00-8f51-9b80b4ed87f9",
+      "vehiculoId": 84,
+      "tipo": "baja",
+      "fecha": "2026-11-03T22:45:51.097Z",
+      "mes": "2026-11",
+      "estadoAnterior": "reservado",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "recienLlegado",
         "estadoInventario"
       ]
     }
