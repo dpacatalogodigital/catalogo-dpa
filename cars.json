@@ -3542,12 +3542,12 @@
         "/catalogo-dpa/imagenes/vehiculos/1864f714-8132-4d31-b75b-df7b3d37979e.jpg",
         "/catalogo-dpa/imagenes/vehiculos/1cc7909a-6a1d-419b-a4a7-8d69a40ae2ba.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-10-27T19:25:47.040Z",
-      "fechaBaja": null,
+      "fechaBaja": "2026-11-03T21:52:58.646Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-27T20:42:58.018Z",
+      "fechaUltimaModificacion": "2026-11-03T21:52:58.646Z",
       "marca": "DODGE-RAM",
       "modelo": "RAM 1500 Laramie 5.7 V8 4x4",
       "tipo": "Pick-Up",
@@ -3557,7 +3557,7 @@
       "datos": "AT",
       "precio": "",
       "descripcion": "Cuero, asientos calefaccionados y ventilados, climatizador dual, crucero adaptativo, pantalla de 12” con GPS y CarPlay/Android Auto, cámara y asistente de estacionamiento, 7 airbags, ABS, control de estabilidad y tracción, faros LED y llantas de 20”.",
-      "estadoInventario": "reservado",
+      "estadoInventario": "vendido",
       "portada": "/catalogo-dpa/imagenes/vehiculos/4cccd5c1-0714-4326-915c-26f815b07c15.jpg"
     }
   ],
@@ -5342,6 +5342,19 @@
       "estadoAnterior": "activo",
       "estadoPosterior": "reservado",
       "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "e5cdb393-3645-405c-bd69-476a844822a3",
+      "vehiculoId": 95,
+      "tipo": "baja",
+      "fecha": "2026-11-03T21:52:58.646Z",
+      "mes": "2026-11",
+      "estadoAnterior": "reservado",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "recienLlegado",
         "estadoInventario"
       ]
     }
