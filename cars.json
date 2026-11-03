@@ -3559,10 +3559,49 @@
       "descripcion": "Cuero, asientos calefaccionados y ventilados, climatizador dual, crucero adaptativo, pantalla de 12” con GPS y CarPlay/Android Auto, cámara y asistente de estacionamiento, 7 airbags, ABS, control de estabilidad y tracción, faros LED y llantas de 20”.",
       "estadoInventario": "vendido",
       "portada": "/catalogo-dpa/imagenes/vehiculos/4cccd5c1-0714-4326-915c-26f815b07c15.jpg"
+    },
+    {
+      "id": 96,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/1db08eff-680b-4427-9a9e-d9294a928d5b.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/71bb1f08-6a72-427a-8882-dd080a5c302d.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/efd46e77-1fe1-4544-96cd-36287f9249c8.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/0462593d-ccb6-4776-a896-8f75bf8f1415.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/d0c056a1-bcb5-4127-a30b-2e6486691e65.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/52f2cd75-e1f1-4e6b-ab10-b783451d3547.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/be4e55f5-0cb2-4168-bdc7-571c28605ee1.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/ace97693-57b9-4e0f-87d8-e29a419bf7c1.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/d474ab05-3ae9-4995-9a3b-4597d3839f74.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/07d57851-8214-4e27-bc21-6b66d475bc40.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/a3a76956-3ef8-4174-9744-8befde8ae0d6.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/dafb2ad6-4c84-4b68-acd6-aef0f6b08ee5.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/60ef6b87-76b0-4dbb-b384-7ad2385d764e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/ed965af4-5795-4e8e-aaec-dace47958478.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/c0f357c0-1bd7-4be8-be60-3c08913e1b85.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/e99a9b50-398e-4777-9b60-4ec36bcb6fed.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/4c122e5c-678f-4089-82d0-34cb29581903.jpg"
+      ],
+      "recienLlegado": true,
+      "sale": false,
+      "fechaAlta": "2026-11-03T22:01:29.379Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-11-03T22:01:29.379Z",
+      "marca": "HONDA",
+      "modelo": "CR-V 2.4 LX 4x2",
+      "tipo": "SUV",
+      "anio": 2011,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": "Nafta - AT ",
+      "precio": "",
+      "descripcion": "Motor 2.4 de 170 CV con GNC, automática de 5 velocidades, aire acondicionado, dirección asistida, control crucero, alzacristales x4 y espejos eléctricos, cierre remoto, llantas de aleación, ABS, 2 airbags e ISOFIX.",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/1db08eff-680b-4427-9a9e-d9294a928d5b.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 96,
+  "nextId": 97,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -5418,6 +5457,31 @@
       "estadoPosterior": "vendido",
       "campos": [
         "recienLlegado",
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "2e36631d-3d1e-449f-b00c-42962f702945",
+      "vehiculoId": 96,
+      "tipo": "alta",
+      "fecha": "2026-11-03T22:01:29.379Z",
+      "mes": "2026-11",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
         "estadoInventario"
       ]
     }
