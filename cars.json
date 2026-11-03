@@ -3464,12 +3464,12 @@
         "/catalogo-dpa/imagenes/vehiculos/71a93190-dd6e-4a54-a30e-e0a3bcccc73f.jpg",
         "/catalogo-dpa/imagenes/vehiculos/3697ab63-444c-4646-a5a0-284a2675ac90.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-10-20T18:47:11.968Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-20T18:47:11.968Z",
+      "fechaUltimaModificacion": "2026-11-03T22:46:59.899Z",
       "marca": "FIAT",
       "modelo": "Strada Adventure 1.6 16V",
       "tipo": "Pick-Up",
@@ -5632,6 +5632,18 @@
       "vehiculoId": 80,
       "tipo": "modificacion",
       "fecha": "2026-11-03T22:46:33.895Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
+      ]
+    },
+    {
+      "id": "2e15e266-8072-40f9-adf3-549cfbabe5e7",
+      "vehiculoId": 93,
+      "tipo": "modificacion",
+      "fecha": "2026-11-03T22:46:59.899Z",
       "mes": "2026-11",
       "estadoAnterior": "activo",
       "estadoPosterior": "activo",
