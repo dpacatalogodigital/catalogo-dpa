@@ -3503,12 +3503,12 @@
         "/catalogo-dpa/imagenes/vehiculos/4bf497f9-40d8-4baf-b2a5-03ebd57d59e6.jpg",
         "/catalogo-dpa/imagenes/vehiculos/49d5bed5-18d0-4216-8cd2-a51e9fd21fe6.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-10-27T19:10:55.931Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-27T19:29:32.907Z",
+      "fechaUltimaModificacion": "2026-11-03T22:47:50.404Z",
       "marca": "TOYOTA",
       "modelo": "Hilux SRX 4x2",
       "tipo": "Pick-Up",
@@ -5644,6 +5644,18 @@
       "vehiculoId": 93,
       "tipo": "modificacion",
       "fecha": "2026-11-03T22:46:59.899Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
+      ]
+    },
+    {
+      "id": "9477ef1f-fb90-4856-98cf-cbc6564e0f4a",
+      "vehiculoId": 94,
+      "tipo": "modificacion",
+      "fecha": "2026-11-03T22:47:50.404Z",
       "mes": "2026-11",
       "estadoAnterior": "activo",
       "estadoPosterior": "activo",
