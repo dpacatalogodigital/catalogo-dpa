@@ -2978,9 +2978,9 @@
       "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-10-14T14:53:57.110Z",
-      "fechaBaja": null,
+      "fechaBaja": "2026-11-11T20:51:31.126Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-11-03T22:46:33.895Z",
+      "fechaUltimaModificacion": "2026-11-11T20:51:31.126Z",
       "marca": "FIAT",
       "modelo": "STRADA FREEDOM 1.4 CABINA DOBLE ",
       "tipo": "Pick-Up",
@@ -2990,7 +2990,7 @@
       "datos": "Unica Mano - MT - Nafta",
       "precio": "",
       "descripcion": "Motor 1.4 Fire, caja manual, doble cabina, aire acondicionado, dirección asistida, levantavidrios eléctricos, cierre centralizado, multimedia Bluetooth/USB, 2 airbags, ABS, control de estabilidad y tracción, llantas de aleación y protector de caja.",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "portada": "/catalogo-dpa/imagenes/vehiculos/bee58327-e5c9-432b-a8b0-f54696a181c0.jpg"
     },
     {
@@ -5661,6 +5661,18 @@
       "estadoPosterior": "activo",
       "campos": [
         "recienLlegado"
+      ]
+    },
+    {
+      "id": "b0c02f19-e675-4d9e-811a-cbdea81625f5",
+      "vehiculoId": 80,
+      "tipo": "baja",
+      "fecha": "2026-11-11T20:51:31.126Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
       ]
     }
   ],
