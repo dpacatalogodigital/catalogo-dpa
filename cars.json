@@ -3354,9 +3354,9 @@
       "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-10-14T17:58:13.582Z",
-      "fechaBaja": null,
+      "fechaBaja": "2026-11-11T20:52:14.524Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-14T17:58:13.582Z",
+      "fechaUltimaModificacion": "2026-11-11T20:52:14.524Z",
       "marca": "FORD",
       "modelo": "Ranger 2.0 Limited 4x4",
       "tipo": "Pick-Up",
@@ -3366,7 +3366,7 @@
       "datos": "AT10",
       "precio": "",
       "descripcion": "",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "portada": "/catalogo-dpa/imagenes/vehiculos/3577aec0-43de-4e87-84b0-ea51e8dcf761.jpg"
     },
     {
@@ -5668,6 +5668,18 @@
       "vehiculoId": 80,
       "tipo": "baja",
       "fecha": "2026-11-11T20:51:31.126Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "d9e84455-39aa-48c6-b987-3859b5c082a9",
+      "vehiculoId": 90,
+      "tipo": "baja",
+      "fecha": "2026-11-11T20:52:14.524Z",
       "mes": "2026-11",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
