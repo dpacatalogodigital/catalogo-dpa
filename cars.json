@@ -2750,9 +2750,9 @@
       "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-10-04T20:02:10.287Z",
-      "fechaBaja": null,
+      "fechaBaja": "2026-11-12T19:37:22.229Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-14T14:07:28.757Z",
+      "fechaUltimaModificacion": "2026-11-12T19:37:22.229Z",
       "marca": "FORD",
       "modelo": "EcoSport 1.5 S",
       "tipo": "SUV",
@@ -2762,7 +2762,7 @@
       "datos": "L/18 - MT - Nafta",
       "precio": "",
       "descripcion": "Motor: 1.5 Dragon nafta, 3 cil., 123 CV. Caja manual 5ta. Dirección eléctrica.\nConfort: Aire acondicionado, levantavidrios eléctricos, cierre centralizado, volante multifunción, computadora de a bordo y SYNC con Bluetooth/USB.\nSeguridad: Doble airbag, ABS, control de estabilidad y tracción, asistente en pendiente e ISOFIX.\nExterior: Llantas de aleación, barras de techo, antinieblas y auxilio exterior.",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "portada": "/catalogo-dpa/imagenes/vehiculos/7cad089c-01f6-46a4-8925-5f9010346d32.jpg"
     },
     {
@@ -6117,6 +6117,18 @@
         "descripcion",
         "imagenes",
         "portada",
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "b19f455d-a841-45e7-8fa8-16b4ab5ce1ff",
+      "vehiculoId": 74,
+      "tipo": "baja",
+      "fecha": "2026-11-12T19:37:22.229Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
         "estadoInventario"
       ]
     }
