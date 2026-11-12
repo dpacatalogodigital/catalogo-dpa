@@ -3757,10 +3757,49 @@
       "descripcion": "- Motor 1.6 HDi turbodiésel de 115 CV\n- Excelente rendimiento de combustible y autonomía\n- Rediseño exterior e interior de la línea 2015\n- Dirección asistida hidráulica\n- Climatizador automático bizona\n- Techo solar eléctrico \n- Tapizado en cuero\n- Volante multifunción revestido en cuero\n- Control de velocidad crucero y limitador\n- Computadora de a bordo\n- Pantalla multimedia táctil con navegador GPS\n- Conectividad Bluetooth y USB\n- Sensores de estacionamiento traseros\n- Sensor de lluvia y encendido automático de luces\n- Levantavidrios eléctricos en las cuatro puertas\n- Espejos exteriores con regulación eléctrica\n- Frenos ABS con distribución electrónica de frenado",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/df165663-47e2-4660-9337-da86b851bdf2.jpg"
+    },
+    {
+      "id": 101,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/43d2e3f4-c2b4-4577-a084-dd2f4e5a3329.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/99a63a27-edca-4161-9d9b-6640d6d91f9d.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/03f80a01-60e5-4c95-8838-0c9adcc3392a.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/5b457cc7-0b97-40ce-a2f1-326dee8a3c1d.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/f1392c57-8de0-4699-beb3-62af47e3f444.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/b946858d-f723-42c9-a006-3166e553bd9b.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/54ad25a1-d77b-4e50-9b45-7c835464e46f.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/2b1ef073-3150-4ebf-8d56-86556bb10882.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/498d01a0-e05e-482a-b0dc-b488e26261b9.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/7c6fbd19-e280-4c49-9395-c1025dc2c27f.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/32646892-9933-4c11-a12a-dfd214bc37e4.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/3c113851-7208-40fa-9e33-da13f9c64010.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/a0343bb7-abff-4c4a-81b5-83c3c6c2e5ed.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/3e25053e-0075-4b2e-8673-cdd89acbbfe5.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/ef56c592-ebbd-412a-88ca-4a7979a9d770.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/d3a22852-0c5e-444a-8552-c9b4b50f133e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/5f1b55ee-1934-48eb-a04a-f336c60bf673.jpg"
+      ],
+      "recienLlegado": false,
+      "sale": false,
+      "fechaAlta": "2026-11-12T15:18:25.582Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-11-12T15:18:25.582Z",
+      "marca": "FORD",
+      "modelo": "Fiesta Kinetic Titanium 1.6 Powershift",
+      "tipo": "Hatch",
+      "anio": 2018,
+      "kilometros": 95000,
+      "condicion": "usado",
+      "datos": "5P - AT - Nafta",
+      "precio": "",
+      "descripcion": "- Motor 1.6 Sigma naftero de 120 CV.\n- Caja automática Powershift de doble embrague y 6 velocidades.\n- Tapizados de cuero.\n- Climatizador automático.\n- Control de velocidad crucero.\n- Pantalla multimedia con SYNC.\n- Cámara de estacionamiento trasera.\n- Sensores de estacionamiento.\n- Acceso sin llave y botón de arranque.\n- Control de estabilidad y tracción.\n- 7 airbags, incluyendo airbags de rodilla y cortina.\n- Sensor de lluvia y encendido automático de luces.\n- Dirección eléctrica progresiva.\n- Llantas de aleación de 16 pulgadas.\n- Volante multifunción revestido en cuero.\n- Sistema multimedia SYNC con pantalla táctil de 6,5\", Bluetooth y GPS.",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/43d2e3f4-c2b4-4577-a084-dd2f4e5a3329.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 101,
+  "nextId": 102,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -5829,6 +5868,31 @@
         "tipo",
         "imagenes",
         "portada"
+      ]
+    },
+    {
+      "id": "496f1f18-b2c0-422d-9820-145aef3de24d",
+      "vehiculoId": 101,
+      "tipo": "alta",
+      "fecha": "2026-11-12T15:18:25.582Z",
+      "mes": "2026-11",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
+        "estadoInventario"
       ]
     }
   ],
