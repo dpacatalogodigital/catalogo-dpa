@@ -3873,10 +3873,47 @@
       "descripcion": "- Motor 3.0 V6 turbodiésel – 258 CV y 580 Nm de torque\n- Función Overboost: hasta 272 CV\n- Caja automática ZF de 8 velocidades\n- Tracción integral permanente 4Motion con diferencial Torsen\n- Suspensión delantera independiente\n- Dirección asistida hidráulica progresiva\n- Llantas de aleación diamantadas de 20”\n- Cubiertas con apenas 10.000 km de uso\n- Climatizador automático Climatronic bizona\n- Butacas delanteras de cuero con regulación eléctrica y calefacción\n- Volante multifunción revestido en cuero\n- Computadora de a bordo con display color\n- Sistema multimedia  Discover Media con GPS\n- Tapa de caja rígida",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/9c13e175-43f2-42bb-a252-215c9055bff6.jpg"
+    },
+    {
+      "id": 104,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/27b0ae78-60b1-4dd6-bcf3-adb318733808.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/5fddf433-0675-4d99-8eee-67754b4a7ce0.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/88ae14de-1ae2-4ad5-aa14-01d9406bb81f.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/c453a559-0ac8-40b7-835b-0a02d39ff0ec.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1a8c6512-a16d-482f-8c46-6523ab86fca2.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/ba400bb0-ffff-4db7-acb9-9af12dd2c894.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/74a7febc-66be-4cc2-af71-f810d09111ef.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/69e4a8d9-0e8c-4785-954b-f02a5f821dd4.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/12978256-3ec1-446e-bf46-23eaaba11b92.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/22b109ed-e16d-4893-bc67-4c9c896f439b.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/a6eeea84-7f39-41ac-a610-44eeefd689f8.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/b8336227-ab70-4356-b1ed-84df319dbd06.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/2c1a149b-153c-40ab-96f3-5335ab625651.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/17e678ef-f70e-430b-81bc-639ea545a29f.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/b9e94a14-f4d7-41db-8fa3-c83102840d98.jpg"
+      ],
+      "recienLlegado": true,
+      "sale": false,
+      "fechaAlta": "2026-11-12T19:30:10.566Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-11-12T19:30:10.566Z",
+      "marca": "FIAT",
+      "modelo": "Cronos 1.3 Drive Pack Conectividad",
+      "tipo": "Sedán",
+      "anio": 2018,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": "MT5 - Nafta",
+      "precio": "",
+      "descripcion": "- Motor 1.3 Firefly naftero, 4 cilindros y 8 válvulas\n- 99 CV de potencia y 127 Nm de torque\n- Dirección asistida eléctrica\n- Aire acondicionado\n- Levantavidrios eléctricos en las 4 puertas\n- Espejos exteriores eléctricos con función Tilt Down\n- Cierre centralizado con comando a distancia\n- Volante multifunción regulable en altura\n- Computadora de a bordo con display TFT de 3,5”\n- Pantalla multimedia Uconnect táctil de 7”\n- Compatibilidad con  Apple CarPlay y Android Auto",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/27b0ae78-60b1-4dd6-bcf3-adb318733808.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 104,
+  "nextId": 105,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -6055,6 +6092,31 @@
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
       "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "c1f57db2-e044-4423-b282-02db9cf2ff41",
+      "vehiculoId": 104,
+      "tipo": "alta",
+      "fecha": "2026-11-12T19:30:10.566Z",
+      "mes": "2026-11",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
         "estadoInventario"
       ]
     }
