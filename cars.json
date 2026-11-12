@@ -3910,10 +3910,49 @@
       "descripcion": "- Motor 1.3 Firefly naftero, 4 cilindros y 8 válvulas\n- 99 CV de potencia y 127 Nm de torque\n- Dirección asistida eléctrica\n- Aire acondicionado\n- Levantavidrios eléctricos en las 4 puertas\n- Espejos exteriores eléctricos con función Tilt Down\n- Cierre centralizado con comando a distancia\n- Volante multifunción regulable en altura\n- Computadora de a bordo con display TFT de 3,5”\n- Pantalla multimedia Uconnect táctil de 7”\n- Compatibilidad con  Apple CarPlay y Android Auto",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/27b0ae78-60b1-4dd6-bcf3-adb318733808.jpg"
+    },
+    {
+      "id": 105,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/cdd33425-2b26-4092-9d29-59c0ca2f36f3.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/05642b64-2d64-4d5a-80ab-312ddbdfc845.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/7bdc6c8b-133b-472e-9ba5-769d2d10afac.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/5bac33c6-c84b-46c0-ab15-db9f842f6e60.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/3e7a0dc9-f127-4a32-9197-fbfcf42269ff.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/77ecbcc6-81f4-4a84-83f1-e04dff3d6c8a.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/597c4a1f-9831-40fd-80f4-6bbeb63fb3cd.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/99f116e6-077f-4f61-b719-9ecc6fbbb1b2.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1d035b7e-1aa3-4d3f-94e0-056f08b122cc.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/969e5fe7-d66a-4d46-8eac-302f4dd205da.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/a2a84d6f-1899-429b-8da8-19728dcf013f.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/d7b5bc52-d475-4151-b50b-3189aceaf747.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/2951930e-a10a-49bd-ac45-3f3787068009.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/67dd9f17-b582-4623-a6d3-3fdd0a209268.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/2a192565-6192-4b7a-92e7-018cfa1ced23.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/58b24197-9791-4730-bd3c-8b95dbfccf0b.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/87c87042-be9a-4559-aad0-deac8966628c.jpg"
+      ],
+      "recienLlegado": true,
+      "sale": false,
+      "fechaAlta": "2026-11-12T20:04:17.923Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-11-12T20:04:17.923Z",
+      "marca": "RENAULT",
+      "modelo": "DUSTER PRIVILEGE 2.0 4WD",
+      "tipo": "Hatch",
+      "anio": 2019,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": "MT6 - Nafta",
+      "precio": "",
+      "descripcion": "- Tracción 4x4 con sistema de selección de modos\n- Llantas de aleación de 16”\n- Barras longitudinales de techo\n- Faros antiniebla delanteros\n- Pantalla multimedia táctil con navegador GPS\n- Conectividad Bluetooth, USB y auxiliar\n- Comandos de audio al volante\n- Control de velocidad crucero y limitador de velocidad\n- Computadora de a bordo\n- Aire acondicionado\n- Levantavidrios eléctricos delanteros y traseros\n- Espejos exteriores con regulación eléctrica\n- Sensores de estacionamiento traseros\n- Cámara de estacionamiento trasera\n- Frenos ABS\n- Airbags frontales para conductor y acompañante\n- Anclajes ISOFIX para sillas infantiles\n- Alarma antirrobo\n[6:05 p. m., 28/10/2026] Martin Da Ponte: HONDA CR-V 2.4 LX 4x2 AUTOMÁTICA 2011\n- Motor 2.4 naftero de 170 CV\n- Caja automática de 5 velocidades\n- Equipo de GNC instalado\n- Control de velocidad crucero\n- Aire acondicionado\n- Dirección asistida\n- Levantavidrios eléctricos en las cuatro puertas\n- Espejos exteriores con regulación eléctrica\n- Cierre centralizado con comando a distancia\n- Computadora de a bordo\n- Volante regulable en altura y profundidad\n- Asientos traseros rebatibles 40/20/40\n- Llantas de aleación\n- Frenos ABS con distribución electrónica de frenado\n- Airbags frontales para conductor y acompañante\n- Anclajes ISOFIX para sillas infantiles",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/cdd33425-2b26-4092-9d29-59c0ca2f36f3.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 105,
+  "nextId": 106,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -6141,6 +6180,31 @@
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
       "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "ba494f14-c19b-4506-aef8-53e716248484",
+      "vehiculoId": 105,
+      "tipo": "alta",
+      "fecha": "2026-11-12T20:04:17.923Z",
+      "mes": "2026-11",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
         "estadoInventario"
       ]
     }
