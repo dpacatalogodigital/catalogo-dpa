@@ -2481,9 +2481,9 @@
       "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-09-14T19:15:30.239Z",
-      "fechaBaja": null,
+      "fechaBaja": "2026-11-12T19:26:57.806Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-09-20T14:46:28.192Z",
+      "fechaUltimaModificacion": "2026-11-12T19:26:57.806Z",
       "marca": "CHEVROLET",
       "modelo": "S10 LS 4x2",
       "tipo": "Pick-Up",
@@ -2493,7 +2493,7 @@
       "datos": "L/17 - MT - Diesel",
       "precio": "",
       "descripcion": "Motor 2.8 turbodiésel de 200 CV, manual de 6 velocidades, 4x2, aire acondicionado, dirección eléctrica, levantavidrios eléctricos, cierre centralizado, Bluetooth/USB, ABS, control de estabilidad y tracción, 2 airbags y 4 cubiertas nuevas.",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "portada": "/catalogo-dpa/imagenes/vehiculos/8f36bb43-98cf-4ceb-b5ec-d528378375e5.jpg"
     },
     {
@@ -6042,6 +6042,18 @@
       "mes": "2026-11",
       "estadoAnterior": "vendido",
       "estadoPosterior": "activo",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "0e58f69f-9750-4c77-af90-9cf8ce4139dd",
+      "vehiculoId": 67,
+      "tipo": "baja",
+      "fecha": "2026-11-12T19:26:57.806Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
       "campos": [
         "estadoInventario"
       ]
