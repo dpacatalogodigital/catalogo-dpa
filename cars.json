@@ -3677,10 +3677,50 @@
       "descripcion": "Motor 1.5 turbo de 147 CV, híbrido ligero, automática CVT, techo panorámico, cuero ecológico, butacas eléctricas, climatizador, CarPlay/Android Auto, cámara 360°, crucero adaptativo, frenado autónomo, detector de punto ciego y 6 airbags.",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/8cb7f81a-5d33-4183-9ded-85fa6361dec8.jpg"
+    },
+    {
+      "id": 99,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/208afff5-53a0-4884-9b44-842bf6b67a23.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/225222a5-3754-4960-853a-630c6a1ad595.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/93a7a40b-5ff4-43a4-809e-6ad001084a17.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/621c3c2f-40ce-4ab7-b8cc-361bf251e128.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/172ee23e-d245-44e7-b802-53b516a0f5a1.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/789748e1-cfa9-478e-918f-4a919ea488c7.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/37baac68-b5cc-4001-b188-3cda5fe04905.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/173f8f1c-e272-4129-89e1-01f57dd9ae56.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/af871468-207f-4194-839a-f73c5bd9e5bb.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/ff0181af-ba6c-4050-ba82-3a67275758f5.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/7bdb4e51-56ab-4257-835c-dd4ae5070a1d.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/024874e7-08bb-48a3-8f59-c8e86daf59ab.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/dd5d49e8-096e-4a45-ae75-ecb2364c38cf.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/a019c91a-3b47-4fa3-9886-9d23628f60a2.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/ed88452d-cee4-4998-ba2d-57d3c9a4b87a.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/524a1ff1-c5d0-49e1-a2d0-102c4fd88944.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/4648d9d6-1af9-40c2-9dae-e9a5781ebe5c.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/d338c7da-2a3c-4546-83fc-64ed2de30d73.jpg"
+      ],
+      "recienLlegado": true,
+      "sale": false,
+      "fechaAlta": "2026-11-12T15:03:15.592Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-11-12T15:03:15.592Z",
+      "marca": "CHEVROLET",
+      "modelo": "Cruze 1.4 Turbo LTZ ",
+      "tipo": "Hatch",
+      "anio": 2017,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": "MT6 - Nafta - 5P ",
+      "precio": "",
+      "descripcion": "- Motor 1.4 turbo naftero de 153 CV y 245 Nm de torque\n- Sistema Start/Stop\n- Dirección asistida eléctrica\n- Climatizador automático\n- Tapizado en cuero\n- Techo solar eléctrico\n- Volante multifunción revestido en cuero\n- Control de velocidad crucero\n- Pantalla multimedia Chevrolet MyLink de 7”\n- Apple CarPlay y Android Auto\n- Bluetooth y USB\n- Cámara de retroceso\n-Sensores de estacionamiento delanteros y traseros\n- Acceso sin llave y arranque por botón\n- Levantavidrios eléctricos en las cuatro puertas\n- Espejos eléctricos y rebatibles\n- Sensor de lluvia y encendido automático de luces\n- Luces diurnas LED\n- Llantas de aleación de 17”\n- Frenos a disco en las cuatro ruedas",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/208afff5-53a0-4884-9b44-842bf6b67a23.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 99,
+  "nextId": 100,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -5684,6 +5724,31 @@
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
       "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "aa643514-f945-4281-9ee5-4bf0a881331d",
+      "vehiculoId": 99,
+      "tipo": "alta",
+      "fecha": "2026-11-12T15:03:15.592Z",
+      "mes": "2026-11",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
         "estadoInventario"
       ]
     }
