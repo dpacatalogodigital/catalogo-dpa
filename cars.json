@@ -1243,11 +1243,11 @@
       "datos": "Nafta - Automatica",
       "marca": "PEUGEOT",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-20-at-10.59.22-am.jpeg-1789066740246-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-11-12T19:59:21.585Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-11-12T19:59:21.585Z"
     },
     {
       "imagenes": [
@@ -6125,6 +6125,18 @@
       "vehiculoId": 74,
       "tipo": "baja",
       "fecha": "2026-11-12T19:37:22.229Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "dbe29eec-3836-4fea-a406-d39e608885b0",
+      "vehiculoId": 35,
+      "tipo": "baja",
+      "fecha": "2026-11-12T19:59:21.585Z",
       "mes": "2026-11",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
