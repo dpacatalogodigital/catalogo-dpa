@@ -3949,10 +3949,50 @@
       "descripcion": "- Tracción 4x4 con sistema de selección de modos\n- Llantas de aleación de 16”\n- Barras longitudinales de techo\n- Faros antiniebla delanteros\n- Pantalla multimedia táctil con navegador GPS\n- Conectividad Bluetooth, USB y auxiliar\n- Comandos de audio al volante\n- Control de velocidad crucero y limitador de velocidad\n- Computadora de a bordo\n- Aire acondicionado\n- Levantavidrios eléctricos delanteros y traseros\n- Espejos exteriores con regulación eléctrica\n- Sensores de estacionamiento traseros\n- Cámara de estacionamiento trasera\n- Frenos ABS\n- Airbags frontales para conductor y acompañante\n- Anclajes ISOFIX para sillas infantiles\n- Alarma antirrobo\n[6:05 p. m., 28/10/2026] Martin Da Ponte: HONDA CR-V 2.4 LX 4x2 AUTOMÁTICA 2011\n- Motor 2.4 naftero de 170 CV\n- Caja automática de 5 velocidades\n- Equipo de GNC instalado\n- Control de velocidad crucero\n- Aire acondicionado\n- Dirección asistida\n- Levantavidrios eléctricos en las cuatro puertas\n- Espejos exteriores con regulación eléctrica\n- Cierre centralizado con comando a distancia\n- Computadora de a bordo\n- Volante regulable en altura y profundidad\n- Asientos traseros rebatibles 40/20/40\n- Llantas de aleación\n- Frenos ABS con distribución electrónica de frenado\n- Airbags frontales para conductor y acompañante\n- Anclajes ISOFIX para sillas infantiles",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/cdd33425-2b26-4092-9d29-59c0ca2f36f3.jpg"
+    },
+    {
+      "id": 106,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/ed8e8b78-be78-45c3-8485-1add5afdff11.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/8375da3d-cc8d-4c5f-8c01-ebd627444136.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/637da125-8332-474a-91b1-9752796d06da.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/08c201f2-d7a8-493a-a23f-174a91f8d071.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/be010e0b-700d-4798-91ea-43d547cb32c4.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/9e2d487b-80df-4159-a483-6d14e120381a.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/f618c2c3-c7e1-4d00-9141-124371967c02.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/ea1f2a64-02e3-4120-bc58-bdeb2612bdaa.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/4b4fbdda-3855-4e04-acc0-6f926185c82d.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/a4382180-21be-4b2e-a7db-e4f3e506cf8d.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/6cd95c72-a713-478d-9bf2-b3fab063af07.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/cdca5456-ed1f-4aab-a461-7395812e4499.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/22b831a5-cfdc-493b-9dbf-13588143c1f7.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/06f510e5-99a4-4943-8605-7c05916b4a45.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/6d3adf8b-afc1-4963-86a4-50b18a08e615.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/97928e46-f69e-4e19-8861-b3cc6a08e0fc.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1b393f0b-1e1c-46fc-b7e8-c89c06470fc1.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/9a2c7dca-dd9f-4d6f-9763-84e6f8250351.jpg"
+      ],
+      "recienLlegado": false,
+      "sale": false,
+      "fechaAlta": "2026-11-12T20:59:34.238Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-11-12T20:59:34.238Z",
+      "marca": "VOLKSWAGEN",
+      "modelo": "Gol Trend 1.6 ",
+      "tipo": "Hatch",
+      "anio": 2016,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": "5p - MT - Nafta",
+      "precio": "",
+      "descripcion": "",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/ed8e8b78-be78-45c3-8485-1add5afdff11.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 106,
+  "nextId": 107,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -6229,6 +6269,31 @@
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
       "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "acb1cf0e-75bb-4f25-b5fb-e5583774e450",
+      "vehiculoId": 106,
+      "tipo": "alta",
+      "fecha": "2026-11-12T20:59:34.238Z",
+      "mes": "2026-11",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
         "estadoInventario"
       ]
     }
