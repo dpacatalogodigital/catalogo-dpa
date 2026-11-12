@@ -1907,11 +1907,11 @@
       "datos": "Diesel - AT",
       "marca": "VOLKSWAGEN",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-14-at-12.24.46-pm-1-.jpeg-1789074269862-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-11-12T20:49:08.670Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-14T14:48:33.967Z"
+      "fechaUltimaModificacion": "2026-11-12T20:49:08.670Z"
     },
     {
       "imagenes": [
@@ -6213,6 +6213,18 @@
       "vehiculoId": 56,
       "tipo": "baja",
       "fecha": "2026-11-12T20:47:19.669Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "f252c132-f7b6-45c7-9658-a87f9b41185f",
+      "vehiculoId": 51,
+      "tipo": "baja",
+      "fecha": "2026-11-12T20:49:08.670Z",
       "mes": "2026-11",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
