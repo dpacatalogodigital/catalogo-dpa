@@ -3721,34 +3721,34 @@
     {
       "id": 100,
       "imagenes": [
-        "/catalogo-dpa/imagenes/vehiculos/fa75a440-e1b6-4aa3-96b1-fb1cf4f4675a.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/160222a7-6edb-4c54-b612-65582cfd7971.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/4ec766de-9952-4af9-ad00-b7597920718a.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/80b811d3-3e7e-42bb-bb80-4366acab5992.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/309bd23e-832e-4b7f-89a0-039f2b032d6e.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/3564f6e3-4d26-4a8c-bfaa-5412fc939e44.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/3dd8227c-7a61-4719-8872-d176f47b70f6.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/7409a634-1014-48b2-b3bf-1e63f3c42678.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/fb13f56b-a1a6-469e-9443-a57a4e0698bb.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/13e3857c-f5be-47e7-97fe-70732b50efa3.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/3d141212-0789-4991-a291-3c91c6b9ff14.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/fe53e24b-6f2a-42b2-884b-3d485c00ac34.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/cbe82d57-1185-4a68-968f-9f6d53cdbdec.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/4b67e532-c1d6-4e7c-892b-cad209b09333.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/e3cf2aa6-fd7e-49d1-9ebc-612ddb91da1e.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/9bc6de73-1774-4eb5-8013-dba536dc307e.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/9e54fc18-a809-412b-af44-d9554c19363c.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/389f2084-0edc-4f43-827d-57f834c258c5.jpg"
+        "/catalogo-dpa/imagenes/vehiculos/df165663-47e2-4660-9337-da86b851bdf2.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/93ddb53c-6170-4422-bf92-71943f9bed81.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/57bd1525-d1f2-41ee-abc9-3d044c27d478.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/5e6d7eb6-80c4-4c36-b0d6-5b1cd8e2595d.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/67186fca-25e3-435c-a21c-8312d49973dd.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/82c66805-53b2-459f-b8e9-33dfcdf248d5.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/4387b1e5-9934-417c-9c50-a0e6ebddbc6d.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/89248141-a441-4a61-9fb6-74a3462aabdc.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/92bb8d9e-a61f-481a-9a1f-67e3c85fbe52.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/c5f1d552-fc48-4e78-a234-f5166d6498c2.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/02a1e854-f94c-4697-b4e0-5bd36b6086eb.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/43118f01-5f3e-41b8-9ebb-17fb431f3f2e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/5447d53a-1c93-4fb2-9d7c-1dd41d8d6b3e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/dd94f0c0-0a13-48e7-a9ab-104577f41ad2.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/dfd494aa-7379-44b1-be9c-9497b46717e6.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/69c2eef0-4ea1-4c6b-9378-9284228195d7.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/dedbc3ad-4488-4aaa-9300-401a2772180a.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/f4fdd330-4e7d-41c8-8c5e-06a3ecb06ecf.jpg"
       ],
       "recienLlegado": true,
       "sale": false,
       "fechaAlta": "2026-11-12T15:08:11.142Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-11-12T15:08:11.142Z",
+      "fechaUltimaModificacion": "2026-11-12T15:09:23.223Z",
       "marca": "PEUGEOT",
       "modelo": "408 1.6 HDi Feline",
-      "tipo": "Hatch",
+      "tipo": "Sedán",
       "anio": 2015,
       "kilometros": null,
       "condicion": "usado",
@@ -3756,7 +3756,7 @@
       "precio": "",
       "descripcion": "- Motor 1.6 HDi turbodiésel de 115 CV\n- Excelente rendimiento de combustible y autonomía\n- Rediseño exterior e interior de la línea 2015\n- Dirección asistida hidráulica\n- Climatizador automático bizona\n- Techo solar eléctrico \n- Tapizado en cuero\n- Volante multifunción revestido en cuero\n- Control de velocidad crucero y limitador\n- Computadora de a bordo\n- Pantalla multimedia táctil con navegador GPS\n- Conectividad Bluetooth y USB\n- Sensores de estacionamiento traseros\n- Sensor de lluvia y encendido automático de luces\n- Levantavidrios eléctricos en las cuatro puertas\n- Espejos exteriores con regulación eléctrica\n- Frenos ABS con distribución electrónica de frenado",
       "estadoInventario": "activo",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/fa75a440-e1b6-4aa3-96b1-fb1cf4f4675a.jpg"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/df165663-47e2-4660-9337-da86b851bdf2.jpg"
     }
   ],
   "schemaVersion": 1,
@@ -5815,6 +5815,20 @@
         "imagenes",
         "portada",
         "estadoInventario"
+      ]
+    },
+    {
+      "id": "59e87d43-2e1d-44fd-8417-f68b587c5e2b",
+      "vehiculoId": 100,
+      "tipo": "modificacion",
+      "fecha": "2026-11-12T15:09:23.223Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "tipo",
+        "imagenes",
+        "portada"
       ]
     }
   ],
