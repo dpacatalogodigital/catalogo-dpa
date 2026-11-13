@@ -3581,12 +3581,12 @@
         "/catalogo-dpa/imagenes/vehiculos/e99a9b50-398e-4777-9b60-4ec36bcb6fed.jpg",
         "/catalogo-dpa/imagenes/vehiculos/4c122e5c-678f-4089-82d0-34cb29581903.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-11-03T22:01:29.379Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-11-03T22:01:29.379Z",
+      "fechaUltimaModificacion": "2026-11-13T12:17:03.172Z",
       "marca": "HONDA",
       "modelo": "CR-V 2.4 LX 4x2",
       "tipo": "SUV",
@@ -6453,6 +6453,18 @@
       "vehiculoId": 91,
       "tipo": "modificacion",
       "fecha": "2026-11-13T12:16:42.277Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
+      ]
+    },
+    {
+      "id": "8d8eeaf9-8db3-422e-b49f-cb1415bc5b0c",
+      "vehiculoId": 96,
+      "tipo": "modificacion",
+      "fecha": "2026-11-13T12:17:03.172Z",
       "mes": "2026-11",
       "estadoAnterior": "activo",
       "estadoPosterior": "activo",
