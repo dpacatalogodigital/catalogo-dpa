@@ -3389,12 +3389,12 @@
         "/catalogo-dpa/imagenes/vehiculos/f35c4e1d-5b35-43f7-ba9c-aeabf94b54be.jpg",
         "/catalogo-dpa/imagenes/vehiculos/38987d48-994b-44cf-a2c4-7cfca9ee7467.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-10-20T18:13:15.339Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-20T18:13:15.339Z",
+      "fechaUltimaModificacion": "2026-11-13T12:16:42.277Z",
       "marca": "FORD",
       "modelo": "Territory Titanium",
       "tipo": "SUV",
@@ -6446,6 +6446,18 @@
       "estadoPosterior": "reservado",
       "campos": [
         "estadoInventario"
+      ]
+    },
+    {
+      "id": "f7305fa0-020e-47f6-900c-c241d0098c64",
+      "vehiculoId": 91,
+      "tipo": "modificacion",
+      "fecha": "2026-11-13T12:16:42.277Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
       ]
     }
   ],
