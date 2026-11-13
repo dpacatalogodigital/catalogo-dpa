@@ -3824,7 +3824,7 @@
       "fechaAlta": "2026-11-12T15:28:09.307Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-11-12T15:28:09.307Z",
+      "fechaUltimaModificacion": "2026-11-13T12:13:54.642Z",
       "marca": "TOYOTA",
       "modelo": "Hilux 2.8 SRV 4x2",
       "tipo": "Pick-Up",
@@ -3834,7 +3834,7 @@
       "datos": "AT6 - Diesel",
       "precio": "",
       "descripcion": "* Motor 2.8 turbodiésel, 4 cilindros, 16 válvulas – 204 CV\n- Torque máximo de 500 Nm\n- Tracción trasera 4x2\n- Dirección hidráulica con asistencia variable\n- Climatizador automático bizona\n- Butaca del conductor regulable en altura\n- Volante multifunción revestido en cuero\n- Control de velocidad crucero\n- Pantalla multimedia táctil de 8”\n- Android Auto y Apple CarPlay\n- Bluetooth y USB\n- Cámara de retroceso\n- Sensores de estacionamiento\n- Faros delanteros Bi-LED con luces diurnas LED",
-      "estadoInventario": "activo",
+      "estadoInventario": "reservado",
       "portada": "/catalogo-dpa/imagenes/vehiculos/6fb10d78-dfce-4132-97f7-f767d44681ce.jpg"
     },
     {
@@ -6421,6 +6421,18 @@
         "descripcion",
         "imagenes",
         "portada",
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "2c4a9d74-c29e-47f8-b0f3-95ebe2244a11",
+      "vehiculoId": 102,
+      "tipo": "modificacion",
+      "fecha": "2026-11-13T12:13:54.642Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "reservado",
+      "campos": [
         "estadoInventario"
       ]
     }
