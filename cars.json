@@ -3660,12 +3660,12 @@
         "/catalogo-dpa/imagenes/vehiculos/5c6697f0-acc8-40ff-bd8b-724fb1e2d87f.jpg",
         "/catalogo-dpa/imagenes/vehiculos/aac44508-bd39-42f1-a1a9-9eb3949f689f.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-11-03T22:17:16.290Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-11-03T22:17:16.290Z",
+      "fechaUltimaModificacion": "2026-11-13T12:17:17.031Z",
       "marca": "CHERY",
       "modelo": "TIGGO 7 PRO HYBRID 1.5T PREMIUM CVT ",
       "tipo": "SUV",
@@ -6465,6 +6465,18 @@
       "vehiculoId": 96,
       "tipo": "modificacion",
       "fecha": "2026-11-13T12:17:03.172Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
+      ]
+    },
+    {
+      "id": "11248dcd-a67d-4207-a16a-aa5c14cc3404",
+      "vehiculoId": 98,
+      "tipo": "modificacion",
+      "fecha": "2026-11-13T12:17:17.031Z",
       "mes": "2026-11",
       "estadoAnterior": "activo",
       "estadoPosterior": "activo",
