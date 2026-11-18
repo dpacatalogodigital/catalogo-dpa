@@ -3705,7 +3705,7 @@
       "fechaAlta": "2026-11-12T15:03:15.592Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-11-12T15:03:15.592Z",
+      "fechaUltimaModificacion": "2026-11-18T20:59:06.120Z",
       "marca": "CHEVROLET",
       "modelo": "Cruze 1.4 Turbo LTZ ",
       "tipo": "Hatch",
@@ -3715,7 +3715,7 @@
       "datos": "MT6 - Nafta - 5P ",
       "precio": "",
       "descripcion": "- Motor 1.4 turbo naftero de 153 CV y 245 Nm de torque\n- Sistema Start/Stop\n- Dirección asistida eléctrica\n- Climatizador automático\n- Tapizado en cuero\n- Techo solar eléctrico\n- Volante multifunción revestido en cuero\n- Control de velocidad crucero\n- Pantalla multimedia Chevrolet MyLink de 7”\n- Apple CarPlay y Android Auto\n- Bluetooth y USB\n- Cámara de retroceso\n-Sensores de estacionamiento delanteros y traseros\n- Acceso sin llave y arranque por botón\n- Levantavidrios eléctricos en las cuatro puertas\n- Espejos eléctricos y rebatibles\n- Sensor de lluvia y encendido automático de luces\n- Luces diurnas LED\n- Llantas de aleación de 17”\n- Frenos a disco en las cuatro ruedas",
-      "estadoInventario": "activo",
+      "estadoInventario": "reservado",
       "portada": "/catalogo-dpa/imagenes/vehiculos/208afff5-53a0-4884-9b44-842bf6b67a23.jpg"
     },
     {
@@ -6489,6 +6489,18 @@
       "vehiculoId": 19,
       "tipo": "modificacion",
       "fecha": "2026-11-13T15:52:57.516Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "reservado",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "39f8019a-3bae-48c8-8f20-e8f7ad66af3e",
+      "vehiculoId": 99,
+      "tipo": "modificacion",
+      "fecha": "2026-11-18T20:59:06.120Z",
       "mes": "2026-11",
       "estadoAnterior": "activo",
       "estadoPosterior": "reservado",
