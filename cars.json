@@ -3740,12 +3740,12 @@
         "/catalogo-dpa/imagenes/vehiculos/dedbc3ad-4488-4aaa-9300-401a2772180a.jpg",
         "/catalogo-dpa/imagenes/vehiculos/f4fdd330-4e7d-41c8-8c5e-06a3ecb06ecf.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-11-12T15:08:11.142Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-11-12T15:09:23.223Z",
+      "fechaUltimaModificacion": "2026-11-19T21:47:17.343Z",
       "marca": "PEUGEOT",
       "modelo": "408 1.6 HDi Feline",
       "tipo": "Sedán",
@@ -6840,6 +6840,18 @@
       "campos": [
         "recienLlegado",
         "estadoInventario"
+      ]
+    },
+    {
+      "id": "3e818dc4-0aa3-4d2e-ae6b-0929f5ea9310",
+      "vehiculoId": 100,
+      "tipo": "modificacion",
+      "fecha": "2026-11-19T21:47:17.343Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
       ]
     }
   ],
