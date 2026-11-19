@@ -595,11 +595,11 @@
       "datos": "Nafta - MT",
       "marca": "FORD",
       "portada": "/catalogo-dpa/imagenes/vehiculos/8a9a3186-fd1f-4e25-b2c8-1a7025aeabf1.jpg",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-11-19T21:56:14.333Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-10-13T18:05:49.035Z"
+      "fechaUltimaModificacion": "2026-11-19T21:56:14.333Z"
     },
     {
       "imagenes": [
@@ -6886,6 +6886,18 @@
       "fecha": "2026-11-19T21:53:29.225Z",
       "mes": "2026-11",
       "estadoAnterior": "reservado",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "cc7fa11d-b86c-48c5-a540-bc31d8bffabe",
+      "vehiculoId": 20,
+      "tipo": "baja",
+      "fecha": "2026-11-19T21:56:14.333Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
       "campos": [
         "estadoInventario"
