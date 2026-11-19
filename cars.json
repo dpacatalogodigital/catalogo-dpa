@@ -2306,11 +2306,11 @@
       "datos": "Nafta - MT5",
       "marca": "VOLKSWAGEN",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-04-30-at-9.52.59-am.jpeg-1789075213694-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "reservado",
       "fechaAlta": null,
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-11-19T22:02:28.834Z"
     },
     {
       "imagenes": [
@@ -6923,6 +6923,18 @@
       "mes": "2026-11",
       "estadoAnterior": "reservado",
       "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "69138029-9ea9-4b61-a7ce-0e34f034f492",
+      "vehiculoId": 62,
+      "tipo": "modificacion",
+      "fecha": "2026-11-19T22:02:28.834Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "reservado",
       "campos": [
         "estadoInventario"
       ]
