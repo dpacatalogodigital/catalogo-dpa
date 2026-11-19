@@ -632,11 +632,11 @@
       "datos": "Nafta/GNC - MT5",
       "marca": "FORD",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-24-at-10.20.57-am.jpeg-1789062513036-0",
-      "estadoInventario": "reservado",
+      "estadoInventario": "activo",
       "fechaAlta": null,
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-11-18T20:59:39.420Z"
+      "fechaUltimaModificacion": "2026-11-19T21:56:27.197Z"
     },
     {
       "imagenes": [
@@ -6899,6 +6899,18 @@
       "mes": "2026-11",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "b00a2fd7-122f-4835-8255-2ab921bb1ca2",
+      "vehiculoId": 21,
+      "tipo": "modificacion",
+      "fecha": "2026-11-19T21:56:27.197Z",
+      "mes": "2026-11",
+      "estadoAnterior": "reservado",
+      "estadoPosterior": "activo",
       "campos": [
         "estadoInventario"
       ]
