@@ -4066,10 +4066,49 @@
       "descripcion": "",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/1f47a645-c394-4171-8725-93aaed509d00.jpg"
+    },
+    {
+      "id": 109,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/3641fe26-1d5e-4bbc-8812-a3396afdddef.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/2626abef-2fb1-4b06-9c49-296f42e36aea.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/584a1acb-94b5-4af5-9a5a-0a9a8ad0b791.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/1af9e09e-c640-49b8-9cf7-918365f75145.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/b98ea6ed-8996-48b6-a480-ab9309a2263c.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/bd1935dc-6099-44c7-8924-af61f5afadac.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/b9099939-3928-4401-84f9-3db901aa6575.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/d4b7c98a-73e7-4635-9aae-a341ff8dd5fa.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/61b24be6-7656-44eb-8be2-98801b4474e1.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/c7a62880-d81e-41e1-8449-ca8b45f48560.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/01c67cb5-9130-47ff-acf1-82dd96c264c5.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/71d2d4a1-06b6-440f-8825-9f1b692c7fe8.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/5a9570d0-be75-4aac-878c-1681ae28d450.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/7e831e5a-59c4-402d-bd22-77e3a8b7ec3e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/807ee726-eb84-43aa-8d2d-8dd3327640d4.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/bdfd22f7-fa35-4944-9e28-b4e19c7cbe42.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/456c330a-bffd-4557-aef2-be0be5bb3c15.jpg"
+      ],
+      "recienLlegado": false,
+      "sale": false,
+      "fechaAlta": "2026-11-19T21:30:49.193Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-11-19T21:30:49.193Z",
+      "marca": "TOYOTA",
+      "modelo": " Hilux 2.4 DX Doble Cabina 4x2",
+      "tipo": "Pick-Up",
+      "anio": 2026,
+      "kilometros": 22,
+      "condicion": "usado",
+      "datos": "MT6 - Diesel",
+      "precio": "",
+      "descripcion": "- Motor 2.4 turbodiésel de 150 CV y 400 Nm de torque\n- Distribución por cadena\n- Turbocompresor de geometría variable e intercooler\n- Dirección asistida hidráulica\n- Aire acondicionado\n- Pantalla multimedia táctil de 8”\n- Conectividad Bluetooth y USB\n- Volante multifunción regulable en altura y profundidad\n- Control de velocidad crucero\n- Computadora de a bordo\n- Levantavidrios eléctricos delanteros\n- Espejos exteriores eléctricos con luz de giro\n- Cierre centralizado con comando a distancia",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/3641fe26-1d5e-4bbc-8812-a3396afdddef.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 109,
+  "nextId": 110,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -6517,6 +6556,31 @@
       "estadoAnterior": "activo",
       "estadoPosterior": "reservado",
       "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "7a86fe7e-86dd-4b27-b004-e0188b076237",
+      "vehiculoId": 109,
+      "tipo": "alta",
+      "fecha": "2026-11-19T21:30:49.193Z",
+      "mes": "2026-11",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
         "estadoInventario"
       ]
     }
