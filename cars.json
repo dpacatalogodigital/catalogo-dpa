@@ -2407,9 +2407,9 @@
       "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-09-14T19:07:44.044Z",
-      "fechaBaja": null,
+      "fechaBaja": "2026-11-19T21:59:47.473Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-11-13T12:14:15.257Z",
+      "fechaUltimaModificacion": "2026-11-19T21:59:47.473Z",
       "marca": "RENAULT",
       "modelo": "Kangoo Express 5 Asientos 1.6 SCE",
       "tipo": "Furgón-Utilitario",
@@ -2419,7 +2419,7 @@
       "datos": "MT",
       "precio": "",
       "descripcion": "Motor 1.6 de 114 CV, caja manual, 5 asientos, doble puerta lateral corrediza, aire acondicionado, alzacristales y espejos eléctricos, control crucero, pantalla multimedia, sensores traseros, 2 airbags, ABS, ESP e ISOFIX.",
-      "estadoInventario": "reservado",
+      "estadoInventario": "vendido",
       "portada": "/catalogo-dpa/imagenes/vehiculos/c5396610-03a0-4dec-b432-8a73bb7f17eb.jpg"
     },
     {
@@ -6911,6 +6911,18 @@
       "mes": "2026-11",
       "estadoAnterior": "reservado",
       "estadoPosterior": "activo",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "8cf6881e-9d52-472f-802d-b34a89ff0a06",
+      "vehiculoId": 65,
+      "tipo": "baja",
+      "fecha": "2026-11-19T21:59:47.473Z",
+      "mes": "2026-11",
+      "estadoAnterior": "reservado",
+      "estadoPosterior": "vendido",
       "campos": [
         "estadoInventario"
       ]
