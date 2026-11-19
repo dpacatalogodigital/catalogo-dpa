@@ -4105,10 +4105,38 @@
       "descripcion": "- Motor 2.4 turbodiésel de 150 CV y 400 Nm de torque\n- Distribución por cadena\n- Turbocompresor de geometría variable e intercooler\n- Dirección asistida hidráulica\n- Aire acondicionado\n- Pantalla multimedia táctil de 8”\n- Conectividad Bluetooth y USB\n- Volante multifunción regulable en altura y profundidad\n- Control de velocidad crucero\n- Computadora de a bordo\n- Levantavidrios eléctricos delanteros\n- Espejos exteriores eléctricos con luz de giro\n- Cierre centralizado con comando a distancia",
       "estadoInventario": "activo",
       "portada": "/catalogo-dpa/imagenes/vehiculos/3641fe26-1d5e-4bbc-8812-a3396afdddef.jpg"
+    },
+    {
+      "id": 110,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/94c1df35-dbe9-4af5-9644-eaf755424666.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/23e86dbc-2811-4481-bfee-565f220db692.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/6c7a4ead-4ffd-46f3-860c-bef6223a8833.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/49e52cc6-49b0-42fc-b72b-8ec37fb1eb4a.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/f3bb2578-0ece-4f7f-83d6-6848be1802ce.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/ecd8f81d-7a0f-406a-b464-4d09d6fea0e6.jpg"
+      ],
+      "recienLlegado": true,
+      "sale": false,
+      "fechaAlta": "2026-11-19T21:35:33.188Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-11-19T21:35:33.188Z",
+      "marca": "VOLKSWAGEN",
+      "modelo": "UP! 1.0 TSI PEPPER",
+      "tipo": "Hatch",
+      "anio": 2018,
+      "kilometros": null,
+      "condicion": "usado",
+      "datos": "MT5 - Nafta",
+      "precio": "",
+      "descripcion": "- Motor 1.0 TSI turbo naftero de 3 cilindros.\n- Potencia de 101 CV.\n- Torque de 165 Nm.\n- Excelente rendimiento y bajo consumo de combustible.\n- Dirección asistida eléctricamente.\n- Control de estabilidad (ESC) y control de tracción.\n- Frenos ABS con distribución electrónica de frenado.\n- Doble airbag frontal.\n- Anclajes ISOFIX.\n- Aire acondicionado.\n- Volante multifunción revestido en cuero.\n- Computadora de a bordo.\n- Levantavidrios eléctricos delanteros.\n- Cierre centralizado con comando a distancia.\n- Control de velocidad crucero\n- Llantas de aleación de 15”.\n- Faros antiniebla delanteros.\n- Detalles exteriores exclusivos de la versión Pepper.\n- Suspensión con puesta a punto deportiva.",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/94c1df35-dbe9-4af5-9644-eaf755424666.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 110,
+  "nextId": 111,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -6564,6 +6592,31 @@
       "vehiculoId": 109,
       "tipo": "alta",
       "fecha": "2026-11-19T21:30:49.193Z",
+      "mes": "2026-11",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "29101d44-bb49-4ffc-98ab-dcb6950a62c0",
+      "vehiculoId": 110,
+      "tipo": "alta",
+      "fecha": "2026-11-19T21:35:33.188Z",
       "mes": "2026-11",
       "estadoAnterior": null,
       "estadoPosterior": "activo",
