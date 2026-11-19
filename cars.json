@@ -216,11 +216,11 @@
       "datos": "Nafta - MT - Unica mano",
       "marca": "CHEVROLET",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-07-31-at-4.38.13-pm.jpeg-1788976082299-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": "2026-11-12T19:23:37.645Z",
+      "fechaBaja": "2026-11-19T21:49:41.060Z",
       "fechaReingreso": "2026-11-12T19:24:38.842Z",
-      "fechaUltimaModificacion": "2026-11-12T19:24:38.842Z"
+      "fechaUltimaModificacion": "2026-11-19T21:49:41.060Z"
     },
     {
       "imagenes": [
@@ -6864,6 +6864,18 @@
       "estadoPosterior": "vendido",
       "campos": [
         "recienLlegado",
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "e14e6cf6-d8d7-4e5b-b0a3-ff20569953f3",
+      "vehiculoId": 10,
+      "tipo": "baja",
+      "fecha": "2026-11-19T21:49:41.060Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
         "estadoInventario"
       ]
     }
