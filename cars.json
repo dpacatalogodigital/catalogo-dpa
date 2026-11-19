@@ -4233,12 +4233,12 @@
         "/catalogo-dpa/imagenes/vehiculos/7baae8cc-c9d2-4032-8ef0-044c4b46b8a2.jpg",
         "/catalogo-dpa/imagenes/vehiculos/ce895ae1-11d3-4c6f-8592-f41d34bd9ead.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-11-19T21:43:42.618Z",
-      "fechaBaja": null,
+      "fechaBaja": "2026-11-19T22:05:40.351Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-11-19T21:43:42.618Z",
+      "fechaUltimaModificacion": "2026-11-19T22:05:40.351Z",
       "marca": "VOLKSWAGEN",
       "modelo": "Amarok 2.0 TDI 180 CV Comfortline 4x2",
       "tipo": "Pick-Up",
@@ -4248,7 +4248,7 @@
       "datos": "AT8 - Diesel",
       "precio": "",
       "descripcion": "- Motor 2.0 TDI biturbo diésel de 180 CV\n- Tracción 4x2\n- Dirección asistida\n- Llantas de aleación\n- Faros antiniebla\n- Control de estabilidad (ESP) y tracción (ASR)\n- Frenos ABS con distribución electrónica\n- Asistente de arranque en pendiente\n- Airbags frontales y laterales delanteros\n- Climatizador automático bizona\n- Volante multifunción revestido en cuero\n- Control de velocidad crucero\n- Sistema multimedia con pantalla táctil\n- Conectividad Bluetooth y USB\n- Levantavidrios eléctricos en las 4 puertas\n- Espejos exteriores eléctricos\n- Cierre centralizado con comando a distancia",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "portada": "/catalogo-dpa/imagenes/vehiculos/28e43e9f-dc8b-45b9-aab6-0fb2415f8ea8.jpg"
     }
   ],
@@ -6936,6 +6936,19 @@
       "estadoAnterior": "activo",
       "estadoPosterior": "reservado",
       "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "4333254d-db52-4486-82e5-4a37b13821e1",
+      "vehiculoId": 113,
+      "tipo": "baja",
+      "fecha": "2026-11-19T22:05:40.351Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "recienLlegado",
         "estadoInventario"
       ]
     }
