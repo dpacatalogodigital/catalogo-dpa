@@ -3932,12 +3932,12 @@
         "/catalogo-dpa/imagenes/vehiculos/58b24197-9791-4730-bd3c-8b95dbfccf0b.jpg",
         "/catalogo-dpa/imagenes/vehiculos/87c87042-be9a-4559-aad0-deac8966628c.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-11-12T20:04:17.923Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-11-12T20:04:17.923Z",
+      "fechaUltimaModificacion": "2026-11-24T17:55:12.908Z",
       "marca": "RENAULT",
       "modelo": "DUSTER PRIVILEGE 2.0 4WD",
       "tipo": "Hatch",
@@ -7262,6 +7262,18 @@
       "campos": [
         "recienLlegado",
         "estadoInventario"
+      ]
+    },
+    {
+      "id": "664e991c-4b7b-44ad-b7f8-363df2100bf1",
+      "vehiculoId": 105,
+      "tipo": "modificacion",
+      "fecha": "2026-11-24T17:55:12.908Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
       ]
     }
   ],
