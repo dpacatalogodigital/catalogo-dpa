@@ -3856,12 +3856,12 @@
         "/catalogo-dpa/imagenes/vehiculos/f1e2f27c-dfc6-4e6f-8bfb-ccd86f61a442.jpg",
         "/catalogo-dpa/imagenes/vehiculos/6875e21a-8061-4264-91eb-f5c60926a6a8.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-11-12T18:37:10.236Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-11-12T18:37:10.236Z",
+      "fechaUltimaModificacion": "2026-11-24T17:56:36.845Z",
       "marca": "VOLKSWAGEN",
       "modelo": "Amarok V6 Extreme 3.0 TDI 4Motion",
       "tipo": "Pick-Up",
@@ -7269,6 +7269,18 @@
       "vehiculoId": 105,
       "tipo": "modificacion",
       "fecha": "2026-11-24T17:55:12.908Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
+      ]
+    },
+    {
+      "id": "f6f28a32-06c1-4174-9587-983df67aeb03",
+      "vehiculoId": 103,
+      "tipo": "modificacion",
+      "fecha": "2026-11-24T17:56:36.845Z",
       "mes": "2026-11",
       "estadoAnterior": "activo",
       "estadoPosterior": "activo",
