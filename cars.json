@@ -4250,10 +4250,48 @@
       "descripcion": "- Motor 2.0 TDI biturbo diésel de 180 CV\n- Tracción 4x2\n- Dirección asistida\n- Llantas de aleación\n- Faros antiniebla\n- Control de estabilidad (ESP) y tracción (ASR)\n- Frenos ABS con distribución electrónica\n- Asistente de arranque en pendiente\n- Airbags frontales y laterales delanteros\n- Climatizador automático bizona\n- Volante multifunción revestido en cuero\n- Control de velocidad crucero\n- Sistema multimedia con pantalla táctil\n- Conectividad Bluetooth y USB\n- Levantavidrios eléctricos en las 4 puertas\n- Espejos exteriores eléctricos\n- Cierre centralizado con comando a distancia",
       "estadoInventario": "vendido",
       "portada": "/catalogo-dpa/imagenes/vehiculos/28e43e9f-dc8b-45b9-aab6-0fb2415f8ea8.jpg"
+    },
+    {
+      "id": 114,
+      "imagenes": [
+        "/catalogo-dpa/imagenes/vehiculos/a96b0f3b-12ed-4069-aa04-b8cf7b75a385.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/346df098-163e-41df-882f-79baf983dd17.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/b826b3db-52a4-493e-a98a-2dbcb41ee572.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/64f61d16-95ca-4656-83a7-4560b980062e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/2ef2bcb4-69b7-41b9-9941-fb3c1d1630d6.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/00dc3d6c-7403-4299-8f69-84c7e885cf9f.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/92aee870-407d-40a7-97e0-255c1c1da12c.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/8a904d9c-7b9e-4065-aff2-0867d8eeb8e4.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/89747c78-b1d2-457a-8d92-6f9a4310ebb2.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/9cb09083-703e-490b-b1db-361abbd28c56.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/8670dcdd-7e02-44d0-a625-543a405a4fa7.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/6aba715d-bafa-4eb8-87ec-466d97fcff5e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/d0b8f964-6d0c-485c-9eb5-dec8e627f556.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/5d99867d-9489-4a7c-b1c8-1616daebcbdc.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/4f1c4d53-f8ec-44af-95be-7dd7bbcff2b3.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/46f811ee-072f-46bd-9fc1-07ebd2fb7fd8.jpg"
+      ],
+      "recienLlegado": true,
+      "sale": false,
+      "fechaAlta": "2026-11-24T17:37:15.530Z",
+      "fechaBaja": null,
+      "fechaReingreso": null,
+      "fechaUltimaModificacion": "2026-11-24T17:37:15.530Z",
+      "marca": "VOLKSWAGEN",
+      "modelo": "CrossFox 1.6 Highline",
+      "tipo": "SUV",
+      "anio": 2012,
+      "kilometros": 155000,
+      "condicion": "usado",
+      "datos": "MT5 - Nafta",
+      "precio": "",
+      "descripcion": "- Motor 1.6 naftero de 101 CV\n- Dirección asistida hidráulica\n- Aire acondicionado\n- Levantavidrios eléctricos\n- Espejos exteriores con regulación eléctrica\n- Cierre centralizado con comando a distancia\n- Alarma antirrobo\n- Volante regulable en altura y profundidad\n- Computadora de a bordo\n- Equipo de audio con CD y MP3\n- Frenos ABS\n- Doble airbag frontal\n- Inmovilizador electrónico de motor\n- Faros antiniebla delanteros y trasero\n- Llantas de aleación de 15”\n- Neumáticos de perfil mixto 205/60 R15\n- Barras longitudinales de techo\n- Estribos laterales\n- Molduras protectoras de carrocería\n- Rueda de auxilio exterior sobre el portón trasero\n- Mayor despeje del suelo y estética aventurera",
+      "estadoInventario": "activo",
+      "portada": "/catalogo-dpa/imagenes/vehiculos/a96b0f3b-12ed-4069-aa04-b8cf7b75a385.jpg"
     }
   ],
   "schemaVersion": 1,
-  "nextId": 114,
+  "nextId": 115,
   "movimientos": [
     {
       "id": "12f56e68-c6f8-452f-97d7-5c40bf3f8ef0",
@@ -7021,6 +7059,31 @@
       "estadoAnterior": "reservado",
       "estadoPosterior": "vendido",
       "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "8c410cc6-bde9-4d55-9a5b-25fcc1ffea50",
+      "vehiculoId": 114,
+      "tipo": "alta",
+      "fecha": "2026-11-24T17:37:15.530Z",
+      "mes": "2026-11",
+      "estadoAnterior": null,
+      "estadoPosterior": "activo",
+      "campos": [
+        "marca",
+        "modelo",
+        "tipo",
+        "anio",
+        "kilometros",
+        "condicion",
+        "datos",
+        "precio",
+        "recienLlegado",
+        "sale",
+        "descripcion",
+        "imagenes",
+        "portada",
         "estadoInventario"
       ]
     }
