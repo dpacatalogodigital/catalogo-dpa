@@ -4319,12 +4319,12 @@
         "/catalogo-dpa/imagenes/vehiculos/58c84a6e-94a4-4c10-8fa8-f379dbd58259.jpg",
         "/catalogo-dpa/imagenes/vehiculos/8f3072e1-259e-4ab2-b2ae-e8b6166dcf78.jpg"
       ],
-      "recienLlegado": false,
+      "recienLlegado": true,
       "sale": false,
       "fechaAlta": "2026-11-24T17:40:59.329Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-11-24T17:40:59.329Z",
+      "fechaUltimaModificacion": "2026-11-24T17:59:39.378Z",
       "marca": "CHEVROLET",
       "modelo": " S10 2.8 High Country 4x4",
       "tipo": "Pick-Up",
@@ -7293,6 +7293,18 @@
       "vehiculoId": 111,
       "tipo": "modificacion",
       "fecha": "2026-11-24T17:58:03.062Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
+      ]
+    },
+    {
+      "id": "6adc954d-a4fc-4bf5-9051-90513e567f97",
+      "vehiculoId": 115,
+      "tipo": "modificacion",
+      "fecha": "2026-11-24T17:59:39.378Z",
       "mes": "2026-11",
       "estadoAnterior": "activo",
       "estadoPosterior": "activo",
