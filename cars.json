@@ -926,11 +926,11 @@
       "datos": "Nafta - AT6",
       "marca": "JEEP",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-08-20-at-12.02.35-pm.jpeg-1789064868197-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-11-24T13:14:28.017Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-11-24T13:14:28.017Z"
     },
     {
       "imagenes": [
@@ -6993,6 +6993,18 @@
       "vehiculoId": 29,
       "tipo": "baja",
       "fecha": "2026-11-24T13:14:02.583Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "c21d7838-5d74-4000-a6df-47073238fdf0",
+      "vehiculoId": 28,
+      "tipo": "baja",
+      "fecha": "2026-11-24T13:14:28.017Z",
       "mes": "2026-11",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
