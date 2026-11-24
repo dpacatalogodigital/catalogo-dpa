@@ -3893,12 +3893,12 @@
         "/catalogo-dpa/imagenes/vehiculos/17e678ef-f70e-430b-81bc-639ea545a29f.jpg",
         "/catalogo-dpa/imagenes/vehiculos/b9e94a14-f4d7-41db-8fa3-c83102840d98.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-11-12T19:30:10.566Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-11-12T19:30:10.566Z",
+      "fechaUltimaModificacion": "2026-11-24T17:54:07.551Z",
       "marca": "FIAT",
       "modelo": "Cronos 1.3 Drive Pack Conectividad",
       "tipo": "Sedán",
@@ -3908,7 +3908,7 @@
       "datos": "MT5 - Nafta",
       "precio": "",
       "descripcion": "- Motor 1.3 Firefly naftero, 4 cilindros y 8 válvulas\n- 99 CV de potencia y 127 Nm de torque\n- Dirección asistida eléctrica\n- Aire acondicionado\n- Levantavidrios eléctricos en las 4 puertas\n- Espejos exteriores eléctricos con función Tilt Down\n- Cierre centralizado con comando a distancia\n- Volante multifunción regulable en altura\n- Computadora de a bordo con display TFT de 3,5”\n- Pantalla multimedia Uconnect táctil de 7”\n- Compatibilidad con  Apple CarPlay y Android Auto",
-      "estadoInventario": "activo",
+      "estadoInventario": "reservado",
       "portada": "/catalogo-dpa/imagenes/vehiculos/27b0ae78-60b1-4dd6-bcf3-adb318733808.jpg"
     },
     {
@@ -7249,6 +7249,19 @@
       "estadoPosterior": "activo",
       "campos": [
         "recienLlegado"
+      ]
+    },
+    {
+      "id": "e013ef37-3c7f-40fb-89a7-2c294633d22b",
+      "vehiculoId": 104,
+      "tipo": "modificacion",
+      "fecha": "2026-11-24T17:54:07.551Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "reservado",
+      "campos": [
+        "recienLlegado",
+        "estadoInventario"
       ]
     }
   ],
