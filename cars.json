@@ -4011,12 +4011,12 @@
         "/catalogo-dpa/imagenes/vehiculos/eba79408-747a-4587-9049-e7c05834ab8f.jpg",
         "/catalogo-dpa/imagenes/vehiculos/f80f5deb-a007-444f-86e0-e20fdb828db4.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-11-12T21:02:53.762Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-11-12T21:02:53.762Z",
+      "fechaUltimaModificacion": "2026-11-24T17:52:44.069Z",
       "marca": "VOLKSWAGEN",
       "modelo": "Amarok 2.0 TDI 180 CV Comfortline 4x2",
       "tipo": "Pick-Up",
@@ -7237,6 +7237,18 @@
       "campos": [
         "imagenes",
         "portada"
+      ]
+    },
+    {
+      "id": "f87601bf-d84f-4e7e-ba46-74527e1ae510",
+      "vehiculoId": 107,
+      "tipo": "modificacion",
+      "fecha": "2026-11-24T17:52:44.069Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
       ]
     }
   ],
