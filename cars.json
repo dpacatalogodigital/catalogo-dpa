@@ -4109,19 +4109,30 @@
     {
       "id": 110,
       "imagenes": [
-        "/catalogo-dpa/imagenes/vehiculos/94c1df35-dbe9-4af5-9644-eaf755424666.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/23e86dbc-2811-4481-bfee-565f220db692.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/6c7a4ead-4ffd-46f3-860c-bef6223a8833.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/49e52cc6-49b0-42fc-b72b-8ec37fb1eb4a.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/f3bb2578-0ece-4f7f-83d6-6848be1802ce.jpg",
-        "/catalogo-dpa/imagenes/vehiculos/ecd8f81d-7a0f-406a-b464-4d09d6fea0e6.jpg"
+        "/catalogo-dpa/imagenes/vehiculos/0a9011ad-01ab-4a52-a0a5-5d6b8e932c4e.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/45e83f48-a5ce-4a64-a904-8a6129d481e1.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/f46cfb9f-d475-4408-a4d1-d6c7cbc04ebd.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/b5930fae-d1e8-418c-989f-921642f9595a.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/8362f302-88df-4a5b-962b-d535310186bb.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/c08cde31-c2db-4a73-9a09-0aed32c39034.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/a631940d-8798-4af7-a9bf-19159a79185b.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/7e3d5043-b858-484b-8ec8-acd0da32d2f1.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/21e5ad33-ad93-4a15-ab2a-224f29b5ddb1.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/eb302e4c-e974-401e-938d-5c04050402cb.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/a4d638d1-2256-436c-a1cd-10afe6592cda.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/2666efb2-02ef-440f-88cc-688adaf044b9.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/2abb798b-4c73-4e89-b14b-510db26b77e4.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/6b2c88e7-d80b-48ef-a05a-8e8da0bd64ef.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/cb30ade8-0713-411a-8a65-ac66d228c8ab.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/4525e176-7de2-4d0f-9f6c-3dde255e059c.jpg",
+        "/catalogo-dpa/imagenes/vehiculos/2869e37c-be67-4fb2-90c7-c9381895d9f9.jpg"
       ],
       "recienLlegado": true,
       "sale": false,
       "fechaAlta": "2026-11-19T21:35:33.188Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-11-19T21:35:33.188Z",
+      "fechaUltimaModificacion": "2026-11-24T17:47:11.526Z",
       "marca": "VOLKSWAGEN",
       "modelo": "UP! 1.0 TSI PEPPER",
       "tipo": "Hatch",
@@ -4132,7 +4143,7 @@
       "precio": "",
       "descripcion": "- Motor 1.0 TSI turbo naftero de 3 cilindros.\n- Potencia de 101 CV.\n- Torque de 165 Nm.\n- Excelente rendimiento y bajo consumo de combustible.\n- Dirección asistida eléctricamente.\n- Control de estabilidad (ESC) y control de tracción.\n- Frenos ABS con distribución electrónica de frenado.\n- Doble airbag frontal.\n- Anclajes ISOFIX.\n- Aire acondicionado.\n- Volante multifunción revestido en cuero.\n- Computadora de a bordo.\n- Levantavidrios eléctricos delanteros.\n- Cierre centralizado con comando a distancia.\n- Control de velocidad crucero\n- Llantas de aleación de 15”.\n- Faros antiniebla delanteros.\n- Detalles exteriores exclusivos de la versión Pepper.\n- Suspensión con puesta a punto deportiva.",
       "estadoInventario": "activo",
-      "portada": "/catalogo-dpa/imagenes/vehiculos/94c1df35-dbe9-4af5-9644-eaf755424666.jpg"
+      "portada": "/catalogo-dpa/imagenes/vehiculos/0a9011ad-01ab-4a52-a0a5-5d6b8e932c4e.jpg"
     },
     {
       "id": 111,
@@ -7213,6 +7224,19 @@
         "imagenes",
         "portada",
         "estadoInventario"
+      ]
+    },
+    {
+      "id": "67d469d6-35cd-4881-a30e-b56acb6b664b",
+      "vehiculoId": 110,
+      "tipo": "modificacion",
+      "fecha": "2026-11-24T17:47:11.526Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "imagenes",
+        "portada"
       ]
     }
   ],
