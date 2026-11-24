@@ -964,11 +964,11 @@
       "datos": "Nafta - MT",
       "marca": "JEEP",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-06-11-at-5.50.28-pm.jpeg-1789064935357-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-11-24T13:14:02.583Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-11-24T13:14:02.583Z"
     },
     {
       "imagenes": [
@@ -6984,6 +6984,18 @@
       "mes": "2026-11",
       "estadoAnterior": "activo",
       "estadoPosterior": "reservado",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "a8d9b80a-8866-4024-92e1-b4b0aab48bf3",
+      "vehiculoId": 29,
+      "tipo": "baja",
+      "fecha": "2026-11-24T13:14:02.583Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
       "campos": [
         "estadoInventario"
       ]
