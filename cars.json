@@ -4166,12 +4166,12 @@
         "/catalogo-dpa/imagenes/vehiculos/2bc91219-6cb7-4cb8-b55d-565b2be927aa.jpg",
         "/catalogo-dpa/imagenes/vehiculos/6784fb0c-5aef-4c5e-a7aa-41772c0c5f67.jpg"
       ],
-      "recienLlegado": true,
+      "recienLlegado": false,
       "sale": false,
       "fechaAlta": "2026-11-19T21:38:09.015Z",
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": "2026-11-19T21:38:09.015Z",
+      "fechaUltimaModificacion": "2026-11-24T17:58:03.062Z",
       "marca": "FORD",
       "modelo": " RANGER 3.2 XLT 4x4",
       "tipo": "Pick-Up",
@@ -7281,6 +7281,18 @@
       "vehiculoId": 103,
       "tipo": "modificacion",
       "fecha": "2026-11-24T17:56:36.845Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "activo",
+      "campos": [
+        "recienLlegado"
+      ]
+    },
+    {
+      "id": "e7dc3fd0-59a6-4773-99aa-387a40e89a72",
+      "vehiculoId": 111,
+      "tipo": "modificacion",
+      "fecha": "2026-11-24T17:58:03.062Z",
       "mes": "2026-11",
       "estadoAnterior": "activo",
       "estadoPosterior": "activo",
