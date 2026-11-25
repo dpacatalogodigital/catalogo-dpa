@@ -1609,11 +1609,11 @@
       "datos": "Nafta - MT",
       "marca": "TOYOTA",
       "portada": "/catalogo-dpa/imagenes/vehiculos/whatsapp-image-2026-01-08-at-9.33.33-am-1-.jpeg-1789070969380-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "vendido",
       "fechaAlta": null,
-      "fechaBaja": null,
+      "fechaBaja": "2026-11-25T13:38:38.673Z",
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-11-25T13:38:38.673Z"
     },
     {
       "imagenes": [
@@ -7310,6 +7310,18 @@
       "estadoPosterior": "activo",
       "campos": [
         "recienLlegado"
+      ]
+    },
+    {
+      "id": "3f21f737-6483-42e5-afe7-d2bc6551dd58",
+      "vehiculoId": 45,
+      "tipo": "baja",
+      "fecha": "2026-11-25T13:38:38.673Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
       ]
     }
   ],
