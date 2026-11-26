@@ -522,11 +522,11 @@
       "datos": "Nafta - AT",
       "marca": "FIAT",
       "portada": "/catalogo-dpa/imagenes/vehiculos/pulse-1-1-.jpeg-1789059890841-0",
-      "estadoInventario": "activo",
+      "estadoInventario": "reservado",
       "fechaAlta": null,
       "fechaBaja": null,
       "fechaReingreso": null,
-      "fechaUltimaModificacion": null
+      "fechaUltimaModificacion": "2026-11-26T13:29:48.938Z"
     },
     {
       "imagenes": [
@@ -7320,6 +7320,18 @@
       "mes": "2026-11",
       "estadoAnterior": "activo",
       "estadoPosterior": "vendido",
+      "campos": [
+        "estadoInventario"
+      ]
+    },
+    {
+      "id": "1ccdb227-b6e3-4b08-9a13-e76ac55c54f2",
+      "vehiculoId": 18,
+      "tipo": "modificacion",
+      "fecha": "2026-11-26T13:29:48.938Z",
+      "mes": "2026-11",
+      "estadoAnterior": "activo",
+      "estadoPosterior": "reservado",
       "campos": [
         "estadoInventario"
       ]
